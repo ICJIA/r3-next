@@ -1,6 +1,7 @@
 # Restore, Reinvest, and Renew (R3)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/90d739fc-a5ed-459d-8616-d05a6a9e235d/deploy-status)](https://app.netlify.com/sites/icjia-r3/deploys) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+s
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 The R3 program was established as part of the Cannabis Regulation and Tax Act as part of the overall social equity focus work to invest in communities that were disproportionately damaged by the war on drugs.
 
@@ -10,12 +11,12 @@ Together with the R3 Board, the [Illinois Criminal Justice Information Authority
 
 ## Site
 
-[https://icjia.illinois.gov/r3](https://icjia.illinois.gov/r3)
+[https://r3.illinois.gov](https://r3.illinois.gov)
 
 ## Install
 
 ```
-$ git clone https://github.com/ICJIA/icjia-r3.git
+$ git clone https://github.com/ICJIA/r3-next.git
 $ cd icjia-r3
 $ npm install
 ```
@@ -38,8 +39,8 @@ Publish directory: `./dist`
 
 ## CHANGLOG
 
-[See CHANGELOG.md](https://github.com/ICJIA/icjia-r3/blob/master/CHANGELOG.md)
+[See CHANGELOG.md](https://github.com/ICJIA/r3-next/blob/master/CHANGELOG.md)
 
 ## License
 
-[MIT @ Illinois Criminal Justice Information Authority](https://github.com/ICJIA/icjia-r3/blob/master/LICENSE)
+[MIT @ Illinois Criminal Justice Information Authority](https://github.com/ICJIA/r3-next/blob/master/LICENSE)
