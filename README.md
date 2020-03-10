@@ -1,6 +1,5 @@
 # Restore, Reinvest, and Renew (R3)
 
-s
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 The R3 program was established as part of the Cannabis Regulation and Tax Act as part of the overall social equity focus work to invest in communities that were disproportionately damaged by the war on drugs.
@@ -10,8 +9,6 @@ Twenty-five percent of the tax revenue from cannabis sales will be used for the 
 Together with the R3 Board, the [Illinois Criminal Justice Information Authority](https://icjia.illinois.gov) (ICJIA) will award grant funds to community organizations that support economic development, provide violence prevention and reentry services, and offer youth development and civil legal aid. A notice of funding opportunity for the grants will be released in the coming months. The agency will administer and monitor the grants and offer ongoing research support to the R3 areas.
 
 ## Site
-
-[https://r3.illinois.gov](https://r3.illinois.gov)
 
 ## Install
 
