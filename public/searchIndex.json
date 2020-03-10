@@ -1,0 +1,96 @@
+[
+  {
+    "type": "page",
+    "path": "/analysis",
+    "name": "analysis",
+    "title": "Analysis",
+    "summary": "R3 Analysis.",
+    "headings": [
+      { "heading": "Part I Criteria", "target": "icjia-part-i-criteria" },
+      {
+        "heading": "1. Highest rates of gun injury",
+        "target": "icjia-1-highest-rates-of-gun-injury"
+      },
+      {
+        "heading": "2. Highest rates of unemployment",
+        "target": "icjia-2-highest-rates-of-unemployment"
+      },
+      {
+        "heading": "3. Highest child poverty rates",
+        "target": "icjia-3-highest-child-poverty-rates"
+      },
+      {
+        "heading": "4. Highest rates of commitments to and returns from the Illinois Department of Corrections",
+        "target": "icjia-4-highest-rates-of-commitments-to-and-returns-from-the-illinois-department-of-corrections"
+      },
+      { "heading": "Part II Criterion", "target": "icjia-part-ii-criterion" },
+      {
+        "heading": "1. High need, underserved, disproportionately impacted by historical economic disinvestment",
+        "target": "icjia-1-high-need-underserved-disproportionately-impacted-by-historical-economic-disinvestment"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "path": "/eligibility",
+    "name": "eligibility",
+    "title": "Areas Eligible for R3 Program Grants",
+    "summary": "Areas Eligible for R3 Program Grants.",
+    "headings": [
+      { "heading": "R3 Map", "target": "icjia-r3-map" },
+      { "heading": "R3 Table", "target": "icjia-r3-table" }
+    ]
+  },
+  {
+    "type": "page",
+    "path": "/faqs",
+    "name": "faqs",
+    "title": "Frequently Asked Questions",
+    "summary": "Frequently Asked Questions about R3",
+    "headings": [
+      { "heading": "R3 Grants", "target": "icjia-r3-grants" },
+      { "heading": "Eligibility", "target": "icjia-eligibility" },
+      { "heading": "R3 Board", "target": "icjia-r3-board" }
+    ]
+  },
+  {
+    "type": "page",
+    "path": "/",
+    "name": "home",
+    "title": "Home",
+    "summary": "Together with the R3 Board, ICJIA will award grant funds to community organizations that support economic development, provide violence prevention and reentry services, and offer youth development and civil legal aid.",
+    "headings": []
+  },
+  {
+    "type": "page",
+    "path": "/search",
+    "name": "search",
+    "title": "Search",
+    "summary": "R3 site search",
+    "headings": []
+  },
+  {
+    "type": "file",
+    "path": "/downloads/EligibleAreasCensusTracts.csv",
+    "name": "EligibleAreasCensusTracts.csv",
+    "searchMeta": "",
+    "summary": "",
+    "headers": []
+  },
+  {
+    "type": "file",
+    "path": "/downloads/EligibleAreasCensusTracts.json",
+    "name": "EligibleAreasCensusTracts.json",
+    "searchMeta": "",
+    "summary": "",
+    "headers": []
+  },
+  {
+    "type": "file",
+    "path": "/downloads/EligibleAreasCensusTracts.pdf",
+    "name": "EligibleAreasCensusTracts.pdf",
+    "searchMeta": "",
+    "summary": "",
+    "headers": []
+  }
+]
