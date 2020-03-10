@@ -33,7 +33,7 @@
               class="mt-6"
               outlined
               color="white"
-              @click="$vuetify.goTo('#learn-more', { offset: -30 })"
+              @click="$vuetify.goTo('#learn-more', { offset: -20 })"
               >Learn More</v-btn
             >
           </v-col>
@@ -42,7 +42,9 @@
     </v-container>
   </v-img>
 </template>
-
+We’re aware of current issues affecting the Eventbrite site and our operations
+team is working to restore service as quickly as possible. We apologize for any
+inconvenience and appreciate your patience.
 <script>
 export default {
   data() {
@@ -90,7 +92,8 @@ export default {
 
 @media only screen and (max-width: 600px) {
   .banner {
-    height: 100%;
+    height: 100% !important;
+    margin-top: 2px;
     background: rgba(79, 80, 79, 0.7);
   }
 }

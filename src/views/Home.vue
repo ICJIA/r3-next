@@ -44,9 +44,14 @@
             >
               <div class="d-flex flex-no-wrap justify-space-between">
                 <div>
-                  <v-card-title class="headline">{{
-                    card.attributes.title
-                  }}</v-card-title>
+                  <v-card-title
+                    class=""
+                    :class="{
+                      mobileTitle:
+                        $vuetify.breakpoint.xs || $vuetify.breakpoint.sm
+                    }"
+                    >{{ card.attributes.title }}</v-card-title
+                  >
 
                   <v-card-subtitle>{{
                     card.attributes.summary
