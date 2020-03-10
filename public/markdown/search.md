@@ -8,6 +8,7 @@ createdAt: "2020-02-14"
 showToc: false
 menuRank: 9999
 dividerBefore: true
+showAsCard: false
 ---
 
 <Search :resultLimit="1000" :resultAsNav="false" :focus="true"></Search>

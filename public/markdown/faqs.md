@@ -7,7 +7,9 @@ showInNav: true
 showInSidebar: true
 menuRank: 300
 menuTitle: "FAQs"
-summary: "Frequently Asked Questions about R3"
+summary: "Frequently Asked Questions about R3 funding"
+showAsCard: true
+cardIcon: "not_listed_location"
 ---
 
 ## R3 Grants

@@ -8,6 +8,7 @@ showInSidebar: true
 menuRank: 0
 menuTitle: "Home"
 summary: "Together with the R3 Board, ICJIA will award grant funds to community organizations that support economic development, provide violence prevention and reentry services, and offer youth development and civil legal aid."
+showAsCard: false
 ---
 
 # About Restore, Reinvest, and Renew (R3)

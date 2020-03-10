@@ -1,5 +1,5 @@
 ---
-title: "Areas Eligible for R3 Program Grants"
+title: "Eligible R3 Areas"
 showInSitemap: true
 tocHeading: "Eligible Areas"
 showToc: false
@@ -8,7 +8,9 @@ showInNav: true
 showInSidebar: true
 menuRank: 10
 menuTitle: "Eligibility"
-summary: "Areas Eligible for R3 Program Grants."
+summary: "Find out if your're eligible to apply for R3 funding"
+showAsCard: true
+cardIcon: "thumb_up_alt"
 ---
 
 ## R3 Map

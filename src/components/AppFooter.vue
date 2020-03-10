@@ -3,17 +3,19 @@
     <v-card
       flat
       tile
+      dark
       class="white--text text-center"
-      style="width: 100%; background: #235e8e"
+      style="width: 100%; background: #023059"
     >
       <v-card-text>
         <span v-for="link in nav" :key="link.attributes.title" class="flexitem">
           <span>
             <v-btn
+              dark
               :to="link.path === '/home' ? '/' : `${link.path}`"
-              depressed
+              text
               class=" mr-1"
-              style="background: #235e8e; font-weight: 900 !important"
+              style="font-weight: 900 !important; color: #fff"
               :aria-label="link.attributes.title"
             >
               <span v-if="link.attributes.menuTitle" style="font-size: 12px">{{
@@ -30,8 +32,8 @@
     <v-card
       flat
       tile
-      class="white--text text-center"
-      style="width: 100%; background: #0D4474"
+      class="text-center"
+      style="width: 100%; background: #212121"
     >
       <v-divider />
 
@@ -41,15 +43,6 @@
           <strong>
             <a href="http://icjia.illinois.gov" class="footer-link"
               >Illinois Criminal Justice Information Authority</a
-            > </strong
-          >&nbsp;|&nbsp;
-          <strong>
-            <a
-              href="https://archive.icjia.cloud"
-              target="_blank"
-              class="footer-link"
-              rel="noreferrer"
-              >ICJIA Document Archive</a
             > </strong
           >&nbsp;|&nbsp;
           <strong>
@@ -103,11 +96,11 @@ export default {
 
 <style>
 .footer-link {
-  color: #fff !important;
+  color: #aaa !important;
   text-decoration: none;
 }
 
 .footer-link:hover {
-  color: #aaa !important;
+  color: #ccc !important;
 }
 </style>

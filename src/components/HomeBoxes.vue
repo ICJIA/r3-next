@@ -75,11 +75,11 @@ h2 {
 }
 
 .box-1 {
-  background: #218da6;
+  background: #023059;
 }
 
 .box-2 {
-  background: #1f9c91;
+  background: #03588c;
 }
 
 .box:hover {

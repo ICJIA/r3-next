@@ -14,6 +14,56 @@
         </v-row>
       </v-container>
     </div>
+
+    <div
+      style="background: #fafafa; border-top: 1px solid #eee;"
+      id="learn-more"
+      class="pb-12"
+    >
+      <v-container>
+        <v-row>
+          <v-col>
+            <h2 style="font-size: 28px; font-weight: 900 !important;">
+              Applicant Tools
+            </h2>
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-col
+            cols="12"
+            sm="12"
+            md="6"
+            v-for="(card, index) in cards"
+            :key="index"
+          >
+            <v-card
+              dark
+              color="#03588C"
+              class="hover tool-card"
+              @click="$router.push(card.path)"
+            >
+              <div class="d-flex flex-no-wrap justify-space-between">
+                <div>
+                  <v-card-title class="headline">{{
+                    card.attributes.title
+                  }}</v-card-title>
+
+                  <v-card-subtitle>{{
+                    card.attributes.summary
+                  }}</v-card-subtitle>
+                </div>
+
+                <v-avatar class="ma-3" size="125" tile>
+                  <v-icon class="outlined" x-large>{{
+                    card.attributes.cardIcon
+                  }}</v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </div>
   </div>
 </template>
 
@@ -38,6 +88,12 @@ export default {
     //   title: this.title,
     //   location: window.location.href
     // });
+    let cards = this.$myApp.siteMeta.filter(item => {
+      if (item.attributes.showAsCard) {
+        return item;
+      }
+    });
+    this.cards = cards;
     this.loading = false;
   },
   components: {
@@ -59,7 +115,8 @@ export default {
     return {
       title: fm.attributes.title,
       loading: true,
-      fm
+      fm,
+      cards: null
     };
   },
   methods: {
@@ -90,3 +147,26 @@ export default {
   }
 };
 </script>
+
+<style>
+.v-icon.outlined {
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+}
+
+.tool-card:hover {
+  box-shadow: 0px 0px 15px #000000;
+  z-index: 2;
+  -webkit-transition: all 100ms ease-in;
+  -webkit-transform: scale(1.01);
+  -ms-transition: all 100ms ease-in;
+  -ms-transform: scale(1.01);
+  -moz-transition: all 100ms ease-in;
+  -moz-transform: scale(1.01);
+  transition: all 100ms ease-in;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+</style>

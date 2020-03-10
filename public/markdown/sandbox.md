@@ -9,6 +9,7 @@ hideFromSearch: true
 menuRank: 350
 summary: "Test page"
 fileDownloadPath: "/downloads/test/"
+showAsCard: false
 ---
 
 [robots.txt](robots.txt)
