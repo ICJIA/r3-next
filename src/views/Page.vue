@@ -114,11 +114,11 @@ export default {
             this.markdown = fmd.body;
             this.contentFetched = true;
 
-            this.$ga.page({
-              page: this.$route.path,
-              title: this.title,
-              location: window.location.href
-            });
+            // this.$ga.page({
+            //   page: this.$route.path,
+            //   title: this.title,
+            //   location: window.location.href
+            // });
 
             return {
               extends: fmd.vue.component

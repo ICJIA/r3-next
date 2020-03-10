@@ -26,14 +26,14 @@
             <v-btn
               class="mt-6"
               color="white"
-              @click="$vuetify.goTo('#apply-now', { offset: 0 })"
+              @click="$vuetify.goTo('#apply-now', { offset: 1 })"
               >Apply Now</v-btn
             >&nbsp;&nbsp;
             <v-btn
               class="mt-6"
               outlined
               color="white"
-              @click="$vuetify.goTo('#learn-more', { offset: 0 })"
+              @click="$vuetify.goTo('#learn-more', { offset: -30 })"
               >Learn More</v-btn
             >
           </v-col>

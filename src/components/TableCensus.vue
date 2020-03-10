@@ -109,11 +109,11 @@ export default {
       let input = document.getElementById("my-input");
       this.timeout = setTimeout(() => {
         console.log("Google event:", input.value);
-        this.$ga.event({
-          eventCategory: "Search Conversion",
-          eventAction: "Input",
-          eventLabel: `Query: '${input.value}'`
-        });
+        // this.$ga.event({
+        //   eventCategory: "Search Conversion",
+        //   eventAction: "Input",
+        //   eventLabel: `Query: '${input.value}'`
+        // });
       }, 1000);
     },
     async fetchContent() {

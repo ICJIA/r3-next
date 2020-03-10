@@ -27,11 +27,11 @@ export const handleClicks = {
         let path = `${publicPath}${this.$route.meta.fileDownloadPath}${filename}`;
         console.log("download path: ", path);
 
-        this.$ga.event({
-          eventCategory: "File",
-          eventAction: "Download",
-          eventLabel: filename
-        });
+        // this.$ga.event({
+        //   eventCategory: "File",
+        //   eventAction: "Download",
+        //   eventLabel: filename
+        // });
 
         location.href = path;
       } else if (
