@@ -3,7 +3,7 @@
     <div
       class="box box-1"
       @click="
-        $router.push('/programs').catch(err => {
+        $router.push('/funding/test-nofo-1').catch(err => {
           $vuetify.goTo(0);
         })
       "
@@ -11,18 +11,22 @@
       <div class="text-center home-font">
         <i class="fas fa-users"></i>
       </div>
-      <h2 class="heavy text-center mt-3" style="color: #fff;">Programs</h2>
+      <h2 class="heavy text-center mt-3" style="color: #fff;">
+        Solio et arquato sollemnia dissimulator avem genitorem
+      </h2>
 
       <p class="pt-4">
-        ARI is based on local control and design because communities know best
-        how to protect public safety and reduce recidivism.
+        Dedit animaque agricolis neque, subtexere temptasse cunctosque nomine,
+        ratem rata flammae metum dum. Iuppiter stipite inpono ambagibus erat
+        deceptus in Arachnes usus dedit. Nox Pittheia in quamquam vulnere
+        tempore laeva notamque nil Achivi mecum tota.
       </p>
     </div>
 
     <div
       class="box box-2"
       @click="
-        $router.push('/resources').catch(err => {
+        $router.push('/funding/test-nofo-2').catch(err => {
           $vuetify.goTo(0);
         })
       "
@@ -30,10 +34,14 @@
       <div class="text-center home-font">
         <i class="fas fa-cogs"></i>
       </div>
-      <h2 class="heavy text-center mt-3" style="color: #fff;">Resources</h2>
+      <h2 class="heavy text-center mt-3" style="color: #fff;">
+        Dedisti turpi Myrrha Eurotas natamque valles
+      </h2>
       <p class="pt-4">
-        ARI provides training and technical assistance, collects and analyzes
-        data, and fosters a statewide learning community.
+        In vituli ecce fessos prolem equorum auxiliaria o corpora Cereris nuper.
+        Ubi huic fallacia erat armigerumque vicem qui dum viderat dixit inplevi
+        saltibus Sardibus surgere. Perque fallitque saepe Calydonius reddere
+        interrita sitim caeli flumina, incunabula Dixit pectore artus.
       </p>
     </div>
   </div>

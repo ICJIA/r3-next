@@ -1,13 +1,13 @@
 <template>
   <div>
     <v-img
-      :src="require('@/assets/img/splash-03.jpg')"
-      :lazy-src="require('@/assets/img/splash-02-tiny.jpg')"
+      :src="require('@/assets/img/splash-04.jpg')"
+      :lazy-src="require('@/assets/img/splash-04-tiny.jpg')"
       aspect-ratio="1"
       class="grey lighten-2"
       max-height="400"
     >
-      <v-overlay absolute color="#023059">
+      <v-overlay absolute color="#023059" opacity=".8">
         <v-container
           class="fill-height text-center"
           fluid
@@ -46,7 +46,7 @@
                   >
                     About this opportunity
                   </h2>
-                  <div>
+                  <div style="color: #fff">
                     Solio et arquato sollemnia dissimulator avem genitorem.
                     Aquoso radiantia erat, colligit, inplicet arbore valebam
                     declivibus dubia.
@@ -57,7 +57,13 @@
           </v-container>
         </v-col>
         <v-col md="9">
-          specific nofo content injected here
+          <v-container>
+            <v-row>
+              <v-col>
+                specific nofo info injected here
+              </v-col>
+            </v-row>
+          </v-container>
         </v-col>
       </v-row>
       <v-row no-gutters style="min-height: 400px;">
@@ -75,7 +81,7 @@
                   >
                     Getting Started
                   </h2>
-                  <div>
+                  <div style="color: #fff">
                     Solio et arquato sollemnia dissimulator avem genitorem.
                     Aquoso radiantia erat.
                   </div>
@@ -88,7 +94,7 @@
           <v-container>
             <v-row>
               <v-col>
-                getting started here
+                getting started boilerplate here
               </v-col>
             </v-row>
           </v-container>
@@ -109,7 +115,7 @@
                   >
                     Next steps
                   </h2>
-                  <div>
+                  <div style="color: #fff">
                     Solio et arquato sollemnia dissimulator avem genitorem.
                     Aquoso radiantia erat.
                   </div>
@@ -122,7 +128,7 @@
           <v-container>
             <v-row>
               <v-col>
-                next steps here
+                next steps boilerplate here
               </v-col>
             </v-row>
           </v-container>
@@ -143,7 +149,7 @@
                   >
                     Finalizing
                   </h2>
-                  <div>
+                  <div style="color: #fff">
                     Solio et arquato sollemnia dissimulator avem genitorem.
                     Aquoso radiantia erat.
                   </div>
@@ -156,7 +162,7 @@
           <v-container>
             <v-row>
               <v-col>
-                finalizing steps here
+                finalizing boilerplate here
               </v-col>
             </v-row>
           </v-container>
