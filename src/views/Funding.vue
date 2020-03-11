@@ -1,7 +1,7 @@
 <template>
   <div>
     <NofoSplash></NofoSplash>
-    <v-container fluid full-width>
+    <!-- <v-container fluid full-width>
       <v-row no-gutters style="min-height: 400px;">
         <v-col cols="12" md="3" style="background: #057DE6" class="text-right">
           <v-container
@@ -139,7 +139,16 @@
           </v-container>
         </v-col>
       </v-row>
-    </v-container>
+    </v-container> -->
+
+    <div v-for="(step, index) in steps" :key="index">
+      <NofoStep
+        :title="step.title"
+        :summary="step.summary"
+        :html="step.html"
+        :color="step.color"
+      ></NofoStep>
+    </div>
   </div>
 </template>
 
@@ -169,40 +178,40 @@ export default {
       markdownContent: null,
       contentFetched: false,
       showToc: false,
-      html: ""
+      steps: null
     };
   },
   async created() {
     this.loading = true;
     // eslint-disable-next-line no-undef
     NProgress.start();
-    await this.fetchContent();
+    this.steps = await this.fetchContent();
+    console.log(this.steps);
     // eslint-disable-next-line no-undef
     NProgress.done();
     this.loading = false;
   },
   methods: {
-    fetchContent() {
-      this.markdownContent = async () =>
-        await import(`../../public/markdown/funding/test-nofo-1.md`)
-          .then(fmd => {
-            this.title = fmd.attributes.title;
-            this.showToc = fmd.attributes.showToc;
-            this.tocSelectors = fmd.attributes.tocSelectors;
-            this.tocHeaders = fmd.attributes.tocHeaders;
-            this.html = fmd.html;
-
-            // this.$ga.page({
-            //   page: this.$route.path,
-            //   title: this.title,
-            //   location: window.location.href
-            // });
-            this.contentFetched = true;
-            return {
-              extends: fmd.vue.component
-            };
-          })
-          .catch(() => {});
+    async fetchContent() {
+      console.log("fetch content here");
+      let fundingContent = await import(
+        `../../public/markdown${this.$route.path}.md`
+      );
+      let html = fundingContent.html;
+      const $ = cheerio.load(html);
+      let steps = [];
+      let counter = 0;
+      let stepColors = ["#057DE6", "#035AA6", "#023059", "#023766"];
+      $("[data-title]").each(function() {
+        let obj = {};
+        obj.title = $(this).attr("data-title");
+        obj.summary = $(this).attr("data-summary");
+        obj.html = $(this).html();
+        obj.color = stepColors[counter];
+        steps.push(obj);
+        counter = counter + 1;
+      });
+      return steps;
     }
   },
   mounted() {}
