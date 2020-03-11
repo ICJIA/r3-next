@@ -1,35 +1,6 @@
 <template>
   <div>
-    <v-img
-      :src="require('@/assets/img/splash-04.jpg')"
-      :lazy-src="require('@/assets/img/splash-04-tiny.jpg')"
-      aspect-ratio="1"
-      class="grey lighten-2"
-      max-height="400"
-    >
-      <v-overlay absolute color="#023059" opacity=".8">
-        <v-container
-          class="fill-height text-center"
-          fluid
-          style="margin: 0 !important; padding: 0 !important; "
-        >
-          <v-row align="center">
-            <v-col cols="12">
-              <h1 class="default-font carousel-large heavy carousel-main-text">
-                NOFO Title 1
-              </h1>
-              <div
-                class="default-font carousel-medium mt-10 px-12 carousel-sub-text hidden-sm-and-down"
-              >
-                Funding community organizations in Illinois that support
-                economic development, provide violence prevention and reentry
-                services, and offer youth development and civil legal aid.
-              </div>
-            </v-col>
-          </v-row>
-        </v-container>
-      </v-overlay>
-    </v-img>
+    <NofoSplash></NofoSplash>
     <v-container fluid full-width>
       <v-row no-gutters style="min-height: 400px;">
         <v-col cols="12" md="3" style="background: #057DE6" class="text-right">
@@ -173,13 +144,87 @@
 </template>
 
 <script>
+import { handleClicks } from "@/mixins/handleClicks";
+import { EventBus } from "@/event-bus";
+
 export default {
+  mixins: [handleClicks],
+  watch: {
+    $route: "fetchContent"
+  },
+
+  metaInfo() {
+    return {
+      title: this.title
+    };
+  },
+
   data() {
     return {
-      alignments: ["end", "end", "end"]
+      attributes: {},
+      selectedArticle: null,
+      title: "",
+      markdownContent: null,
+      contentFetched: false,
+
+      showToc: false
     };
-  }
+  },
+  created() {
+    this.loading = true;
+    // eslint-disable-next-line no-undef
+    NProgress.start();
+    this.fetchContent();
+    // eslint-disable-next-line no-undef
+    NProgress.done();
+    this.loading = false;
+  },
+  methods: {
+    closeSearch() {
+      EventBus.$emit("closeSearch");
+    },
+    fetchContent() {
+      this.markdownContent = async () =>
+        await import(`../../public/markdown/funding/test-nofo-1.md`)
+          .then(fmd => {
+            console.log(fmd);
+            this.title = fmd.attributes.title;
+            this.showToc = fmd.attributes.showToc;
+            this.tocSelectors = fmd.attributes.tocSelectors;
+            this.tocHeaders = fmd.attributes.tocHeaders;
+            this.markdown = fmd.body;
+            this.contentFetched = true;
+
+            // this.$ga.page({
+            //   page: this.$route.path,
+            //   title: this.title,
+            //   location: window.location.href
+            // });
+
+            return {
+              extends: fmd.vue.component
+            };
+          })
+          .catch(() => {});
+    }
+  },
+  mounted() {}
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style>
+ol li {
+  list-style-type: none;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.2s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+</style>
