@@ -1,145 +1,8 @@
 <template>
   <div>
-    <NofoSplash></NofoSplash>
-    <v-container fluid full-width>
-      <v-row no-gutters style="min-height: 400px;">
-        <v-col cols="12" md="3" style="background: #057DE6" class="text-right">
-          <v-container
-            class="fill-height text-right"
-            fluid
-            style="margin: 0 !important; padding: 0 !important; "
-          >
-            <v-row align="center">
-              <v-col cols="12">
-                <div class="pl-5">
-                  <h2
-                    style="color: #fff; font-size: 1.8em; border-bottom: 1px solid #aaa; padding-bottom: 5px; margin-bottom: 20px;"
-                  >
-                    About this opportunity
-                  </h2>
-                  <div style="color: #fff">
-                    Solio et arquato sollemnia dissimulator avem genitorem.
-                    Aquoso radiantia erat, colligit, inplicet arbore valebam
-                    declivibus dubia.
-                  </div>
-                </div>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-        <v-col md="9">
-          <v-container>
-            <v-row>
-              <v-col>
-                specific nofo info injected here
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-      </v-row>
-      <v-row no-gutters style="min-height: 400px;">
-        <v-col cols="12" md="3" style="background: #035AA6" class="text-right">
-          <v-container
-            class="fill-height text-right"
-            fluid
-            style="margin: 0 !important; padding: 0 !important; "
-          >
-            <v-row align="center">
-              <v-col cols="12">
-                <div class="pl-5">
-                  <h2
-                    style="color: #fff; font-size: 1.8em; border-bottom: 1px solid #aaa; padding-bottom: 5px; margin-bottom: 20px;"
-                  >
-                    Getting Started
-                  </h2>
-                  <div style="color: #fff">
-                    Solio et arquato sollemnia dissimulator avem genitorem.
-                    Aquoso radiantia erat.
-                  </div>
-                </div>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-        <v-col md="9" style="background: #f1f1f1;">
-          <v-container>
-            <v-row>
-              <v-col>
-                getting started boilerplate here
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-      </v-row>
-      <v-row no-gutters style="min-height: 400px;">
-        <v-col cols="12" md="3" style="background: #023059" class="text-right">
-          <v-container
-            class="fill-height text-right"
-            fluid
-            style="margin: 0 !important; padding: 0 !important; "
-          >
-            <v-row align="center">
-              <v-col cols="12">
-                <div class="pl-5">
-                  <h2
-                    style="color: #fff; font-size: 1.8em; border-bottom: 1px solid #aaa; padding-bottom: 5px; margin-bottom: 20px;"
-                  >
-                    Next steps
-                  </h2>
-                  <div style="color: #fff">
-                    Solio et arquato sollemnia dissimulator avem genitorem.
-                    Aquoso radiantia erat.
-                  </div>
-                </div>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-        <v-col md="9" style="background: #fff;">
-          <v-container>
-            <v-row>
-              <v-col>
-                next steps boilerplate here
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-      </v-row>
-      <v-row no-gutters style="min-height: 400px;">
-        <v-col cols="12" md="3" style="background: #023766" class="text-right">
-          <v-container
-            class="fill-height text-right"
-            fluid
-            style="margin: 0 !important; padding: 0 !important; "
-          >
-            <v-row align="center">
-              <v-col cols="12">
-                <div class="pl-5">
-                  <h2
-                    style="color: #fff; font-size: 1.8em; border-bottom: 1px solid #aaa; padding-bottom: 5px; margin-bottom: 20px;"
-                  >
-                    Finalizing
-                  </h2>
-                  <div style="color: #fff">
-                    Solio et arquato sollemnia dissimulator avem genitorem.
-                    Aquoso radiantia erat.
-                  </div>
-                </div>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-        <v-col md="9" style="background: #f1f1f1;">
-          <v-container>
-            <v-row>
-              <v-col>
-                finalizing boilerplate here
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-      </v-row>
-    </v-container>
+    <div v-if="!loading">
+      {{ html }}
+    </div>
   </div>
 </template>
 
@@ -147,6 +10,10 @@
 import { handleClicks } from "@/mixins/handleClicks";
 import { EventBus } from "@/event-bus";
 
+// eslint-disable-next-line no-unused-vars
+const cheerio = require("cheerio");
+
+const slugs = require("slugs");
 export default {
   mixins: [handleClicks],
   watch: {
@@ -166,7 +33,7 @@ export default {
       title: "",
       markdownContent: null,
       contentFetched: false,
-
+      html: "",
       showToc: false
     };
   },
@@ -183,29 +50,36 @@ export default {
     closeSearch() {
       EventBus.$emit("closeSearch");
     },
-    fetchContent() {
-      this.markdownContent = async () =>
-        await import(`../../public/markdown/funding/test-nofo-1.md`)
-          .then(fmd => {
-            console.log(fmd);
-            this.title = fmd.attributes.title;
-            this.showToc = fmd.attributes.showToc;
-            this.tocSelectors = fmd.attributes.tocSelectors;
-            this.tocHeaders = fmd.attributes.tocHeaders;
-            this.markdown = fmd.body;
-            this.contentFetched = true;
+    async fetchContent() {
+      let fundingContent = await import(
+        `../../public/markdown${this.$route.path}.md`
+      );
+      let html = fundingContent.html;
+      const $ = cheerio.load(html);
+      let about = $("div#about").html();
+      console.log(about);
+    },
+    slugify(str) {
+      return slugs(str);
+    },
+    scrollTo() {
+      var hash = location.hash.substr(1);
+      var el = document.getElementById(`${hash}`);
 
-            // this.$ga.page({
-            //   page: this.$route.path,
-            //   title: this.title,
-            //   location: window.location.href
-            // });
+      if (hash && el) {
+        //console.log(hash);
+        this.$vuetify.goTo(`#${hash}`, { offset: 12 }).catch(() => {
+          this.$vuetify.goTo(0);
+        });
+      }
+    },
 
-            return {
-              extends: fmd.vue.component
-            };
-          })
-          .catch(() => {});
+    dynamicFlex() {
+      if (this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.sm) {
+        return "12";
+      } else {
+        return this.showToc ? "9" : "12";
+      }
     }
   },
   mounted() {}

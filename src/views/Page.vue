@@ -65,6 +65,8 @@
 <script>
 import { handleClicks } from "@/mixins/handleClicks";
 import { EventBus } from "@/event-bus";
+// eslint-disable-next-line no-unused-vars
+const cheerio = require("cheerio");
 
 const slugs = require("slugs");
 export default {
@@ -86,7 +88,8 @@ export default {
       title: "",
       markdownContent: null,
       contentFetched: false,
-
+      about: "",
+      html: "",
       showToc: false
     };
   },
@@ -112,6 +115,8 @@ export default {
             this.tocSelectors = fmd.attributes.tocSelectors;
             this.tocHeaders = fmd.attributes.tocHeaders;
             this.markdown = fmd.body;
+            this.html = fmd.html;
+            console.log(this.html);
             this.contentFetched = true;
 
             // this.$ga.page({

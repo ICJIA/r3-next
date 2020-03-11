@@ -25,6 +25,7 @@
     "version": "auto-changelog -p --commit-limit false --sort-commits date && git add CHANGELOG.md"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "concat-stream": "^1.5.2",
     "core-js": "^3.6.4",
     "diacritics-map": "^0.1.0",
