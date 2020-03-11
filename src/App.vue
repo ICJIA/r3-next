@@ -39,7 +39,7 @@
         ></router-view>
       </transition>
     </v-content>
-    <AppFooter :siteMeta="$myApp.siteMeta" v-if="!loading"></AppFooter>
+    <!-- <AppFooter :siteMeta="$myApp.siteMeta" v-if="!loading"></AppFooter> -->
   </v-app>
 </template>
 

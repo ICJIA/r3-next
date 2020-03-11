@@ -13,11 +13,6 @@ const manualRoutes = [
     path: "/home",
     name: "altHome",
     redirect: "/"
-  },
-  {
-    path: "/test",
-    name: "test",
-    component: () => import(/* webpackChunkName: "404" */ "../views/Test.vue")
   }
 ];
 

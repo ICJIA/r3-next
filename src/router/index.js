@@ -10,14 +10,24 @@ const fallbackRoutes = require("./fallbackRoutes.js");
 
 //Add dynamic 'Page' component to generated routes
 const generatedRoutes = markdownRoutes.map(route => {
-  if (route.path != "/") {
+  // if (route.path != "/") {
+  //   route.component = () =>
+  //     import(/* webpackChunkName: "page" */ "../views/Page.vue");
+  // } else {
+  //   route.component = () =>
+  //     import(/* webpackChunkName: "static" */ "../views/Home.vue");
+  // }
+  // console.log(route.path);
+  if (route.path.includes("/funding/")) {
     route.component = () =>
-      import(/* webpackChunkName: "page" */ "../views/Page.vue");
-  } else {
+      import(/* webpackChunkName: "page" */ "../views/Funding.vue");
+  } else if (route.path === "/") {
     route.component = () =>
       import(/* webpackChunkName: "static" */ "../views/Home.vue");
+  } else {
+    route.component = () =>
+      import(/* webpackChunkName: "page" */ "../views/Page.vue");
   }
-
   return route;
 });
 
