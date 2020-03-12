@@ -86,6 +86,11 @@ export default {
       let colors = this.$myApp.colors[fundingContent.attributes.accent];
       $("[data-title]").each(function() {
         let obj = {};
+        if (counter >= colors.length - 1) {
+          counter = 0;
+        } else {
+          counter++;
+        }
         obj.title = $(this).attr("data-title");
         obj.summary = $(this).attr("data-summary");
         obj.html = $(this).html();
@@ -96,11 +101,6 @@ export default {
           obj.background = "#eee";
         }
         steps.push(obj);
-        if (counter > colors.length) {
-          counter = 0;
-        } else {
-          counter++;
-        }
       });
       let nofoObj = {
         title: fundingContent.attributes.title,

@@ -37,24 +37,10 @@ let funding = fundingItems.filter(item => {
 });
 
 let colors = {
-  blue: ["#0433BF", "#0442BF", "#0455BF", "#033E8C"],
+  blue: ["#0455BF", "#033E8C"],
   pink: ["#D81B60", "#C2185B", "#AD1457", "#880E4F"],
-  red: ["#c92830", "#b71419", "#A3050D", "#630308"]
+  red: ["#A3050D", "#630308"]
 };
-
-/* Color Theme Swatches in Hex */
-// .Corcodus-1-hex { color: #0433BF; }
-// .Corcodus-2-hex { color: #0442BF; }
-// .Corcodus-3-hex { color: #0455BF; }
-// .Corcodus-4-hex { color: #033E8C; }
-// .Corcodus-5-hex { color: #260101; }
-
-/* Color Theme Swatches in Hex */
-// .Red-CMYK-1-hex { color: #F00713; }
-// .Red-CMYK-2-hex { color: #E30712; }
-// .Red-CMYK-3-hex { color: #C90610; }
-// .Red-CMYK-4-hex { color: #A3050D; }
-// .Red-CMYK-5-hex { color: #630308; }
 
 //console.log(funding);
 
