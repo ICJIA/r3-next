@@ -4,6 +4,7 @@
       :title="nofoObj.title"
       :summary="nofoObj.summary"
       :icon="nofoObj.icon"
+      :colors="nofoObj.colors"
     ></NofoSplash>
 
     <div v-for="(step, index) in nofoObj.steps" :key="index">
@@ -82,20 +83,20 @@ export default {
       const $ = cheerio.load(html);
       let steps = [];
       let counter = 0;
-      let stepColors = ["#057DE6", "#035AA6", "#023059", "#023766"];
+      let colors = this.$myApp.colors[fundingContent.attributes.accent];
       $("[data-title]").each(function() {
         let obj = {};
         obj.title = $(this).attr("data-title");
         obj.summary = $(this).attr("data-summary");
         obj.html = $(this).html();
-        obj.color = stepColors[counter];
+        obj.color = colors[counter];
         if (counter % 2 == 0) {
           obj.background = "#fff";
         } else {
           obj.background = "#eee";
         }
         steps.push(obj);
-        if (counter > stepColors.length) {
+        if (counter > colors.length) {
           counter = 0;
         } else {
           counter++;
@@ -105,7 +106,8 @@ export default {
         title: fundingContent.attributes.title,
         summary: fundingContent.attributes.summary,
         steps: steps,
-        icon: fundingContent.attributes.icon
+        icon: fundingContent.attributes.icon,
+        colors
       };
       return nofoObj;
     }

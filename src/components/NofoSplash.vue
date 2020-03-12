@@ -6,7 +6,7 @@
     class="grey lighten-2"
     max-height="400"
   >
-    <v-overlay absolute opacity=".8" color="blue  darken-4"
+    <v-overlay absolute opacity=".6" :color="getBackground()"
       ><v-container
         class="fill-height text-center"
         fluid
@@ -16,7 +16,7 @@
         <v-row align="center">
           <div class="text-center px-5" style="min-width: 300px;">
             <v-avatar class="ma-3" size="105" tile>
-              <v-icon>{{ icon }}</v-icon>
+              <v-icon>{{ icon }} </v-icon>
             </v-avatar>
             <h1 class="nofo-title mt-3">
               {{ `${title.toUpperCase()}` }}
@@ -36,6 +36,11 @@ export default {
   data() {
     return {};
   },
+  methods: {
+    getBackground() {
+      return this.colors[this.colors.length - 1];
+    }
+  },
   mounted() {},
   props: {
     title: {
@@ -49,6 +54,10 @@ export default {
     icon: {
       type: String,
       default: ""
+    },
+    colors: {
+      type: Array,
+      default: () => []
     }
   }
 };

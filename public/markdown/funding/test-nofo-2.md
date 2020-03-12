@@ -4,7 +4,7 @@ summary: "Service delivery summary here uperari et finibus pennas honores totide
 nostris querenti torrentem"
 showOnHome: true
 icon: 'far fa-hands-heart'
-accent: 'pink'
+accent: 'red'
 ---
 
 <div data-title="About this Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">

@@ -45,7 +45,7 @@
       v-else
       style="min-height: 350px"
       :color="getBackground()"
-      class="hoverCard py-8"
+      class="hoverCard pt-8 pb-12"
       @click="
         $router.push(item.path).catch(err => {
           $vuetify.goTo(0);
