@@ -1,5 +1,5 @@
 ---
-title: "Eligible R3 Areas"
+title: "Eligibility"
 showInSitemap: true
 tocHeading: "Eligible Areas"
 showToc: false
