@@ -43,7 +43,6 @@
     </v-card>
     <v-card
       v-else
-      style="min-height: 350px"
       :color="getBackground()"
       class="hoverCard pt-8 pb-12"
       @click="
@@ -56,7 +55,7 @@
         class="fill-height text-center"
         fluid
         full-width
-        style="margin: 0 !important; padding: 0 !important;"
+        style="margin: 0 !important; padding: 0 !important; height:400px"
       >
         <v-row align="center">
           <div class="text-center px-5" style="min-width: 300px;">
