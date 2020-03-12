@@ -1,6 +1,6 @@
 <template>
   <div>
-    <home-carousel></home-carousel>
+    <!--<home-carousel></home-carousel>-->
     <home-boxes></home-boxes>
     <div style="background: #fff" id="learn-more">
       <v-container class="markdown-body">

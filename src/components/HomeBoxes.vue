@@ -6,7 +6,7 @@
         v-for="(item, index) in $myApp.funding"
         :key="index"
       >
-        <NofoCard :item="item" :hidePhoto="true"></NofoCard
+        <NofoCard :item="item" :hidePhoto="false"></NofoCard
       ></v-col>
     </v-row>
   </v-container>

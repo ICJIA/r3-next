@@ -14,7 +14,7 @@
         lazy-src="/splash-02-tiny.jpg"
         aspect-ratio="1"
         class="grey lighten-2 py-12"
-        max-height="400"
+        max-height="500"
       >
         <v-overlay absolute opacity=".5" :color="getBackground()"
           ><v-container
@@ -55,7 +55,7 @@
         class="fill-height text-center"
         fluid
         full-width
-        style="margin: 0 !important; padding: 0 !important; height:400px"
+        style="margin: 0 !important; padding: 0 !important; height:500px"
       >
         <v-row align="center">
           <div class="text-center px-5" style="min-width: 300px;">
