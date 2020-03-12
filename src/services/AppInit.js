@@ -36,6 +36,11 @@ let funding = fundingItems.filter(item => {
   }
 });
 
+let colors = {
+  blue: ["#29B6F6", "#039BE5", "#0288D1", "#0277BD", "#01579B"],
+  pink: ["#EC407A", "#D81B60", "#C2185B", "#AD1457", "#880E4F"]
+};
+
 //console.log(funding);
 
 let myApp = {
@@ -43,7 +48,8 @@ let myApp = {
   searchIndex,
   computedPublicPath,
   siteMeta,
-  funding
+  funding,
+  colors
 };
 
 export { myApp };

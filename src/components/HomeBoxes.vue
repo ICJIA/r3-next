@@ -1,6 +1,6 @@
 <template>
-  <div class="flexbox-container hide-sm-and-down" id="apply-now">
-    <div
+  <!-- <div class="flexbox-container hide-sm-and-down" id="apply-now"> -->
+  <!-- <div
       class="box box-1"
       @click="
         $router.push('/funding/test-nofo-1').catch(err => {
@@ -51,8 +51,21 @@
       <div class="text-center">
         <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
       </div>
-    </div>
-  </div>
+    </div> -->
+  <v-container fluid full-width>
+    <v-row no-gutters>
+      <v-col
+        cols="12"
+        sm="12"
+        md="6"
+        style="background: #ccc;"
+        v-for="(item, index) in $myApp.funding"
+        :key="index"
+      >
+        <NofoCard :item="item" :hidePhoto="true"></NofoCard
+      ></v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -91,11 +104,11 @@ h2 {
 }
 
 .box-1 {
-  background: #023059;
+  background: #01579b;
 }
 
 .box-2 {
-  background: #03588c;
+  background: #880e4f;
 }
 
 .box:hover {

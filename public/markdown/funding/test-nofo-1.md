@@ -4,6 +4,7 @@ summary: "Assesment and planning summary here Nisi sunt Bacche morte non quae ag
 natantibus demissus deo bibendo"
 showOnHome: true
 icon: 'far fa-compass'
+accent: 'blue'
 ---
 
 <div data-title="About this Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">

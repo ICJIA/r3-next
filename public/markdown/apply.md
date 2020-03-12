@@ -12,4 +12,4 @@ showAsCard: false
 dividerBefore: true
 ---
 
-Single page view of current funding opportunities here
+<NofoList/>

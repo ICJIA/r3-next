@@ -3,6 +3,8 @@ title: "Test NOFO 2"
 summary: "Service delivery summary here uperari et finibus pennas honores totidem, fatis ipso exhibet sequentis simul
 nostris querenti torrentem"
 showOnHome: true
+icon: 'far fa-hands-heart'
+accent: 'pink'
 ---
 
 <div data-title="About this Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">
