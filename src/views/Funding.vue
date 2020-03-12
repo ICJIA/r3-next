@@ -1,8 +1,8 @@
 <template>
   <div>
-    <NofoSplash></NofoSplash>
+    <NofoSplash :title="nofoObj.title" :summary="nofoObj.summary"></NofoSplash>
 
-    <div v-for="(step, index) in steps" :key="index">
+    <div v-for="(step, index) in nofoObj.steps" :key="index">
       <NofoStep
         :title="step.title"
         :summary="step.summary"
@@ -36,18 +36,20 @@ export default {
     return {
       attributes: {},
       selectedArticle: null,
-      title: "",
+      steps: [],
       markdownContent: null,
       contentFetched: false,
       showToc: false,
-      steps: null
+      nofoObj: {},
+      title: "untitled",
+      summary: ""
     };
   },
   async created() {
     this.loading = true;
     // eslint-disable-next-line no-undef
     NProgress.start();
-    this.steps = await this.fetchContent();
+    this.nofoObj = await this.fetchContent();
     //console.log(this.steps);
     // eslint-disable-next-line no-undef
     NProgress.done();
@@ -59,7 +61,9 @@ export default {
       let fundingContent = await import(
         `../../public/markdown${this.$route.path}.md`
       );
-
+      //console.log(fundingContent.attributes.title);
+      this.title = fundingContent.attributes.title;
+      this.summary = fundingContent.attributes.summary;
       let html = fundingContent.html;
       const $ = cheerio.load(html);
       let steps = [];
@@ -83,7 +87,12 @@ export default {
           counter++;
         }
       });
-      return steps;
+      let nofoObj = {
+        title: fundingContent.attributes.title,
+        summary: fundingContent.attributes.summary,
+        steps: steps
+      };
+      return nofoObj;
     }
   },
   mounted() {}

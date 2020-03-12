@@ -1,6 +1,8 @@
 ---
 title: "Test NOFO 1"
-summary: "This is test nofo 1"
+summary: "Nisi sunt Bacche morte non quae agros, at nec metuendus velamine, mihi nivea hoc
+natantibus demissus deo bibendo"
+showOnHome: true
 ---
 
 <div data-title="About this Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">

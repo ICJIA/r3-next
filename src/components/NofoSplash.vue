@@ -16,7 +16,7 @@
         <v-row align="center">
           <div class="text-center" style="min-width: 350px;">
             <h1 class="nofo-title">
-              {{ title }}
+              {{ `${title.toUpperCase()}` }}
             </h1>
             <div class="nofo-tagline">
               {{ summary }}

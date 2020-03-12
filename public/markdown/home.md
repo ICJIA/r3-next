@@ -3,7 +3,7 @@ title: "Home"
 showInSitemap: true
 showToc: false
 showInFooter: true
-showInNav: true
+showInNav: false
 showInSidebar: true
 menuRank: 0
 menuTitle: "Home"

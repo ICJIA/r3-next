@@ -23,12 +23,12 @@
               development, provide violence prevention and reentry services, and
               offer youth development and civil legal aid.
             </div>
-            <v-btn
+            <!-- <v-btn
               class="mt-6"
               color="white"
               @click="$vuetify.goTo('#apply-now', { offset: 1 })"
               >Apply Now</v-btn
-            >&nbsp;&nbsp;
+            >&nbsp;&nbsp; -->
             <v-btn
               class="mt-6"
               outlined

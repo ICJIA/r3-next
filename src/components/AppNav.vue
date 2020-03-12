@@ -48,6 +48,29 @@
       </div>
       <v-spacer></v-spacer>
 
+      <v-menu offset-y>
+        <template v-slot:activator="{ on }">
+          <v-btn
+            text
+            style="font-weight: 900"
+            aria-label="Apply Now"
+            v-on="on"
+            class="hidden-sm-and-down"
+          >
+            <span style="font-size: 12px">Apply Now</span
+            ><v-icon right small>arrow_drop_down</v-icon>
+          </v-btn>
+        </template>
+        <v-list>
+          <v-list-item>
+            <v-list-item-title>NOFO 1 title here</v-list-item-title>
+          </v-list-item>
+          <v-list-item>
+            <v-list-item-title>NOFO 2 title here</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
+
       <v-btn
         :to="link.path === '/home' ? '/' : `${link.path}`"
         text

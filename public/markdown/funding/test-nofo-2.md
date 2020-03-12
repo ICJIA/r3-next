@@ -1,6 +1,8 @@
 ---
 title: "Test NOFO 2"
-summary: "This is test nofo 2"
+summary: "Superari et finibus pennas honores totidem, fatis ipso exhibet sequentis simul
+nostris querenti torrentem"
+showOnHome: true
 ---
 
 <div data-title="About this Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">
