@@ -20,17 +20,23 @@ const siteMeta = context.keys().map(key => ({
   root: `${getSection(key)}`
 }));
 
-//const meetingContext = require.context("../../public/markdown/meetings/", true, /\.md$/);
-//   const meetings =  meetingContext.keys().map(key => ({
-//     ...meetingContext(key),
-//     path: `/meetings/${key.replace(".md", "").replace("./", "")}`
-//   }));
-//   // console.log(meetings);
-//   let filteredMeetings = meetings.filter(meeting => {
-//     if (meeting.path.indexOf("placeholder") === -1) {
-//       return meeting;
-//     }
-//   });
+const fundingContext = require.context(
+  "../../public/markdown/funding/",
+  true,
+  /\.md$/
+);
+const fundingItems = fundingContext.keys().map(key => ({
+  ...fundingContext(key),
+  path: `/funding/${key.replace(".md", "").replace("./", "")}`
+}));
+//console.log(funding);
+let funding = fundingItems.filter(item => {
+  if (item.path.indexOf("placeholder") === -1) {
+    return item;
+  }
+});
+
+console.log(funding);
 
 let myApp = {
   config,

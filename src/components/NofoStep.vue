@@ -1,6 +1,6 @@
 <template>
   <v-container fluid full-width>
-    <v-row no-gutters style="min-height: 400px;">
+    <v-row no-gutters style="min-height: 300px;">
       <v-col
         cols="12"
         md="3"
@@ -14,7 +14,7 @@
         >
           <v-row align="center">
             <v-col cols="12">
-              <div class="pl-5  pt-12 pr-3">
+              <div class="pl-5  pt-5 pr-5">
                 <h2
                   style="color: #fff; font-size: 1.8em; border-bottom: 1px solid #aaa; padding-bottom: 5px; margin-bottom: 20px;"
                 >
@@ -29,10 +29,10 @@
         </v-container>
       </v-col>
       <v-col md="9">
-        <v-container>
+        <v-container :style="`background: ${background}`">
           <v-row>
             <v-col>
-              <div v-html="html"></div>
+              <div v-html="html" class="px-10"></div>
             </v-col>
           </v-row>
         </v-container>
@@ -59,6 +59,10 @@ export default {
     color: {
       type: String,
       default: "#ccc"
+    },
+    background: {
+      type: String,
+      default: "#fff"
     }
   }
 };

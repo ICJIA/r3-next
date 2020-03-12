@@ -12,15 +12,19 @@
         <i class="fas fa-users"></i>
       </div>
       <h2 class="heavy text-center mt-3" style="color: #fff;">
-        Solio et arquato sollemnia dissimulator avem genitorem
+        NOFO TITLE 1
       </h2>
 
       <p class="pt-4">
-        Dedit animaque agricolis neque, subtexere temptasse cunctosque nomine,
-        ratem rata flammae metum dum. Iuppiter stipite inpono ambagibus erat
-        deceptus in Arachnes usus dedit. Nox Pittheia in quamquam vulnere
-        tempore laeva notamque nil Achivi mecum tota.
+        NOFO summary here In vituli ecce fessos prolem equorum auxiliaria o
+        corpora Cereris nuper. Ubi huic fallacia erat armigerumque vicem qui dum
+        viderat dixit inplevi saltibus Sardibus surgere. Perque fallitque saepe
+        Calydonius reddere interrita sitim caeli flumina, incunabula Dixit
+        pectore artus.
       </p>
+      <div class="text-center">
+        <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
+      </div>
     </div>
 
     <div
@@ -35,14 +39,18 @@
         <i class="fas fa-cogs"></i>
       </div>
       <h2 class="heavy text-center mt-3" style="color: #fff;">
-        Dedisti turpi Myrrha Eurotas natamque valles
+        NOFO TITLE 2
       </h2>
       <p class="pt-4">
-        In vituli ecce fessos prolem equorum auxiliaria o corpora Cereris nuper.
-        Ubi huic fallacia erat armigerumque vicem qui dum viderat dixit inplevi
-        saltibus Sardibus surgere. Perque fallitque saepe Calydonius reddere
-        interrita sitim caeli flumina, incunabula Dixit pectore artus.
+        NOFO summary here In vituli ecce fessos prolem equorum auxiliaria o
+        corpora Cereris nuper. Ubi huic fallacia erat armigerumque vicem qui dum
+        viderat dixit inplevi saltibus Sardibus surgere. Perque fallitque saepe
+        Calydonius reddere interrita sitim caeli flumina, incunabula Dixit
+        pectore artus.
       </p>
+      <div class="text-center">
+        <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
+      </div>
     </div>
   </div>
 </template>

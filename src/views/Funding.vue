@@ -1,145 +1,6 @@
 <template>
   <div>
     <NofoSplash></NofoSplash>
-    <!-- <v-container fluid full-width>
-      <v-row no-gutters style="min-height: 400px;">
-        <v-col cols="12" md="3" style="background: #057DE6" class="text-right">
-          <v-container
-            class="text-right"
-            fluid
-            style="margin: 0 !important; padding: 0 !important; "
-          >
-            <v-row align="center">
-              <v-col cols="12">
-                <div class="pl-5  pt-12 pr-3">
-                  <h2
-                    style="color: #fff; font-size: 1.8em; border-bottom: 1px solid #aaa; padding-bottom: 5px; margin-bottom: 20px;"
-                  >
-                    About this opportunity
-                  </h2>
-                  <div style="color: #fff">
-                    Solio et arquato sollemnia dissimulator avem genitorem.
-                    Aquoso radiantia erat, colligit, inplicet arbore valebam
-                    declivibus dubia.
-                  </div>
-                </div>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-        <v-col md="9">
-          <v-container>
-            <v-row>
-              <v-col>
-                specific nofo info injected here
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-      </v-row>
-      <v-row no-gutters style="min-height: 400px;">
-        <v-col cols="12" md="3" style="background: #035AA6" class="text-right">
-          <v-container
-            class="fill-height text-right"
-            fluid
-            style="margin: 0 !important; padding: 0 !important; "
-          >
-            <v-row align="center">
-              <v-col cols="12">
-                <div class="pl-5">
-                  <h2
-                    style="color: #fff; font-size: 1.8em; border-bottom: 1px solid #aaa; padding-bottom: 5px; margin-bottom: 20px;"
-                  >
-                    Getting Started
-                  </h2>
-                  <div style="color: #fff">
-                    Solio et arquato sollemnia dissimulator avem genitorem.
-                    Aquoso radiantia erat.
-                  </div>
-                </div>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-        <v-col md="9" style="background: #f1f1f1;">
-          <v-container>
-            <v-row>
-              <v-col>
-                getting started boilerplate here
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-      </v-row>
-      <v-row no-gutters style="min-height: 400px;">
-        <v-col cols="12" md="3" style="background: #023059" class="text-right">
-          <v-container
-            class="fill-height text-right"
-            fluid
-            style="margin: 0 !important; padding: 0 !important; "
-          >
-            <v-row align="center">
-              <v-col cols="12">
-                <div class="pl-5">
-                  <h2
-                    style="color: #fff; font-size: 1.8em; border-bottom: 1px solid #aaa; padding-bottom: 5px; margin-bottom: 20px;"
-                  >
-                    Next steps
-                  </h2>
-                  <div style="color: #fff">
-                    Solio et arquato sollemnia dissimulator avem genitorem.
-                    Aquoso radiantia erat.
-                  </div>
-                </div>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-        <v-col md="9" style="background: #fff;">
-          <v-container>
-            <v-row>
-              <v-col>
-                next steps boilerplate here
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-      </v-row>
-      <v-row no-gutters style="min-height: 400px;">
-        <v-col cols="12" md="3" style="background: #023766" class="text-right">
-          <v-container
-            class="fill-height text-right"
-            fluid
-            style="margin: 0 !important; padding: 0 !important; "
-          >
-            <v-row align="center">
-              <v-col cols="12">
-                <div class="pl-5">
-                  <h2
-                    style="color: #fff; font-size: 1.8em; border-bottom: 1px solid #aaa; padding-bottom: 5px; margin-bottom: 20px;"
-                  >
-                    Finalizing
-                  </h2>
-                  <div style="color: #fff">
-                    Solio et arquato sollemnia dissimulator avem genitorem.
-                    Aquoso radiantia erat.
-                  </div>
-                </div>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-        <v-col md="9" style="background: #f1f1f1;">
-          <v-container>
-            <v-row>
-              <v-col>
-                finalizing boilerplate here
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-col>
-      </v-row>
-    </v-container> -->
 
     <div v-for="(step, index) in steps" :key="index">
       <NofoStep
@@ -147,6 +8,7 @@
         :summary="step.summary"
         :html="step.html"
         :color="step.color"
+        :background="step.background"
       ></NofoStep>
     </div>
   </div>
@@ -186,17 +48,18 @@ export default {
     // eslint-disable-next-line no-undef
     NProgress.start();
     this.steps = await this.fetchContent();
-    console.log(this.steps);
+    //console.log(this.steps);
     // eslint-disable-next-line no-undef
     NProgress.done();
     this.loading = false;
   },
   methods: {
     async fetchContent() {
-      console.log("fetch content here");
+      //console.log("fetch content here");
       let fundingContent = await import(
         `../../public/markdown${this.$route.path}.md`
       );
+
       let html = fundingContent.html;
       const $ = cheerio.load(html);
       let steps = [];
@@ -208,8 +71,17 @@ export default {
         obj.summary = $(this).attr("data-summary");
         obj.html = $(this).html();
         obj.color = stepColors[counter];
+        if (counter % 2 == 0) {
+          obj.background = "#fff";
+        } else {
+          obj.background = "#eee";
+        }
         steps.push(obj);
-        counter = counter + 1;
+        if (counter > stepColors.length) {
+          counter = 0;
+        } else {
+          counter++;
+        }
       });
       return steps;
     }
