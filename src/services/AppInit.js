@@ -36,13 +36,14 @@ let funding = fundingItems.filter(item => {
   }
 });
 
-console.log(funding);
+//console.log(funding);
 
 let myApp = {
   config,
   searchIndex,
   computedPublicPath,
-  siteMeta
+  siteMeta,
+  funding
 };
 
 export { myApp };

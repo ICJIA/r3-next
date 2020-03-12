@@ -116,7 +116,7 @@ export default {
             this.tocHeaders = fmd.attributes.tocHeaders;
             this.markdown = fmd.body;
             this.html = fmd.html;
-            console.log(this.html);
+            // console.log(this.html);
             this.contentFetched = true;
 
             // this.$ga.page({

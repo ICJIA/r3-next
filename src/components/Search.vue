@@ -164,7 +164,7 @@ export default {
     },
     resultLimit: {
       type: Number,
-      default: 5
+      default: 3
     }
   },
   methods: {
@@ -186,6 +186,7 @@ export default {
             }
           });
         }
+
         let obj = {
           original: i.value,
           highlighted,

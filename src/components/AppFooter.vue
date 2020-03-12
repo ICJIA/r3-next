@@ -1,21 +1,19 @@
 <template>
-  <v-footer dark padless class="noprint">
+  <v-footer padless class="noprint">
     <v-card
       flat
       tile
-      dark
       class="white--text text-center"
-      style="width: 100%; background: #023059"
+      style="width: 100%; background: #eee; border-top: 1px solid #fff"
     >
       <v-card-text>
         <span v-for="link in nav" :key="link.attributes.title" class="flexitem">
           <span>
             <v-btn
-              dark
               :to="link.path === '/home' ? '/' : `${link.path}`"
               text
               class=" mr-1"
-              style="font-weight: 900 !important; color: #fff"
+              style="font-weight: 900 !important;"
               :aria-label="link.attributes.title"
             >
               <span v-if="link.attributes.menuTitle" style="font-size: 12px">{{
@@ -29,16 +27,11 @@
         </span>
       </v-card-text>
     </v-card>
-    <v-card
-      flat
-      tile
-      class="text-center"
-      style="width: 100%; background: #212121"
-    >
+    <v-card flat tile class="text-center" style="width: 100%; background: #eee">
       <v-divider />
 
       <v-card-text class="white--text">
-        <div style="font-size: 12px">
+        <div style="font-size: 12px; color: #333">
           &copy;&nbsp;{{ new Date().getFullYear() }}
           <strong>
             <a href="http://icjia.illinois.gov" class="footer-link"
@@ -96,11 +89,11 @@ export default {
 
 <style>
 .footer-link {
-  color: #aaa !important;
-  text-decoration: none;
+  color: #333 !important;
+  text-decoration: underline;
 }
 
 .footer-link:hover {
-  color: #ccc !important;
+  color: #aaa !important;
 }
 </style>

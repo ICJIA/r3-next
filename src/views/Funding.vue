@@ -16,8 +16,6 @@
 
 <script>
 import { handleClicks } from "@/mixins/handleClicks";
-
-// eslint-disable-next-line no-unused-vars
 const cheerio = require("cheerio");
 
 export default {
@@ -56,6 +54,17 @@ export default {
     this.loading = false;
   },
   methods: {
+    scrollTo() {
+      var hash = location.hash.substr(1);
+      var el = document.getElementById(`${hash}`);
+
+      if (hash && el) {
+        //console.log(hash);
+        this.$vuetify.goTo(`#${hash}`, { offset: 12 }).catch(() => {
+          this.$vuetify.goTo(0);
+        });
+      }
+    },
     async fetchContent() {
       //console.log("fetch content here");
       let fundingContent = await import(
@@ -95,6 +104,8 @@ export default {
       return nofoObj;
     }
   },
-  mounted() {}
+  mounted() {
+    this.scrollTo();
+  }
 };
 </script>
