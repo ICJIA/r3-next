@@ -49,29 +49,6 @@ iuvenale cremarat.
 
 </div>
 
-<div data-title="Next Steps" data-summary="elea arcum labores, hanc sacrum vitat timor. Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">
-
-Nisi sunt Bacche morte non quae agros, at nec metuendus velamine, mihi nivea hoc
-natantibus demissus deo bibendo. Grave cuncta domos temptant, in agmine, faciat
-trahens iacent obstruat robore oculis, et. Tegit amori ait et conlapsosque ad
-lecto ademptae crinem ferrataque maximus serpit favillam duces prius nos, o
-quos?
-
-- Reliquit nymphae
-- Pelagoque bellica longa sacrum se ardua et
-- A iterum et Pervenit videt cecidere respersit
-- Phlegon obside perque deos tumultu solent
-
-## Etiam palmis acti longis voluit
-
-Superari et finibus pennas honores totidem, fatis ipso exhibet sequentis simul
-nostris querenti: torrentem. Sanctique Dryopen domus quanto quicquam his fibris
-in vaccae simillimus nexilibus tumulos promisistis Quid. Permanet moles
-tumentibus nec sua infelix Ausonio o tamen dominae praeter functaque amplecti
-edidit ne capillis thalamosque olim; mori.
-
-</div>
-
 <div data-title="Getting Started" data-summary="elea arcum labores, hanc sacrum vitat timor. Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">
 
 Nisi sunt Bacche morte non quae agros, at nec metuendus velamine, mihi nivea hoc
@@ -95,7 +72,32 @@ edidit ne capillis thalamosque olim; mori.
 
 </div>
 
-<div data-title="Finalizing" data-summary="Ma rates et menso! Sub salici
+<div data-title="Next Steps" data-summary="elea arcum labores, hanc sacrum vitat timor. Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">
+
+Nisi sunt Bacche morte non quae agros, at nec metuendus velamine, mihi nivea hoc
+natantibus demissus deo bibendo. Grave cuncta domos temptant, in agmine, faciat
+trahens iacent obstruat robore oculis, et. Tegit amori ait et conlapsosque ad
+lecto ademptae crinem ferrataque maximus serpit favillam duces prius nos, o
+quos?
+
+- Reliquit nymphae
+- Pelagoque bellica longa sacrum se ardua et
+- A iterum et Pervenit videt cecidere respersit
+- Phlegon obside perque deos tumultu solent
+
+## Etiam palmis acti longis voluit
+
+Superari et finibus pennas honores totidem, fatis ipso exhibet sequentis simul
+nostris querenti: torrentem. Sanctique Dryopen domus quanto quicquam his fibris
+in vaccae simillimus nexilibus tumulos promisistis Quid. Permanet moles
+tumentibus nec sua infelix Ausonio o tamen dominae praeter functaque amplecti
+edidit ne capillis thalamosque olim; mori.
+
+</div>
+
+
+
+<div data-title="Bacche morte non" data-summary="Ma rates et menso! Sub salici
 radice, tum iurasse victum tum quicquid vidit">
 
 Nisi sunt Bacche morte non quae agros, at nec metuendus velamine, mihi nivea hoc

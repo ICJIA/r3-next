@@ -14,7 +14,7 @@
         >
           <v-row align="center">
             <v-col cols="12">
-              <div class="pl-5  pt-5 pr-5">
+              <div class="pl-5 pt-5 pr-5 pb-12">
                 <h2
                   style="color: #fff; font-size: 1.8em; border-bottom: 1px solid #aaa; padding-bottom: 5px; margin-bottom: 20px;"
                 >
