@@ -82,7 +82,7 @@ export default {
 
       const $ = cheerio.load(html);
       let steps = [];
-      let counter = 0;
+      let counter = -1;
       let colors = this.$myApp.colors[fundingContent.attributes.accent];
       $("[data-title]").each(function() {
         let obj = {};
