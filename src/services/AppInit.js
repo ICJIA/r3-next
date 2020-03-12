@@ -39,7 +39,7 @@ let funding = fundingItems.filter(item => {
 let colors = {
   blue: ["#0433BF", "#0442BF", "#0455BF", "#033E8C"],
   pink: ["#D81B60", "#C2185B", "#AD1457", "#880E4F"],
-  red: ["#E30712", "#C90610", "#A3050D", "#630308"]
+  red: ["#c92830", "#b71419", "#A3050D", "#630308"]
 };
 
 /* Color Theme Swatches in Hex */
