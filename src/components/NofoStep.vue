@@ -28,8 +28,8 @@
           </v-row>
         </v-container>
       </v-col>
-      <v-col md="9">
-        <v-container :style="`background: ${background}`">
+      <v-col md="9" :style="`background: ${background}`">
+        <v-container>
           <v-row>
             <v-col>
               <div v-html="html" class="px-10"></div>

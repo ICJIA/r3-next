@@ -1,6 +1,10 @@
 <template>
   <div>
-    <NofoSplash :title="nofoObj.title" :summary="nofoObj.summary"></NofoSplash>
+    <NofoSplash
+      :title="nofoObj.title"
+      :summary="nofoObj.summary"
+      :icon="nofoObj.icon"
+    ></NofoSplash>
 
     <div v-for="(step, index) in nofoObj.steps" :key="index">
       <NofoStep
@@ -71,9 +75,10 @@ export default {
         `../../public/markdown${this.$route.path}.md`
       );
       //console.log(fundingContent.attributes.title);
-      this.title = fundingContent.attributes.title;
-      this.summary = fundingContent.attributes.summary;
+      // this.title = fundingContent.attributes.title;
+      // this.summary = fundingContent.attributes.summary;
       let html = fundingContent.html;
+
       const $ = cheerio.load(html);
       let steps = [];
       let counter = 0;
@@ -99,7 +104,8 @@ export default {
       let nofoObj = {
         title: fundingContent.attributes.title,
         summary: fundingContent.attributes.summary,
-        steps: steps
+        steps: steps,
+        icon: fundingContent.attributes.icon
       };
       return nofoObj;
     }

@@ -9,7 +9,7 @@
       "
     >
       <div class="text-center home-font">
-        <i class="fas fa-users"></i>
+        <i class="far fa-compass"></i>
       </div>
       <h2 class="heavy text-center mt-3" style="color: #fff;">
         NOFO TITLE 1
@@ -36,7 +36,7 @@
       "
     >
       <div class="text-center home-font">
-        <i class="fas fa-cogs"></i>
+        <i class="far fa-hands-heart"></i>
       </div>
       <h2 class="heavy text-center mt-3" style="color: #fff;">
         NOFO TITLE 2

@@ -4,7 +4,7 @@
       flat
       tile
       class="white--text text-center"
-      style="width: 100%; background: #eee; border-top: 1px solid #fff"
+      style="width: 100%; background: #ddd; border-top: 1px solid #fff"
     >
       <v-card-text>
         <span v-for="link in nav" :key="link.attributes.title" class="flexitem">
@@ -27,7 +27,7 @@
         </span>
       </v-card-text>
     </v-card>
-    <v-card flat tile class="text-center" style="width: 100%; background: #eee">
+    <v-card flat tile class="text-center" style="width: 100%; background: #ddd">
       <v-divider />
 
       <v-card-text class="white--text">
