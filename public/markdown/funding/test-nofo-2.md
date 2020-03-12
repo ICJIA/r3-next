@@ -5,6 +5,7 @@ nostris querenti torrentem"
 showOnHome: true
 icon: 'far fa-hands-heart'
 accent: 'red'
+showInSitemap: true
 ---
 
 <div data-title="About this Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">

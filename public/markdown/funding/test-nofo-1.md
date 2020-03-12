@@ -5,6 +5,7 @@ natantibus demissus deo bibendo"
 showOnHome: true
 icon: 'far fa-compass'
 accent: 'blue'
+showInSitemap: true
 ---
 
 <div data-title="About this Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">
