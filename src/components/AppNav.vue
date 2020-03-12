@@ -48,6 +48,16 @@
       </div>
       <v-spacer></v-spacer>
 
+      <v-btn
+        text
+        style="font-weight: 900"
+        aria-label="Home"
+        class="hidden-sm-and-down"
+        to="/"
+      >
+        <span style="font-size: 12px">Home</span>
+      </v-btn>
+
       <v-menu offset-y>
         <template v-slot:activator="{ on }">
           <v-btn
@@ -62,10 +72,22 @@
           </v-btn>
         </template>
         <v-list>
-          <v-list-item>
+          <v-list-item
+            @click="
+              $router.push('/funding/test-nofo-1').catch(err => {
+                $vuetify.goTo(0);
+              })
+            "
+          >
             <v-list-item-title>NOFO 1 title here</v-list-item-title>
           </v-list-item>
-          <v-list-item>
+          <v-list-item
+            @click="
+              $router.push('/funding/test-nofo-2').catch(err => {
+                $vuetify.goTo(0);
+              })
+            "
+          >
             <v-list-item-title>NOFO 2 title here</v-list-item-title>
           </v-list-item>
         </v-list>
