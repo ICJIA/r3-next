@@ -18,7 +18,7 @@ name:           ${pkg.name}
 description:    ${pkg.description}
 homepage:       ${pkg.homepage}
 version:        ${pkg.version}
-developer:      ${pkg.author.name} (${pkg.author.email}) -- Illinois Criminal Justice Information Authority
+developer:      ${pkg.author.name} (${pkg.author.email})
 repository:     ${pkg.repository.url}
 license:        ${pkg.license}
 *************************************************************************************************************************

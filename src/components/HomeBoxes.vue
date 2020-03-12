@@ -1,63 +1,7 @@
 <template>
-  <!-- <div class="flexbox-container hide-sm-and-down" id="apply-now"> -->
-  <!-- <div
-      class="box box-1"
-      @click="
-        $router.push('/funding/test-nofo-1').catch(err => {
-          $vuetify.goTo(0);
-        })
-      "
-    >
-      <div class="text-center home-font">
-        <i class="far fa-compass"></i>
-      </div>
-      <h2 class="heavy text-center mt-3" style="color: #fff;">
-        NOFO TITLE 1
-      </h2>
-
-      <p class="pt-4">
-        NOFO summary here In vituli ecce fessos prolem equorum auxiliaria o
-        corpora Cereris nuper. Ubi huic fallacia erat armigerumque vicem qui dum
-        viderat dixit inplevi saltibus Sardibus surgere. Perque fallitque saepe
-        Calydonius reddere interrita sitim caeli flumina, incunabula Dixit
-        pectore artus.
-      </p>
-      <div class="text-center">
-        <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
-      </div>
-    </div>
-
-    <div
-      class="box box-2"
-      @click="
-        $router.push('/funding/test-nofo-2').catch(err => {
-          $vuetify.goTo(0);
-        })
-      "
-    >
-      <div class="text-center home-font">
-        <i class="far fa-hands-heart"></i>
-      </div>
-      <h2 class="heavy text-center mt-3" style="color: #fff;">
-        NOFO TITLE 2
-      </h2>
-      <p class="pt-4">
-        NOFO summary here In vituli ecce fessos prolem equorum auxiliaria o
-        corpora Cereris nuper. Ubi huic fallacia erat armigerumque vicem qui dum
-        viderat dixit inplevi saltibus Sardibus surgere. Perque fallitque saepe
-        Calydonius reddere interrita sitim caeli flumina, incunabula Dixit
-        pectore artus.
-      </p>
-      <div class="text-center">
-        <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
-      </div>
-    </div> -->
   <v-container fluid full-width>
     <v-row no-gutters>
       <v-col
-        cols="12"
-        sm="12"
-        md="6"
         style="background: #ccc;"
         v-for="(item, index) in $myApp.funding"
         :key="index"
