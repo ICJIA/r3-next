@@ -11,7 +11,7 @@ summary: "Together with the R3 Board, ICJIA will award grant funds to community 
 showAsCard: false
 ---
 
-# About Restore, Reinvest, and Renew (R3)
+# Restore, Reinvest, and Renew (R3)
 
 <p><img
                 src="https://ari.icjia-api.cloud/uploads/state-seal-bw-20200310T16144710.png"
