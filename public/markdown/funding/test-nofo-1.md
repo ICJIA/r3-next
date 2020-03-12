@@ -1,8 +1,7 @@
 ---
 title: "Test NOFO 1"
 summary: "Assesment and planning summary here Nisi sunt Bacche morte non quae agros, at nec metuendus velamine, mihi nivea hoc
-natantibus demissus deo bibendo Assesment and planning summary here Nisi sunt Bacche morte non quae agros, at nec metuendus velamine, mihi nivea hoc
-natantibus demissus deo bibendo"
+natantibus demissus deo bibendo "
 showOnHome: true
 icon: 'far fa-compass'
 accent: 'blue'
