@@ -34,7 +34,7 @@
                   {{ item.attributes.summary }}
                 </div>
                 <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
-                  Expires {{ item.attributes.expires | format }}
+                  Deadline: {{ item.attributes.expires | format }}
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>

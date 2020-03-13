@@ -25,7 +25,7 @@
               {{ summary }}
             </div>
             <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
-              Expires {{ expires | format }}
+              Deadline: {{ expires | format }}
             </div>
           </div>
         </v-row>
