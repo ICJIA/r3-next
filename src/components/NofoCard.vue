@@ -18,12 +18,12 @@
       >
         <v-overlay absolute opacity=".6" :color="getBackground()"
           ><v-container
-            class="fill-height text-center"
+            class="fill-height"
             fluid
             full-width
             style="margin: 0 !important; padding: 0 !important;"
           >
-            <v-row align="center">
+            <v-row justify="center" align="center">
               <div class="text-center px-5" style="min-width: 300px;">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>{{ item.attributes.icon }}</v-icon>

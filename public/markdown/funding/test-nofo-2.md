@@ -1,7 +1,7 @@
 ---
-title: "Test NOFO 2"
+title: "Service delivery NOFO title"
 summary: "Service delivery summary here uperari et finibus pennas honores totidem, fatis ipso exhibet sequentis simul
-nostris querenti torrentem"
+nostris  querenti torrentemquerenti torrentemquerenti torrentem"
 showOnHome: true
 icon: 'far fa-hands-heart'
 accent: 'red'
@@ -10,7 +10,7 @@ image: 'splash-03.jpg'
 imageLazyLoad: 'splash-03-tiny.jpg'
 ---
 
-<div data-title="About this Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">
+<div data-title="About this Funding Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">
 
 Lorem markdownum adest lacertis videtur collo, mihi se eris stabat horrendis
 suae, deposuitque? Senex decurrere sceptroque, adicit tacito, quaesita quoque

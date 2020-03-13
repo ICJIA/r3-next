@@ -1,6 +1,7 @@
 <template>
   <div>
     <!--<home-carousel></home-carousel>-->
+
     <home-boxes></home-boxes>
     <div style="background: #fff" id="learn-more">
       <v-container class="markdown-body">
@@ -174,4 +175,9 @@ export default {
   transform: scale(1.01);
   cursor: pointer;
 }
+
+/* .tool-card:hover * .v-icon.outlined {
+  color: #bbb !important;
+  border: 0px solid currentColor;
+} */
 </style>

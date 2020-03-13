@@ -1,5 +1,5 @@
 ---
-title: "Test NOFO 1"
+title: "Assesment and planning NOFO title"
 summary: "Assesment and planning summary here Nisi sunt Bacche morte non quae agros, at nec metuendus velamine, mihi nivea hoc
 natantibus demissus deo bibendo "
 showOnHome: true
@@ -10,7 +10,7 @@ image: 'splash-06.jpg'
 imageLazyLoad: 'splash-06-tiny.jpg'
 ---
 
-<div data-title="About this Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">
+<div data-title="About this Funding Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">
 
 Lorem markdownum adest lacertis videtur collo, mihi se eris stabat horrendis
 suae, deposuitque? Senex decurrere sceptroque, adicit tacito, quaesita quoque

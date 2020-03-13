@@ -58,7 +58,7 @@
         <span style="font-size: 12px">Home</span>
       </v-btn>
 
-      <v-menu offset-y>
+      <v-menu offset-y left>
         <template v-slot:activator="{ on }">
           <v-btn
             text
@@ -71,24 +71,18 @@
             ><v-icon right small>arrow_drop_down</v-icon>
           </v-btn>
         </template>
+
         <v-list>
           <v-list-item
+            v-for="item in $myApp.funding"
+            :key="item.attributes.title"
             @click="
-              $router.push('/funding/test-nofo-1').catch(err => {
+              $router.push(item.path).catch(err => {
                 $vuetify.goTo(0);
               })
             "
           >
-            <v-list-item-title>NOFO 1 title here</v-list-item-title>
-          </v-list-item>
-          <v-list-item
-            @click="
-              $router.push('/funding/test-nofo-2').catch(err => {
-                $vuetify.goTo(0);
-              })
-            "
-          >
-            <v-list-item-title>NOFO 2 title here</v-list-item-title>
+            <v-list-item-title>{{ item.attributes.title }}</v-list-item-title>
           </v-list-item>
         </v-list>
       </v-menu>
