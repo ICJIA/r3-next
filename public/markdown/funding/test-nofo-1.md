@@ -1,7 +1,8 @@
 ---
 title: "Test NOFO 1"
 summary: "Assesment and planning summary here Nisi sunt Bacche morte non quae agros, at nec metuendus velamine, mihi nivea hoc
-natantibus demissus deo bibendo "
+natantibus demissus deo bibendo Assesment and planning summary here Nisi sunt Bacche morte non quae agros, at nec metuendus velamine, mihi nivea hoc
+natantibus demissus deo bibendo"
 showOnHome: true
 icon: 'far fa-compass'
 accent: 'blue'
@@ -94,8 +95,6 @@ tumentibus nec sua infelix Ausonio o tamen dominae praeter functaque amplecti
 edidit ne capillis thalamosque olim; mori.
 
 </div>
-
-
 
 <div data-title="Bacche morte non" data-summary="Ma rates et menso! Sub salici
 radice, tum iurasse victum tum quicquid vidit">
