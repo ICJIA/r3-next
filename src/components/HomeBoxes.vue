@@ -5,6 +5,8 @@
         style="background: #ccc;"
         v-for="(item, index) in $myApp.funding"
         :key="index"
+        cols="12"
+        md="6"
       >
         <NofoCard :item="item" :hidePhoto="false"></NofoCard
       ></v-col>
