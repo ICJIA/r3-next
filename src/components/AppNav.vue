@@ -113,9 +113,9 @@
           <Search></Search>
         </div>
       </v-col>
-      <v-btn text @click="toggleSearch()" class="hidden-md-and-up">
+      <!-- <v-btn text @click="toggleSearch()" class="hidden-md-and-up">
         <v-icon>search</v-icon>
-      </v-btn>
+      </v-btn> -->
     </v-app-bar>
   </div>
 </template>
@@ -189,7 +189,7 @@ export default {
     },
     logoWidth() {
       if (this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.sm) {
-        return 35;
+        return 45;
       } else {
         return 50;
       }
