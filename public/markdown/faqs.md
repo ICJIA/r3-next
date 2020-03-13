@@ -3,7 +3,7 @@ title: "Frequently Asked Questions"
 showToc: true
 showInSitemap: true
 showInFooter: true
-showInNav: true
+showInNav: false
 showInSidebar: true
 menuRank: 300
 menuTitle: "FAQs"

@@ -15,7 +15,7 @@
       <div class="d-flex align-center">
         <v-img
           alt="Vuetify Logo"
-          class="shrink ml-2 mr-2 hover"
+          class="shrink ml-2 mr-2 hover hidden-xs-and-down"
           contain
           :src="require('@/assets/img/state-seal-color.png')"
           transition="scale-transition"
@@ -189,7 +189,7 @@ export default {
     },
     logoWidth() {
       if (this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.sm) {
-        return 50;
+        return 35;
       } else {
         return 50;
       }
@@ -204,17 +204,17 @@ export default {
   font-size: 24px;
 }
 .nav-title.small {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .v-card.searchCard {
   background: #ccc !important;
 }
 .smallTitle {
-  font-size: 22px !important;
+  font-size: 14px !important;
 }
 
 .largeTitle {
-  font-size: 22px !important;
+  font-size: 20px !important;
 }
 </style>
