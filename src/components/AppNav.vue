@@ -58,7 +58,7 @@
         <span style="font-size: 12px">Home</span>
       </v-btn>
 
-      <v-menu offset-y left>
+      <v-menu offset-y left transition="slide-y-transition">
         <template v-slot:activator="{ on }">
           <v-btn
             text
