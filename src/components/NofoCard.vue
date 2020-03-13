@@ -16,7 +16,7 @@
         class="grey lighten-2 py-12"
         max-height="500"
       >
-        <v-overlay absolute opacity=".5" :color="getBackground()"
+        <v-overlay absolute opacity=".6" :color="getBackground()"
           ><v-container
             class="fill-height text-center"
             fluid

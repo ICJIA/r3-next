@@ -15,9 +15,9 @@
       >
         <v-row align="center">
           <div class="text-center px-5" style="min-width: 300px;">
-            <v-avatar class="ma-3" size="105" tile>
+            <!-- <v-avatar class="ma-3" size="105" tile>
               <v-icon>{{ icon }} </v-icon>
-            </v-avatar>
+            </v-avatar> -->
             <h1 class="nofo-title mt-3">
               {{ `${title.toUpperCase()}` }}
             </h1>
