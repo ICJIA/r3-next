@@ -6,8 +6,8 @@ showOnHome: true
 icon: 'far fa-compass'
 accent: 'blue'
 showInSitemap: true
-image: 'splash-05.jpg'
-imageLazyLoad: 'splash-05-tiny.jpg'
+image: 'splash-06.jpg'
+imageLazyLoad: 'splash-06-tiny.jpg'
 ---
 
 <div data-title="About this Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">
