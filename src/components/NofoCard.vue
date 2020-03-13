@@ -13,7 +13,7 @@
         :lazy-src="`/${item.attributes.imageLazyLoad}`"
         aspect-ratio="1"
         class="grey lighten-2 py-12"
-        max-height="500"
+        height="550"
       >
         <v-overlay absolute opacity=".6" :color="getBackground()"
           ><v-container
