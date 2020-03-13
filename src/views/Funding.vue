@@ -77,9 +77,7 @@ export default {
       let fundingContent = await import(
         `../../public/markdown${this.$route.path}.md`
       );
-      //console.log(fundingContent.attributes.title);
-      // this.title = fundingContent.attributes.title;
-      // this.summary = fundingContent.attributes.summary;
+
       let html = fundingContent.html;
 
       const $ = cheerio.load(html);
@@ -88,11 +86,7 @@ export default {
       let colors = this.$myApp.colors[fundingContent.attributes.accent];
       $("[data-title]").each(function() {
         let obj = {};
-        if (counter >= colors.length - 1) {
-          counter = 0;
-        } else {
-          counter++;
-        }
+        counter >= colors.length - 1 ? (counter = 0) : counter++;
         obj.title = $(this).attr("data-title");
         obj.summary = $(this).attr("data-summary");
         obj.html = $(this).html();
@@ -104,6 +98,7 @@ export default {
         }
         steps.push(obj);
       });
+      this.title = fundingContent.attributes.title;
       let nofoObj = {
         title: fundingContent.attributes.title,
         summary: fundingContent.attributes.summary,

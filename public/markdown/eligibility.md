@@ -8,7 +8,7 @@ showInNav: true
 showInSidebar: true
 menuRank: 10
 menuTitle: "Eligibility"
-summary: "Find out if your're eligible to apply for R3 funding"
+summary: "Find out if your're eligible to apply for R3 funding."
 showAsCard: true
 cardIcon: "thumb_up_alt"
 ---

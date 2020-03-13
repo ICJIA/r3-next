@@ -6,7 +6,7 @@ showInFooter: true
 showInNav: false
 showInSidebar: true
 menuRank: 5000
-summary: "How areas eligible to apply for R3 program grants are identified"
+summary: "How areas eligible to apply for R3 program grants are identified."
 showAsCard: true
 cardIcon: "category"
 ---
