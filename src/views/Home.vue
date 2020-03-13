@@ -16,11 +16,7 @@
       </v-container>
     </div>
 
-    <div
-      style="background: #fafafa; border-top: 1px solid #eee;"
-      id="learn-more"
-      class="pb-12"
-    >
+    <div style="background: #fafafa; border-top: 1px solid #eee;" class="pb-12">
       <v-container>
         <v-row>
           <v-col>
@@ -79,6 +75,7 @@ import { handleClicks } from "@/mixins/handleClicks";
 import { generateToc } from "@/mixins/generateToc";
 import { EventBus } from "@/event-bus";
 const slugs = require("slugs");
+import _ from "lodash";
 import fm from "../../public/markdown/home.md";
 // import { EventBus } from "@/event-bus";
 export default {
@@ -99,7 +96,9 @@ export default {
         return item;
       }
     });
-    this.cards = cards;
+
+    let sortedCards = _.orderBy(cards, "attributes.menuRank", "asc");
+    this.cards = sortedCards;
     this.loading = false;
   },
   components: {

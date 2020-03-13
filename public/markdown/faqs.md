@@ -5,7 +5,7 @@ showInSitemap: true
 showInFooter: true
 showInNav: false
 showInSidebar: true
-menuRank: 300
+menuRank: 20
 menuTitle: "FAQs"
 summary: "Questions and answers about R3 funding."
 showAsCard: true
