@@ -24,6 +24,9 @@
             <div class="nofo-tagline">
               {{ summary }}
             </div>
+            <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+              Expires {{ expires | format }}
+            </div>
           </div>
         </v-row>
       </v-container>
@@ -66,6 +69,10 @@ export default {
     imageLazyLoad: {
       type: String,
       default: "splash-02-tiny.jpg"
+    },
+    expires: {
+      type: String,
+      default: ""
     }
   }
 };

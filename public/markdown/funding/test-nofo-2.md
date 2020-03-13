@@ -8,6 +8,7 @@ accent: 'red'
 showInSitemap: true
 image: 'splash-03.jpg'
 imageLazyLoad: 'splash-03-tiny.jpg'
+expires: '2020-05-31'
 ---
 
 <div data-title="About this Funding Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">

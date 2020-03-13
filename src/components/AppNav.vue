@@ -58,7 +58,7 @@
         <span style="font-size: 12px">Home</span>
       </v-btn>
 
-      <v-menu offset-y left transition="slide-y-transition">
+      <v-menu offset-y left transition="slide-y-transition" max-width="300">
         <template v-slot:activator="{ on }">
           <v-btn
             text
@@ -81,8 +81,14 @@
                 $vuetify.goTo(0);
               })
             "
-          >
-            <v-list-item-title>{{ item.attributes.title }}</v-list-item-title>
+            ><v-list-item-content>
+              <v-list-item-title style="font-weight: 900">{{
+                item.attributes.title
+              }}</v-list-item-title>
+              <div class="ml-2 mt-1" style="color: #888; font-size: 14px;">
+                {{ item.attributes.summary }}
+              </div>
+            </v-list-item-content>
           </v-list-item>
         </v-list>
       </v-menu>

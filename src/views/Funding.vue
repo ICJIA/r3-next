@@ -7,6 +7,7 @@
       :colors="nofoObj.colors"
       :image="nofoObj.image"
       :imageLazyLoad="nofoObj.imageLazyLoad"
+      :expires="nofoObj.expires"
     ></NofoSplash>
 
     <div v-for="(step, index) in nofoObj.steps" :key="index">
@@ -106,7 +107,8 @@ export default {
         icon: fundingContent.attributes.icon,
         image: fundingContent.attributes.image,
         imageLazyLoad: fundingContent.attributes.imageLazyLoad,
-        colors
+        colors,
+        expires: fundingContent.attributes.expires
       };
       return nofoObj;
     }
