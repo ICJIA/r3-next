@@ -6,6 +6,8 @@ showOnHome: true
 icon: 'far fa-hands-heart'
 accent: 'red'
 showInSitemap: true
+image: 'splash-03.jpg'
+imageLazyLoad: 'splash-03-tiny.jpg'
 ---
 
 <div data-title="About this Opportunity" data-summary="Parvas vincta siquidem es omnia Ceyca obambulat dea ullis saxea Aegaeas regno.">
@@ -94,8 +96,6 @@ tumentibus nec sua infelix Ausonio o tamen dominae praeter functaque amplecti
 edidit ne capillis thalamosque olim; mori.
 
 </div>
-
-
 
 <div data-title="Bacche morte non" data-summary="Ma rates et menso! Sub salici
 radice, tum iurasse victum tum quicquid vidit">

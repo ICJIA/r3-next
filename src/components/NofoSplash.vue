@@ -1,7 +1,7 @@
 <template>
   <v-img
-    src="/splash-03.jpg"
-    lazy-src="/splash-02-tiny.jpg"
+    :src="`/${image}`"
+    :lazy-src="`/${imageLazyLoad}`"
     aspect-ratio="1"
     class="grey lighten-2"
     max-height="400"
@@ -58,6 +58,14 @@ export default {
     colors: {
       type: Array,
       default: () => []
+    },
+    image: {
+      type: String,
+      default: "splash-03.jpg"
+    },
+    imageLazyLoad: {
+      type: String,
+      default: "splash-02-tiny.jpg"
     }
   }
 };

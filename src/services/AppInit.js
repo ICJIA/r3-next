@@ -37,7 +37,7 @@ let funding = fundingItems.filter(item => {
 });
 
 let colors = {
-  blue: ["#0455BF", "#033E8C"],
+  blue: ["#134c96", "#103f7c"],
 
   red: ["#A3050D", "#630308"]
 };

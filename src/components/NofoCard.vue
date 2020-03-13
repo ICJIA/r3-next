@@ -10,8 +10,8 @@
       "
     >
       <v-img
-        src="/splash-03.jpg"
-        lazy-src="/splash-02-tiny.jpg"
+        :src="`/${item.attributes.image}`"
+        :lazy-src="`/${item.attributes.imageLazyLoad}`"
         aspect-ratio="1"
         class="grey lighten-2 py-12"
         max-height="500"
