@@ -5,6 +5,8 @@
       :summary="nofoObj.summary"
       :icon="nofoObj.icon"
       :colors="nofoObj.colors"
+      :image="nofoObj.image"
+      :imageLazyLoad="nofoObj.imageLazyLoad"
     ></NofoSplash>
 
     <div v-for="(step, index) in nofoObj.steps" :key="index">
@@ -107,6 +109,8 @@ export default {
         summary: fundingContent.attributes.summary,
         steps: steps,
         icon: fundingContent.attributes.icon,
+        image: fundingContent.attributes.image,
+        imageLazyLoad: fundingContent.attributes.imageLazyLoad,
         colors
       };
       return nofoObj;
