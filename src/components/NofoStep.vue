@@ -47,7 +47,7 @@
 export default {
   methods: {
     getBackground() {
-      return "#fafafa";
+      return "#f9f9f9";
     }
   },
   props: {

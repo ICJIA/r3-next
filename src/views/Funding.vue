@@ -95,7 +95,7 @@ export default {
         if (counter % 2 == 0) {
           obj.background = "#fff";
         } else {
-          obj.background = "#F5F5F5";
+          obj.background = "#f1f1f1";
         }
         steps.push(obj);
       });
