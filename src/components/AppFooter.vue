@@ -34,8 +34,8 @@
         <div style="font-size: 12px; color: #333">
           &copy;&nbsp;{{ new Date().getFullYear() }}
           <strong>
-            <a href="http://icjia.illinois.gov" class="footer-link"
-              >Illinois Criminal Justice Information Authority</a
+            <a href="http://www.illinois.gov" class="footer-link"
+              >State of Illinois</a
             > </strong
           >&nbsp;|&nbsp;
           <strong>
