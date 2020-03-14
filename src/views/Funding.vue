@@ -93,9 +93,9 @@ export default {
         obj.html = $(this).html();
         obj.color = colors[counter];
         if (counter % 2 == 0) {
-          obj.background = "#F5F5F5";
-        } else {
           obj.background = "#fff";
+        } else {
+          obj.background = "#F5F5F5";
         }
         steps.push(obj);
       });
