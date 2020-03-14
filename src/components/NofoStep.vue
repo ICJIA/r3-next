@@ -17,9 +17,9 @@
               <div
                 class="pl-5 pt-2 pr-8 pb-3"
                 :style="`background: ${color}`"
-                style="margin-top: -15px; border-right: 1px solid #aaa !important;"
+                style="margin-top: -12px; border-right: 1px solid #aaa !important;"
               >
-                <h2 style="color: #fff; font-size: 1.8em; margin-bottom: 10px;">
+                <h2 style="color: #fff; font-size: 1.8em; margin-bottom: 15px;">
                   {{ title }}
                 </h2>
                 <!-- <div style="color: #fff">
