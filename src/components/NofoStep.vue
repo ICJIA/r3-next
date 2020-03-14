@@ -4,8 +4,8 @@
       <v-col
         cols="12"
         md="3"
-        :style="`background: ${color}`"
         class="text-right"
+        :style="`background: ${getBackground()};`"
       >
         <v-container
           class="text-right"
@@ -13,16 +13,18 @@
           style="margin: 0 !important; padding: 0 !important; "
         >
           <v-row align="center">
-            <v-col cols="12">
-              <div class="pl-5 pt-5 pr-8 pb-12">
-                <h2
-                  style="color: #fff; font-size: 1.8em; border-bottom: 1px solid #aaa; padding-bottom: 5px; margin-bottom: 20px;"
-                >
+            <v-col cols="12" style="">
+              <div
+                class="pl-5 pt-2 pr-8 pb-3"
+                :style="`background: ${color}`"
+                style="margin-top: -15px; border-right: 1px solid #aaa !important;"
+              >
+                <h2 style="color: #fff; font-size: 1.8em; margin-bottom: 10px;">
                   {{ title }}
                 </h2>
-                <div style="color: #fff">
+                <!-- <div style="color: #fff">
                   {{ summary }}
-                </div>
+                </div>-->
               </div>
             </v-col>
           </v-row>
@@ -43,6 +45,11 @@
 
 <script>
 export default {
+  methods: {
+    getBackground() {
+      return "#fafafa";
+    }
+  },
   props: {
     title: {
       type: String,
