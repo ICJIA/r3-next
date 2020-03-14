@@ -40,6 +40,15 @@
           >&nbsp;|&nbsp;
           <strong>
             <a
+              href="https://www2.illinois.gov/sites/gov/Pages/default.aspx"
+              target="_blank"
+              class="footer-link"
+              rel="noreferrer"
+              >Governor JB Pritzker</a
+            > </strong
+          >&nbsp;|&nbsp;
+          <strong>
+            <a
               href="https://www2.illinois.gov/Pages/About/Privacy.aspx"
               target="_blank"
               class="footer-link"

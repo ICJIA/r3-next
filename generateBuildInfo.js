@@ -17,9 +17,9 @@ build:          ${chicagoTime}
 name:           ${pkg.name}
 description:    ${pkg.description}
 homepage:       ${pkg.homepage}
+source:         ${pkg.repository.url}
 version:        ${pkg.version}
 developer:      ${pkg.author.name} (${pkg.author.email})
-repository:     ${pkg.repository.url}
 license:        ${pkg.license}
 *************************************************************************************************************************
 
