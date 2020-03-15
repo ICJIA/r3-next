@@ -15,7 +15,7 @@ cardIcon: "category"
 
 Areas eligible to apply for R3 program grants were identified via an analysis of community-level data on gun injury, child poverty, unemployment, and state prison commitments and returns, combined with Disproportionately Impacted Areas identified by the Illinois Department of Commerce and Economic Opportunity (DCEO). This document outlines the criteria and data sources used to define eligible areas, analyzed by census tract in Illinois. Identified R3-eligible areas were required to meet all criteria listed in Part I _or_ Part 2.
 
-### Part I Criteria {.margin-left-15}
+### Part I Criteria
 
 <div class="ml-8">
 
@@ -57,7 +57,7 @@ Areas eligible to apply for R3 program grants were identified via an analysis of
 
 </div>
 
-### Part II Criterion {.margin-left-15}
+### Part II Criterion
 
 <div class="ml-8">
 
