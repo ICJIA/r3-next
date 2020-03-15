@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid full-width style="border-top: 1px solid #dedede;">
+  <v-container fluid full-width style="border-top: 1px solid #ccc">
     <v-row no-gutters style="min-height: 300px;">
       <v-col
         cols="12"
@@ -30,7 +30,7 @@
           </v-row>
         </v-container>
       </v-col>
-      <v-col md="9" :style="`background: ${background}`">
+      <v-col md="9" style="`background: #fff`">
         <v-container>
           <v-row>
             <v-col>
