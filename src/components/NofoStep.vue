@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid full-width :style="`border-top: 1px solid ${color}`">
+  <v-container fluid full-width>
     <v-row no-gutters style="min-height: 300px;">
       <v-col
         cols="12"
@@ -27,7 +27,7 @@
           </v-row>
         </v-container>
       </v-col>
-      <v-col md="9" style="`background: #fff`">
+      <v-col md="9" :style="`background: ${background}`">
         <v-container>
           <v-row>
             <v-col>
@@ -44,7 +44,7 @@
 export default {
   methods: {
     getBackground() {
-      return "#fafafa";
+      return "#fcfcfc";
     }
   },
   props: {
