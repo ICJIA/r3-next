@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid full-width style="border-top: 2px solid #ddd">
+  <v-container fluid full-width style="border-top: 1px solid #ccc">
     <v-row no-gutters style="min-height: 300px;">
       <v-col
         cols="12"
