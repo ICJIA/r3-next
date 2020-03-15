@@ -22,9 +22,6 @@
                 <h2 style="color: #fff; font-size: 1.8em; margin-bottom: 15px;">
                   {{ title }}
                 </h2>
-                <!-- <div style="color: #fff">
-                  {{ summary }}
-                </div>-->
               </div>
             </v-col>
           </v-row>
