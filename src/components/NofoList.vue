@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-for="(item, index) in $myApp.funding" :key="index">
-      <NofoCard :item="item" class="my-5"></NofoCard>
+      <NofoCard :item="item" class="my-8"></NofoCard>
     </div>
   </div>
 </template>
