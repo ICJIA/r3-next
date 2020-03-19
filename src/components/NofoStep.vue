@@ -7,24 +7,18 @@
         class="text-right"
         :style="`background: ${getBackground()};`"
       >
-        <v-container
-          class="text-right"
-          fluid
-          style="margin: 0 !important; padding: 0 !important; "
-        >
-          <v-row align="center">
-            <v-col cols="12" style="">
-              <div
-                class="pl-5 pt-2 pr-8 pb-3"
-                :style="`background: ${color}`"
-                style="margin-top: -12px; border-right: 1px solid #aaa !important;"
-              >
-                <h2 style="color: #fff; font-size: 1.8em; margin-bottom: 15px;">
-                  {{ title }}
-                </h2>
-              </div>
-            </v-col>
-          </v-row>
+        <v-container fluid full-width>
+          <v-col cols="12" style="margin-top: 12px; padding: 0;">
+            <div
+              class="px-5 pb-2"
+              :style="`background: ${color}`"
+              style="margin-top: -12px; border-right: 1px solid #aaa !important;"
+            >
+              <h2 style="color: #fff; font-size: 1.8em; margin-bottom: 15px;">
+                {{ title }}
+              </h2>
+            </div>
+          </v-col>
         </v-container>
       </v-col>
       <v-col md="9" :style="`background: ${background}`">
