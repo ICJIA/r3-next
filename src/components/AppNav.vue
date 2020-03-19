@@ -81,13 +81,19 @@
                 $vuetify.goTo(0);
               })
             "
-            ><v-list-item-content>
+            ><v-list-item-content class="py-5">
               <v-list-item-title
                 style="font-weight: 900; padding-left: 10px; "
                 >{{ item.attributes.title }}</v-list-item-title
               >
               <div class="ml-5 mt-1" style="color: #888; font-size: 14px; ">
                 {{ item.attributes.summary }}
+              </div>
+              <div
+                class="mr-5 mt-1 text-right"
+                style="color: #333; font-size: 12px; font-weight: bold "
+              >
+                Deadline: {{ item.attributes.expires | format }}
               </div>
             </v-list-item-content>
           </v-list-item>
