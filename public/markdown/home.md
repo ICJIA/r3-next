@@ -22,6 +22,6 @@ showAsCard: false
 
 Many communities in Illinois have been harmed by violence, excessive incarceration, and economic issues. R3 grants support efforts to restore, reinvest in, and renew these communities.</p>
 
-R3 grant-eligible zones were identified, in part, by community gun injury, child poverty, and unemployment rates and incarceration levels. View this map to see if organizations in your community are eligible for an R3 grant.
+R3 grant-eligible zones were identified, in part, by community gun injury, child poverty, and unemployment rates and incarceration levels. View [this map](/eligibility) to see if organizations in your community are eligible for an R3 grant.
 
 Organizations may apply for grants individually or in partnership with other groups as a “collaborative.” Find out [more about collaboratives here](/collaboratives).
