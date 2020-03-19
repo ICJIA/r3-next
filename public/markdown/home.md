@@ -13,14 +13,16 @@ showAsCard: false
 
 # Restore, Reinvest, and Renew (R3)
 
-<p><img
+<!-- <p><img
                 src="https://ari.icjia-api.cloud/uploads/state-seal-bw-20200310T16144710.png"
                 width="50"
                 alt="Illinois State Seal"
                 style="float: left; margin: 4px 10px 0px 0px; "
-              />
+              /> -->
 
-Many communities in Illinois have been harmed by violence, excessive incarceration, and economic issues. R3 grants support efforts to restore, reinvest in, and renew these communities.</p>
+Many communities in Illinois have been harmed by violence, excessive incarceration, and economic issues. R3 grants support efforts to restore, reinvest in, and renew these communities.
+
+<!-- </p> -->
 
 R3 grant-eligible zones were identified, in part, by community gun injury, child poverty, and unemployment rates and incarceration levels. View [this map](/eligibility) to see if organizations in your community are eligible for an R3 grant.
 
