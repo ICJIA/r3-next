@@ -31,7 +31,7 @@
     ></Outdated>
 
     <v-content>
-      <!-- <Corona ref="alert" /> -->
+      <Corona ref="alert" />
       <transition name="fade" mode="out-in">
         <router-view
           @click="closeElements()"

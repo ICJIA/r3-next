@@ -1,31 +1,53 @@
 <template>
   <v-alert v-model="alert" text dismissible color="info" class="mb-0">
-    <div style="color: #000 !important">
-      <v-icon color="red">error</v-icon>
-
-      View up to date information on how Illinois is handling the Coronavirus
-      Disease 2019 (COVID-19) from the
-
-      <a
-        href="http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus"
-        style="text-decoration: underline;"
-        >Illinois Department of Public Health</a
+    <span style="color: #000 !important">
+      <span v-if="loading && !errorMsg"
+        ><v-progress-circular
+          indeterminate
+          color="primary"
+          class="ml-5"
+          size="25"
+        ></v-progress-circular
+        ><span style="font-size: 12px; font-weight: bold;" class="ml-5"
+          >Loading the latest COVID-19 information</span
+        ></span
       >
-    </div>
+
+      <span v-if="corona && !errorMsg" v-html="corona.html"></span>
+    </span>
+    <span v-if="errorMsg" class="text-center">
+      {{ errorMsg }}. Please reload the page to view the latest COVID-19
+      information.
+    </span>
   </v-alert>
 </template>
 
 <script>
+import axios from "axios";
 export default {
   data() {
     return {
-      alert: true
+      alert: true,
+      loading: true,
+      corona: null,
+      errorMsg: null
     };
+  },
+  async created() {
+    this.loading = true;
+    try {
+      let { data } = await axios.get(`${this.$myApp.config.coronaInfoURL}`);
+      this.corona = data;
+    } catch (e) {
+      this.errorMsg = e;
+    }
+    this.loading = false;
   },
   methods: {
     reset() {
       this.alert = true;
     }
-  }
+  },
+  props: {}
 };
 </script>

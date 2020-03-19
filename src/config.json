@@ -5,6 +5,7 @@
   "siteTitle": "Restore, Reinvest, and Renew (R3)",
   "siteTitleMobile": "Restore, Reinvest, and Renew",
   "githubURL": "https://github.com/ICJIA/r3-next",
+  "coronaInfoURL": "https://coronavirus.icjia-api.cloud/",
   "siteDescription": "Together with the R3 Board, ICJIA will award grant funds to community organizations that support economic development, provide violence prevention and reentry services, and offer youth development and civil legal aid.",
   "searchConfig": {
     "shouldSort": true,
