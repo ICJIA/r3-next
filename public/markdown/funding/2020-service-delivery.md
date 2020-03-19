@@ -13,6 +13,7 @@ expires: "2020-05-01"
 <div data-title="About this Funding Opportunity" data-summary="">
 
 Do you provide services through an existing program in your community or do you have a plan for a program to address issues in your community?
+
 These Service Delivery grants will support organizations that want to provide or expand services to the community.
 Applicants must:
 

@@ -31,7 +31,7 @@
         <v-container>
           <v-row>
             <v-col>
-              <div v-html="html" class="pl-1 pb-8"></div>
+              <div v-html="html" class="pl-1 pt-4 pb-8"></div>
             </v-col>
           </v-row>
         </v-container>
