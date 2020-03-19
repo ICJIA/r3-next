@@ -1,5 +1,5 @@
 ---
-title: "What is a Collaborative?"
+title: "Collaboratives"
 showInSitemap: true
 tocHeading: "Collaboratives"
 showToc: false
