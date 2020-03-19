@@ -68,7 +68,7 @@ export default {
     },
     imageLazyLoad: {
       type: String,
-      default: "splash-02-tiny.jpg"
+      default: "splash-03-tiny.jpg"
     },
     expires: {
       type: String,

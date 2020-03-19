@@ -15,45 +15,13 @@ showAsCard: false
 
 <p><img
                 src="https://ari.icjia-api.cloud/uploads/state-seal-bw-20200310T16144710.png"
-                width="100"
+                width="50"
                 alt="Illinois State Seal"
                 style="float: left; margin: 4px 10px 0px 0px; "
               />
 
-Lorem markdownum iuvencam Polydecta adspicis: conatur mora profugus petit,
-auris. Iacebant relevare pulcherrime saepe quantoque nomina. Nam qui quem luna
-ut merentem virgaque Ascaniumque caelo sanguine poste superantque, quid Scythiae
-formosa! Reverentia resolutum vocari, tuum **moti**, fiducia dissiluit _carina_.
-Dum oculis infestae coniuge Iliacas; mea moderator ictu, suae parabantur
-utrumque comaeque utile.</p>
+Many communities in Illinois have been harmed by violence, excessive incarceration, and economic issues. R3 grants support efforts to restore, reinvest in, and renew these communities.</p>
 
-Parassent alumnae amorem toro audacia,
-perenni! Tacitaque operisque recedit amnes effugiunt formidine _voce tua
-ingemuit_ tempora, Diti ait huius succeditis media, maneret corpore.
-Parassent alumnae amorem toro audacia,
-perenni! Tacitaque operisque recedit amnes effugiunt formidine _voce tua
-ingemuit_ tempora, Diti ait huius succeditis media, maneret corpore.
+R3 grant-eligible zones were identified, in part, by community gun injury, child poverty, and unemployment rates and incarceration levels. View this map to see if organizations in your community are eligible for an R3 grant.
 
-## Caede in quod
-
-Videri de mente habet posita est Haec habitantque nulla: at habuissem,
-insequeris. Quis tunicasque unde hanc fores nec quem _poterunt_ Lycopen
-concurrere iussos circumvelatur? Petens tot sanguine arborei. Haut omnem, non
-illis me aere; viguere vitam ferre omni.
-
-Videri de mente habet posita est Haec habitantque nulla: at habuissem,
-insequeris. Quis tunicasque unde hanc fores nec quem _poterunt_ Lycopen
-concurrere iussos circumvelatur? Petens tot sanguine arborei. Haut omnem, non
-illis me aere; viguere vitam ferre omni.
-
-## Videri de mente
-
-Videri de mente habet posita est Haec habitantque nulla: at habuissem,
-insequeris. Quis tunicasque unde hanc fores nec quem _poterunt_ Lycopen
-concurrere iussos circumvelatur? Petens tot sanguine arborei. Haut omnem, non
-illis me aere; viguere vitam ferre omni.
-
-Videri de mente habet posita est Haec habitantque nulla: at habuissem,
-insequeris. Quis tunicasque unde hanc fores nec quem _poterunt_ Lycopen
-concurrere iussos circumvelatur? Petens tot sanguine arborei. Haut omnem, non
-illis me aere; viguere vitam ferre omni.
+Organizations may apply for grants individually or in partnership with other groups as a “collaborative.” Find out [more about collaboratives here](/collaboratives).
