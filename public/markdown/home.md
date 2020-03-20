@@ -13,17 +13,20 @@ showAsCard: false
 
 # Restore, Reinvest, and Renew (R3)
 
-<!-- <p><img
-                src="https://ari.icjia-api.cloud/uploads/state-seal-bw-20200310T16144710.png"
-                width="50"
-                alt="Illinois State Seal"
-                style="float: left; margin: 4px 10px 0px 0px; "
-              /> -->
-
 Many communities in Illinois have been harmed by violence, excessive incarceration, and economic issues. R3 grants support efforts to restore, reinvest in, and renew these communities.
 
-<!-- </p> -->
+The grants funded by this program should address the five R3 Program Priorities:
 
-R3 grant-eligible zones were identified, in part, by community gun injury, child poverty, and unemployment rates and incarceration levels. View [this map](/eligibility) to see if organizations in your community are eligible for an R3 grant.
+- Civil Legal Aid
 
-Organizations may apply for grants individually or in partnership with other groups as a “collaborative.” Find out [more about collaboratives here](/collaboratives).
+- Economic Development
+
+- Reentry
+
+- Violence Prevention
+
+- Youth Development
+
+R3 grant-eligible zones were identified, in part, by their rates of community gun injury, child poverty, unemployment and incarceration levels. [View this map](/eligibility) to see if organizations in your community are eligible for an R3 grant.
+
+Organizations may apply for grants individually or in partnership with other groups as a collaborative. Organizations eligible to apply for this funding are nonprofit organizations, local units of government, and religious organizations. Other types of organizations, like businesses and community or neighborhood associations, are also eligible to be members of a collaborative. Find out more [about collaboratives here](/collaboratives).

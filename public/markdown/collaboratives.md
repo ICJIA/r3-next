@@ -27,6 +27,8 @@ For collaborative programs we expect that the following elements would be in pla
 
 - Roles and responsibilities of collaborative partners are clearly defined and demonstrate an equitable approach; and
 
-- Decision making processes demonstrate an equitable approach.
+- Decision-making processes demonstrate an equitable approach.
 
-Applications on behalf of a collaborative are submitted by the responsible applicant organization, but should include Memoranda of Understanding (MOUs) signed by all partner organizations expressing a commitment to work jointly to carry out the program proposed in the application.
+Equity in leadership, structure, opportunity, and outcomes is a key value of this program, so it is important that all collaboratives prioritize equity in their approach. In the context of this program, that means that collaboratives must ensure that the priorities of the local community as conveyed through local members of the collaborative are kept at the forefront of the program. Collaborative structure and decision-making processes should support the leadership of diverse, local organizations and stakeholders, and provide opportunities for local community-based organizations to build capacity as leaders in the program with the support of, rather than at the direction of, more established organizations.
+
+Applications on behalf of a collaborative are submitted by the responsible applicant organization but should include Memoranda of Understanding (MOUs) signed by all partner organizations expressing a commitment to work jointly to carry out the program proposed in the application.
