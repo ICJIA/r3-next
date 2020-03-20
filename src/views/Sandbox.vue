@@ -1,6 +1,6 @@
 <template>
   <div class="px-12 py-6">
-    <h2>Photo #1</h2>
+    <h2 class="mt-12 text-right">Photo #1</h2>
     <v-card class="hoverCard">
       <v-img
         src="../../public/splash-10.jpg"
@@ -37,7 +37,7 @@
         </v-overlay>
       </v-img>
     </v-card>
-    <h2 class="mt-12">Photo #2</h2>
+    <h2 class="mt-12 text-right">Photo #2</h2>
     <v-card class="hoverCard">
       <v-img
         src="../../public/splash-10.jpg"
@@ -75,7 +75,7 @@
       </v-img>
     </v-card>
 
-    <h2>Photo #3</h2>
+    <h2 class="mt-12 text-right">Photo #3</h2>
     <v-card class="hoverCard">
       <v-img
         src="../../public/splash-11.jpg"
@@ -112,7 +112,7 @@
         </v-overlay>
       </v-img>
     </v-card>
-    <h2 class="mt-12">Photo #4</h2>
+    <h2 class="mt-12 text-right">Photo #4</h2>
     <v-card class="hoverCard">
       <v-img
         src="../../public/splash-11.jpg"
@@ -150,7 +150,7 @@
       </v-img>
     </v-card>
 
-    <h2>Photo #5</h2>
+    <h2 class="mt-12 text-right">Photo #5</h2>
     <v-card class="hoverCard">
       <v-img
         src="../../public/splash-12.jpg"
@@ -187,7 +187,7 @@
         </v-overlay>
       </v-img>
     </v-card>
-    <h2 class="mt-12">Photo #6</h2>
+    <h2 class="mt-12 text-right">Photo #6</h2>
     <v-card class="hoverCard">
       <v-img
         src="../../public/splash-12.jpg"
@@ -225,7 +225,7 @@
       </v-img>
     </v-card>
 
-    <h2>Photo #7</h2>
+    <h2 class="mt-12 text-right">Photo #7</h2>
     <v-card class="hoverCard">
       <v-img
         src="../../public/splash-03.jpg"
@@ -262,7 +262,7 @@
         </v-overlay>
       </v-img>
     </v-card>
-    <h2 class="mt-12">Photo #8</h2>
+    <h2 class="mt-12 text-right">Photo #8</h2>
     <v-card class="hoverCard">
       <v-img
         src="../../public/splash-03.jpg"
@@ -300,7 +300,7 @@
       </v-img>
     </v-card>
 
-    <h2>Photo #9</h2>
+    <h2 class="mt-12 text-right">Photo #9</h2>
     <v-card class="hoverCard">
       <v-img
         src="../../public/splash-06.jpg"
@@ -337,7 +337,7 @@
         </v-overlay>
       </v-img>
     </v-card>
-    <h2 class="mt-12">Photo #10</h2>
+    <h2 class="mt-12 text-right">Photo #10</h2>
     <v-card class="hoverCard">
       <v-img
         src="../../public/splash-06.jpg"
