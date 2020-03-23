@@ -16,9 +16,9 @@ cardIcon: "not_listed_location"
 
 ### Who is eligible to apply for R3 grants?
 
-Organizations that serve residents of--or are based in--designated <a href="https://icjia.illinois.gov/r3/">eligible R3 zones</a> will be able to apply. Eligible organizations include nonprofit organizations, local units of government, or tax-exempt faith-based organizations. All applicants will be required to demonstrate compliance with the Grant Accountability and Transparency Act (GATA).
+Organizations that serve residents of--or are based in--designated <a href="/eligibility">eligible R3 zones</a> will be able to apply. Eligible organizations include nonprofit organizations, local units of government, or tax-exempt faith-based organizations. All applicants will be required to demonstrate compliance with the Grant Accountability and Transparency Act (GATA).
 
-In addition, other groups such as local businesses and community or neighborhood organizations without 501(c)(3) status are able to join a collaborative application. <a href="https://r3.illinois.gov/collaboratives">Learn more about collaboratives here.</a>
+In addition, other groups such as local businesses and community or neighborhood organizations without 501(c)(3) status are able to join a collaborative application. <a href="/collaboratives">Learn more about collaboratives here.</a>
 
 ### What types of projects are eligible for R3 funding?
 
@@ -54,11 +54,11 @@ Also, follow us on <a href="https://www.facebook.com/ICJIA/"> Facebook </a> and 
 
 ### Who is eligible for R3 grant funding?
 
-Click <a href="https://icjia.illinois.gov/r3/"> here </a> for a map and table of all eligible zones.
+Click <a href="/eligibility"> here </a> for a map and table of all eligible zones.
 
 ### Who decided the eligible zones?
 
-The Illinois Criminal Justice Information Authority (ICJIA) in coordination with JEO and a diverse group of researchers that represent academic institutions from around the state performed the <a href="https://r3.illinois.gov/collaboratives">analysis</a> to determine what geographic zones satisfied the conditions established by the R3 legislation. These determinations were then approved by the R3 Board.
+The Illinois Criminal Justice Information Authority (ICJIA) in coordination with JEO and a diverse group of researchers that represent academic institutions from around the state performed the <a href="/collaboratives">analysis</a> to determine what geographic zones satisfied the conditions established by the R3 legislation. These determinations were then approved by the R3 Board.
 
 ### How were the eligible zones chosen?
 
