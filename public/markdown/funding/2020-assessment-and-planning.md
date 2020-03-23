@@ -5,8 +5,8 @@ showOnHome: true
 icon: "far fa-compass"
 accent: "blue"
 showInSitemap: true
-image: "splash-06.jpg"
-imageLazyLoad: "splash-06-tiny.jpg"
+image: "splash-12.jpg"
+imageLazyLoad: "splash-12-tiny.jpg"
 expires: "2020-05-01"
 ---
 
