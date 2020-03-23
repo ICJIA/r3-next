@@ -16,11 +16,13 @@ cardIcon: "not_listed_location"
 
 ### Who is eligible to apply for R3 grants?
 
-Nonprofit organizations that serve residents of or are based in the eligible areas will be able to apply. Applicants will also be required to demonstrate compliance with the Grant Accountability and Transparency Act (GATA).
+Organizations that serve residents of--or are based in--designated <a href="https://icjia.illinois.gov/r3/">eligible R3 zones</a> will be able to apply. Eligible organizations include nonprofit organizations, local units of government, or tax-exempt faith-based organizations. All applicants will be required to demonstrate compliance with the Grant Accountability and Transparency Act (GATA).
+
+In addition, other groups such as local businesses and community or neighborhood organizations without 501(c)(3) status are able to join a collaborative application. <a href="https://r3.illinois.gov/collaboratives">Learn more about collaboratives here.</a>
 
 ### What types of projects are eligible for R3 funding?
 
-Grant must be used to address: Economic development, Youth violence prevention services, Re-entry services, Youth development, and Civil legal aid
+Grant funding must be used to address: Economic development, Violence prevention, Re-entry, Youth development, and Civil legal aid. Two separate Notices of Funding Opportunity (NOFOs) are available: one to fund a community assessment and planning process to determine which of these priorities will be addressed and how, and the other to provide the necessary service delivery.
 
 ### What assistance will be provided to applicants?
 
@@ -52,15 +54,15 @@ Also, follow us on <a href="https://www.facebook.com/ICJIA/"> Facebook </a> and 
 
 ### Who is eligible for R3 grant funding?
 
-Click <a href="https://icjia.illinois.gov/r3/"> here </a> for a map and table of all eligible areas.
+Click <a href="https://icjia.illinois.gov/r3/"> here </a> for a map and table of all eligible zones.
 
-### Who decided the eligible areas?
+### Who decided the eligible zones?
 
-The Illinois Criminal Justice Information Authority (ICJIA) in coordination with JEO and a diverse group of researchers that represent academic institutions from around the state.
+The Illinois Criminal Justice Information Authority (ICJIA) in coordination with JEO and a diverse group of researchers that represent academic institutions from around the state performed the <a href="https://r3.illinois.gov/collaboratives">analysis</a> to determine what geographic zones satisfied the conditions established by the R3 legislation. These determinations were then approved by the R3 Board.
 
-### How were the eligible areas chosen?
+### How were the eligible zones chosen?
 
-The legislation states that eligible areas should have the highest rates of: Gun injuries, Unemployment, Child poverty, Commitments to and returns from the Department of Corrections. The areas are designated by census tract. Census tracts are geographic areas defined by the Census Bureau. <a href="https://geocoding.geo.census.gov/geocoder/geographies/address?form">Enter an address here to find its Census tract</a>.
+The legislation states that eligible zones should have the highest rates of: Gun injuries, Unemployment, Child poverty, Commitments to and returns from the Department of Corrections. The areas are designated by census tract. Census tracts are geographic areas defined by the Census Bureau. <a href="https://geocoding.geo.census.gov/geocoder/geographies/address?form">Enter an address here to find its Census tract</a>.
 You may also search an address directly within the R3 map search bar to find out if it is located within an eligible census tract.
 
 ## R3 Board
