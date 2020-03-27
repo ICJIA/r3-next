@@ -5,8 +5,8 @@ showOnHome: true
 icon: "far fa-hands-heart"
 accent: "red"
 showInSitemap: true
-image: "splash-03.jpg"
-imageLazyLoad: "splash-03-tiny.jpg"
+image: "splash-13.jpg"
+imageLazyLoad: "splash-13-mini.jpg"
 expires: "2020-05-01"
 ---
 
