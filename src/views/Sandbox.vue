@@ -394,7 +394,7 @@
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
-                <h1 class="nofo-title mt-3">Service Delivery</h1>
+                <h1 class="nofo-title mt-3">Assessment and Planning</h1>
                 <div class="nofo-tagline">
                   Lorem markdownum eiecit arreptamque oris populare, est illo
                   nos prospectat recepta in corporis discussa superest
