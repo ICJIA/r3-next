@@ -59,6 +59,12 @@ export default {
     //console.log(this.steps);
     // eslint-disable-next-line no-undef
     NProgress.done();
+    console.log(this.title);
+    this.$ga.page({
+      page: this.$route.path,
+      title: this.title,
+      location: window.location.href
+    });
     this.loading = false;
   },
   methods: {

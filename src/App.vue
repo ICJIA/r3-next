@@ -33,10 +33,7 @@
     <v-content>
       <Corona ref="alert" />
       <transition name="fade" mode="out-in">
-        <router-view
-          @click="closeElements()"
-          :key="$route.fullPath"
-        ></router-view>
+        <router-view @click="closeElements()" :key="$route.fullPath"></router-view>
       </transition>
     </v-content>
     <AppFooter :siteMeta="$myApp.siteMeta" v-if="!loading"></AppFooter>
@@ -77,7 +74,7 @@ export default {
     // eslint-disable-next-line no-unused-vars
     $route(to, from) {
       this.canonical = `${this.$myApp.config.clientBase}${this.$myApp.computedPublicPath}${this.$route.path}`;
-      //console.log("Canonical: ", this.canonical);
+      console.log("Canonical: ", this.canonical);
       //console.log("computedPublicPath: ", this.$myApp.computedPublicPath);
       if (this.$refs.alert) this.$refs.alert.reset();
     }
