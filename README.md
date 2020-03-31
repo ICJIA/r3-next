@@ -42,7 +42,7 @@ npm run build
 
 ## Deploy
 
-Publish directory: `./dist`
+Publish ```./dist``
 
 ## CHANGLOG
 
