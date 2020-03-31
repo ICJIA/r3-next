@@ -34,12 +34,12 @@
       }"
     >
       <!--- pages --->
-      <!-- <div
+      <div
         style="background: #0D4474; font-size: 18px; font-weight: bold; color: #fff"
         class="px-2 py-2"
       >
         Pages
-      </div> -->
+      </div>
       <div v-if="!resultPages.length" class="pl-3 py-3 resultSummary">
         No matching pages found.
       </div>
@@ -48,31 +48,73 @@
         :key="index"
         class="hover result"
       >
-        <div class="elevation-0 results pb-1 resultDivider">
+        <div
+          class="elevation-0 results pb-1"
+          :class="{ resultDivider: resultAsNav }"
+          style=""
+        >
           <div
             class="resultTitle px-2 py-1"
             :class="{ navFont: resultAsNav }"
-            @click="gotoItem(item)"
+            @click="
+              $router.push(item.item.path).catch(err => {
+                $vuetify.goTo(0);
+              })
+            "
           >
             {{ item.item.title }}
           </div>
-          <div
-            v-if="item.item.category"
-            class="pl-2 pt-0 pb-2"
-            style="font-size: 11px; font-weight: bold"
-            @click="gotoItem(item)"
-          >
-            {{ item.item.category }}
+          <div v-if="item.matches && item.matches.length > 0" class="pl-3">
+            <div
+              v-for="(context, index) in displayMatches(item)"
+              :key="index + 'context'"
+            >
+              <div
+                v-html="context.highlighted"
+                class="resultSummary pb-1 px-3"
+                v-if="context.key !== 'title'"
+                :class="{
+                  headingIndent: context.key === 'headings.heading',
+                  navFont: resultAsNav
+                }"
+                @click="goToRoute(context)"
+              ></div>
+            </div>
           </div>
-          <div class="pl-3 pb-1 resultSummary" @click="gotoItem(item)">
+          <div
+            v-else
+            class="pl-3 pb-1 resultSummary"
+            :class="{ navFont: resultAsNav }"
+            @click="goToRoute(context)"
+          >
             {{ item.item.summary | truncate(20) }}
           </div>
-
           <div v-if="index === resultPages.length - 1">
             <div class="pb-3">&nbsp;</div>
           </div>
         </div>
       </div>
+      <!--- files --->
+      <!-- <div v-if="resultFiles.length > 0">
+        <div
+          style="background: #0D4474; font-size: 18px; font-weight: bold; color: #fff"
+          class="px-2 py-2"
+        >
+          Files
+        </div>
+        <div
+          v-for="(item, index) in resultFiles"
+          :key="index + 'files'"
+          class="hover"
+          @click="followPath(item)"
+        >
+          <div class="elevation-0 results">
+            <div class="resultTitle px-2 py-1">
+              {{ item.item.name }}
+            </div>
+          </div>
+        </div>
+      </div> -->
     </v-card>
   </div>
 </template>
@@ -186,38 +228,27 @@ export default {
         return 500;
       }
     },
-    gotoItem(item) {
-      console.log(item);
-      if (item.item.file) {
-        console.log("download file");
-        location.href = `${this.$myApp.computedPublicPath}/downloads/${item.item.file}`;
+    goToRoute(context) {
+      let target = context.target ? `#${context.target}` : "";
+      let url = `${context.path}${target}`;
+      EventBus.$emit("closeSearch");
+      this.$router.push(url).catch(() => {
+        this.$vuetify.goTo(0);
+      });
+    },
+    followPath(result) {
+      if (result.item.type === "file") {
+        EventBus.$emit("closeSearch");
+        let publicPath =
+          process.env.NODE_ENV === `production`
+            ? this.$myApp.config.publicPath
+            : "";
+        //console.log(`${publicPath}${result.item.path}`);
+        location.href = `${publicPath}${result.item.path}`;
       } else {
-        this.$router.push(item.item.path).catch(() => {
-          this.$vuetify.goTo(0);
-        });
+        return;
       }
     }
-    // goToRoute(context) {
-    //   let target = context.target ? `#${context.target}` : "";
-    //   let url = `${context.path}${target}`;
-    //   EventBus.$emit("closeSearch");
-    //   this.$router.push(url).catch(() => {
-    //     this.$vuetify.goTo(0);
-    //   });
-    // },
-    // followPath(result) {
-    //   if (result.item.type === "file") {
-    //     EventBus.$emit("closeSearch");
-    //     let publicPath =
-    //       process.env.NODE_ENV === `production`
-    //         ? this.$myApp.config.publicPath
-    //         : "";
-    //     //console.log(`${publicPath}${result.item.path}`);
-    //     location.href = `${publicPath}${result.item.path}`;
-    //   } else {
-    //     return;
-    //   }
-    // }
   }
 };
 </script>
@@ -226,23 +257,21 @@ export default {
 .resultTitle {
   font-weight: bold;
   font-size: 16px;
+  background: #eee;
 }
 
 .resultSummary {
   font-size: 14px;
+  color: #555;
 }
 
-.result:hover > * {
-  color: #888 !important;
-}
-
-/* .resultTitle:hover {
+.resultTitle:hover {
   color: #888;
 }
 
 .resultSummary:hover {
   color: #888;
-} */
+}
 
 .resultTitle.navFont {
   font-size: 14px;
@@ -251,6 +280,9 @@ export default {
   font-size: 12px;
 }
 
+/* .result:hover {
+  color: #888;
+} */
 .spacer {
   -webkit-box-flex: 3 !important;
   -ms-flex-positive: 3 !important;

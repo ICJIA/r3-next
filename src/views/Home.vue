@@ -1,18 +1,54 @@
 <template>
   <div>
-    <div id="learn-more" style="background: #fff">
+    <!--<home-carousel></home-carousel>-->
+
+    <home-boxes></home-boxes>
+    <div style="background: #fff" id="learn-more">
       <v-container class="markdown-body">
         <v-row>
           <v-col>
-            <HomePageContent
-              class="dynamic-content py-8"
-              @click.native="handleClicks"
-            />
+            <HomePageContent @click.native="handleClicks" class="dynamic-content py-8"></HomePageContent>
+          </v-col>
+        </v-row>
+      </v-container>
+    </div>
+
+    <div style="background: #fafafa; border-top: 1px solid #eee;" class="pb-12">
+      <v-container>
+        <v-row>
+          <v-col>
+            <h2 style="font-size: 28px; font-weight: 900 !important;">Applicant Tools</h2>
           </v-col>
         </v-row>
         <v-row>
-          <v-col>
-            <NewsList />
+          <v-col cols="12" sm="12" md="6" v-for="(card, index) in cards" :key="index">
+            <v-card dark color="#03588C" class="hover tool-card" @click="$router.push(card.path)">
+              <div class="d-flex flex-no-wrap justify-space-between">
+                <div>
+                  <v-card-title
+                    class
+                    :class="{
+                      mobileTitle:
+                        $vuetify.breakpoint.xs || $vuetify.breakpoint.sm
+                    }"
+                  >{{ card.attributes.title }}</v-card-title>
+
+                  <v-card-subtitle>
+                    {{
+                    card.attributes.summary
+                    }}
+                  </v-card-subtitle>
+                </div>
+
+                <v-avatar class="ma-3" size="125" tile>
+                  <v-icon class="outlined" x-large>
+                    {{
+                    card.attributes.cardIcon
+                    }}
+                  </v-icon>
+                </v-avatar>
+              </div>
+            </v-card>
           </v-col>
         </v-row>
       </v-container>
@@ -30,25 +66,33 @@ import _ from "lodash";
 import fm from "../../public/markdown/home.md";
 // import { EventBus } from "@/event-bus";
 export default {
-  components: {
-    HomePageContent: {
-      extends: fm.vue.component,
-      components: {}
-    }
-  },
   mixins: [handleClicks, generateToc],
   metaInfo() {
     return {
       title: this.$myApp.config.siteTitle
     };
   },
-  data() {
-    return {
-      title: fm.attributes.title,
-      loading: true,
-      fm,
-      cards: null
-    };
+  mounted() {
+    this.$ga.page({
+      page: this.$route.path,
+      title: this.title,
+      location: window.location.href
+    });
+    let cards = this.$myApp.siteMeta.filter(item => {
+      if (item.attributes.showAsCard) {
+        return item;
+      }
+    });
+
+    let sortedCards = _.orderBy(cards, "attributes.menuRank", "asc");
+    this.cards = sortedCards;
+    this.loading = false;
+  },
+  components: {
+    HomePageContent: {
+      extends: fm.vue.component,
+      components: {}
+    }
   },
   computed: {
     showToc() {
@@ -59,21 +103,13 @@ export default {
       }
     }
   },
-  mounted() {
-    // this.$ga.page({
-    //   page: this.$route.path,
-    //   title: this.title,
-    //   location: window.location.href
-    // });
-    let cards = this.$myApp.siteMeta.filter(item => {
-      if (item.attributes.showAsCard) {
-        return item;
-      }
-    });
-
-    let sortedCards = _.orderBy(cards, "attributes.menuRank", "asc");
-    this.cards = sortedCards;
-    this.loading = false;
+  data() {
+    return {
+      title: fm.attributes.title,
+      loading: true,
+      fm,
+      cards: null
+    };
   },
   methods: {
     closeSearch() {

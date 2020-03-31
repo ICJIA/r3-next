@@ -19,8 +19,6 @@ paths.forEach(path => {
   routeObj.meta.tocHeading = fileObj.data.tocHeading || fileObj.data.title;
   routeObj.meta.fileDownloadPath =
     fileObj.data.fileDownloadPath || `/downloads/`;
-  routeObj.meta.file = fileObj.data.file;
-  routeObj.meta.category = fileObj.data.category;
   routeObj.meta.showInSitemap = fileObj.data.showInSitemap;
   routeObj.meta.hideFromSearch = fileObj.data.hideFromSearch || false;
   routeObj.meta.updatedAt = fileObj.data.updatedAt || routeObj.meta.createdAt;

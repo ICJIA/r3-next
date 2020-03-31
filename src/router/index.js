@@ -18,7 +18,10 @@ const generatedRoutes = markdownRoutes.map(route => {
   //     import(/* webpackChunkName: "static" */ "../views/Home.vue");
   // }
   // console.log(route.path);
-  if (route.path === "/") {
+  if (route.path.includes("/funding/")) {
+    route.component = () =>
+      import(/* webpackChunkName: "page" */ "../views/Funding.vue");
+  } else if (route.path === "/") {
     route.component = () =>
       import(/* webpackChunkName: "static" */ "../views/Home.vue");
   } else {

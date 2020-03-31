@@ -4,7 +4,7 @@
       flat
       tile
       class="white--text text-center"
-      style="width: 100%; background: #235E8E; border-top: 1px solid #fff"
+      style="width: 100%; background: #ddd; border-top: 1px solid #fff"
     >
       <v-card-text>
         <span v-for="link in nav" :key="link.attributes.title" class="flexitem">
@@ -12,57 +12,50 @@
             <v-btn
               :to="link.path === '/home' ? '/' : `${link.path}`"
               text
-              dark
-              class="mr-1"
+              class=" mr-1"
               style="font-weight: 900 !important;"
               :aria-label="link.attributes.title"
             >
-              <span v-if="link.attributes.menuTitle" style="font-size: 12px">
-                {{ link.attributes.menuTitle }}
-              </span>
-              <span v-else style="font-size: 12px">
-                {{ link.attributes.title }}
-              </span>
+              <span v-if="link.attributes.menuTitle" style="font-size: 12px">{{
+                link.attributes.menuTitle
+              }}</span>
+              <span v-else style="font-size: 12px">{{
+                link.attributes.title
+              }}</span>
             </v-btn>
           </span>
         </span>
       </v-card-text>
     </v-card>
-    <v-card
-      flat
-      tile
-      class="text-center"
-      style="width: 100%; background: #0D4474"
-    >
+    <v-card flat tile class="text-center" style="width: 100%; background: #ddd">
       <v-divider />
 
       <v-card-text class="white--text">
-        <div style="font-size: 12px; color: #fff">
+        <div style="font-size: 12px; color: #333">
           &copy;&nbsp;{{ new Date().getFullYear() }}
           <strong>
-            <a href="http://icjia.illinois.gov" class="footer-link"
-              >Illinois Criminal Justice Information Authority</a
+            <a href="http://www.illinois.gov" class="footer-link"
+              >State of Illinois</a
             > </strong
           >&nbsp;|&nbsp;
           <strong>
             <a
-              href="https://archive.icjia.cloud"
+              href="https://www2.illinois.gov/sites/gov/Pages/default.aspx"
               target="_blank"
               class="footer-link"
               rel="noreferrer"
-              >ICJIA Document Archive</a
+              >Governor JB Pritzker</a
             > </strong
           >&nbsp;|&nbsp;
           <strong>
             <a
-              href="https://icjia.illinois.gov/status"
+              href="https://www2.illinois.gov/Pages/About/Privacy.aspx"
               target="_blank"
               class="footer-link"
               rel="noreferrer"
-              >Site Status</a
-            >
-          </strong>
-          &nbsp;|&nbsp;
+              >Privacy</a
+            > </strong
+          >&nbsp;|&nbsp;
           <strong>
             <a
               :href="`${$myApp.config.githubURL}`"
@@ -114,7 +107,7 @@ export default {
 
 <style>
 .footer-link {
-  color: #fff !important;
+  color: #333 !important;
   text-decoration: underline;
 }
 

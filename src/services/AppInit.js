@@ -1,6 +1,5 @@
 import config from "@/config.json";
 import searchIndex from "../../public/searchIndex.json";
-import _ from "lodash";
 
 const computedPublicPath =
   process.env.NODE_ENV === `production` ? config.publicPath : "";
@@ -21,35 +20,37 @@ const siteMeta = context.keys().map(key => ({
   root: `${getSection(key)}`
 }));
 
+const fundingContext = require.context(
+  "../../public/markdown/funding/",
+  true,
+  /\.md$/
+);
+const fundingItems = fundingContext.keys().map(key => ({
+  ...fundingContext(key),
+  path: `/funding/${key.replace(".md", "").replace("./", "")}`
+}));
 //console.log(funding);
-
-let categories = [];
-siteMeta.forEach(item => {
-  if (item.root === "/news") {
-    categories.push(item.attributes.category);
-  }
-});
-let filteredCategories = Array.from(new Set(categories)).sort();
-
-let news = siteMeta.filter(item => {
-  if (item.root === "/news") {
+let funding = fundingItems.filter(item => {
+  if (item.path.indexOf("placeholder") === -1) {
     return item;
   }
 });
 
-news = _.sortBy(news, function(dateObj) {
-  return new Date(dateObj.attributes.posted);
-}).reverse();
+let colors = {
+  blue: ["#103f7c", "#103f7c"],
 
-//console.log(news);
+  red: ["#630308", "#630308"]
+};
+
+//console.log(funding);
 
 let myApp = {
   config,
   searchIndex,
   computedPublicPath,
   siteMeta,
-  categories: filteredCategories,
-  news
+  funding,
+  colors
 };
 
 export { myApp };

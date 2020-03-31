@@ -14,9 +14,7 @@
                 <h1
                   :id="slugify(title)"
                   style="font-weight: 900; border-bottom: 1px solid #ccc; padding-bottom: 5px;"
-                >
-                  {{ title }}
-                </h1>
+                >{{ title }}</h1>
               </v-col>
             </v-row>
           </v-container>
@@ -40,19 +38,8 @@
                   @hook:mounted="scrollTo"
                 />
               </v-col>
-              <v-col
-                v-if="showToc"
-                cols="12"
-                sm="12"
-                md="3"
-                order-md="2"
-                order="1"
-                order-sm="1"
-              >
-                <Toc
-                  :toc="$route.meta.toc"
-                  :tocHeading="$route.meta.tocHeading"
-                ></Toc>
+              <v-col v-if="showToc" cols="12" sm="12" md="3" order-md="2" order="1" order-sm="1">
+                <Toc :toc="$route.meta.toc" :tocHeading="$route.meta.tocHeading"></Toc>
               </v-col>
             </v-row>
           </v-container>
@@ -119,11 +106,11 @@ export default {
             // console.log(this.html);
             this.contentFetched = true;
 
-            // this.$ga.page({
-            //   page: this.$route.path,
-            //   title: this.title,
-            //   location: window.location.href
-            // });
+            this.$ga.page({
+              page: this.$route.path,
+              title: this.title,
+              location: window.location.href
+            });
 
             return {
               extends: fmd.vue.component
