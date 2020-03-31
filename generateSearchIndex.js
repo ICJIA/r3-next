@@ -9,6 +9,8 @@ let searchIndex = routes.map(route => {
     let obj = {
       type: "page",
       path: route.path,
+      category: route.meta.category,
+      file: route.meta.file,
       name: route.name,
       title: route.meta.title,
       summary: route.meta.summary,

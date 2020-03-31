@@ -1,17 +1,17 @@
 {
-  "name": "illinois-r3",
-  "version": "0.1.4",
-  "description": "Restore, Reinvest, and Renew (R3)",
+  "name": "icjia-updates",
+  "version": "0.1.0",
+  "description": "ICJIA Updates",
   "author": {
     "name": "Illinois Criminal Justice Information Authority",
     "email": "christopher.schweda@illinois.gov"
   },
   "license": "MIT",
-  "homepage": "https://r3.illinois.gov/",
+  "homepage": "https://icjia.illinois.gov/dev",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ICJIA/r3-next"
+    "url": "https://github.com/ICJIA/icjia-updates"
   },
   "scripts": {
     "serve": "node generateRoutes && node generateSitemap && node generateSearchIndex && vue-cli-service serve",
