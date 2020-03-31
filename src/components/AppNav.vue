@@ -1,13 +1,23 @@
 <template>
   <div>
-    <v-app-bar app clipped-left :flat="flat" color="white" height="90" elevate-on-scroll>
-      <v-app-bar-nav-icon @click="toggleDrawer" aria-label="Click to toggle menu" />
+    <v-app-bar
+      app
+      clipped-left
+      :flat="flat"
+      color="white"
+      height="90"
+      elevate-on-scroll
+    >
+      <!-- <v-app-bar-nav-icon
+        @click="toggleDrawer"
+        aria-label="Click to toggle menu"
+      /> -->
       <div class="d-flex align-center">
         <v-img
           alt="Vuetify Logo"
           class="shrink ml-2 mr-2 hover hidden-xs-and-down"
           contain
-          :src="require('@/assets/img/state-seal-color.png')"
+          :src="require('../../public/icjia-logo.png')"
           transition="scale-transition"
           :width="logoWidth()"
           @click="
@@ -32,54 +42,15 @@
               $vuetify.goTo(0);
             })
           "
-        >{{ appTitle }}</div>
+        >
+          {{ appTitle }}
+        </div>
       </div>
       <v-spacer></v-spacer>
 
-      <v-btn text style="font-weight: 900" aria-label="Home" class="hidden-sm-and-down" to="/">
+      <!-- <v-btn text style="font-weight: 900" aria-label="Home" class="hidden-sm-and-down" to="/">
         <span style="font-size: 12px">Home</span>
-      </v-btn>
-
-      <v-menu offset-y left transition="slide-y-transition" max-width="500">
-        <template v-slot:activator="{ on }">
-          <v-btn
-            text
-            style="font-weight: 900"
-            aria-label="Apply Now"
-            v-on="on"
-            class="hidden-sm-and-down"
-          >
-            <span style="font-size: 12px">Apply Now</span>
-            <v-icon right small>arrow_drop_down</v-icon>
-          </v-btn>
-        </template>
-
-        <v-list>
-          <v-list-item
-            v-for="item in $myApp.funding"
-            :key="item.attributes.title"
-            @click="
-              $router.push(item.path).catch(err => {
-                $vuetify.goTo(0);
-              })
-            "
-          >
-            <v-list-item-content class="py-5">
-              <v-list-item-title
-                style="font-weight: 900; padding-left: 10px; "
-              >{{ item.attributes.title }}</v-list-item-title>
-              <div
-                class="ml-5 mt-1 pr-3"
-                style="color: #888; font-size: 14px; "
-              >{{ item.attributes.summary }}</div>
-              <div
-                class="mr-5 mt-1 text-right"
-                style="color: #333; font-size: 12px; font-weight: bold "
-              >Deadline: {{ item.attributes.expires | format }}</div>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
-      </v-menu>
+      </v-btn>-->
 
       <v-btn
         :to="link.path === '/home' ? '/' : `${link.path}`"
@@ -90,11 +61,9 @@
         v-for="link in nav"
         :key="link.attributes.title"
       >
-        <span v-if="link.attributes.menuTitle" style="font-size: 12px">
-          {{
+        <span v-if="link.attributes.menuTitle" style="font-size: 12px">{{
           link.attributes.menuTitle
-          }}
-        </span>
+        }}</span>
         <span v-else style="font-size: 12px">{{ link.attributes.title }}</span>
       </v-btn>
 
@@ -181,7 +150,7 @@ export default {
       if (this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.sm) {
         return 45;
       } else {
-        return 50;
+        return 80;
       }
     }
   }
