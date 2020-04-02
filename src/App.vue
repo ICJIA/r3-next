@@ -32,8 +32,12 @@
 
     <v-content>
       <Corona ref="alert" />
+      <!-- <Language></Language> -->
       <transition name="fade" mode="out-in">
-        <router-view @click="closeElements()" :key="$route.fullPath"></router-view>
+        <router-view
+          @click="closeElements()"
+          :key="$route.fullPath"
+        ></router-view>
       </transition>
     </v-content>
     <AppFooter :siteMeta="$myApp.siteMeta" v-if="!loading"></AppFooter>

@@ -11,6 +11,7 @@ menuTitle: "Eligibility"
 summary: "Find out if you're eligible to apply for R3 funding."
 showAsCard: true
 cardIcon: "thumb_up_alt"
+lang: "en"
 ---
 
 ## Eligible Applicants

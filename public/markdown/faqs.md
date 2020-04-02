@@ -10,6 +10,7 @@ menuTitle: "FAQs"
 summary: "Frequently Asked Questions about R3 funding."
 showAsCard: true
 cardIcon: "not_listed_location"
+lang: "en"
 ---
 
 ## R3 Grants

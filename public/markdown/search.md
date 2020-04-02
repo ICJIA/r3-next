@@ -9,6 +9,7 @@ showToc: false
 menuRank: 9999
 dividerBefore: true
 showAsCard: false
+lang: "en"
 ---
 
 <Search :resultLimit="1000" :resultAsNav="false" :focus="true"></Search>

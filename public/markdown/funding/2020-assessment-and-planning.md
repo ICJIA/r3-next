@@ -8,6 +8,7 @@ showInSitemap: true
 image: "splash-12.jpg"
 imageLazyLoad: "splash-12-tiny.jpg"
 expires: "2020-05-01"
+lang: "en"
 ---
 
 <div data-title="About this Funding Opportunity" data-summary="">

@@ -10,6 +10,7 @@ menuTitle: "Apply Now"
 summary: "Current funding opportunities"
 showAsCard: false
 dividerBefore: true
+lang: "en"
 ---
 
 <NofoList/>

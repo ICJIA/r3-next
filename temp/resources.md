@@ -9,6 +9,7 @@ menuRank: 50
 summary: "R3 Resources and Analysis."
 showAsCard: true
 cardIcon: "category"
+lang: "en"
 ---
 
 ## Helpful Links
@@ -22,8 +23,6 @@ cardIcon: "category"
 - Complete registration in the [GATA Grantee Portal](https://grants.illinois.gov/portal/)
 
 ### ICJIA YouTube links
-
-<div style="margin-left: 20px">
 
 - [NOFO General Requirements](https://www.youtube.com/watch?v=PBwekeMT5dk)
 
@@ -61,15 +60,15 @@ cardIcon: "category"
 
 For questions regarding the Assessment and Planning NOFO:
 
-- CJA.R3Planning@illinois.gov
+ - CJA.R3Planning@illinois.gov
 
 For questions regarding the Service Delivery NOFO:
 
-- CJA.R3Service@illinois.gov
+ - CJA.R3Service@illinois.gov
 
 For general questions regarding the R3 program:
 
-- Mitchell.Troup2@illinois.gov
+ - Mitchell.Troup2@illinois.gov
 
 </div>
 

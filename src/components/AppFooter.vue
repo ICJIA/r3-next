@@ -7,7 +7,7 @@
       style="width: 100%; background: #ddd; border-top: 1px solid #fff"
     >
       <v-card-text>
-        <span v-for="link in nav" :key="link.attributes.title" class="flexitem">
+        <span v-for="(link, index) in nav" :key="index" class="flexitem">
           <span>
             <v-btn
               :to="link.path === '/home' ? '/' : `${link.path}`"

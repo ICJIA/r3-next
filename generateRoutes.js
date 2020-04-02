@@ -15,6 +15,14 @@ paths.forEach(path => {
   routeObj.meta = {};
   routeObj.meta.toc = toc(fileObj.content).json;
   routeObj.meta.title = fileObj.data.title || "Untitled";
+  routeObj.meta.lang = fileObj.data.lang;
+  if (routeObj.path.includes("-sp")) {
+    routeObj.meta.sp = routeObj.path;
+    routeObj.meta.en = routeObj.path.replace("-sp", "");
+  } else {
+    routeObj.meta.en = routeObj.path;
+    routeObj.meta.sp = routeObj.path + "-sp";
+  }
   routeObj.meta.hideScrollToTop = fileObj.data.hideScrollToTop || false;
   routeObj.meta.tocHeading = fileObj.data.tocHeading || fileObj.data.title;
   routeObj.meta.fileDownloadPath =
