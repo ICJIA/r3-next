@@ -33,6 +33,7 @@
     <v-content>
       <Corona ref="alert" />
       <!-- <Language></Language> -->
+      <!-- <Translate></Translate> -->
       <transition name="fade" mode="out-in">
         <router-view
           @click="closeElements()"

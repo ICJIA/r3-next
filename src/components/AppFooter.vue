@@ -27,10 +27,14 @@
         </span>
       </v-card-text>
     </v-card>
+
     <v-card flat tile class="text-center" style="width: 100%; background: #ddd">
       <v-divider />
 
       <v-card-text class="white--text">
+        <div class="mt-1 mb-4">
+          <Translate></Translate>
+        </div>
         <div style="font-size: 12px; color: #333">
           &copy;&nbsp;{{ new Date().getFullYear() }}
           <strong>
