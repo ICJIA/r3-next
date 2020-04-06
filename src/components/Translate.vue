@@ -82,9 +82,9 @@ export default {
   font-weight: normal;
 }
 .download {
-  background-color: #bbb;
+  background-color: #283593;
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-weight: 900;
   font-size: 10px;
   padding: 1px 5px;
@@ -94,11 +94,11 @@ export default {
   cursor: pointer;
 }
 
-/* .download:hover {
-  background-color: #333;
+.download:hover {
+  background-color: #536dfe;
 
   color: #eee;
-} */
+}
 
 select.isRtl {
   direction: rtl;
