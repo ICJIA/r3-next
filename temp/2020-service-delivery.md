@@ -5,10 +5,9 @@ showOnHome: true
 icon: "far fa-hands-heart"
 accent: "red"
 showInSitemap: true
-image: "splash-13.jpg"
-imageLazyLoad: "splash-13-mini.jpg"
+image: "splash-03.jpg"
+imageLazyLoad: "splash-03-tiny.jpg"
 expires: "2020-05-01"
-lang: "en"
 ---
 
 <div data-title="About this Funding Opportunity" data-summary="">
@@ -43,11 +42,11 @@ Priority will be given to applicants who are from the community and can demonstr
 
 <div data-title="Completing the Application" data-summary="">
 
-- [Download and complete the Application](https://icjia.illinois.gov/gata)
+- [Download and complete the Application](https://icjia.illinois.gov/grants)
 
-- [Download and complete the Program Narrative](https://icjia.illinois.gov/gata)
+- [Download and complete the Program Narrative](https://icjia.illinois.gov/grants)
 
-- [Download and complete the Budget](https://icjia.illinois.gov/gata)
+- [Download and complete the Budget](https://icjia.illinois.gov/grants)
 
 - If applying as a collaborative (see more at this [link](/collaboratives)), gather signed Letters of Commitment and/or Memoranda of Understanding from each member of the collaborative. See [examples here](https://icjia.illinois.gov/grants).
 

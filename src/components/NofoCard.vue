@@ -3,7 +3,7 @@
     <v-card
       class="hoverCard"
       @click="
-        $router.push(item.path).catch(err => {
+        $router.push(item.path).catch((err) => {
           $vuetify.goTo(0);
         })
       "
@@ -51,23 +51,23 @@ export default {
   props: {
     item: {
       type: Object,
-      default: () => {}
+      default: () => {},
     },
     hidePhoto: {
       type: Boolean,
-      default: false
+      default: false,
     },
     data: () => ({
-      overlay: false
-    })
+      overlay: false,
+    }),
   },
   methods: {
     getBackground() {
       let colorArr = this.$myApp.colors[this.item.attributes.accent];
       // last element in color array is darkest
       return colorArr[colorArr.length - 1];
-    }
-  }
+    },
+  },
 };
 </script>
 

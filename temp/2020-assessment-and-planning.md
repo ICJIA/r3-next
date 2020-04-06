@@ -1,29 +1,26 @@
 ---
-title: "Service Delivery"
-summary: "Grants to provide services to repair the harm caused by economic disinvestment, violence, and the war on drugs "
+title: "Assessment and Planning"
+summary: "Grants to develop a plan to address community concerns about poverty, safety, and well-being"
 showOnHome: true
-icon: "far fa-hands-heart"
-accent: "red"
+icon: "far fa-compass"
+accent: "blue"
 showInSitemap: true
-image: "splash-13.jpg"
-imageLazyLoad: "splash-13-mini.jpg"
+image: "splash-06.jpg"
+imageLazyLoad: "splash-06-tiny.jpg"
 expires: "2020-05-01"
-lang: "en"
 ---
 
 <div data-title="About this Funding Opportunity" data-summary="">
 
-Do you provide services through an existing program in your community or do you have a plan for a program to address issues in your community?
+Do you want lead your community in determining the best approach to addressing issues in your community?
 
-Service Delivery grants will support organizations that provide economic development, violence prevention, reentry, youth development, and civil legal aid services.
+Assessment and Planning grants will support community organizations or Collaboratives (groups of organizations) to assess community needs and develop a plan for delivery of economic development, violence prevention, re-entry, youth development, and civil legal aid services.
 
 Applicants must describe:
 
-- Community need.
+- How an assessment and planning process would help them identify community needs, develop a strategic plan to provide services, build capacity of community organizations, and strengthen partnerships between organizations.
 
-- How the proposed program or service will meet the needs of the community.
-
-- Community partnerships that will help fulfill the proposed program’s goals and objectives.
+- How they will involve community members in the planning process.
 
 Priority will be given to applicants who are from the community and can demonstrate knowledge of community needs and priorities.
 
@@ -43,11 +40,11 @@ Priority will be given to applicants who are from the community and can demonstr
 
 <div data-title="Completing the Application" data-summary="">
 
-- [Download and complete the Application](https://icjia.illinois.gov/gata)
+- [Download and complete the Application](https://icjia.illinois.gov/grants)
 
-- [Download and complete the Program Narrative](https://icjia.illinois.gov/gata)
+- [Download and complete the Program Narrative](https://icjia.illinois.gov/grants)
 
-- [Download and complete the Budget](https://icjia.illinois.gov/gata)
+- [Download and complete the Budget](https://icjia.illinois.gov/grants)
 
 - If applying as a collaborative (see more at this [link](/collaboratives)), gather signed Letters of Commitment and/or Memoranda of Understanding from each member of the collaborative. See [examples here](https://icjia.illinois.gov/grants).
 
@@ -57,7 +54,7 @@ Priority will be given to applicants who are from the community and can demonstr
 
 - Sign, date, and scan the Application into a PDF document
 
-- Send all of the documents below to CJA.R3SERVICE@illinois.gov. **Documents must be received by 5/1/2020 at 11:59 pm**.
+- Send all of the documents below to CJA.R3PLANNING@Illinois.gov. **Documents must be received by 5/1/2020 at 11:59 pm**.
 
   - PDF version of Application (signed and dated)
 
