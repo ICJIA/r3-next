@@ -28,7 +28,7 @@
       </v-card-text>
     </v-card>
 
-    <v-card flat tile class="text-center" style="width: 100%; background: #ddd">
+    <v-card flat tile class="text-center" style="width: 100%; background: #ccc">
       <v-divider />
 
       <v-card-text class="white--text">
@@ -81,12 +81,12 @@ export default {
   data: () => ({
     icons: ["fab fa-facebook", "fab fa-twitter"],
     loading: true,
-    nav: []
+    nav: [],
   }),
 
   created() {
     let nav = [];
-    this.siteMeta.forEach(item => {
+    this.siteMeta.forEach((item) => {
       if (item.attributes.showInFooter) nav.push(item);
     });
     let sortedNav = _.orderBy(nav, ["attributes.menuRank"], ["asc"]);
@@ -98,14 +98,14 @@ export default {
     getPath(link) {
       console.log(link.path);
       return "/";
-    }
+    },
   },
   props: {
     siteMeta: {
       type: Array,
-      default: () => []
-    }
-  }
+      default: () => [],
+    },
+  },
 };
 </script>
 
