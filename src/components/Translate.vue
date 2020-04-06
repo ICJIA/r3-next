@@ -29,13 +29,14 @@ export default {
       var myValRef = this.$refs.select;
       let myVal = myValRef.options[myValRef.selectedIndex].value;
       if (myVal === "") return;
-      console.log(myVal);
-      location.href = `/downloads/translate/${myVal}`;
-    }
+      //console.log(myVal);
+      //location.href = `/downloads/translate/${myVal}`;
+      window.open(`/downloads/translate/${myVal}`, "_blank");
+    },
   },
   data() {
     return {};
-  }
+  },
 };
 </script>
 
