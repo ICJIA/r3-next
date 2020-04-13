@@ -3,6 +3,7 @@
     <!--<home-carousel></home-carousel>-->
 
     <home-boxes></home-boxes>
+    <video-embed></video-embed>
     <div style="background: #fff" id="learn-more">
       <v-container class="markdown-body">
         <v-row>
