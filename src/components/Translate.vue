@@ -7,11 +7,11 @@
       <option value="TranslateEn.pdf">How to translate from English</option>
       <option value="TranslateSp.pdf">Cómo traducir al español</option>
       <option value="TranslatePo.pdf">Jak tłumaczyć na język polski</option>
-      <option value="TranslateCh.pdf">如何翻译成中文</option>
+      <!-- <option value="TranslateCh.pdf">如何翻译成中文</option>
       <option value="TranslateFi.pdf">Paano isalin sa wikang Pilipino</option>
       <option value="TranslateAr.pdf" class="rtl">
         كيف تترجم إلى اللغة العربية</option
-      >
+      > -->
     </select>
     <input
       class="download ml-3"
@@ -32,11 +32,11 @@ export default {
       //console.log(myVal);
       //location.href = `/downloads/translate/${myVal}`;
       window.open(`/downloads/translate/${myVal}`, "_blank");
-    },
+    }
   },
   data() {
     return {};
-  },
+  }
 };
 </script>
 
