@@ -7,11 +7,6 @@
       <option value="TranslateEn.pdf">How to translate from English</option>
       <option value="TranslateSp.pdf">Cómo traducir al español</option>
       <option value="TranslatePo.pdf">Jak tłumaczyć na język polski</option>
-      <!-- <option value="TranslateCh.pdf">如何翻译成中文</option>
-      <option value="TranslateFi.pdf">Paano isalin sa wikang Pilipino</option>
-      <option value="TranslateAr.pdf" class="rtl">
-        كيف تترجم إلى اللغة العربية</option
-      > -->
     </select>
     <input
       class="download ml-3"
@@ -82,7 +77,7 @@ export default {
   font-weight: normal;
 }
 .download {
-  background-color: #283593;
+  background-color: #03588c;
   text-decoration: none;
   color: #fff;
   font-weight: 900;
@@ -95,9 +90,9 @@ export default {
 }
 
 .download:hover {
-  background-color: #536dfe;
+  background-color: #eee;
 
-  color: #eee;
+  color: #333;
 }
 
 select.isRtl {
