@@ -33,6 +33,7 @@
     "front-matter": "^3.1.0",
     "fuse.js": "^3.4.6",
     "gray-matter": "^4.0.2",
+    "jquery": "^3.5.0",
     "lazy-cache": "^2.0.2",
     "list-item": "^1.1.1",
     "markdown-it": "^10.0.0",

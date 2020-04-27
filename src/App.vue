@@ -108,6 +108,8 @@ export default {
   },
   async mounted() {
     //console.log(`computed public path: ${this.$myApp.computedPublicPath}`);
+
+    console.log($().jquery);
   },
   async created() {
     this.loading = true;

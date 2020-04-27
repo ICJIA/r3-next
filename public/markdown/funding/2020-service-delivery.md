@@ -7,7 +7,7 @@ accent: "red"
 showInSitemap: true
 image: "splash-13.jpg"
 imageLazyLoad: "splash-13-mini.jpg"
-expires: "2020-05-01"
+expires: "2020-07-01"
 lang: "en"
 ---
 

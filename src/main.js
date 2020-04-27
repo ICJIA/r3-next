@@ -8,6 +8,7 @@ import "@/assets/css/github-markdown.css";
 import "@/assets/css/app.css";
 import "@/filters";
 import "material-design-icons-iconfont/dist/material-design-icons.css";
+
 const NProgress = require("nprogress");
 (function() {
   if (typeof NodeList.prototype.forEach === "function") return false;
