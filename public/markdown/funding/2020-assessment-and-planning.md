@@ -69,7 +69,7 @@ Priority will be given to applicants who are from the community and can demonstr
 
   - Single applicants and responsible applicants applying on behalf of a collaborative should include in the application materials their determination letter of 501(c)(3) status from the IRS or equivalent documentation.
 
-<div style="background: #ddd; padding: 30px; border: 1px solid #bbb; font-weight: bold; margin-top: 50px;" class="text-left">For more information, please
+<div style="background: #ddd; padding: 30px; border: 1px solid #bbb; font-weight: bold; margin-top: 50px;" class="text-center">For more information, please
 <a href="https://icjia.illinois.gov/grants">click here to go to the full Notice of Funding Opportunity</a></div>
 
 </div>
