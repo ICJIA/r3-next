@@ -26,6 +26,7 @@ export default {
   mounted() {
     //console.log(this.$browserDetect.isIE);
   },
+ 
   props: {
     loading: {
       type: Boolean,
