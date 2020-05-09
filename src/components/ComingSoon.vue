@@ -15,8 +15,8 @@
             style="margin: 0 !important; padding: 0 !important;"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
-                <h1 class="nofo-title mt-0 mb-8" style="font-size: 48px;">
+              <div class="text-center px-8" style="min-width: 300px;">
+                <h1 class="nofo-title mt-0 mb-8" style="font-size: 40px;">
                   Restore, Reinvest, and Renew (R3)
                 </h1>
                 <div class="nofo-tagline">
