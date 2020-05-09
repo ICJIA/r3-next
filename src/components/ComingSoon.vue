@@ -1,11 +1,11 @@
 <template>
-  <div class="px-12 py-6 full-width">
-    <v-card class="hoverCard">
+  <div class="full-width">
+    <v-card class="">
       <v-img
         src="../../public/splash-11.jpg"
         aspect-ratio="1"
         class="grey lighten-2 py-12"
-        height="960px"
+        height="960"
       >
         <v-overlay absolute opacity=".6" :color="getBackground('blue')">
           <v-container
@@ -15,8 +15,8 @@
             style="margin: 0 !important; padding: 0 !important;"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
-                <h1 class="nofo-title mt-3 mb-8" style="font-size: 48px;">
+              <div class="text-center px-5" style="min-width: 400px;">
+                <h1 class="nofo-title mt-0 mb-8" style="font-size: 60px;">
                   Restore, Reinvest, and Renew (R3)
                 </h1>
                 <div class="nofo-tagline">
@@ -25,8 +25,8 @@
                   disinvestment.
                 </div>
                 <div
-                  class="mt-8"
-                  style="font-size: 30px;  font-weight: bold; color: #ccc"
+                  class="mt-12"
+                  style="font-size: 36px;  font-weight: bold; color: #ccc"
                 >
                   COMING SOON
                 </div>

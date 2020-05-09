@@ -1,6 +1,6 @@
 <template>
   <v-app id="keep">
-    <AppNavMin :siteMeta="$myApp.siteMeta" v-if="!loading"></AppNavMin>
+    <!-- <AppNavMin :siteMeta="$myApp.siteMeta" v-if="!loading"></AppNavMin> -->
 
     <!-- <AppSidebar :siteMeta="$myApp.siteMeta" v-if="!loading"></AppSidebar>
     <v-fab-transition>
@@ -21,14 +21,14 @@
         <v-icon>keyboard_arrow_up</v-icon>
       </v-btn>
     </v-fab-transition> -->
-    <Outdated
+    <!-- <Outdated
       v-if="
         !loading &&
           $store.state &&
           !$store.state.warningSeen &&
           $browserDetect.isIE
       "
-    ></Outdated>
+    ></Outdated> -->
 
     <!-- <v-content>
       <Corona ref="alert" />
@@ -41,9 +41,9 @@
       </transition>
     </v-content> -->
     <!-- <AppFooter :siteMeta="$myApp.siteMeta" v-if="!loading"></AppFooter> -->
-     <v-content>
-    <ComingSoon style="width: 110%; margin-left: -50px; margin-top: -20px;"></ComingSoon>
-     </v-content>
+    <v-content>
+      <ComingSoon></ComingSoon>
+    </v-content>
   </v-app>
 </template>
 
