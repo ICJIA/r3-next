@@ -5,7 +5,7 @@
         src="../../public/splash-11.jpg"
         aspect-ratio="1"
         class="grey lighten-2 py-12"
-        height="960"
+        height="100vh"
       >
         <v-overlay absolute opacity=".6" :color="getBackground('blue')">
           <v-container
