@@ -96,8 +96,16 @@
               <div
                 class="mr-5 mt-1 text-right"
                 style="color: #333; font-size: 12px; font-weight: bold "
+                v-if="!item.attributes.expires"
               >
                 Deadline: {{ item.attributes.expires | format }}
+              </div>
+              <div
+                class="mr-5 mt-1 text-right"
+                style="color: #333; font-size: 12px; font-weight: bold "
+                v-else
+              >
+                Coming Soon
               </div>
             </v-list-item-content>
           </v-list-item>
