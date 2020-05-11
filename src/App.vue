@@ -1,8 +1,8 @@
 <template>
   <v-app id="keep">
-    <!-- <AppNavMin :siteMeta="$myApp.siteMeta" v-if="!loading"></AppNavMin> -->
+    <AppNav :siteMeta="$myApp.siteMeta" v-if="!loading"></AppNav>
 
-    <!-- <AppSidebar :siteMeta="$myApp.siteMeta" v-if="!loading"></AppSidebar>
+    <AppSidebar :siteMeta="$myApp.siteMeta" v-if="!loading"></AppSidebar>
     <v-fab-transition>
       <v-btn
         v-scroll="onScroll"
@@ -20,30 +20,28 @@
       >
         <v-icon>keyboard_arrow_up</v-icon>
       </v-btn>
-    </v-fab-transition> -->
-    <!-- <Outdated
+    </v-fab-transition>
+    <Outdated
       v-if="
         !loading &&
           $store.state &&
           !$store.state.warningSeen &&
           $browserDetect.isIE
       "
-    ></Outdated> -->
+    ></Outdated>
 
-    <!-- <v-content>
+    <v-content>
       <Corona ref="alert" />
-      
+      <!-- <Language></Language> -->
+      <!-- <Translate></Translate> -->
       <transition name="fade" mode="out-in">
         <router-view
           @click="closeElements()"
           :key="$route.fullPath"
         ></router-view>
       </transition>
-    </v-content> -->
-    <!-- <AppFooter :siteMeta="$myApp.siteMeta" v-if="!loading"></AppFooter> -->
-    <v-content>
-      <ComingSoon></ComingSoon>
     </v-content>
+    <AppFooter :siteMeta="$myApp.siteMeta" v-if="!loading"></AppFooter>
   </v-app>
 </template>
 

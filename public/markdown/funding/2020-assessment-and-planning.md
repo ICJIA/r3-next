@@ -7,8 +7,9 @@ accent: "blue"
 showInSitemap: true
 image: "splash-12.jpg"
 imageLazyLoad: "splash-12-tiny.jpg"
-expires: "2020-07-01"
+expires: "2020-07-20"
 lang: "en"
+comingSoon: true
 ---
 
 <div data-title="About this Funding Opportunity" data-summary="">
@@ -29,7 +30,7 @@ Priority will be given to applicants who are from the community and can demonstr
 
 <div data-title="Getting Started" data-summary="">
 
-- Register your organization in the [Grantee Portal](https://grants.illinois.gov/portal/) (if you have not registered in the past)
+- Register your organization in the [Grantee Portal](/soonPlanning) (if you have not registered in the past and if you are a single applicant or responsible applicant submitting an application on behalf of a collaborative)
 
 - Think through your proposed project
 
@@ -41,13 +42,13 @@ Priority will be given to applicants who are from the community and can demonstr
 
 <div data-title="Completing the Application" data-summary="">
 
-- [Download and complete the Application](https://icjia.illinois.gov/gata)
+- [Download and complete the Application](/soonPlanning)
 
-- [Download and complete the Program Narrative](https://icjia.illinois.gov/gata)
+- [Download and complete the Program Narrative](/soonPlanning)
 
-- [Download and complete the Budget](https://icjia.illinois.gov/gata)
+- [Download and complete the Budget](/soonPlanning)
 
-- If applying as a collaborative (see more at this [link](/collaboratives)), gather signed Letters of Commitment and/or Memoranda of Understanding from each member of the collaborative. See [examples here](https://icjia.illinois.gov/grants).
+- If applying as a collaborative (see more at this [link](/collaboratives)), gather signed Letters of Commitment and/or Memoranda of Understanding from each member of the collaborative. See [examples here](/soonPlanning).
 
 </div>
 
@@ -55,7 +56,7 @@ Priority will be given to applicants who are from the community and can demonstr
 
 - Sign, date, and scan the Application into a PDF document
 
-- Send all of the documents below to CJA.R3PLANNING@Illinois.gov. **Documents must be received by 5/1/2020 at 11:59 pm**.
+- Send all of the documents below to CJA.R3PLANNING@Illinois.gov. **Documents must be received by 7/20/2020 at 11:59 pm**.
 
   - PDF version of Application (signed and dated)
 
@@ -67,9 +68,9 @@ Priority will be given to applicants who are from the community and can demonstr
 
   - Signed and dated LOCs and MOUs if applying as a collaborative
 
-  - Single applicants and responsible applicants applying on behalf of a collaborative should include in the application materials their determination letter of 501(c)(3) status from the IRS or equivalent documentation.
+  - Nonprofit organizations with 501(c)(3) status should include in the application materials their determination letter of 501(c)(3) status from the IRS or equivalent documentation.
 
-<div style="background: #ddd; padding: 30px; border: 1px solid #bbb; font-weight: bold; margin-top: 50px;" class="text-center">For more information, please
-<a href="https://icjia.illinois.gov/grants">click here to go to the full Notice of Funding Opportunity</a></div>
+<div style="background: #ddd; padding: 30px; border: 1px solid #bbb; font-weight: bold; margin-top: 50px;" class="text-left">For more information, please
+<a href="/soonPlanning">click here to go to the full Notice of Funding Opportunity</a></div>
 
 </div>

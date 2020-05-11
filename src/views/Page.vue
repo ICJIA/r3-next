@@ -7,7 +7,7 @@
         :loading="false"
         @click.native="closeSearch()"
       >
-        <template v-slot:title>
+        <template v-slot:title v-if="!hideTitleOnPage">
           <v-container>
             <v-row class="text-left">
               <v-col cols="12" sm="12" :md="dynamicFlex()">
@@ -90,7 +90,8 @@ export default {
       contentFetched: false,
       about: "",
       html: "",
-      showToc: false
+      showToc: false,
+      hideTitleOnPage: false
     };
   },
   created() {
@@ -115,6 +116,7 @@ export default {
             this.tocSelectors = fmd.attributes.tocSelectors;
             this.tocHeaders = fmd.attributes.tocHeaders;
             this.markdown = fmd.body;
+            this.hideTitleOnPage = fmd.attributes.hideTitleOnPage;
             this.html = fmd.html;
             // console.log(this.html);
             this.contentFetched = true;

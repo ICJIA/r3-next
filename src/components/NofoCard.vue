@@ -3,7 +3,7 @@
     <v-card
       class="hoverCard"
       @click="
-        $router.push(item.path).catch((err) => {
+        $router.push(item.path).catch(err => {
           $vuetify.goTo(0);
         })
       "
@@ -36,7 +36,16 @@
                 <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
                   Deadline: {{ item.attributes.expires | format }}
                 </div>
-                <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
+                <v-btn
+                  class="mt-6"
+                  outlined
+                  color="white"
+                  v-if="item.attributes.comingSoon"
+                  >Coming Soon</v-btn
+                >
+                <v-btn class="mt-6" outlined color="white" v-else
+                  >Apply Now</v-btn
+                >
               </div>
             </v-row>
           </v-container>
@@ -51,23 +60,23 @@ export default {
   props: {
     item: {
       type: Object,
-      default: () => {},
+      default: () => {}
     },
     hidePhoto: {
       type: Boolean,
-      default: false,
+      default: false
     },
     data: () => ({
-      overlay: false,
-    }),
+      overlay: false
+    })
   },
   methods: {
     getBackground() {
       let colorArr = this.$myApp.colors[this.item.attributes.accent];
       // last element in color array is darkest
       return colorArr[colorArr.length - 1];
-    },
-  },
+    }
+  }
 };
 </script>
 

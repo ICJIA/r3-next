@@ -39,9 +39,7 @@
     </v-container>
   </v-img>
 </template>
-We’re aware of current issues affecting the Eventbrite site and our operations
-team is working to restore service as quickly as possible. We apologize for any
-inconvenience and appreciate your patience.
+
 <script>
 export default {
   data() {

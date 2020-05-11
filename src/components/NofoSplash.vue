@@ -18,6 +18,7 @@
             <!-- <v-avatar class="ma-3" size="105" tile>
               <v-icon>{{ icon }} </v-icon>
             </v-avatar> -->
+
             <h1 class="nofo-title mt-3">
               {{ `${title.toUpperCase()}` }}
             </h1>
@@ -26,6 +27,13 @@
             </div>
             <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
               Deadline: {{ expires | format }}
+            </div>
+            <div
+              class="mt-6"
+              style="font-size: 24px;  font-weight: bold;"
+              v-if="comingSoon"
+            >
+              COMING SOON
             </div>
           </div>
         </v-row>
@@ -42,39 +50,43 @@ export default {
   methods: {
     getBackground() {
       return this.colors[this.colors.length - 1];
-    },
+    }
   },
   mounted() {},
   props: {
     title: {
       type: String,
-      default: "NOFO TITLE HERE",
+      default: "NOFO TITLE HERE"
     },
     summary: {
       type: String,
-      default: "Nofo summary here",
+      default: "Nofo summary here"
     },
     icon: {
       type: String,
-      default: "",
+      default: ""
     },
     colors: {
       type: Array,
-      default: () => [],
+      default: () => []
     },
     image: {
       type: String,
-      default: "splash-03.jpg",
+      default: "splash-03.jpg"
     },
     imageLazyLoad: {
       type: String,
-      default: "splash-03-tiny.jpg",
+      default: "splash-03-tiny.jpg"
     },
     expires: {
       type: String,
-      default: "",
+      default: ""
     },
-  },
+    comingSoon: {
+      type: Boolean,
+      default: false
+    }
+  }
 };
 </script>
 
