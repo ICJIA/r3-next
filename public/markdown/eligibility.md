@@ -16,7 +16,7 @@ lang: "en"
 
 ## Eligible Applicants
 
-In order to be eligible, organizations must have a DUNS number, a SAMS.gov account, a Grants.gov account, be in good standing with the Illinois Secretary of State, and not be on the state no-pay list (See [Prequalification Steps](https://r3.illinois.gov/resources/) for details). Common types of eligible applicants are nonprofit organizations, local units of government, and tax-exempt faith-based organizations. Other organizations may also be eligible to join the proposed program as members of a collaborative. Click here to [learn more about collaboratives](/collaboratives) in the R3 program.
+In order to be eligible, organizations must have a DUNS number, a SAM.gov account, a Grants.gov account, be in good standing with the Illinois Secretary of State, and not be on the state no-pay list (See [Prequalification Steps](https://r3.illinois.gov/resources/) for details). Common types of eligible applicants are nonprofit organizations, local units of government, and tax-exempt faith-based organizations. Other organizations may also be eligible to join the proposed program as members of a collaborative. Click here to [learn more about collaboratives](/collaboratives) in the R3 program.
 
 ## Eligible Service Areas
 
