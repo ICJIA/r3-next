@@ -19,7 +19,7 @@ cardIcon: "category"
 - Register with the [System for Award Management (SAM)](http://www.sam.gov/SAM/)
 - Apply for, update or verify the [Employer Identification Number (EIN)](https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online)
 - Create a [Grants.gov](https://www.grants.gov/applicants/registration.html) account with username and password
-- Complete registration in the [GATA Grantee Portal](https://grants.illinois.gov/portal/)
+- Complete registration in the [GATA Grantee Portal](https://grants.illinois.gov/portal/)--Required ONLY for single applicants and responsible applicants submitting an application on behalf of a collaborative. Other collaborative members do not need an account in the Grantee Portal.
 
 ### ICJIA YouTube links
 

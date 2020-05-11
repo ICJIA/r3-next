@@ -17,9 +17,9 @@ lang: "en"
 
 ### Who is eligible to apply for R3 grants?
 
-Organizations that serve residents of--or are based in--designated <a href="/eligibility">eligible R3 zones</a> will be able to apply. Eligible organizations include nonprofit organizations, local units of government, or tax-exempt faith-based organizations. All applicants will be required to demonstrate compliance with the Grant Accountability and Transparency Act (GATA).
+Organizations that serve residents of--or are based in--designated <a href="/eligibility">eligible R3 zones</a> will be able to apply. Eligible organizations include nonprofit organizations, local units of government, tax-exempt faith-based organizations, businesses, and other community organizations. All applicants will be required to demonstrate compliance with the Grant Accountability and Transparency Act (GATA).
 
-In addition, other groups such as local businesses and community or neighborhood organizations without 501(c)(3) status are able to join a collaborative application. <a href="/collaboratives">Learn more about collaboratives here.</a>
+Other groups that do not have an account with the State of Illinois [GATA Grantee Portal](https://grants.illinois.gov/portal/) are able to join a collaborative application. <a href="/collaboratives">Learn more about collaboratives here.</a>
 
 ### What types of projects are eligible for R3 funding?
 
