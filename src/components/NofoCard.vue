@@ -33,7 +33,11 @@
                 <div class="nofo-tagline">
                   {{ item.attributes.summary }}
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div
+                  class="mt-4"
+                  style="font-size: 13px;  font-weight: bold;"
+                  v-if="!item.attributes.comingSoon"
+                >
                   Deadline: {{ item.attributes.expires | format }}
                 </div>
                 <v-btn

@@ -25,7 +25,11 @@
             <div class="nofo-tagline">
               {{ summary }}
             </div>
-            <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+            <div
+              class="mt-4"
+              style="font-size: 13px;  font-weight: bold;"
+              v-if="!comingSoon"
+            >
               Deadline: {{ expires | format }}
             </div>
             <div
