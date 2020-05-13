@@ -22,3 +22,7 @@ yarn-error.log*
 *.sw?
 
 package-lock.json
+
+public/sitemap.xml
+public/searchIndex.json
+src/router/markdownRoutes.json
