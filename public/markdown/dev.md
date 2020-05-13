@@ -12,4 +12,4 @@ hideTitleOnPage: true
 
 <MapTest></MapTest>
 
-Table here
+<TableCensusDev></TableCensusDev>

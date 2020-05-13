@@ -6,4 +6,9 @@ const getCensusData = async () =>
     m => m.default || m
   );
 
-export { getCensusData };
+const getPlaceholderData = async () =>
+  await import(`../../public/downloads/placeholder.json`).then(
+    m => m.default || m
+  );
+
+export { getCensusData, getPlaceholderData };
