@@ -9,7 +9,7 @@
       scrolling="no"
     >
     </iframe>
-    <div class="mt-1 text-right" style="font-size: 12px; color: #333;">
+    <div class="mt-1 text-right" style="font-size: 11px; color: #333;">
       Last updated: {{ lastUpdated | dateFormat }}
     </div>
     <!-- </div> -->

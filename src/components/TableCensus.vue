@@ -43,22 +43,31 @@
         style="width: 100%"
       ></v-data-table>
     </v-card>
-    <div class="text-center mt-5" style="font-size: 12px;">
-      Download:
-      <a href="/downloads/EligibleAreasCensusTracts.pdf" class="heavy">PDF</a
-      >&nbsp;|&nbsp;<a
-        class="heavy"
-        href="/downloads/EligibleAreasCensusTracts.json"
-        >JSON</a
-      >&nbsp;|&nbsp;<a
-        class="heavy"
-        href="/downloads/EligibleAreasCensusTracts.csv"
-        >CSV</a
-      >
-    </div>
-    <div class="mt-1 text-right" style="font-size: 12px; color: #333;">
-      Last updated: {{ lastUpdated | dateFormat }}
-    </div>
+    <v-container>
+      <v-row>
+        <v-col sm="12" md="6">
+          <div style="font-size: 11px;">
+            Download:
+            <a href="/downloads/EligibleAreasCensusTracts.pdf" class="heavy"
+              >PDF</a
+            >&nbsp;|&nbsp;<a
+              class="heavy"
+              href="/downloads/EligibleAreasCensusTracts.json"
+              >JSON</a
+            >&nbsp;|&nbsp;<a
+              class="heavy"
+              href="/downloads/EligibleAreasCensusTracts.csv"
+              >CSV</a
+            >
+          </div>
+        </v-col>
+        <v-col sm="12" md="6">
+          <div class="text-right" style="font-size: 11px; color: #222;">
+            Last updated: {{ lastUpdated | dateFormat }}
+          </div>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
