@@ -107,9 +107,13 @@ export default {
     closeSearch() {
       EventBus.$emit("closeSearch");
     },
+    stripTrailingSlash(str) {
+      return str.endsWith("/") ? str.slice(0, -1) : str;
+    },
     fetchContent() {
+      let path = this.stripTrailingSlash(this.$route.path);
       this.markdownContent = async () =>
-        await import(`../../public/markdown${this.$route.path}.md`)
+        await import(`../../public/markdown${path}.md`)
           .then(fmd => {
             this.title = fmd.attributes.title;
             this.showToc = fmd.attributes.showToc;

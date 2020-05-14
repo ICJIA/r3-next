@@ -11,6 +11,9 @@ module.exports = {
     process.env.NODE_ENV === `production` ? appConfig.publicPath : "/",
   //publicPath: "/",
   transpileDependencies: ["vuetify"],
+  configureWebpack: config => {
+    config.entry.app = "./src/entry.js";
+  },
   pluginOptions: {
     moment: {
       locales: ["en"]
