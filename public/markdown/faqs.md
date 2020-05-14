@@ -27,7 +27,7 @@ Grant funding must be used to address: Economic development, Violence prevention
 
 ### What assistance will be provided to applicants?
 
-Before applications are due, ICJIA will provide technical assistance throughout the state to potential applicants. The technical assistance will contain information about how to write a strong application for state funding and how to become compliant with GATA and other state regulations.
+Before applications are due, ICJIA will provide technical assistance online to potential applicants. The technical assistance workshop will contain information about how to submit a complete application for state funding and how to become compliant with GATA and other state regulations. If you would like to learn more about the workshop or register please visit: https://icjia.illinois.gov/gata/registration
 
 ### Is there anything I can do ahead of time to prepare?
 

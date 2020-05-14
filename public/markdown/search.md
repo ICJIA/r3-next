@@ -7,7 +7,7 @@ summary: "R3 site search"
 createdAt: "2020-02-14"
 showToc: false
 menuRank: 9999
-dividerBefore: true
+dividerAfter: true
 showAsCard: false
 lang: "en"
 ---

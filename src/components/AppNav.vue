@@ -148,14 +148,20 @@
         <span v-else style="font-size: 12px">{{ link.attributes.title }}</span>
       </v-btn>
 
-      <v-col class="hidden-sm-and-down">
-        <div style="width: 250px" class>
-          <Search></Search>
-        </div>
-      </v-col>
-      <!-- <v-btn text @click="toggleSearch()" class="hidden-md-and-up">
+      <v-btn
+        text
+        style="font-weight: 900"
+        aria-label="Technical Assistance"
+        class="hidden-sm-and-down mr-5"
+        @click="gotoTA"
+      >
+        <span style="font-size: 12px">Technical Assistance</span>
+        <v-icon right small>open_in_new</v-icon>
+      </v-btn>
+
+      <v-btn text to="/search">
         <v-icon>search</v-icon>
-      </v-btn>-->
+      </v-btn>
     </v-app-bar>
   </div>
 </template>
@@ -223,6 +229,10 @@ export default {
       this.$router.push("/search").catch(() => {
         this.$vuetify.goTo(0);
       });
+    },
+    gotoTA() {
+      // window.open("https://icjia.illinois.gov/ta", "_blank");
+      window.open("https://icjia.illinois.gov/ta");
     },
     toggleDrawer() {
       EventBus.$emit("toggleDrawer");

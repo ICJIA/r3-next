@@ -25,6 +25,13 @@
           <v-divider />
         </div>
       </div>
+      <v-list-item link @click="gotoTA">
+        <v-list-item-content>
+          <h3 style="font-size: 18px;">
+            Technical Assistance <v-icon right small>open_in_new</v-icon>
+          </h3>
+        </v-list-item-content>
+      </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
@@ -59,6 +66,10 @@ export default {
       this.$router.push(item.path).catch(() => {
         this.$vuetify.goTo(0);
       });
+    },
+    gotoTA() {
+      // window.open("https://icjia.illinois.gov/ta", "_blank");
+      window.open("https://icjia.illinois.gov/ta");
     }
   },
   props: {

@@ -8,23 +8,30 @@
     >
       <v-card-text>
         <span v-for="(link, index) in nav" :key="index" class="flexitem">
-          <span>
-            <v-btn
-              :to="link.path === '/home' ? '/' : `${link.path}`"
-              text
-              class=" mr-1"
-              style="font-weight: 900 !important;"
-              :aria-label="link.attributes.title"
-            >
-              <span v-if="link.attributes.menuTitle" style="font-size: 12px">{{
-                link.attributes.menuTitle
-              }}</span>
-              <span v-else style="font-size: 12px">{{
-                link.attributes.title
-              }}</span>
-            </v-btn>
-          </span>
+          <v-btn
+            :to="link.path === '/home' ? '/' : `${link.path}`"
+            text
+            class=" mr-1"
+            style="font-weight: 900 !important;"
+            :aria-label="link.attributes.title"
+          >
+            <span v-if="link.attributes.menuTitle" style="font-size: 12px">{{
+              link.attributes.menuTitle
+            }}</span>
+            <span v-else style="font-size: 12px">{{
+              link.attributes.title
+            }}</span>
+          </v-btn>
         </span>
+        <v-btn
+          text
+          style="font-weight: 900"
+          aria-label="Technical Assistance"
+          @click="gotoTA"
+        >
+          <span style="font-size: 12px">Technical Assistance</span>
+          <v-icon right small>open_in_new</v-icon>
+        </v-btn>
       </v-card-text>
     </v-card>
 
@@ -98,6 +105,10 @@ export default {
     getPath(link) {
       console.log(link.path);
       return "/";
+    },
+    gotoTA() {
+      // window.open("https://icjia.illinois.gov/ta", "_blank");
+      window.open("https://icjia.illinois.gov/ta");
     }
   },
   props: {
