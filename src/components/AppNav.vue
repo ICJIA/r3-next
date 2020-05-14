@@ -4,7 +4,7 @@
       app
       clipped-left
       :flat="flat"
-      color="white"
+      color="grey lighten-5"
       height="90"
       elevate-on-scroll
     >
