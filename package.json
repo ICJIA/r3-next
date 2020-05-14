@@ -1,27 +1,21 @@
 {
   "name": "illinois-r3",
   "version": "0.1.4",
+  "private": true,
   "description": "Restore, Reinvest, and Renew (R3)",
   "author": {
     "name": "Illinois Criminal Justice Information Authority",
     "email": "christopher.schweda@illinois.gov"
   },
-  "license": "MIT",
-  "homepage": "https://r3.illinois.gov/",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ICJIA/r3-next"
-  },
   "scripts": {
     "serve": "node generateRoutes && node generateSitemap && node generateSearchIndex && vue-cli-service serve",
     "build": "node generateRoutes && node generateSitemap && node generateSearchIndex && vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "scripts": "node generateRoutes && node generateSitemap && node generateSearchIndex",
     "lint": "vue-cli-service lint",
     "deploy": "now",
     "deploy:prod": "now --prod",
     "postbuild": "node generateBuildInfo.js",
+    "scripts": "node generateRoutes && node generateSitemap && node generateSearchIndex",
     "version": "auto-changelog -p --commit-limit false --sort-commits date && git add CHANGELOG.md"
   },
   "dependencies": {
@@ -56,19 +50,19 @@
     "strip-color": "^0.1.0",
     "vue": "^2.6.11",
     "vue-analytics": "^5.22.1",
-    "vue-browser-detect-plugin": "^0.1.8",
+    "vue-browser-detect-plugin": "^0.1.9",
     "vue-meta": "^2.3.3",
     "vue-router": "^3.1.6",
     "vuetify": "^2.2.15",
     "vuex": "^3.1.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.2.2",
-    "@vue/cli-plugin-eslint": "~4.2.2",
-    "@vue/cli-plugin-router": "~4.2.2",
-    "@vue/cli-plugin-unit-jest": "~4.2.2",
-    "@vue/cli-plugin-vuex": "~4.2.2",
-    "@vue/cli-service": "~4.2.2",
+    "@vue/cli-plugin-babel": "^4.3.1",
+    "@vue/cli-plugin-eslint": "^4.3.1",
+    "@vue/cli-plugin-router": "^4.3.1",
+    "@vue/cli-plugin-unit-jest": "^4.3.1",
+    "@vue/cli-plugin-vuex": "^4.3.1",
+    "@vue/cli-service": "^4.3.1",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/test-utils": "1.0.0-beta.31",
     "auto-changelog": "^1.16.2",
@@ -83,5 +77,11 @@
     "vue-cli-plugin-vuetify": "^2.0.5",
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.4.3"
+  },
+  "homepage": "https://r3.illinois.gov/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ICJIA/r3-next"
   }
 }

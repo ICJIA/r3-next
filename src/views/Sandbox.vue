@@ -1,5 +1,11 @@
 <template>
   <div class="px-12 py-6">
+    <div
+      style="font-family: 'Arial', sans-serif !important; font-size: 48px !important; font-weight: 900 !important"
+    >
+      R<span style="color: #ccaa41">3</span> RESTORE. REINVEST. RENEW.
+    </div>
+
     <h2 class="mt-12 text-right">Photo #1</h2>
     <v-card class="hoverCard">
       <v-img
@@ -26,10 +32,9 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed.
                 </div>
-                <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                >Deadline: May 01, 2020</div>
+                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                  Deadline: May 01, 2020
+                </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>
             </v-row>
@@ -63,10 +68,9 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                >Deadline: May 01, 2020</div>
+                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                  Deadline: May 01, 2020
+                </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>
             </v-row>
@@ -101,10 +105,9 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed.
                 </div>
-                <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                >Deadline: May 01, 2020</div>
+                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                  Deadline: May 01, 2020
+                </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>
             </v-row>
@@ -138,10 +141,9 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                >Deadline: May 01, 2020</div>
+                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                  Deadline: May 01, 2020
+                </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>
             </v-row>
@@ -176,10 +178,9 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed.
                 </div>
-                <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                >Deadline: May 01, 2020</div>
+                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                  Deadline: May 01, 2020
+                </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>
             </v-row>
@@ -213,10 +214,9 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                >Deadline: May 01, 2020</div>
+                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                  Deadline: May 01, 2020
+                </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>
             </v-row>
@@ -251,10 +251,9 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed.
                 </div>
-                <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                >Deadline: May 01, 2020</div>
+                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                  Deadline: May 01, 2020
+                </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>
             </v-row>
@@ -288,10 +287,9 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                >Deadline: May 01, 2020</div>
+                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                  Deadline: May 01, 2020
+                </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>
             </v-row>
@@ -326,10 +324,9 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed.
                 </div>
-                <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                >Deadline: May 01, 2020</div>
+                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                  Deadline: May 01, 2020
+                </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>
             </v-row>
@@ -363,10 +360,9 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                >Deadline: May 01, 2020</div>
+                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                  Deadline: May 01, 2020
+                </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>
             </v-row>
@@ -400,10 +396,9 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                >Deadline: May 01, 2020</div>
+                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                  Deadline: May 01, 2020
+                </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>
             </v-row>
@@ -438,10 +433,9 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                >Deadline: May 01, 2020</div>
+                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                  Deadline: May 01, 2020
+                </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
               </div>
             </v-row>

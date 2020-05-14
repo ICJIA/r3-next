@@ -210,7 +210,7 @@ export default {
 </script>
 
 <style>
-.nav-title {
+/* .nav-title {
   font-weight: 900;
   font-size: 24px;
 }
@@ -226,6 +226,6 @@ export default {
 }
 
 .largeTitle {
-  font-size: 20px !important;
-}
+  font-size: 28px !important;
+} */
 </style>

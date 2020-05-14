@@ -12,7 +12,11 @@ showAsCard: false
 lang: "en"
 ---
 
-# Restore, Reinvest, and Renew (R3)
+<h1 style="font-weight: 900; font-size: 36px; border-bottom: 1px solid #aaa; margin-bottom: 32px; font-family: 'Roboto', sans-serif !important;">
+          R<span style="color: #ccaa41">3</span>&nbsp;<span
+            >RESTORE. REINVEST. RENEW.</span
+          >
+        </h1>
 
 R3 grants fund programs in Illinois communities that have been harmed by violence, excessive incarceration, and economic disinvestment.
 

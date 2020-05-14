@@ -13,7 +13,28 @@
         aria-label="Click to toggle menu"
       />
       <div class="d-flex align-center">
-        <v-img
+        <div
+          style="font-weight: 900 !important"
+          :class="{
+            smallTitle:
+              this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.xs,
+            largeTitle:
+              this.$vuetify.breakpoint.md ||
+              this.$vuetify.breakpoint.lg ||
+              this.$vuetify.breakpoint.xl
+          }"
+          class="ml-4 hover"
+          @click="
+            $router.push('/').catch(err => {
+              $vuetify.goTo(0);
+            })
+          "
+        >
+          R<span style="color: #ccaa41">3</span>&nbsp;&nbsp;<span class="ml-1"
+            >RESTORE. REINVEST. RENEW.</span
+          >
+        </div>
+        <!-- <v-img
           alt="Vuetify Logo"
           class="shrink ml-2 mr-2 hover hidden-xs-and-down"
           contain
@@ -44,7 +65,7 @@
           "
         >
           {{ appTitle }}
-        </div>
+        </div> -->
       </div>
       <v-spacer></v-spacer>
 
@@ -220,7 +241,7 @@ export default {
 <style>
 .nav-title {
   font-weight: 900;
-  font-size: 24px;
+  font-size: 28px;
 }
 .nav-title.small {
   font-size: 14px;
@@ -234,6 +255,6 @@ export default {
 }
 
 .largeTitle {
-  font-size: 20px !important;
+  font-size: 26px !important;
 }
 </style>
