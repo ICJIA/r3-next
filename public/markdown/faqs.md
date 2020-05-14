@@ -59,7 +59,7 @@ Click <a href="/eligibility"> here </a> for a map and table of all eligible zone
 
 ### Who decided the eligible zones?
 
-The Illinois Criminal Justice Information Authority (ICJIA) in coordination with JEO and a diverse group of researchers that represent academic institutions from around the state performed the <a href="/resources">analysis</a> to determine what geographic zones satisfied the conditions established by the R3 legislation. These determinations were then approved by the R3 Board.
+The Illinois Criminal Justice Information Authority (ICJIA) in coordination with JEO and a diverse group of researchers that represent academic institutions from around the state performed the <a href="/resources#icjia-analysis">analysis</a> to determine what geographic zones satisfied the conditions established by the R3 legislation. These determinations were then approved by the R3 Board.
 
 ### How were the eligible zones chosen?
 
