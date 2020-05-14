@@ -11,11 +11,17 @@ function isIE(ua) {
 }
 
 function createBanner() {
-  const baseURL = process.env.BASE_URL;
+  // const baseURL = process.env.BASE_URL;
 
   return `
   <div style="text-align: center; font-size: 0.7em;">
-    <img src="${baseURL}icjia-logo.png" alt="ICJIA Logo" style="height: 100px; margin-top: 50px">
+    
+    <h1 style="font-weight: 900; font-size: 36px; margin-top: 100px; margin-bottom: 32px; font-family: 'Roboto', sans-serif !important;">
+          R<span style="color: #ccaa41">3</span>&nbsp;<span
+            >RESTORE. REINVEST. RENEW.</span
+          >
+        </h1>
+
     <h1 style='font-family: Lato, sans-serif; margin-top: 50px; padding-top: 20px; padding-bottom:20px; background: #eee;'>
       The R3 site does not support Internet Explorer.
       <br><br>
@@ -24,7 +30,7 @@ function createBanner() {
       <a href='https://www.mozilla.org/en-US/firefox/new/'>Firefox</a>, or
       <a href='https://www.microsoft.com/en-us/windows/microsoft-edge'>MS Edge</a>.
     </h1>
-    <h2>For additional information about R3 opportunities, please see the Illinois Criminal Justice Information Authority's 
+    <h2 style="margin-top: 50px;">For additional information about R3 opportunities, please see the Illinois Criminal Justice Information Authority's 
     <a href="https://icjia.illinois.gov/gata">GATA site</a>.</h2>
   </div>`;
 }

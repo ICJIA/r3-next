@@ -48,11 +48,10 @@
         <v-col sm="12" md="6">
           <div style="font-size: 11px;">
             Download:
-            <a href="/downloads/EligibleAreasCensusTracts.pdf" class="heavy"
+            <!-- <a href="/downloads/EligibleAreasCensusTracts.pdf" class="heavy"
               >PDF</a
-            >&nbsp;|&nbsp;<a
-              class="heavy"
-              href="/downloads/EligibleAreasCensusTracts.json"
+            >&nbsp;|&nbsp; -->
+            <a class="heavy" href="/downloads/EligibleAreasCensusTracts.json"
               >JSON</a
             >&nbsp;|&nbsp;<a
               class="heavy"
