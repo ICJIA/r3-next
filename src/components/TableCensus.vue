@@ -56,6 +56,9 @@
         >CSV</a
       >
     </div>
+    <div class="mt-1 text-right" style="font-size: 12px; color: #333;">
+      Last updated: {{ lastUpdated | dateFormat }}
+    </div>
   </div>
 </template>
 
@@ -78,6 +81,12 @@ export default {
       return this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.xs
         ? true
         : false;
+    }
+  },
+  props: {
+    lastUpdated: {
+      type: String,
+      default: "2020-03-15"
     }
   },
   data() {

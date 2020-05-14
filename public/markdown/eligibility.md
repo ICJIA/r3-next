@@ -26,8 +26,8 @@ Organizations applying for funding do not need to be located within these R3 zon
 
 To find out if an area is an eligible R3 zone for this program, the search bar at the top right of the map can be used to search for an address. The “+” and “-“ buttons on the left side of the map can also be used to zoom in and find out if the area to be served is one of the designated R3 zones.
 
-<MapCensusTracts></MapCensusTracts>
+<MapCensusTracts lastUpdated="2020-03-15"></MapCensusTracts>
 
 ## R3 Table
 
-<TableCensus></TableCensus>
+<TableCensus lastUpdated="2020-03-15"></TableCensus>
