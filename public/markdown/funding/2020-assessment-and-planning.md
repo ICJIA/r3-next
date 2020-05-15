@@ -52,7 +52,7 @@ It is recommended that applicants participate in one of the three live webinars 
 
 - [Download and complete the Application](https://icjia.illinois.gov/gata/funding/2020-r3-assessment-planning)
 
-- [Download and complete the Program Narrative]https://icjia.illinois.gov/gata/funding/2020-r3-assessment-planning)
+- [Download and complete the Program Narrative](https://icjia.illinois.gov/gata/funding/2020-r3-assessment-planning)
 
 - [Download and complete the Budget](https://icjia.illinois.gov/gata/funding/2020-r3-assessment-planning)
 
