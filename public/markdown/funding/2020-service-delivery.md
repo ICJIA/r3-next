@@ -32,7 +32,7 @@ Priority will be given to applicants who are from the community and can demonstr
 
 <div data-title="Getting Started" data-summary="">
 
-- Register your organization in the [Grantee Portal](https://grants.illinois.gov/portal/) (if you have not registered in the past and if you are a single applicant or responsible applicant submitting an application on behalf of a collaborative)
+- Register your organization in the [Grantee Portal](https://grants.illinois.gov/portal) (if you have not registered in the past and if you are a single applicant or responsible applicant submitting an application on behalf of a collaborative)
 
 - Think through your proposed project
 
@@ -52,13 +52,13 @@ It is recommended that applicants participate in one of the three live webinars 
 
 <div data-title="Completing the Application" data-summary="">
 
-- [Download and complete the Application](/)
+- [Download and complete the Application](https://icjia.illinois.gov/gata/funding/2020-r3-service-delivery)
 
-- [Download and complete the Program Narrative](/)
+- [Download and complete the Program Narrative](https://icjia.illinois.gov/gata/funding/2020-r3-service-delivery)
 
-- [Download and complete the Budget](/)
+- [Download and complete the Budget](https://icjia.illinois.gov/gata/funding/2020-r3-service-delivery)
 
-- If applying as a collaborative (see more at this [link](/collaboratives)), gather signed Letters of Commitment and/or Memoranda of Understanding from each member of the collaborative. See [examples here](/).
+- If applying as a collaborative (see more at this [link](/collaboratives)), gather signed Letters of Commitment and/or Memoranda of Understanding from each member of the collaborative. See [examples here](https://icjia.illinois.gov/gata/funding/2020-r3-service-delivery).
 
 </div>
 
