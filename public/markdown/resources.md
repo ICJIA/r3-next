@@ -13,6 +13,16 @@ cardIcon: "category"
 
 ## Helpful Links
 
+### NOFO Informational Webinars
+
+It is recommended that applicants participate in one of the three live webinars (links below; password is **R3NOFO**) or view the recordings of those webinars, which will be available on the [ICJIA NOFO website](https://icjia.illinois.gov/gata) and at this website.
+
+- [Webinar #1 (5/19/2020 from 2:00 to 3:00 pm)](https://illinois.webex.com/webappng/sites/illinois/meeting/info/b71623ba4d9d47f0bb28828338c62848_20200519T190000Z)
+
+- [Webinar #2 (5/20/2020 from 2:00 to 3:00 pm)](https://illinois.webex.com/webappng/sites/illinois/meeting/info/b71623ba4d9d47f0bb28828338c62848_20200520T190000Z)
+
+- [Webinar #3 (5/21/2020 from 10:00 to 11:00 am)](https://illinois.webex.com/webappng/sites/illinois/meeting/info/b71623ba4d9d47f0bb28828338c62848_20200521T190000Z)
+
 ### Prequalification Steps
 
 - Obtain a [Data Universal Numbering System (DUNS) number](https://www.dnb.com/duns-number/get-a-duns.html)
