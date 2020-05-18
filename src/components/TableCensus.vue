@@ -170,7 +170,11 @@ export default {
       try {
         let items = await getCensusData();
         this.items = items;
-        this.items = _.orderBy(this.items, "county", "asc");
+        this.items = _.orderBy(
+          this.items,
+          ["county", "r3_funding_region", "r3_zone_id"],
+          ["asc", "asc", "asc"]
+        );
         this.loading = false;
       } catch (e) {
         this.loading = false;
