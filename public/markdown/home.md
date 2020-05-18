@@ -34,4 +34,4 @@ R3 grants fund programs in five areas:
 
 The communities that are eligible for R3 funding were identified, in part, by their rates of gun injuries, child poverty, unemployment and incarceration. [View this map](/eligibility) to see if organizations in your community are eligible for an R3 grant.
 
-Nonprofit organizations, local governments and religious organizations may apply for grants individually or in a collaborative with other groups. Other types of organizations, like businesses and community or neighborhood associations, can apply as a collaborative but not individually. Find out more [about collaboratives here](/collaboratives).
+Nonprofit organizations, local governments, faith-based organizations, businesses, and other community or neighborhood associations may apply for grants individually or in a collaborative with other groups. Find out more [about collaboratives here](/collaboratives).
