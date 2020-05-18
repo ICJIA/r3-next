@@ -1,14 +1,21 @@
 <template>
   <div class="my-10">
     <!-- <div class="iframe-container"> -->
+    <div style="font-weight: 900" class="mb-2 text-right">
+      * indicates high need R3 zone
+    </div>
     <iframe
       width="100%"
-      height="740px"
-      src="https://illinois.maps.arcgis.com/apps/View/index.html?appid=28ca57bc4b414faea9a74d0adb73d49d&extent=-95.0144,36.6611,-83.7204,42.7807"
+      height="740"
       frameborder="0"
       scrolling="no"
-    >
-    </iframe>
+      marginheight="0"
+      marginwidth="0"
+      src="https://illinois.maps.arcgis.com/apps/webappviewer/index.html?id=137fa70c604e49ad976a6e3248d80068"
+    ></iframe>
+    <div style="font-weight: 900" class="mt-2 text-right">
+      * indicates high need R3 zone
+    </div>
     <div class="mt-1 text-right" style="font-size: 11px; color: #333;">
       Last updated: {{ lastUpdated | dateFormat }}
     </div>
