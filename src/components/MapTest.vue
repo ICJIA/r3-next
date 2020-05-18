@@ -1,6 +1,10 @@
 <template>
   <div class="my-10">
     <!-- <div class="iframe-container"> -->
+    <div style="font-weight: 900" class="mb-2 text-left">
+      High need areas are identified by an asterisk in the detail for each zone
+      that you can view by placing your cursor over the zone.
+    </div>
     <iframe
       width="100%"
       height="740"
