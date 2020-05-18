@@ -1,15 +1,13 @@
 ---
-title: "Test map"
+title: "Map"
 showToc: false
 showInSitemap: false
 showInFooter: false
 showInNav: false
 showInSidebar: false
-summary: "Test map"
+summary: "Map"
 showAsCard: false
 hideTitleOnPage: true
 ---
 
-<MapTest></MapTest>
-
-<TableCensusDev></TableCensusDev>
+Please see the eligibility map [here](/eligibility).
