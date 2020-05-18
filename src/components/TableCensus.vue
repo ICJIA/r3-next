@@ -5,18 +5,30 @@
         <template v-slot:default>
           <thead>
             <tr>
-              <th class="text-left">State</th>
+              <!-- <th class="text-left">State</th> -->
               <th class="text-left">County</th>
+              <th class="text-left">Funding Region</th>
               <th class="text-left">Census Tract Name</th>
               <th class="text-left">GeoID</th>
+              <th class="text-left">Service Deliv. Min Funding</th>
+              <th class="text-left">Service Deliv. Max Funding</th>
+              <th class="text-left">Planning Grant Min Funding</th>
+              <th class="text-left">Planning Grant Max Funding</th>
+              <th class="text-left">High Need Area</th>
             </tr>
           </thead>
           <tbody>
             <tr v-for="(item, index) in items" :key="index">
-              <td>{{ item.state_name }}</td>
-              <td>{{ item.county_name }}</td>
+              <!-- <td>{{ item.state }}</td> -->
+              <td>{{ item.county }}</td>
+              <td>{{ item.r3_funding_region }}</td>
               <td>{{ item.census_tract_name }}</td>
               <td>{{ item.census_tract_geoid }}</td>
+              <td>{{ item.service_delivery_minimum_funding_amount }}</td>
+              <td>{{ item.service_delivery_maximum_funding_amount }}</td>
+              <td>{{ item.planning_grant_minimum_funding_amount }}</td>
+              <td>{{ item.planning_grant_maximum_funding_amount }}</td>
+              <td>{{ item.high_need_area }}</td>
             </tr>
           </tbody>
         </template>
@@ -41,6 +53,7 @@
         v-if="!loading"
         id="test"
         style="width: 100%"
+        sort-by="county"
       ></v-data-table>
     </v-card>
     <v-container>
@@ -72,7 +85,7 @@
 
 <script>
 import { getCensusData } from "@/services/Content";
-
+import _ from "lodash";
 export default {
   async created() {
     this.fetchContent();
@@ -107,15 +120,34 @@ export default {
       timeout: null,
       searchArr: [],
       headers: [
-        {
-          text: "State",
-          align: "left",
-          sortable: false,
-          value: "state_name"
-        },
-        { text: "County", value: "county_name" },
+        { text: "County", value: "county" },
+
+        { text: "Funding region", value: "r3_funding_region" },
+        { text: "Zone ID", value: "r3_zone_id" },
         { text: "Census Tract Name", value: "census_tract_name" },
-        { text: "Census Tract GeoID", value: "census_tract_geoid" }
+        { text: "Census Tract GeoID", value: "census_tract_geoid" },
+        {
+          text: "Service Deliv. Min Funding",
+          value: "service_delivery_minimum_funding_amount"
+        },
+
+        {
+          text: "Service Deliv. Max Funding",
+          value: "service_delivery_maximum_funding_amount"
+        },
+        {
+          text: "Planning Grant Min Funding",
+          value: "planning_grant_minimum_funding_amount"
+        },
+
+        {
+          text: "Planning Grant Max Funding",
+          value: "planning_grant_maximum_funding_amount"
+        },
+        {
+          text: "High Need Area",
+          value: "high_need_area"
+        }
       ]
     };
   },
@@ -138,6 +170,7 @@ export default {
       try {
         let items = await getCensusData();
         this.items = items;
+        this.items = _.orderBy(this.items, "county", "asc");
         this.loading = false;
       } catch (e) {
         this.loading = false;

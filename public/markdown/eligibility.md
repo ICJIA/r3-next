@@ -30,4 +30,4 @@ To find out if an area is an eligible R3 zone for this program, the search bar a
 
 ## R3 Table
 
-<TableCensus lastUpdated="2020-05-14"></TableCensus>
+<TableCensus lastUpdated="2020-05-18"></TableCensus>
