@@ -24,7 +24,11 @@ In order to be eligible for R3 grant funding, the activities proposed in a submi
 
 Organizations applying for funding do not need to be located within these R3 zones, but applications will be given priority if they are submitted by organizations within these R3 zones, if they are on behalf of collaboratives that contain such organizations, or if the majority of their employees live within R3 zones.
 
-To find out if an area is an eligible R3 zone for this program, the search bar at the top right of the map can be used to search for an address. The “+” and “-“ buttons on the left side of the map can also be used to zoom in and find out if the area to be served is one of the designated R3 zones.
+### Using the R3 Map to Determine Eligibility and Funding Level
+
+To find out if an address is eligible for R3 funding, or to get information on an R3 zone for application purposes, enter the address into the search bar (top left) or zoom in (+) on the address on the map. Any address appearing in a color-coded, shaded area is within an R3 zone and eligible for funding. Click the shaded area to see its R3 Zone ID and funding information needed for the grant application's Program Narrative.
+
+*Tip:* After searching for and locating an address, you may need to zoom out (-) before you determine whether that address is in an R3 zone or not.
 
 <MapCensusTracts lastUpdated="2020-05-18"></MapCensusTracts>
 
