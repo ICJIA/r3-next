@@ -83,24 +83,6 @@ For general questions regarding the R3 program:
 
 </div>
 
-### Research
-
-<div style="margin-left: 20px">
-
-#### An Overview of Evidence-Based Practices and Programs in Prison Reentry
-
-https://icjia.illinois.gov/researchhub/articles/an-overview-of-evidence-based-practices-and-programs-in-prison-reentry
-
-Individuals released from prison often face immediate challenges related to employment, housing, behavioral health, and social support. While high recidivism rates among returning citizens continue to be an issue in many communities, certain reentry programs have shown effectiveness in improving outcomes for released individuals. This article provides an overview of reentry needs and best practices for reentry programming. Examples of promising reentry programs are provided. Strategies for parole officers are briefly discussed, as parole is often directly related to the reentry process. Evidence-based practices have emerged from the existing research on reentry, but high-quality, replicable research on programming will continue to be necessary to advance the “what works” discourse.
-
-#### Youth Development: An Overview of Related Factors and Interventions
-
-https://icjia.illinois.gov/researchhub/articles/youth-development-an-overview-of-related-factors-and-interventions
-
-Research has found that adolescence sets the course for an individual’s long-term social, cognitive, emotional, and cultural development. This review examines literature on positive youth development, risk/protective factors, and the research behind select interventions. Overall, the interventions discussed highlight the many factors that play a role in positive youth development and underline how significant addressing risk and protective factors can be.
-
-</div>
-
 ## Analysis
 
 Areas eligible to apply for R3 program grants were identified via an analysis of community-level data on gun injury, child poverty, unemployment, and state prison commitments and returns, combined with Disproportionately Impacted Areas identified by the Illinois Department of Commerce and Economic Opportunity (DCEO). This document outlines the criteria and data sources used to define eligible areas, analyzed by census tract in Illinois. Identified R3-eligible areas were required to meet all criteria listed in Part I _or_ Part 2.
