@@ -143,6 +143,6 @@ Areas eligible to apply for R3 program grants were identified via an analysis of
 
 ## ICJIA Research
 
-The [Illinois Criminal Justice Information Authority (ICJIA)](https://icjia.illinois.gov)is the state’s lead agency on justice funding and research. ICJIA recently launched its <a href="https://icjia.illinois.gov/researchhub">Research Hub</a> which provides a host of resources (publications, continuums, dashboards, datasets) to support data-driven decision-making for improved outcomes.
+The [Illinois Criminal Justice Information Authority (ICJIA)](https://icjia.illinois.gov) is the state’s lead agency on justice funding and research. ICJIA recently launched its <a href="https://icjia.illinois.gov/researchhub">Research Hub</a> which provides a host of resources (publications, continuums, dashboards, datasets) to support data-driven decision-making for improved outcomes.
 
 <R3Articles></R3Articles>
