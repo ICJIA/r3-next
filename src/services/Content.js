@@ -4,7 +4,7 @@
 const axios = require("axios");
 
 const api = axios.create({
-  timeout: 10000
+  timeout: 10000,
 });
 
 async function queryResearchHub(query) {
@@ -12,19 +12,20 @@ async function queryResearchHub(query) {
     url: "https://researchhub.icjia-api.cloud/graphql",
     method: "post",
     data: {
-      query
-    }
+      query,
+    },
   });
   return content;
 }
 
 const getRecentR3ArticlesQuery = () => {
   return `{
-    articles (sort: "date:desc", where: {status: "published", tags: 'r3'}) {
+    articles (sort: "date:desc", where: {status: "published", tags: "r3"}) {
       title
       slug
       external
       date
+      splash
       categories
       tags
       abstract
@@ -47,12 +48,12 @@ const getRecentR3Articles = async () => {
 
 const getCensusData = async () =>
   await import(`../../public/downloads/EligibleAreasCensusTracts.json`).then(
-    m => m.default || m
+    (m) => m.default || m
   );
 
 const getPlaceholderData = async () =>
   await import(`../../public/downloads/placeholder.json`).then(
-    m => m.default || m
+    (m) => m.default || m
   );
 
 export { getCensusData, getPlaceholderData, getRecentR3Articles };
