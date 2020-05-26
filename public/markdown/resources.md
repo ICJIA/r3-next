@@ -15,13 +15,13 @@ cardIcon: "category"
 
 ### NOFO Informational Webinars
 
-It is recommended that applicants participate in one of the three live webinars (links below; password is **R3NOFO**) or view the recordings of those webinars, which will be available on the [ICJIA NOFO website](https://icjia.illinois.gov/gata) and at this website.
+It is recommended that applicants view the recordings of at least one of three webinars (links below). Applicants may also view the [webinar slides](R3NOFOWebinar.pdf)
 
-- [Webinar #1 (5/19/2020 from 2:00 to 3:00 pm)](https://illinois.webex.com/webappng/sites/illinois/meeting/info/b71623ba4d9d47f0bb28828338c62848_20200519T190000Z)
+- [Webinar #1 (held 5/19/2020 from 2:00 to 3:00 pm)](https://youtu.be/F98-dkr6p-k)
 
-- [Webinar #2 (5/20/2020 from 2:00 to 3:00 pm)](https://illinois.webex.com/webappng/sites/illinois/meeting/info/b71623ba4d9d47f0bb28828338c62848_20200520T190000Z)
+- [Webinar #2 (held 5/20/2020 from 2:00 to 3:00 pm)](https://youtu.be/1K3CD8zWKOE)
 
-- [Webinar #3 (5/21/2020 from 10:00 to 11:00 am)](https://illinois.webex.com/webappng/sites/illinois/meeting/info/b71623ba4d9d47f0bb28828338c62848_20200521T190000Z)
+- [Webinar #3 (held 5/21/2020 from 10:00 to 11:00 am)](https://youtu.be/FGYJe3T1xPM)
 
 ### Prequalification Steps
 
@@ -80,6 +80,24 @@ For questions regarding the Service Delivery NOFO:
 For general questions regarding the R3 program:
 
 - Mitchell.Troup2@illinois.gov
+
+</div>
+
+### Research
+
+<div style="margin-left: 20px">
+
+#### An Overview of Evidence-Based Practices and Programs in Prison Reentry
+
+https://icjia.illinois.gov/researchhub/articles/an-overview-of-evidence-based-practices-and-programs-in-prison-reentry
+
+Individuals released from prison often face immediate challenges related to employment, housing, behavioral health, and social support. While high recidivism rates among returning citizens continue to be an issue in many communities, certain reentry programs have shown effectiveness in improving outcomes for released individuals. This article provides an overview of reentry needs and best practices for reentry programming. Examples of promising reentry programs are provided. Strategies for parole officers are briefly discussed, as parole is often directly related to the reentry process. Evidence-based practices have emerged from the existing research on reentry, but high-quality, replicable research on programming will continue to be necessary to advance the “what works” discourse.
+
+#### Youth Development: An Overview of Related Factors and Interventions
+
+https://icjia.illinois.gov/researchhub/articles/youth-development-an-overview-of-related-factors-and-interventions
+
+Research has found that adolescence sets the course for an individual’s long-term social, cognitive, emotional, and cultural development. This review examines literature on positive youth development, risk/protective factors, and the research behind select interventions. Overall, the interventions discussed highlight the many factors that play a role in positive youth development and underline how significant addressing risk and protective factors can be.
 
 </div>
 
@@ -143,6 +161,6 @@ Areas eligible to apply for R3 program grants were identified via an analysis of
 
 ## ICJIA Research
 
-The [Illinois Criminal Justice Information Authority (ICJIA)](https://icjia.illinois.gov) is the state’s lead agency on justice funding and research. ICJIA recently launched its <a href="https://icjia.illinois.gov/researchhub">Research Hub</a> which provides a host of resources (publications, continuums, dashboards, datasets) to support data-driven decision-making for improved outcomes.
+The [Illinois Criminal Justice Information Authority (ICJIA)](https://icjia.illinois.gov)is the state’s lead agency on justice funding and research. ICJIA recently launched its <a href="https://icjia.illinois.gov/researchhub">Research Hub</a> which provides a host of resources (publications, continuums, dashboards, datasets) to support data-driven decision-making for improved outcomes.
 
 <R3Articles></R3Articles>
