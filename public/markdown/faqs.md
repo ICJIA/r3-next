@@ -86,7 +86,7 @@ The R3 program receives 25% of net tax revenue from adult-use cannabis and has b
 
 ## R3 NOFO Questions and Answers
 
-### Updated May 22, 2020
+### Updated May 29, 2020
 
 <div class="faq-indent">
 
@@ -163,13 +163,13 @@ Yes, organizations may provide R3 services to individuals who are incarcerated b
 
 </div>
 
-### Updated May 18, 2020
+### Questions and Answers from May 18, 2020 to May 21, 2020
 
 <div class="faq-indent">
 
 #### If our organization is headquartered outside of an R3 zone, but our service area is in an R3 zone, are we eligible? How do we find out what the R3 zones are?
 
-Yes, you would be eligible to apply based on your service area being within an R3 zone. However, your application would not get local preference points based on your organization’s location. You can find the R3 zones by looking at the color-coded, shaded areas at the interactive map at [r3.illinois.gov/eligibility](/eligibility).
+Yes, you would be eligible to apply based on your service area being within an R3 zone. However, your application would not get local preference points based on your organization’s location. You can find the R3 zones by looking at the color-coded, shaded areas at the interactive map at [r3.illinois.gov/eligibility](/https://r3.illinois.gov/eligibility).
 
 #### If my police department is interested in this funding, but there are no R3 areas in our jurisdiction, would we be ineligible?
 
@@ -185,7 +185,7 @@ No. You only need to submit one application, but your program narrative should i
 
 #### How do you define a program being “in” an R3 zone if programs are offered virtually?
 
-Programs should be designed to serve residents of an R3 zone. If programs can be offered virtually, it should be intended to serve residents of R3 zones, it should be geared towards the needs of R3 zone communities, and the focus of advertising, attracting clients, etc should be on the R3 zone.
+Programs should be designed to serve residents of an R3 zone. If programs can be offered virtually, it should be intended to serve residents of R3 zones, should be geared towards the needs of R3 zone communities, and the focus of advertising and marketing to attract clients should be on the R3 zone.
 
 #### Our organization is in three R3 zones, but the county jail that we serve is not. Are we not able to focus on that program?
 
@@ -201,7 +201,7 @@ For the application, only organizations applying together as part of a collabora
 
 #### GATA qualification is a lengthy process. If one agency in a collaborative application has the pre-qualification requirements completed, can we move forward while the other agency is waiting for approval?
 
-For collaborative applications, only the responsible applicant would need to have completed all of the GATA requirements by the time of application. If others have applied for a DUNS number, SAM.gov account, etc, they can be included in the application. However, they would not be able to be active as part of the project until they meet these requirements, so they would need to meet these requirements by the time they are ready to begin the program.
+For collaborative applications, only the responsible applicant would need to have completed all of the GATA requirements by the time of application. If others have applied for a DUNS number, SAM.gov account, and other qualifiers they can be included in the application. However, they would not be able to be active as part of the project until they meet these requirements, so they would need to meet these requirements by the time they are ready to begin the program.
 
 #### Can units of government apply as lead on a collaborative of nonprofits without selecting the subgrantee partners through a competitive bidding process (RFP)?
 
@@ -229,7 +229,7 @@ No, capital expenditures are an unallowable expense for these grant funds, so yo
 
 #### What is the maximum dollar amount an organization can apply for?
 
-Maximum (and minimum) dollar amounts for an application are dependent on the type of NOFO applied for (Assessment and Planning or Service Delivery) and on the funding region within which the program takes place. You can find out the possible award range by accessing the map at [r3.illinois.gov/eligibility](/eligibility) and clicking on an R3 zone within the funding region, or by looking at question 1 of the Program Narrative for the NOFO you intend to apply for.
+Maximum (and minimum) dollar amounts for an application are based on the type of NOFO applied for (Assessment and Planning or Service Delivery) and on the proposed program’s funding region. Award ranges are shown on the map at [r3.illinois.gov/eligibility](/eligibility). Click on an R3 zone within the funding regions, or see Question 1 of the Program Narrative in each NOFO.
 
 #### Are faith-based organizations eligible to receive funds under this program?
 
@@ -277,7 +277,7 @@ This will depend on the applicant organization and the proposed program. It is l
 
 #### When do payments begin?
 
-Selected grantees can begin their programs as soon as their grant agreements are signed. Organizations can request reimbursement on a monthly basis following that time.
+Selected grantees can begin their programs as soon as their grant agreements are signed. Organizations can request reimbursement on a monthly basis following that time. UPDATE: Grantees can apply to receive advances after the agreements are executed.
 
 #### Our organization does not have a brick and mortar “location.” We consider our locations the schools that we serve out of. The mailing address we use is actually a UPS mail box. So in this case, should we use our school’s address for the location to determine eligibility and local preference points?
 
@@ -435,6 +435,8 @@ Strictly speaking, the R3 zones do not compete—rather, organizations proposing
 
 If they satisfy all of the eligibility requirements to apply, there is nothing in the grant requirements barring dispensaries from applying for this funding. As with all applications, they would need to also submit an eligible program design that fits with the R3 program requirements.
 
+The grant agreement requires grantees to comply with all provisions of the Illinois Drug-Free Workplace Act, 30 ILCS 580/3, which prohibits the manufacture, distribution, dispensation, possession or use of a controlled substance at the place where services are being performed. Therefore, dispensaries are prohibited from accepting a grant for work at the dispensary or any place where cannabis is being manufactured, distributed, dispensed, or possessed. The dispensary would be eligible to apply as long as it remains in compliance with this Act.
+
 #### Are K-12 schools eligible to apply? Can post-secondary schools apply?
 
 If they satisfy all of the eligibility requirements to apply, there is nothing in the grant requirements barring schools from applying for this funding. As with all applications, they would need to also submit an eligible program design that fits with the R3 program requirements.
@@ -498,8 +500,82 @@ No. A single entity or organization (including a unit of government) can only be
 
 It is the expectation that all collaborative members will be receiving funding if the application is selected for funding. If your organization would like to support a collaborative application but does not seek funding via the grant, you may submit a letter of support, and the application may describe your role in the project, but you would not be considered part of the collaborative for application purposes.
 
-#### is this grant program intended to focus on gun violence, or should the term "violence" be considered more broadly? My organization focuses on gender based violence, and the NOFO is a little vague as to what type of violence is being prioritized by this funding.
+#### Is this grant program intended to focus on gun violence, or should the term "violence" be considered more broadly? My organization focuses on gender based violence, and the NOFO is a little vague as to what type of violence is being prioritized by this funding.
 
 While gun violence is definitely a major concern for this program, ‘violence prevention’ can be considered more broadly than just gun violence. The categories of the five R3 Program Priorities are not meant to be overly restrictive; we want organizations and communities to have the flexibility to focus on the needs that are most salient in their community. It will be up to the applicant to fully explain in their program narrative what the design of their proposed program would be and how their proposed program fits with at least one R3 Program Priority. Thus, if you can provide a good explanation in your statement of need for addressing a different type of violence, that explanation will be considered in reviewing your application. If you would like more information on each program priority, it is recommended that you view the full NOFO and look at Appendix A at the end for more information.
+
+</div>
+
+### Questions and Answers from May 22, 2020 to May 28, 2020
+
+<div class="faq-indent">
+
+#### Are cannabis businesses eligible to receive grant funding under the R3 Program, or is the cannabis industry excluded from eligibility?
+
+If they satisfy all of the eligibility requirements to apply, there is nothing in the grant requirements barring cannabis businesses from applying for this funding. As with all applications, they would need to also submit an eligible program design that fits with the R3 program requirements.
+
+The grant agreement requires grantees to comply with all provisions of the Illinois Drug-Free Workplace Act, 30 ILCS 580/3, which prohibits the manufacture, distribution, dispensation, possession or use of a controlled substance at the place where services are being performed. Therefore, dispensaries are prohibited from accepting a grant for work at the dispensary or any place where cannabis is being manufactured, distributed, dispensed, or possessed. The dispensary would be eligible to apply as long as it remains in compliance with this Act.
+
+#### Could a grantee re-grant the funds via an RFP process to subgrantees?
+
+Grantees may use this funding for subcontracts or subawards to other entities. However, the purpose and roles of the anticipated subcontracts or subawards should be made clear in the program design and will be considered in the review of the application. Subawards, and most subcontracts (depending on the amount of the contract and extent of the work) must be approved by ICJIA prior to any costs being incurred.
+
+#### Will there be another NOFO next year? Or is this a one-time NOFO?
+
+Applicants that are granted funding though this NOFO may be granted up to two additional years of funding after the first year, subject to continued appropriation of the funds, availability of the funds, and acceptable program performance. ICJIA intends to continue this program, with new NOFOs, for as long as grant funding is available.
+
+#### Is the City of Chicago eligible to apply?
+
+Yes, local units of government, including the City of Chicago, may apply under this NOFO assuming they satisfy all eligibility requirements. As with all applications, they would need to also submit an eligible program design that fits with the R3 program requirements.
+
+#### Would research projects be allowed under the assessment/planning grant?
+
+Research projects may be performed as part of an assessment and planning grant, if the applicant determines that the research project is necessary to the assessment proposed in the application. The applicant would need to explain in detail the need for the research project as well as how the research project will be carried out.
+
+##### I heard from someone that the materials state that only one grantee will be approved per region. That seemed incorrect because there are so many potential services. I was not sure if they were referencing the language in the application that states: “What region will your program serve? Refer to the map of R3 zones to find the region and select ONE. Only one application per region may be submitted. Separate applications must be submitted for each region served by your proposed program. Funding amounts are based on the population that lives in R3 zones within each region.” I am assuming that this means an independent organization can only submit one application in each region. Will ICJIA fund more than one applicant within a region?
+
+Yes, ICJIA will fund more than one applicant per region. Organizations may only submit one application or be a collaborator in one application per region.
+
+ICJIA expects to support many applicants/programs in each funding region, under each NOFO. Funding caps have been established to ensure at least two grantees for each type of NOFO will be funded in each region. The total number of programs funded will depend on how many applications are selected by the reviewers and how much funding is requested.
+
+#### Is the R3 Assessment and Planning grant strictly designed to plan a brand new program and then sites are expected to utilize another funding source to implement and run the program, or can funds be used to implement and run a brand new program after the planning process has been completed?
+
+The Assessment and Planning grant is designed to fund a process to determine what services are needed in a community and what resources are available, and to prepare a community plan for providing services in the community. Developing a new program is not required.
+
+Funds under this grant opportunity cannot be used to implement the program of services. However, applicants who carry out an assessment and planning process may apply for Service Delivery funding under this or another NOFO.
+
+#### If we are providing services to prisoners and detainees who are transitioning out, is the R3 zone where the prison is located or where the client is going to live?
+
+The R3 program is intended to serve residents of R3 zones, so the relevant zones for these services would be the zones where the client resides or will reside upon leaving the facility.
+
+#### On the “Service Delivery Program Narrative” document, question #4 states: Only organizations proposing to carry out an assessment and planning process for designated R3 zones are eligible for this funding. Please identify the zone(s) that will be covered by this assessment and planning process by listing the 4-digit “R3 Zone IDs” from this map of the R3 zones. As this is the Service Delivery RFP, and not the Assessment and Planning RFP, can you please confirm whether Service Delivery applicants must also complete an assessment and planning process as part of the Service Delivery grant?
+
+Service Delivery granttes are not required to complete an assessment and planning process. The Service Delivery Program Narrative should read: “Only organizations proposing to provide services for designated R3 zones are eligible for this funding. Please identify the zone(s) that will be covered by this proposed service delivery by listing the 4-digit “R3 Zone IDs” from this map of the R3 zones.” A revised Program Narrative Document will be posted shortly.
+
+To clarify, Service Delivery applicants are not required to complete an assessment and planning process as part of the Service Delivery grant.
+
+#### Understanding that applicants are not to delete any template questions or document formatting, are applicants able to delete the instructions on page 1, the note for questions #14 and #15, the Budget Detail and Narrative description, and the Goals, Objectives and Performance Measures description?
+
+Yes, instructions and notes within the Program Narrative can be removed prior to submission.
+
+#### I have a question about clients who change location. We provide legal aid to prisoners as they transition back into the community. This often means helping them find suitable housing. If the housing is outside of the R3 zone, would we still be able to serve that client?
+
+If the client was eligible for R3 services when you began providing those services, and then the client moved outside of an R3 zone, you can continue providing those same services and follow-up to those services to the existing client.
+
+#### I’m hoping you can help me with a question regarding reporting requirements. I see a brief description on page 24 of the NOFO: “Recipients must submit monthly financial reports, quarterly program progress reports, final financial and progress reports, and, if applicable, an annual audit report in accordance with the 2 CFR Part 200 Uniform Requirements. Future awards and fund drawdowns may be withheld if reports are delinquent.” Are you planning to use a template for these reports? Or a database to collect data? My team is surveying staffing needs in connection with the reporting, so I am looking to get a sense of the complexity of reports.
+
+Grantees will receive an Excel template to complete monthly financial reports and a Word template to complete quarterly program progress reports. Each grantee will be assigned to a grant monitor who can provide assistance, as needed.
+
+#### Is there a maximum grant amount for which we can apply?
+
+Maximum (and minimum) dollar amounts for an application are based on the type of NOFO applied for (Assessment and Planning or Service Delivery) and on the proposed program’s funding region. Award ranges are shown on the map at [https://r3.illinois.gov/eligibility](https://r3.illinois.gov/eligibility). Click on an R3 zone within the funding regions, or see Question 1 of the Program Narrative in each NOFO.
+
+#### I can’t locate previous questions and answers. I’ve checked the ICJIA site and clicked on questions—it just tells you where to ask questions. Can you tell me how to access the answers to my question and other questions people have asked?
+
+Questions and answers may be found at [https://r3.illinois.gov/faqs](https://r3.illinois.gov/faqs). They are also posted on the funding pages for each NOFO at [https://icjia.illinois.gov/gata/funding](https://icjia.illinois.gov/gata/funding).
+
+#### My organization may not have the cash flow to start up our program and pay our staff while we await reimbursement. Is it possible to receive advance payments?
+
+Grantees are able to request advance payment, subject to ICJIA policy. Grantees requesting advances must demonstrate need, itemize expected costs, and comply with Illinois Administrative Code regarding advance payments located at [http://ilga.gov/commission/JCAR/admincode/044/044070000B01200R.html](http://ilga.gov/commission/JCAR/admincode/044/044070000B01200R.html).
 
 </div>
