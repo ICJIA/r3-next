@@ -579,3 +579,92 @@ Questions and answers may be found at [https://r3.illinois.gov/faqs](https://r3.
 Grantees are able to request advance payment, subject to ICJIA policy. Grantees requesting advances must demonstrate need, itemize expected costs, and comply with Illinois Administrative Code regarding advance payments located at [http://ilga.gov/commission/JCAR/admincode/044/044070000B01200R.html](http://ilga.gov/commission/JCAR/admincode/044/044070000B01200R.html).
 
 </div>
+
+### Questions and Answers from May 29, 2020 to June 4, 2020
+
+<div class="faq-indent">
+
+#### If my county is not listed as an R3 zone, can it still apply for funding? Did I do something (or neglect to do something) to make my county ineligible?
+
+Counties that do not contain R3 zones are not eligible for R3 funds. R3 zones were selected based on a number of factors to identify areas disproportionately harmed by violence, economic disinvestment, and the war on drugs. Data used to identify these areas can be found here [https://r3.illinois.gov/resources](https://r3.illinois.gov/resources) under “Analysis.” 
+
+Eligibility was determined based only on these data and not on any action (or inaction) taken by any county or other unit of government.
+
+#### If our assessment and planning project includes a research project, would the research project be subject to IRB approval in the same way it would for a federal grant, or are state guidelines less restrictive?
+
+Federal IRB procedures and requirements will apply under this NOFO. 
+
+#### An applicant can only file one application within a region (for example the Collar County region).  We have 4 offices within in the region including Kankakee, Joliet, Waukegan, and West Chicago.  The application form is set up to assume a single location including a specific zip code.  How can one complete the application when the applicant is planning to serve several communities within a zone or region?
+
+Only your organization’s primary address should be entered for local preference purposes on the Program Narrative and the Uniform Grant Application. 
+
+Applicant proposing to serve several communities within a zone or region need only to describe in the Program Narrative what communities will be served. 
+
+#### My organization would like to submit an application for Service Delivery as a responsible applicant, and in the application we would specify a partnership with a specific service provider. Is a competitive subcontract process required, or could funds be awarded directly to the provider specified in our application? Is it required that we would provide direct services, or could we provide administrative/policy/other forms of support to the direct service provider named in the application?
+
+Partners included as a member of a collaborative application submitted by your organization, will not be required to enter into competitive subcontract process. Both the responsible organization and collaborative members are considered applicants. Partners that are not included as a member of a collaborative in an application may be required to submit to a competitive subcontract process per ICJIA’s routine subcontract/subaward approval policy.
+
+It is acceptable for collaborative members to perform different roles in the collaborative. For example, one member could provide administrative support, while others perform direct services. Descriptions of these roles should be incorporated into memorandums of understanding between collaborative members and must be explained and justified at the appropriate points in the Program Narrative. Divisions of labor and responsibility within collaboratives should reflect values of equity, justice, and opportunity.
+
+#### If we are the responsible applicant and collaborate with another organization on an R3 Service Delivery program, can we also submit another Service Delivery application on our own as a single organization applicant? Either for both programs to run at the same time in collaboration or possibly have one start at a later date? Could both programs be funded?
+
+No. Single entities or organizations may only be party to one application within a specific funding area in each NOFO category. Only one applications may be submitted or funded. 
+
+#### When we ask questions regarding R3 grant funding, will the response be sent to our email address or do we have to look for it on the Q&A document?
+
+ICJIA responds to emailed questions directly to sender. They also are posted here [https://r3.illinois.gov/faqs](https://r3.illinois.gov/faqs), under R3 NOFO Questions and Answers.
+
+#### During one of the webinars it was stated that businesses can not submit a grant application individually - that they must apply as part of a collaboration.  However, it's not stated in the NOFO instructions document.  Can you confirm that businesses must apply for these grants as part of a collaboration in order to be considered?
+
+Businesses can apply as either a single organization or as a member or responsible applicant of a collaborative as long as they satisfy all eligibility requirements. 
+
+#### If an agency is part of a collaborative grant application, then would each of the agencies be considered a subcontract/subaward with the lead agency and submit a subcontract budget as part of the program budget submitted with the application? For each subcontract, can they include IDC costs per their negotiated agreement with HHS or the state?
+
+Yes, members of collaborative applications will be subgrantees of the responsible applicant organization. Applicants are not required to submit all subaward budgets at the time of application but may specify how funds will be distributed and used in Budget or Program Narrative documents. Subawards may include indirect costs if allowable under state and/or federal regulations.
+
+#### Can applicants propose a program that serves all of the R3 zones within a funding region?
+
+Yes.
+
+#### We are pre-qualified in GATA but as a new organization still in our first year, we would not perform well in the ICQ. Would this impede our performance on the application? Should we look for a submitting partner who has a longer track record?
+
+The ICQ is not a factor in the scoring of applications. If an applicant is successful in the application process and is awarded funds, ICJIA may use the ICQ to develop grant conditions to ensure that state funds are appropriately managed. If you fear the results of the ICQ may impose additional requirements on your organization, consider one of these options:
+
+•	Form a collaborative with a partner who can act as a fiscal agent for administrative functions.
+•	Identify a fiscal agent after the grant is awarded.
+
+An R3 program goal is to increase opportunity and build capacity for community organizations. Organizations that have valuable experience and ideas on how to provide needed services will not be excluded based on ICQ results. The most important component of a successful application will be how well the proposed program is conceived and explained in the Program Narrative portion of the application. 
+
+Application reviewers will be cognizant of R3 program values and score applications based on the NOFO and Program Narrative criteria, not on external factors. Organizations with knowledge of the local community, experience in providing community services, and a sound program design will be competitive for this funding opportunity, regardless of external factors.
+
+#### May we please have example letters of commitment/memorandums of understanding? The link to examples on the website does not currently lead to any examples.
+
+Click here for examples of a letter of commitment and memorandum of understanding: [https://www.acf.hhs.gov/sites/default/files/fysb/mou_508.pdf](https://www.acf.hhs.gov/sites/default/files/fysb/mou_508.pdf). 
+
+#### Does the responsible applicant have to submit its own letter of commitment in addition to submitting the letters of commitment(s) from the partner(s) in the collaboration?
+
+No, only collaborative members must submit letters of commitment/memorandums of understanding (MOUs). MOUs show that all members included in a collaborative application agree to participate in the proposed project. However, responsible applicants also may choose to submit an MOU on their own or upon request of other members of the collaborative.
+
+#### We are working on our application for the R3 Service Delivery Grant and want to use part of the funding to supplement our existing program and part of the funding to create and begin running a new program. Is it possible for one implementing agency to submit two applications in the event we only qualify for one, or should we submit one application with both programs included? Can we receive partial funding for what our budget asks, or is the application either accepted or rejected in full?
+
+An organization may only submit (or be a part of) one application per funding region per NOFO. Applicants may include proposals for two related programs in a single application if both parts of the program are fully explained in the Program Narrative. 
+
+Proposals will be accepted or rejected for funding based on application score. Funding awarded may be lower than the amount requested. If that is the case, ICJIA will work with the grantee to determine how the program may be carried out with the awarded amount.
+
+#### Will a new NOFO be issued for new applicants in FY2022?
+
+With an appropriation, availability of the funds, and positive program performance, successful FY21 grantees may receive funding to continue their programs for up to an additional 24 months. In addition to these grant continuations, ICJIA intends to issue another NOFO in FY22, but it will depend upon receipt of an appropriation and availability of funds. 
+
+ #### Can an applicant apply for services in one region this year and submit a second application next year for an additional zone?
+
+Unfortunately, the focus of future NOFOs is unknown at this time. 
+
+#### My organization has two locations in the same funding region, but they are in different R3 Zones. Can we combine the proposals for services provided at these two locations into one application or do we have to submit two applications?
+
+Applicants may submit only one application per funding zone per NOFO. If you wish to combine the services at these two locations into one program for this grant application, you would need to include both in one application.
+
+#### Page 21 of the NOFO instructions states that applicants responding to the NOFO must complete a Programmatic Risk Assessment (PRA). Where do I access this PRA?
+
+The Programmatic Risk Assessment (PRA) is not a requirement to apply for this grant. If an application is selected for funding, the successful applicant organization will be provided a PRA to complete prior to the execution of the grant agreement and receipt of funds.
+
+</div>

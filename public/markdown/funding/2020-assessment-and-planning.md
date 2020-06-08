@@ -38,13 +38,15 @@ Priority will be given to applicants who are from the community and can demonstr
 
 - Gather information needed to complete the full application process, including a description of the proposed program and a budget
 
-It is recommended that applicants participate in one of the three live webinars (links below; password is **R3NOFO**) or view the recordings of those webinars, which will be available on the [ICJIA NOFO website](https://icjia.illinois.gov/gata) and at this website.
+It is recommended that applicants view the recordings of at least one of three webinars (links below). 
 
-- [Webinar #1 (5/19/2020 from 2:00 to 3:00 pm)](https://illinois.webex.com/webappng/sites/illinois/meeting/info/b71623ba4d9d47f0bb28828338c62848_20200519T190000Z)
+- [Webinar #1 (held 5/19/2020 from 2:00 to 3:00 pm)](https://youtu.be/F98-dkr6p-k)
 
-- [Webinar #2 (5/20/2020 from 2:00 to 3:00 pm)](https://illinois.webex.com/webappng/sites/illinois/meeting/info/b71623ba4d9d47f0bb28828338c62848_20200520T190000Z)
+- [Webinar #2 (held 5/20/2020 from 2:00 to 3:00 pm)](https://youtu.be/1K3CD8zWKOE)
 
-- [Webinar #3 (5/21/2020 from 10:00 to 11:00 am)](https://illinois.webex.com/webappng/sites/illinois/meeting/info/b71623ba4d9d47f0bb28828338c62848_20200521T190000Z)
+- [Webinar #3 (held 5/21/2020 from 10:00 to 11:00 am)](https://youtu.be/FGYJe3T1xPM)
+
+Information provided during these webinar recordings will be unofficial and not binding on the state. 
 
 </div>
 
