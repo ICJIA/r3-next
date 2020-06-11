@@ -17,7 +17,7 @@
       </v-container>
     </div>
     <div style="background: #fafafa; border-top: 1px solid #eee;" class="pb-12">
-      <v-container>
+      <v-container fluid>
         <v-row>
           <v-col cols="12" md="8">
             <h2
@@ -89,7 +89,19 @@
                             'https://icjia.az1.qualtrics.com/jfe/form/SV_78vgpBV1nmXxeDj'
                           )
                         "
+                        lazy="/qr-min.png"
                         width="225"
+                        ><template v-slot:placeholder>
+                          <v-row
+                            class="fill-height ma-0"
+                            align="center"
+                            justify="center"
+                          >
+                            <v-progress-circular
+                              indeterminate
+                              color="grey lighten-5"
+                            ></v-progress-circular>
+                          </v-row> </template
                       ></v-img>
                       <p class="mt-8">
                         Do you want to volunteer to help review applications for
