@@ -59,7 +59,7 @@ Click <a href="/eligibility"> here </a> for a map and table of all eligible zone
 
 ### Who decided the eligible zones?
 
-The Illinois Criminal Justice Information Authority (ICJIA) in coordination with JEO and a diverse group of researchers that represent academic institutions from around the state performed the <a href="/resources#icjia-analysis">analysis</a> to determine what geographic zones satisfied the conditions established by the R3 legislation. These determinations were then approved by the R3 Board.
+The Illinois Criminal Justice Information Authority (ICJIA) in coordination with JEO and a diverse group of researchers that represent academic institutions from around the state performed the <a href="/eligibility">analysis</a> to determine what geographic zones satisfied the conditions established by the R3 legislation. These determinations were then approved by the R3 Board.
 
 ### How were the eligible zones chosen?
 
@@ -586,7 +586,7 @@ Grantees are able to request advance payment, subject to ICJIA policy. Grantees 
 
 #### If my county is not listed as an R3 zone, can it still apply for funding? Did I do something (or neglect to do something) to make my county ineligible?
 
-Counties that do not contain R3 zones are not eligible for R3 funds. R3 zones were selected based on a number of factors to identify areas disproportionately harmed by violence, economic disinvestment, and the war on drugs. Data used to identify these areas can be found here [https://r3.illinois.gov/resources](https://r3.illinois.gov/resources) under “Analysis.” 
+Counties that do not contain R3 zones are not eligible for R3 funds. R3 zones were selected based on a number of factors to identify areas disproportionately harmed by violence, economic disinvestment, and the war on drugs. Data used to identify these areas can be found here [https://r3.illinois.gov/eligibility](/eligibility) under “Analysis.” 
 
 Eligibility was determined based only on these data and not on any action (or inaction) taken by any county or other unit of government.
 
