@@ -42,6 +42,7 @@
         <div class="mt-1 mb-4">
           <Translate></Translate>
         </div>
+
         <div style="font-size: 12px; color: #333">
           &copy;&nbsp;{{ new Date().getFullYear() }}
           <strong>
@@ -76,6 +77,14 @@
               >Github</a
             >
           </strong>
+        </div>
+        <div class="mt-2" style="color: #222; font-size: 12px;">
+          <a
+            target="_blank"
+            href="https://icjia.az1.qualtrics.com/jfe/form/SV_78vgpBV1nmXxeDj"
+            >Click here</a
+          >
+          to volunteer as an R3 application reviewer.
         </div>
       </v-card-text>
     </v-card>

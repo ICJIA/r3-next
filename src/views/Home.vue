@@ -16,53 +16,97 @@
         </v-row>
       </v-container>
     </div>
-
     <div style="background: #fafafa; border-top: 1px solid #eee;" class="pb-12">
       <v-container>
         <v-row>
-          <v-col>
-            <h2 style="font-size: 28px; font-weight: 900 !important;">
+          <v-col cols="12" md="8">
+            <h2
+              style="font-size: 24px; font-weight: 900 !important; border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 10px;"
+            >
               Applicant Tools
             </h2>
-          </v-col>
-        </v-row>
-        <v-row>
-          <v-col
-            cols="12"
-            sm="12"
-            md="6"
-            v-for="(card, index) in cards"
-            :key="index"
-          >
-            <v-card
-              dark
-              color="#03588C"
-              class="hover tool-card"
-              @click="$router.push(card.path)"
-            >
-              <div class="d-flex flex-no-wrap justify-space-between">
-                <div>
-                  <v-card-title
-                    class
-                    :class="{
-                      mobileTitle:
-                        $vuetify.breakpoint.xs || $vuetify.breakpoint.sm
-                    }"
-                    >{{ card.attributes.title }}</v-card-title
+            <v-container style="margin: 0; padding: 0;" class="mt-5">
+              <v-row>
+                <v-col
+                  cols="12"
+                  sm="12"
+                  md="6"
+                  v-for="(card, index) in cards"
+                  :key="index"
+                >
+                  <v-card
+                    dark
+                    color="#03588C"
+                    class="hover tool-card"
+                    @click="$router.push(card.path)"
+                    height="220px"
                   >
+                    <div class="d-flex flex-no-wrap justify-space-between">
+                      <div>
+                        <v-card-title
+                          class
+                          :class="{
+                            mobileTitle:
+                              $vuetify.breakpoint.xs || $vuetify.breakpoint.sm
+                          }"
+                          >{{ card.attributes.title }}</v-card-title
+                        >
 
-                  <v-card-subtitle>
-                    {{ card.attributes.summary }}
-                  </v-card-subtitle>
-                </div>
+                        <v-card-subtitle style="font-size: 14px;">
+                          {{ card.attributes.summary }}
+                        </v-card-subtitle>
+                      </div>
 
-                <v-avatar class="ma-3" size="125" tile>
-                  <v-icon class="outlined" x-large>
-                    {{ card.attributes.cardIcon }}
-                  </v-icon>
-                </v-avatar>
-              </div>
-            </v-card>
+                      <v-avatar class="ma-3" size="125" tile>
+                        <v-icon class="outlined" x-large>
+                          {{ card.attributes.cardIcon }}
+                        </v-icon>
+                      </v-avatar>
+                    </div>
+                  </v-card>
+                </v-col>
+              </v-row>
+            </v-container>
+          </v-col>
+          <v-col cols="12" md="4">
+            <h2
+              style="font-size: 24px; font-weight: 900 !important; border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 10px;"
+            >
+              Review R3 Applications
+            </h2>
+            <v-container
+              style="margin: 0; padding: 0;"
+              class="mt-5 text-center"
+            >
+              <v-row>
+                <v-col>
+                  <div class="hover">
+                    <center>
+                      <v-img
+                        src="/qr.png"
+                        @click="
+                          gotoSurvey(
+                            'https://icjia.az1.qualtrics.com/jfe/form/SV_78vgpBV1nmXxeDj'
+                          )
+                        "
+                        width="225"
+                      ></v-img>
+                      <p class="mt-8">
+                        Do you want to volunteer to help review applications for
+                        this grant opportunity?
+                        <a
+                          href="https://icjia.az1.qualtrics.com/jfe/form/SV_78vgpBV1nmXxeDj"
+                          target="_blank"
+                          >Click here</a
+                        >
+                        or scan the QR code to complete a quick survey to
+                        register as a reviewer.
+                      </p>
+                    </center>
+                  </div>
+                </v-col>
+              </v-row>
+            </v-container>
           </v-col>
         </v-row>
       </v-container>
@@ -128,7 +172,9 @@ export default {
   methods: {
     closeSearch() {
       EventBus.$emit("closeSearch");
-      //console.log("click");
+    },
+    gotoSurvey(url) {
+      window.open(url, "_blank", "noopener");
     },
     dynamicFlex() {
       if (this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.sm) {
