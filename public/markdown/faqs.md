@@ -59,7 +59,7 @@ Click <a href="/eligibility"> here </a> for a map and table of all eligible zone
 
 ### Who decided the eligible zones?
 
-The Illinois Criminal Justice Information Authority (ICJIA) in coordination with JEO and a diverse group of researchers that represent academic institutions from around the state performed the <a href="/eligibility">analysis</a> to determine what geographic zones satisfied the conditions established by the R3 legislation. These determinations were then approved by the R3 Board.
+The Illinois Criminal Justice Information Authority (ICJIA) in coordination with JEO and a diverse group of researchers that represent academic institutions from around the state performed the <a href="/resources#icjia-analysis">analysis</a> to determine what geographic zones satisfied the conditions established by the R3 legislation. These determinations were then approved by the R3 Board.
 
 ### How were the eligible zones chosen?
 
@@ -86,7 +86,7 @@ The R3 program receives 25% of net tax revenue from adult-use cannabis and has b
 
 ## R3 NOFO Questions and Answers
 
-### Updated May 29, 2020
+### Updated June 12, 2020
 
 <div class="faq-indent">
 
@@ -586,7 +586,7 @@ Grantees are able to request advance payment, subject to ICJIA policy. Grantees 
 
 #### If my county is not listed as an R3 zone, can it still apply for funding? Did I do something (or neglect to do something) to make my county ineligible?
 
-Counties that do not contain R3 zones are not eligible for R3 funds. R3 zones were selected based on a number of factors to identify areas disproportionately harmed by violence, economic disinvestment, and the war on drugs. Data used to identify these areas can be found here [https://r3.illinois.gov/eligibility](/eligibility) under “Analysis.” 
+Counties that do not contain R3 zones are not eligible for R3 funds. R3 zones were selected based on a number of factors to identify areas disproportionately harmed by violence, economic disinvestment, and the war on drugs. Data used to identify these areas can be found here [https://r3.illinois.gov/resources](https://r3.illinois.gov/resources) under “Analysis.” 
 
 Eligibility was determined based only on these data and not on any action (or inaction) taken by any county or other unit of government.
 
@@ -666,5 +666,95 @@ Applicants may submit only one application per funding zone per NOFO. If you wis
 #### Page 21 of the NOFO instructions states that applicants responding to the NOFO must complete a Programmatic Risk Assessment (PRA). Where do I access this PRA?
 
 The Programmatic Risk Assessment (PRA) is not a requirement to apply for this grant. If an application is selected for funding, the successful applicant organization will be provided a PRA to complete prior to the execution of the grant agreement and receipt of funds.
+
+</div>
+
+### Questions and Answers from June 5, 2020 to June 11, 2020
+
+<div class="faq-indent">
+
+#### Can a nonprofit organization be a subcontractor for multiple primary applicants?
+
+An organization can be part of only one application, regardless of whether they submit the application or if they are included as a member of a collaborative application. An organization may be selected as a subcontractor for more than one grantee following the execution of the grant agreement between a successful applicant and ICJIA, but in that event the grantee would need to follow the guidelines for competitive bidding for subcontractors per ICJIA’s normal subcontract approval process.
+
+#### Can employees of the organization also be recipients of our services? In other words, are we allowed to hire and pay community members as employees with grant funds?
+
+Yes, if the grantee organization employee also is eligible for services as a resident of an R3 zone, the employee may receive services. Employees may not receive preferential treatment over non-employees.
+
+#### In the budget, can we include salaries to pay for hired "part-time" staff such as a Program Director and Youth Aide?
+
+Applicants should make specific staffing decisions based on the proposed program’s needs, but full- and part-time staff staff salaries may be included in your application.
+
+#### How many clients should our program serve? Are there targets established for how many of our clients are R3 residents if our program will see clients that might not live in R3 zones? Are there targets for number of services provided?
+
+There are no pre-determined targets for either program. Applicants set the goals, objectives, and performance measures for their proposed programs. These goals will be part of the merit-based review of applications and, for successful grantees, will be incorporated into the grant agreement with ICJIA.
+
+Service Delivery programs must provide services to residents of R3 zones. Organizations proposing to serve individuals both within and outside of R3 zones should indicate the estimated breakdown of clients in both areas and how the program will primarily serve R3 residents.
+Assessment and Planning program narratives should describe a process to develop a plan centered around R3 zones and include how the plan may affect nearby areas. 
+
+#### Other organizations are reaching out to my organization asking if we would potentially partner with them in a collaborative application. My organization does not normally provide direct services in communities. What part could I play in this program?
+
+Organization collaboratives may seek to include members that do not provide direct services but do provide other benefits to the collaborative. Collaborative members may provide administrative support, facilitate linkages and collaboration between organizations, or other indirect benefits. Collaborative applicants must determine the structure their programs and identify the roles of each member in their applications. 
+
+#### Our community has two R3 zones that are next to one another, and there is some overlap in the zip codes. One of them is designated as a ‘high need’ area, but it seems like that might be just because a portion of the other community shares that zip code.  Was zip code data used in determining a zone’s high need status? If so, then half of one community would have been applied to the other’s determination as a high need zone.
+
+R3 zone designations were identified via census tracts and not necessarily by ZIP code. Data used to identify these areas can be found here: [https://r3.illinois.gov/resources](https://r3.illinois.gov), under ANALYSIS. 
+
+#### Can the funds be used to pay rent for an office space? 
+
+Yes.
+
+#### We are applying to the Chicago Southern R3 zone. Can our services be offered throughout that zone or do they specifically have to be offered in the Zone ID where we are based in the Back of the Yards area?
+
+Services may be offered throughout the zone. Applicants may propose to provide services in any number of R3 zones throughout a funding region. The R3 Zone ID should be provided for Local Preference Points and the ID is based on the applicant organization’s location, but the organization will not be limited to providing services in a single zone.
+
+#### I looked up our organization’s address, and I see an R3 zone ID, but I’m not sure what it stands for. Is there any way of knowing what the boundaries of the R3 zones are? How do they relate to census tracts? How did you decide which tracts to include in which R3 zone?
+
+The R3 Zone ID is an indicator established just for this program to make it easier for grantees to find themselves where they seek to provide services on the eligibility map. Each R3 Zone maps onto a single census tract
+
+R3 Zones are identified by color on the Eligibility map here: [https://r3.illinois.gov/eligibility](https://r3.illinois.gov/eligibility). Click on the color-coded areas to view the zones and their boundaries. Click on a zone to view Census tract and other information. This information also is presented in the table just below the map.
+
+Data used to identify R3 zones can be found here: [https://r3.illinois.gov/resources](https://r3.illinois.gov), under ANALYSIS.
+
+#### Can you provide more information on what we need to be GATA compliant?
+
+Click here for information on how to become GATA compliant: [https://icjia.illinois.gov/gata/](https://icjia.illinois.gov/gata/). 
+ICJIA recommends that potential applicants immediately set up an account at [https://grants.illinois.gov/portal](https://grants.illinois.gov/portal), which also will help you determine what steps you will need to take for GATA compliance. 
+
+#### Does our organization need to be based in Illinois to be eligible?
+
+While an organization’s headquarters may be out of state, some presence in Illinois will be required. Program must serve Illinoisans residing in designated R3 zones.
+
+#### LOCAL PREFERENCE: Applicants have submitted several questions on local preference. Here is more information: 
+
+Local Preference Points offer a boost in scoring to local organizations that provide services in their communities. Many community-based organizations have reported difficulty in obtaining grants when having to compete with established and wealthier organizations from outside of their communities. Local Preference Points will help even the playing field for local organizations trying to overcome initial grant barriers. 
+
+Only local organizations that have offices, workspace, and services rooted within a community should complete the Local Preference Point application questions.
+
+Applicants should not enter addresses of satellite offices, P.O. boxes, or any other locations that do not accurately represent the location of the community organization or where services are provided.
+
+#### The Program Narrative asks me to enter my four-digit R3 Zone ID. However, my R3 Zone ID from the eligibility map does not have four digits. Should I enter zeroes in front of the number to get up to four digits?
+
+Either way is acceptable. The numbers were originally conceived of as four-digit numbers, but the numbers have been simplified. Applications with numbers in either format in the Program Narrative will be accepted.
+
+#### Would it be better for multiple agencies with a plan to serve the same census tract to apply together as a coalition or apply separately as individual agencies?
+
+Either approach is acceptable. While the program does encourage collaboration, it is understood that partnerships may occur formally within an application or informally between grantees. Applicants should decide which approach works better for their communities and their program designs.
+
+#### Must a project partner receive award funds to count as a collaborative partner? Often we have MOUs with project partners who agree to accept referrals and then provide services with existing funding streams.  
+
+Collaborative members are not required to accept grant funding to be a part of an R3 program. The role of such a collaborative member should be explained in the application. 
+
+#### May organizations serve individuals who do not reside in an R3 zone with R3 funding as long as applicants demonstrate that a “significant portion” will come from an R3 zone? 
+
+Yes. Organizations may provide services to any client entering their facilities. However, they must demonstrate in their applications that a significant portion of the client base will be from the R3 zone to be deemed eligible for R3 funding. In addition, any outreach activities, advertising, or marketing geared toward new clients should occur within an R3 zone.
+
+#### How far outside an R3 zone can the service location be located? Our facility is located less than a mile from the closest R3 zone. We serve clients for that R3 zone as well as clients from many other R3 zones that are further away. We would like to propose serving persons from many R3 zones. 
+
+If your facility is located just outside of an R3 zone and many (or all) of your clients are from that or other zones, you may provide services to any client who comes to your facility. However, you must demonstrate in your application that a significant portion of your client base will be from an R3 zone to be deemed eligible for funding. In addition, any outreach activities, advertising, or marketing geared toward new clients should occur within an R3 zone.
+
+#### Must recipients measure and/or report the number of clients contacted through “outreach activities, advertising, or marketing geared toward new clients…within an R3 zone”? 
+
+Applicants are free to set their own goals, objectives, and performance measures based on the design of their proposed programs. If outreach is an important part of the proposed program design, applicants may include outreach activities as part of their goals, objectives, and performance measures. These goals will be part of the merit-based review of applications and, for successful grantees, will be incorporated into the grant agreement with ICJIA. Grantees will be required to report on any goals, objectives, and performance measures included in their proposal.
 
 </div>
