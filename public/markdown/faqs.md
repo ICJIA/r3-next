@@ -758,3 +758,72 @@ If your facility is located just outside of an R3 zone and many (or all) of your
 Applicants are free to set their own goals, objectives, and performance measures based on the design of their proposed programs. If outreach is an important part of the proposed program design, applicants may include outreach activities as part of their goals, objectives, and performance measures. These goals will be part of the merit-based review of applications and, for successful grantees, will be incorporated into the grant agreement with ICJIA. Grantees will be required to report on any goals, objectives, and performance measures included in their proposal.
 
 </div>
+
+### Questions and Answers from June 12, 2020 to June 18, 2020
+
+<div class="faq-indent">
+
+#### If the collaborative organizations are located in different funding zones, but the serving area is the same, can we still submit one collaborative application?
+
+Yes. 
+
+#### If we have a main office and a branch office, where the main office is the headquarters and the branch office will be doing the work of the program, should the branch office be listed as a collaborative partner in the application?
+
+No. The branch office should not be listed as a collaborative partner in the application. However, you may include a description of the branch’s location and program involvement in the Program Narrative.
+
+#### If we decide to go with a single-applicant application for an organization that has  headquarters and branches, should we count all employees’ residence in the zone? Or only the employee working at the branch that will implement the program? 
+
+All employees of the organization should be considered in the calculation.
+
+#### Our work will be in one funding region, but multiple funding zones. How do I determine the max funding award if we're working in multiple funding zones?
+
+The maximum (and minimum) amounts are based on funding region. The maximum amount listed for any given region is the most that can be requested in an application, regardless of how many R3 zones are served by the proposed program.
+
+#### If we are certifying that our employees come from an R3 zone, must those employees come from the zone in which our organization is based (and conducts our service), or can they come from any R3 zone?
+
+They may come from (reside in) any R3 zone. 
+
+#### Must all program participants come from the same R3 area our organization is in, or are we allowed to draw from other R3 zones?
+
+Multiple R3 zones may be served by a single program as long as they are all located within the same funding region.
+
+#### My organization provides youth development services to local schools. Schools have been contracting with us directly, but we would like to ease their financial responsibilities by obtaining funding for our services through the grant as well as expand to new schools in the specified R3 needs zone. Our organization will be responsible for hiring service providers to provide direct instruction to students as well as developing the curriculum for the training program. Still, we will be recruiting from the schools. Does this set-up require a collaborative application? If it does require a collaborative application, we would include at least twenty schools, do they all need to be listed as part of the collaborative?
+
+If your organization is requesting R3 funding to hire staff and continue work in schools without reimbursement from the schools, then it appears they would not need to be part of the collaborative. 
+
+If, in the program design, the schools would be receiving grant funds, the schools would need to be included in the application as members of the collaborative and all participating schools should be included in the application.
+
+Additionally, please note that funding for this program cannot be used merely to supplant other funding. In other words, this funding must be used to deliver new, expanded, or enhanced services, rather than simply substitute for a current funding source. 
+
+#### Can we apply as a collaborative and individuals, or we have to do one or the other? 
+
+An application must be either a single organization application or an application on behalf of a collaborative. Only one application for each NOFO can be submitted per applicant in any given funding region. However, you may submit separate applications for each NOFO in a funding region. For example, an applicant may submit a single application for Service Delivery and also join a collaborative in an Assessment and Planning application.
+
+#### Are capital costs allowed as it pertains to training skills? 
+
+This is difficult to answer without specifics, but capital investment, such as purchase of property or making significant property improvements, is generally not allowed with grant funds. Equipment purchases needed for skill building may be allowed.
+
+#### For the program should we define the first 9 months as buildout and implementation then the next 24 months as operational? or do we need to plan for 33 months?  
+
+Unfortunately, we are unable to advise potential applicants on how to plan their programs. In your application, describe in detail your program design and how your program would be implemented.
+
+#### For each zone do we need to submit a separate application? 
+
+No. You do not need to submit a separate application for each R3 zone to be served. 
+
+Separate applications must be submitted for each funding region and/or NOFO. 
+
+Applicants may only submit one application per NOFO per funding region.
+
+#### Are reimbursements for stays in state-licensed recovery homes allowable expenses? Is subsidized employment as part of a transitional jobs program for reentering persons an allowable expense?
+
+Subsidized employment for reentering persons as part of a transitional jobs program may be an allowable expense. Reimbursements for stays in recovery homes are generally covered under other state programs and likely would fall outside of the scope of this NOFO. However, the program design of this funding opportunity was broadened to allow organizations the freedom to define the best way for their programs to operate. 
+
+If you believe that reimbursement for stays in recovery homes (or another program activity) is a necessary part of your program design, you may explain that in your application. The program design, including the role of each activity, will be considered by the application reviewers and would factor into decisions of whether to award funding to your program.
+
+
+#### I have a question about how the funds can be used for economic development. Can the funds be used to renovate a property this already owned by the organization that will be used to create a light manufacture co-working space, where we want to bring woodshop, photography, and other light textile products to the community. We will have classes for the youth, to teach them these methods. However, the building would need to be renovated and we would need to purchase the equipment. Can the funding be used for this?  
+
+Equipment necessary for economic development and youth development programs could be an allowable expense. Renovation of existing space may be, but with some conditions. The renovation of the space generally cannot dramatically alter the function, size, or value of the building in which it is located. In addition, for both equipment and renovation expenditures, the expenditures should be clearly and extensively explained in the Program Narrative portion of the application in terms of how they will support your proposed program.
+
+</div>
