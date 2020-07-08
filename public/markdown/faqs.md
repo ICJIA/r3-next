@@ -86,7 +86,7 @@ The R3 program receives 25% of net tax revenue from adult-use cannabis and has b
 
 ## R3 NOFO Questions and Answers
 
-### Updated June 12, 2020
+### Updated July 2, 2020
 
 <div class="faq-indent">
 
@@ -354,6 +354,8 @@ Yes, if the corporation satisfies all of the eligibility requirements, including
 #### If the proposed start date for grants is September, does this mean that those grants approved for funding would not receive funds until that time?
 
 Currently, grants are operating via a reimbursement basis. As such, it means that grants would not receive funds until after the start date for programs. If this changes, and advance payment is approved, we will post an update to inform applicants of this change.
+
+UPDATE: Successful applicants will be able to request advances. More information will be provided to grantees regarding how to qualify for these advances.
 
 #### When will FAQ updates be posted?
 
@@ -825,5 +827,178 @@ If you believe that reimbursement for stays in recovery homes (or another progra
 #### I have a question about how the funds can be used for economic development. Can the funds be used to renovate a property this already owned by the organization that will be used to create a light manufacture co-working space, where we want to bring woodshop, photography, and other light textile products to the community. We will have classes for the youth, to teach them these methods. However, the building would need to be renovated and we would need to purchase the equipment. Can the funding be used for this?  
 
 Equipment necessary for economic development and youth development programs could be an allowable expense. Renovation of existing space may be, but with some conditions. The renovation of the space generally cannot dramatically alter the function, size, or value of the building in which it is located. In addition, for both equipment and renovation expenditures, the expenditures should be clearly and extensively explained in the Program Narrative portion of the application in terms of how they will support your proposed program.
+
+</div>
+
+### Questions and Answers from June 19, 2020 to July 2, 2020
+
+<div class="faq-indent">
+
+#### Has the panel of reviewers for the grant applications been finalized?
+
+No. ICJIA is seeking reviewers for the R3 grant applications. Reviewers must come from R3 zones and may not have any conflicts of interest with the pool of applicants they will be reviewing. For example, reviewers may not be assigned to review applications from an organization with whom they are be affiliated. Reviewers also should have some work experience and/or lived experience within at least one of the five R3 program priorities. If you would like to volunteer to review applications, please take this short survey: [https://bit.ly/r3reviewerform](https://bit.ly/r3reviewerform). 
+
+#### Must applicants live and work in Illinois?
+
+While an organization may be headquartered out of state, some presence in Illinois will be required. Program must serve Illinoisans residing in designated R3 zones.
+
+#### Is there a criterion for funds to go to minority owned businesses as primary contractors and organizations in the impacted areas?
+
+There are no specific criteria providing additional points for minority-owned businesses. 
+
+#### Is there a webinar or other recording for people who are interested to apply?
+
+Yes. Three webinars were given and are available on ICJIA’s YouTube channel:
+Webinar #1
+[https://youtu.be/F98-dkr6p-k](https://youtu.be/F98-dkr6p-k ) 
+Webinar #2
+[https://youtu.be/1K3CD8zWKOE](https://youtu.be/1K3CD8zWKOE) 
+Webinar #3
+[https://youtu.be/FGYJe3T1xPM](https://youtu.be/FGYJe3T1xPM) 
+
+#### What specifically is needed and the process to officially offer a notice of intent to apply for this grant?
+
+To submit a Notice of Intent (NOI) to apply for an R3 grant, click the link that corresponds with the grant you wish to apply for, click the blue arrow, and complete and submit the survey. NOIs are NOT required and may be submitted until 11:59 p.m. on July 6, 2020. 
+
+R3 Assessment and Planning NOI link: [https://icjia.az1.qualtrics.com/jfe/form/SV_5uKwNBK3Vh5eDnT](https://icjia.az1.qualtrics.com/jfe/form/SV_5uKwNBK3Vh5eDnT) 
+
+R3 Service Delivery NOI link: 
+[https://icjia.az1.qualtrics.com/jfe/form/SV_82iTmfysXzy6Nwh](https://icjia.az1.qualtrics.com/jfe/form/SV_82iTmfysXzy6Nwh) 
+
+
+#### In regards to the grant amount request, if we put in an amount say $300K, is it an all or nothing request or would we be offered another amount much like a bank does with their credit products? For instance, ICJIA offers $250K instead of the $300K originally requested.
+
+ICJIA will make every effort to meet the requests of applicants selected for funding. However, awards may be reduced or a lesser award may be given depending on funding availability.
+
+#### One of the listed prohibited expenses in the NOFO is capital expenditures. Would this include a purchase of a motorcoach to be used for our services? For example, our project would be turning a motorcoach like vehicle into a full one-stop optical lab which we are able to go to neighborhoods who need our services.
+
+Yes, the purchase of a vehicle would be an example of an unallowable capital expenditure. Vehicles, property, and similar capital expenditures may not be paid for with grant funds.
+
+#### We are discussions with potential partners about planning and service grants. For the lead organizations that are awarded grants, will there be any monies allocated at the beginning of the grant period to prevent the lead organization from having to float costs of the initial months?
+
+Grantees may request advance payment, subject to ICJIA policy. Grantees requesting advances must demonstrate need, itemize expected costs, and comply with Illinois Administrative Code regarding advance payments. For more information, go to: [http://ilga.gov/commission/JCAR/admincode/044/044070000B01200R.html](http://ilga.gov/commission/JCAR/admincode/044/044070000B01200R.html). 
+
+#### I am not sure whether to apply for the service or planning grant. We are currently running a pilot program. What determines into which category we should apply?
+
+The best approach is to read the NOFO instructions and Program Narratives for each grant to determine which would best fit your program (pay particular attention to the Program Design sections). 
+
+The Assessment and Planning NOFO is intended to fund a community-wide process that brings community representatives together to develop an assessment of existing needs and resources related to the five R3 program priorities and  create a comprehensive community plan to provide services in those program priority areas. 
+
+The Service Delivery NOFO, on the other hand, is intended to fund the actual provision of services to community members.
+
+#### We service correctional institutions and our clients and their families on reentry. Our building is located in a Zone other than the specified R3 zones, however the clients we service come from multiple zones and are not located in one Zone.  A percentage are located in the R3 zones. This is particularly true for our Zoom classes. We also service correctional institutions within the zones; would this be included as servicing within the R3 zones?  
+
+Your building does not need to be located in an R3 zone as long as the communities you serve are within R3 zones. In this case, if clients come from/reside in multiple R3 zones, you may apply to provide services to those zones regardless of your organization’s address.
+
+#### I understand that applicants are not to delete any template questions or document formatting.  Are applicants allowed to insert tables/charts into the narrative response sections of the program narrative document?  For example, the statement of need, (what issues…), may we insert a chart when responding (for example) unemployment rates, and demographics?
+
+Yes, applicants may insert tables, charts, and other supporting information into the Program Narrative. These should be included with corresponding Program Narrative questions. They should not be submitted as appendices or extra documents, as they will count against the page limit for the Program Narrative.
+
+#### Our application is focusing on Chicago - South (Englewood) and Chicago - West (Austin, West Garfield Park, etc), however, there are a lot of zones within these funding regions, so do I need to list every single zone ID number (i.e. 310*) within these regions as it states for question 4? I should note alot of these individual zones are all denoted as high-risk.
+
+It is recommended that you list as many as possible. Zones that will have the most program activity should be included. If it is too burdensome to provide a complete list, leave out zones on the periphery of your service area/s and/or zones participants may reside in and travel from to get to your program locations.
+
+#### Can the grant funds be used for salary for staff that operate the project/program? Either a yearly or hourly amount?  
+
+Yes, grant funds can be used for staff salaries if the staff work on the program described in the application. The actual pay status of staff should be used when filling out the budget. For example, if you are budgeting hourly staff, estimate the number of hours they will work on the program and then estimate their salary cost. If staff are paid annually, report the basis as ‘annual,’ and estimate how much of their annual work will be on the program.
+
+#### Since our program does require new equipment, are we able to use our grant money for it to provide the services our program intends to? Think about the equipment you interact with when you get your eyes checked? Or can we use the equipment if it is used to teach and/or educate a new trade for our population of focus or used by optometric students?
+
+Yes, equipment that is reasonable and necessary to run a program may be purchased with grant funds. Applicants should clearly identify the purpose of the equipment in terms of the program design and justify the purchase in the Budget Narrative.
+
+#### Can an organization apply for R3 funding with multiple partnerships? And, if so, are there any particular barriers to doing so?
+
+A single organization can only apply once per grant, per funding region. In other words, they cannot be a part of two applications for a single NOFO within the same funding region of the state. However, if they apply in different funding regions, or for two different grants, they may be included in different partnerships for those different applications. For example, an organization may apply for the Assessment and Planning grant as part of one collaborative group and apply for the Service Delivery grant as part of another collaborative group.
+
+#### Can you give us some clarification on the difference between Implementing Agency and Program Agency?  Also, where would a collaborating agency be listed on the Uniform Application for State Grant Assistance?
+
+An “implementing agency” is the larger, parent organization to a “program agency.” Generally, the program agency is responsible for carrying out the proposed program, while the implementing agency may be responsible for fiscal and administrative support and direction. Some organizations will not have this structure. This structure is most common when governmental entities are involved. For example, a park district in Winnebago County may decide to propose a program for funding; in that case, the park district would be the “program agency,” while Winnebago County would be the “implementing agency.”
+
+Only the responsible applicant must fill out a Uniform Application for State Grant Assistance or be included on one. Other members of a collaborative should not be listed on the Uniform Application for State Grant Assistance, but should instead be included in the Program Narrative.
+
+#### In the R3 RFP it is stated that Food and Beverages are disallowable cost. Does this also include food and beverage purchase to feed the residents in our housing program?
+
+Food and beverage costs are not completely disallowed, but they are subject to restrictions. Food and beverage costs may be allowed for youth program participants, but costs for ongoing food provision for housing program residents would not be allowable under this program. 
+
+#### Our organization is submitting 4 applications for R3; one on the planning side and 3 collaborative applications (we are the lead agency) for the service delivery (3 different funding regions). Do we fill out just one Notice of Intent for Service Delivery and one for Planning or one overall or one for each?
+
+Please fill out a separate Notice of Intent for each application you intend to complete. This will help us ensure that we have recruited a sufficient number of reviewers to manage the volume of applications to be reviewed.
+
+#### The application submission requirements state that a signed application (PDF) is needed along with application (word). Receiving signatures from all parties can be quite challenging due to current remote working conditions since we will need signatures from a number of executive staff. Another challenge is that our policy requires executive staff to be given all application documents so they are able to review prior to signing which is difficult due to unfinished narrative and budget at time of signature request, that takes a minimum of 10 days. Are we able to submit without a signed application considering this will need to be signed again if our organization is awarded funding? If not, can we submit separate signature pages so that each approver does not need to wait for the page to be sent to them with previous signatures?
+
+The approval signatures on the application are needed for ICJIA to ensure that the leadership of the organization applying for the grant approves of the project described in the proposal. As such we do need these approval signatures upon application. However, we recognize that the COVID-19 pandemic and resulting prevalence of remote work has made it difficult to have documents personally signed. Therefore, we will accept documents signed with an electronic signature or an email or other document showing that an authorized individual has approved the application to be submitted in lieu of a physical/scanned signature on the application. We will also accept separate signature pages, or submission of separate application and/or budget forms with different signatures applied, as long as all of the necessary signatures to approve the submission of the application are included in the packet.
+
+#### Is it allowable for an agency to work as a collaboration while taking the lead on both the service and planning grants within the same region (please note the collaboration for each grant would have different partners).
+
+Yes, as long as the two applications are for different NOFOs and/or different funding regions. In the scenario described, it seems that the two applications would be for different grants (one for Assessment and Planning and one for Service Delivery), so it would be fine for one organization to submit one application per category with different collaborative members for each.
+
+#### Can funds be used for housing?
+
+Funds may be used to pay for housing costs for reentry programs, but not for capital investment, such as purchasing a building or renovating buildings to provide housing. 
+
+####  If yes, does the budget have to be a line-item budget or can it be rate-based? Currently  Cook County, Illinois Department of Human Services, and the Illinois Department of Corrections pay for recovery housing/transitional housing services based on a daily rate per client. Rates usually cover both housing and ancillary services such as recovery support groups and linkages to job training/education and employment services, 
+
+This program requires a line-item budget.
+
+#### If an itemized budget is required - do you allow for indirect cost or administrative cost?  If yes, do you have a designated percentage/rate? 
+
+Budgets may include indirect costs. Applicants should use their negotiated federal or state indirect cost rate if they have a negotiated rate. If not, applicants should use the de minimis indirect cost rate (10% of the modified total direct cost base).
+
+#### Will those who are applying for the grants have a person to work them or instructions on how to maneuver through the paperwork?
+
+Each applicant whose grant proposal is selected for funding will be assigned a grant monitor who will provide the necessary documents to the grantee to complete and who will provide guidance and assistance during the grant execution process. The grant monitor also will provide technical assistance throughout the grant period, as needed. 
+
+ICJIA staff cannot directly help with the application process, such as preparing or submitting an application. For training on preparing or submitting an application for funding, register for a technical assistance workshop: [https://icjia.illinois.gov/gata/technical-assistance](https://icjia.illinois.gov/gata/technical-assistance). 
+
+#### What happens if we are recipients of a certain amount of money, however, at the end we don't end up using it all do to a change in service delivery programming or other circumstances?
+
+Funded organizations may request budget revisions as needed throughout the program period to more effectively expend grant funds. Such a budget revision would still need to adhere to the approved program and would need to be approved by ICJIA before taking effect.  Grantees should notify ICJIA of these budget issues so that excess funds can be reprogrammed to other grantees, as needed. However, the best approach is to carefully develop your program budget to avoid overestimating the funds request for your program.
+
+#### Tab C6- Contractual states: Provide separate budgets for each subaward or contract, regardless of the dollar value and indicate the basis for the cost estimates in the narrative. Describe products or services to be obtained and indicate the applicability or necessity of each to the project. If we are applying as a collaborative with several agencies, does this mean that each agency within the collaborative has to provide a full “R3ServiceBUDGET”, or does the lead applicant insert additional tabs for Section C6 to match the number of agencies in the collaborative application, or is each agency that comprises the collaborative a separate line item on tab C6 (i.e. Agency 1 would be listed on row 9, Agency 2 on row 10, etc.).   
+
+If applying as a collaborative, each member of the collaborative does not need to complete its own full budget template. Instead, additional tabs may be used for each collaborative member. Alternatively, each member of the collaborative could budget separate line item as long as the budget for each is fully described in the narrative. 
+
+Applicants may structure their budgets in a way that best fits their model; ICJIA’s grant management staff may work with selected grantees to edit the budget prior to grant agreement execution.
+
+#### As a collaborative application, are Letters of Support/Commitment from each partner organization acceptable or must it be MOU’s? 
+
+Letters of Commitment are acceptable as long as they indicate that the partner organization is committed to the program described in the application. Letters of Support that just give support for the project may not be sufficient. MOUs and Letters of Commitment will be reviewed to confirm all members of the collaborative are willing to work together on the same project, not just voice support for the project as a whole.
+
+#### My organization did the GATA information for a different 2020-2021 grant.  Do I need to do again for R3?
+
+If you’re referring to your pre-qualification steps, then you should not need to do those again for the R3 grant. You should check to ensure that none of your pre-qualifications have expired (i.e. make sure your SAMS.gov account is still active, you are still listed as being in good standing with the Illinois Secretary of State, etc.) just to be safe. You do not need to take another ICQ. 
+
+Of course, you will need to complete and submit the R3 application materials to apply. Additionally, if your application is selected for funding, you will be asked to complete a new Programmatic Risk Assessment, as they differ by program. However, the basic GATA requirements for pre-qualification carry over across programs and you will not need to complete those again.
+
+#### I just want to make sure I am understanding this correctly: You want us to send a PDF of the Uniform Application and the same document (Uniform Application) as a word file?  
+
+That is correct. ICJIA staff will copy and paste information from the Word file into the grant agreements of selected applicants. Also needed is a PDF that includes the signatures of individuals authorized by your organization to approve the application submission.
+
+#### Will having applications for more than one funding region impact the evaluation of our proposal? In other words, could it hurt our chances of receiving a grant if we submit applications to more than one funding region?
+
+No, the existence of multiple applications in multiple funding regions will not impact the evaluation of each application and will not hurt your chances of receiving a grant.
+
+#### Can you please confirm that the budget should be based on 9 months of service (approx. Sept. 21, 2020 - June 30, 2021) rather than submitting a full 12 month budget?
+
+That’s correct. 
+
+#### May we contract with a private legal firm to support individuals we hope to service should we receive the R3 grant?
+
+It is allowable to contract for legal services, providing all state and federal regulations regarding the provision of legal services are met and services are provided in the context of an eligible R3 program design.
+
+If the legal services are being provided for a client’s benefit, rather than the benefit of your organization, then the contract for services would likely be considered a subaward rather than a contract. If that’s the case, consider adding the private law firm as a collaborative partner to provide the services or carrying out a competitive selection process to identify a subawardee.
+
+#### We are planning on submitting some letters of support from elected officials and other to bolster our application. Are these allowed to be sent with an application?
+
+You may send letters of support, but they will not be considered as part of the application review process.
+
+#### How was the NOFO announced? Is there messaging material? When was the town hall and press release?
+
+ICJIA announced the two R3 funding opportunities on May 21, 2020, with a press release distributed statewide, an email to subscribers of the [CJ Dispatch](https://visitor.r20.constantcontact.com/manage/optin?v=001MqUcqqvjwLCJXlLMSWbTe3zHHmEQgFeBuHvBcJWTbwgrxFbDSGx4HSUPpI6DJWMUPgbljtLxffqIcGFTgCnr-auak88ybvRxpoJlTMGPtZs%3D), and via its social media channels ([Facebook](https://www.facebook.com/ICJIA/), [Twitter](https://twitter.com/ICJIA_Illinois), and [LinkedIn](https://www.linkedin.com/company/icjia)). 
+
+The Office of the Lieutenant Governor hosted a Town Hall on the R3 program on Friday, May 18. 
+
+Messaging material is available. Email ICJIA Public Information Officer Cristin Evans for more information: [Cristin.Evans@illinois.gov](Cristin.Evans@illinois.gov). 
+
 
 </div>
