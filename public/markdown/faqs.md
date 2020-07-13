@@ -86,7 +86,7 @@ The R3 program receives 25% of net tax revenue from adult-use cannabis and has b
 
 ## R3 NOFO Questions and Answers
 
-### Updated July 2, 2020
+### Updated July 10, 2020
 
 <div class="faq-indent">
 
@@ -1000,5 +1000,86 @@ The Office of the Lieutenant Governor hosted a Town Hall on the R3 program on Fr
 
 Messaging material is available. Email ICJIA Public Information Officer Cristin Evans for more information: [Cristin.Evans@illinois.gov](Cristin.Evans@illinois.gov). 
 
+</div>
+
+### Questions and Answers from July 3, 2020 to July 9, 2020
+
+<div class="faq-indent">
+
+#### Will additional grantees have the opportunity to submit for and receive funding during the next application cycle for FY22?
+
+ICJIA anticipates having the ability to offer another R3 grant opportunity in FY22 for new grantees. However, fund availability remains uncertain until a state budget is passed with an appropriation sufficient to expand the scope of the program to additional grantees.
+
+#### Can you confirm that funding can be used to pay client stipends while they are in a vocational training program?
+
+R3 funding may be used to pay client stipends for vocational training and other participant support costs, provided that they are justified as necessary and reasonable. Please make sure that your budget narrative details the stipends so that reviewers understand the purpose of the costs for your overall program.
+
+#### In the Program Narrative, on the Goals, Objectives and Performance measures table- is it necessary to have process objectives and outcome objectives?
+
+The table provided is a template that can be adapted to fit any program. It is not intended to be restrictive or to force the applicant into a format that does not match the program. Thus, if that section does not match your goals and objectives for the program, completion is not mandatory.
+
+#### Would allowable costs under the R3 program include those that are necessary to operate programs under conditions of social distancing such as tablets, laptops, and software.  Will a portion of the cost to upgrade our 15 year-old network switches and wi-fi system also be allowable?  Also, one of the core principles of the R3 program involve engaging the community in determining the needs of the community.  We would like to designate a space that could be used to host community engagement events, however, the lighting in this space is over 14 years-old.  Will R3 funds cover the cost of upgrading the lighting for this community space?
+
+Yes, costs for computing supplies needed to operate programs under conditions necessitated by the COVID-19 pandemic and the replacement or upgrade of existing equipment (including network equipment, lighting, etc) are allowable if they are necessary for the program. However, costs of any equipment or upgrades that would be used by the organization as a whole (not solely by the R3 program) must be allocated appropriately to the other programs or uses that it supports and not charged solely to the R3 program. In other words, if the network and wi-fi system is used within your organization to support other programs, the upgrade cannot be 100% paid for with R3 funds. In this case, the grantee must detail  in the Budget Narrative how much of the total cost is paid for by requested R3 funds and how that allocation amount was derived.
+
+#### We’ll be applying as the lead org, but for each of our partner orgs that will be a subaward, do they need to submit a full budget, or do we just include their total award amount as a subaward?
+
+Partner organizations applying as part of a collaborative are not required to submit a full budget. The anticipated amount of each subaward should be listed on the Contractual tab of your budget.  Some explanation of what each subgrantee’s budget might be in the Budget Narrative section of the Contractual tab is recommended to inform application reviewers.
+
+#### Regarding the allotted funding per R3 zone, we are in the "collar" region for the service delivery NOFO so our grant range is $25k - $1.3M per grant.  Is the total amount allotted to each region noted somewhere? Per the webinar, grant funds will be allocated based on a ranking of the scores of the applicants so I'm trying to determine how much altogether is allocated to each region.
+
+The full amount available per NOFO per funding region is equal to double the maximum available amount per application. So, using your example, if the maximum award amount per grant for Service Delivery in the Collar region is $1.3M, then the total amount available for Service Delivery grants in the Collar region is $2.6M. This rule applies to all funding regions for each NOFO.
+
+#### We noticed that 20 pages is the max for the service delivery application; is it the same max for collaborative applications?
+
+Yes. However, Letters of Commitment/Memoranda of Understanding between collaborative members will not count toward the 20-page limit.
+
+#### A member of our collaborative team indicated that Memorandum’s of Understanding are due this week, ahead of the July 20, 2020 full application due date. Could you please clarify when MOU’s are due and the method of submission if they are required prior to July 20, 2020?
+
+Memoranda of Understanding are to be submitted with  application materials, which are due at 11:59 p.m. on Monday, July 20, 2020.
+
+#### The stakeholders we aim to engage are challenged by the profound impacts of COVID-19 and longstanding inequities. Recognizing that daily living challenges may hinder participation, we would like to include budget line items to help them overcome barriers to participation in the planning effort, specifically food/beverage offered during planning sessions (as possible) and/or PPE and comfort kits to protect health and safety). If the rationale we provide is clear, would these costs be allowed?   
+
+Costs necessary for carrying out program activities made necessary by the COVID-19 pandemic, such as computer equipment and supplies needed for remote work, PPE, and additional cleaning for workspaces, would be allowed if the rationale is clear. Food and beverage costs, however, are only supported  in limited circumstances (generally, for youth participants of program activities).  Food and beverage costs would not be supported for grantee staff or for planning sessions.
+
+#### We plan to include letters of support from community partners and civic leaders that may participate in planning (but not receive funding).* Are there any page limitations for letters of support (beyond the 20pp narrative)? Can we include other attachments (e.g. map of targeted zones)? 
+
+No additional documents beyond those requested as part of the application packet will be reviewed. As such, there are no requirements attached to any additional documents, as they are not required for submission.
+
+#### When determining the Modified Total Direct Cost, what does "participant support costs" mean?
+
+Participant support costs include stipends, travel costs, and other expenditures paid for participants to attend conferences, training sessions, and other such activities held by a grantee. It does not include costs for employees to run the event.
+
+#### Does the award max for the funding region include the indirect cost you can charge? For example, if the cap is $200,000, can you ask for $200,000 and the additional 10% indirect cost to request $220,000, or do direct and indirect combined have to fall under the funding max?
+
+The maximum award amount represents the full amount an application can ask for, which includes the indirect cost amount. If the cap is $200,000, the combined direct and indirect costs may total no more than $200,000.
+
+#### I missed the deadline to submit a Notice of Intent. Am I still able to apply for the funding opportunity?
+
+Yes. Upon receipt of a Notice of Intent (NOI), ICJIA reviews the potential applicant’s pre-qualification status and provides assistance if problems are noted. However, a NOI is not required. The lack of an NOI submission will not impact how an application is reviewed or scored.
+
+#### I know we can use the grant for rent, but can we use it for a mortgage payment on a commercial property?
+
+No. Grant funds cannot be used to pay mortgage payments.
+
+#### Can we set aside in our budget for honorariums for non-payroll employees who do work for us?
+
+Honoraria can generally be paid to speakers at events on a per-event basis. If you intend to pay non-payroll employees for program-related work, they should be classified as a contractor on the contractual page. Grantees will be required to develop a contract in these instances and the contract must be approved by ICJIA prior to payment.
+
+#### Where in the budget do I put in malpractice insurance or any type of non-health insurance? Is it under fringe benefits or indirect costs? 
+
+Malpractice insurance or other non-health insurance can be included under fringe benefits only if paid by the organization and if they are generally calculated as part of the fringe benefits package for all employees. Organizations may not use funds to offer fringe benefits to grant-funded employees that their other employees will not receive; all employees of an organization must receive the same fringe benefits. This cost should only be included under fringe benefits if it can be allocated directly to each employee. If it is impossible to determine how much of the overall malpractice insurance cost can be attributed to each employee, it would be better to include it as an indirect cost.
+
+#### We are planning on applying for R3 funding to increase our out of school time youth offerings.  Are we able to request funding to purchase a vehicle to transport youth to and from our program?
+
+Generally, vehicle purchases are considered unallowable capital expenditures as it can be more economical to rent a vehicle, as needed. However, if you can show that a vehicle purchase is more economical than renting and that a vehicle is an integral part of the proposed program, you may include it in your budget for consideration.
+
+#### Could we lease a vehicle?
+
+Yes. A lease would not be considered a capital expenditure and, therefore, could considered allowable as a contractual cost. Provide an explanation of need for the leased vehicle and explain why a lease would be the most economical approach.
+
+#### Is it permissible to include additional attachments with the application other than those specifically mentioned in the NOFO?  For example, items like a program logic model, resume of the program director, examples of program materials, etc.?  Or must all such information fit within the 20 page narrative limit?
+
+Letters of Commitment/Memoranda of Understanding between collaborative members will not count toward the 20-page limit. No additional documents beyond those requested as part of the application packet will be reviewed. 
 
 </div>
