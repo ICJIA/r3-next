@@ -12,6 +12,14 @@ lang: "en"
 comingSoon: false
 ---
 
+<!-- <div data-title="EXPIRED" data-summary="" data-status="expired" >
+
+This funding opportunity has expired. 
+
+If you would like to be notified when future Notices of Funding Opportunity are released, please subscribe to [CJ Dispatch](https://visitor.r20.constantcontact.com/manage/optin?v=001MqUcqqvjwLCJXlLMSWbTe3zHHmEQgFeBuHvBcJWTbwgrxFbDSGx4HSUPpI6DJWMUPgbljtLxffqIcGFTgCnr-auak88ybvRxpoJlTMGPtZs%3D){.dark-link}.
+
+</div> -->
+
 <div data-title="About this Funding Opportunity" data-summary="">
 
 Do you provide services through an existing program in your community or do you have a plan for a program to address issues in your community?

@@ -86,7 +86,7 @@ The R3 program receives 25% of net tax revenue from adult-use cannabis and has b
 
 ## R3 NOFO Questions and Answers
 
-### Updated July 17, 2020 -- FINAL UPDATE
+### Updated July 17, 2020 (FINAL UPDATE)
 
 <div class="faq-indent">
 

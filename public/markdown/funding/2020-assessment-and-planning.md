@@ -12,6 +12,15 @@ lang: "en"
 comingSoon: false
 ---
 
+
+<!-- <div data-title="EXPIRED" data-summary="" data-status="expired" >
+
+This funding opportunity has expired. 
+
+If you would like to be notified when future Notices of Funding Opportunity are released, please subscribe to [CJ Dispatch](https://visitor.r20.constantcontact.com/manage/optin?v=001MqUcqqvjwLCJXlLMSWbTe3zHHmEQgFeBuHvBcJWTbwgrxFbDSGx4HSUPpI6DJWMUPgbljtLxffqIcGFTgCnr-auak88ybvRxpoJlTMGPtZs%3D){.dark-link}.
+
+</div> -->
+
 <div data-title="About this Funding Opportunity" data-summary="">
 
 Do you want lead your community in determining the best approach to addressing issues in your community?
@@ -38,7 +47,7 @@ Priority will be given to applicants who are from the community and can demonstr
 
 - Gather information needed to complete the full application process, including a description of the proposed program and a budget
 
-It is recommended that applicants view the recordings of at least one of three webinars (links below). 
+It is recommended that applicants view the recordings of at least one of three webinars (links below).
 
 - [Webinar #1 (held 5/19/2020 from 2:00 to 3:00 pm)](https://youtu.be/F98-dkr6p-k)
 
@@ -46,13 +55,13 @@ It is recommended that applicants view the recordings of at least one of three w
 
 - [Webinar #3 (held 5/21/2020 from 10:00 to 11:00 am)](https://youtu.be/FGYJe3T1xPM)
 
-Information provided during these webinar recordings will be unofficial and not binding on the state. 
+Information provided during these webinar recordings will be unofficial and not binding on the state.
 
 </div>
 
 <div data-title="Completing the Application" data-summary="">
 
-[DOWNLOAD ZIP FILE OF ALL REQUIRED APPLICATION DOCUMENTS](https://icjia.illinois.gov/gata/materials/funding/2020-r3-assessment-planning/R3Planning.zip)  {.text-center .noi-link} 
+[DOWNLOAD ZIP FILE OF ALL REQUIRED APPLICATION DOCUMENTS](https://icjia.illinois.gov/gata/materials/funding/2020-r3-assessment-planning/R3Planning.zip) {.text-center .noi-link}
 
 - If applying as a collaborative (see more at this [link](/collaboratives)), gather signed Letters of Commitment and/or Memoranda of Understanding from each member of the collaborative. See [examples here](/).
 

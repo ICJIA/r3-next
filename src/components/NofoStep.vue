@@ -1,6 +1,6 @@
 <template>
   <v-container fluid full-width>
-    <v-row no-gutters style="min-height: 300px;">
+    <v-row no-gutters style="min-height: 300px;" v-if="status === 'live'">
       <v-col
         cols="12"
         md="3"
@@ -30,6 +30,15 @@
           </v-row>
         </v-container>
       </v-col>
+    </v-row>
+    <v-row v-else style="background: #B71C1C" class="mb-2 mt-2">
+      <v-col class="text-center">
+        <div
+          v-html="html"
+          class="pl-1 pt-4 pb-4"
+          style="font-weight: 900; font-size: 22px; color: #fff"
+        ></div
+      ></v-col>
     </v-row>
   </v-container>
 </template>
@@ -61,6 +70,10 @@ export default {
     background: {
       type: String,
       default: "#fff"
+    },
+    status: {
+      type: String,
+      default: "live"
     }
   }
 };

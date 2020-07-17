@@ -18,6 +18,7 @@
         :html="step.html"
         :color="step.color"
         :background="step.background"
+        :status="step.status"
       ></NofoStep>
     </div>
   </div>
@@ -97,12 +98,17 @@ export default {
         counter >= colors.length - 1 ? (counter = 0) : counter++;
         obj.title = $(this).attr("data-title");
         obj.summary = $(this).attr("data-summary");
+        obj.status = $(this).attr("data-status") || "live";
         obj.html = $(this).html();
         obj.color = colors[counter];
         if (counter % 2 == 0) {
           obj.background = "#fff";
         } else {
           obj.background = "#f8f8f8";
+        }
+
+        if (obj.status === "expired") {
+          obj.background = "#ccc";
         }
         steps.push(obj);
       });

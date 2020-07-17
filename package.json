@@ -12,8 +12,8 @@
     "build": "node generateRoutes && node generateSitemap && node generateSearchIndex && vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "deploy": "now",
-    "deploy:prod": "now --prod",
+    "deploy": "vercel",
+    "deploy:prod": "vercel --prod",
     "postbuild": "node generateBuildInfo.js",
     "scripts": "node generateRoutes && node generateSitemap && node generateSearchIndex",
     "version": "auto-changelog -p --commit-limit false --sort-commits date && git add CHANGELOG.md"
