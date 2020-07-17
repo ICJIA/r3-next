@@ -86,7 +86,7 @@ The R3 program receives 25% of net tax revenue from adult-use cannabis and has b
 
 ## R3 NOFO Questions and Answers
 
-### Updated July 10, 2020
+### Updated July 17, 2020 -- FINAL UPDATE
 
 <div class="faq-indent">
 
@@ -1081,5 +1081,193 @@ Yes. A lease would not be considered a capital expenditure and, therefore, could
 #### Is it permissible to include additional attachments with the application other than those specifically mentioned in the NOFO?  For example, items like a program logic model, resume of the program director, examples of program materials, etc.?  Or must all such information fit within the 20 page narrative limit?
 
 Letters of Commitment/Memoranda of Understanding between collaborative members will not count toward the 20-page limit. No additional documents beyond those requested as part of the application packet will be reviewed. 
+
+</div>
+
+### Questions and Answers from July 10, 2020 to July 16, 2020
+
+<div class="faq-indent">
+
+#### My question is are we to choose the areas in which we are planning (e.g. economic development, reentry) OR are the planning grants to assess ALL of the areas identified in the NOFO?  
+
+Either approach is fine. You can either perform an assessment to determine which of the program priorities are needed and then choose what you’ll focus on based on that assessment, or if you already know what program priorities you would like to work with or have the background in, you can perform an assessment and planning process for what is needed within those areas. Either way, it will be the applicant’s responsibility to explain the approach you decide on and why that approach was chosen.
+
+#### Is there any way to still submit a notice of intent?
+
+While the deadline has passed, note that the notice of intent is merely recommended, not a required step. You are still able to submit the application by the due date. Without an NOI, we will not be able to verify your GATA pre-qualification prior to application and provide technical assistance, so please make sure to verify that you have all of your pre-qualification steps completed.
+
+#### Do all employees who qualify within an R3 area need to fill out a Certification of Employee Local Residence form? or is it one filled out per agency certifying 50% of employees qualify?  
+
+No—only one form is required for the application. You do not need to submit one form per employee.
+
+#### I have a question on signatures on the application cover page.  It asks for three signature – two from the Implementing Agency and one from the Program Agency.  We would be acting as both.  Can you clarify specifically what signatures are needed?
+
+If the implementing agency and program agency are the same, you can complete the implementing agency signatures and leave the program agency signatures blank.
+
+#### If 50% of the staff do not live in the R3 zone will our application be denied?
+
+No. The 50% threshold you refer to is only related to the local preference points, not your eligibility to apply. You may not receive those few points, but the rest of your application is eligible to be scored.
+
+#### There is a 20-page limit for the Program Narrative however the narrative template format and instructions are about six and a half pages long.  Applicants are instructed to NOT make any changes to the template. Does this mean that the final narrative can be 26 1/2 pages long?  Or, does this mean that the applicant's responses can only be 13 1/2 pages?
+
+Applicants may delete instructions (but not the questions) from the Program Narrative document. The final document, including the questions and tables, cannot be longer than 20 pages total.
+
+#### Are footer and page numbers allowed in bottom page margins?
+
+Yes.
+
+#### We are renovating a park playground for use by 2500 youth who live in an underserved neighborhood. Would this project qualify or is it considered a capital project?
+
+Renovating a playground is an allowable activity that would not be considered a capital expenditure.
+
+#### Can you please let me know where I can find the list of certifications/assurances referred to on page 3 of the Uniform Application form?
+
+For this NOFO the only eligible certifications are the certification of local employee residence (if applicable—only if seeking the local preference points based on employee residence) and the general assurance that your organization is eligible to receive state funds.
+
+#### My organization submitted our application for a SAM.gov account last night but it appears as though it could take up to 10 business days for approval.  Is there any way to expedite a SAM account or are we running the risk of not being able to submit our R3 proposal?
+
+You are still able to apply for the grant, as long as the application for a new/updated SAM.gov account has been made. Your account will need to be active and correct before any grant agreement can be executed, but your application will be reviewed as long as the request to update was submitted prior to the application deadline.
+
+#### In the R3 Narrative application for Service Delivery, the section on Goals, Objectives, and Performance Measures does not show a point score. How is this section evaluated in an applicant’s overall point score?
+
+The “Goals, Objectives, and Performance Measures” and “Implementation Schedule” sections are included to help build successful applicants’ grant agreements. They are not directly scored, but reviewers may consider the proposed goals and objectives in the context of reviewing the overall program design.
+
+#### For the personnel section of the budget, ICJIA requests a job description for each role. How in depth do you want these descriptions and should they be added as a separate document or other the personnel narrative?
+
+It is your decision how much information you want to include, but the job description should be included within the budget template in the narrative section, not on a separate document. Separate documents that are not part of the application packet will not be reviewed. Job descriptions should be sufficient to explain the role of the employee in the program but need not be full descriptions that include detail on non-program-related tasks.
+
+#### Do we need to provide matching funds to apply?
+
+No.
+
+#### We are all working remotely and are planning to sign the uniform pdf using electronic signatures.  Is that acceptable?   This seems like a difficult time for getting original signatures.
+
+Yes, we accept electronic signatures on PDF documents in lieu of ink signatures.
+
+#### I have a question regarding the payout of the grant once awarded.  Will all funds be distributed at the beginning of the grant or will they be distributed semiannually or quarterly?  
+
+While we are still working on the details, we know that there will be an opportunity for successful applicants/grant recipients to request advance payment. Most likely a portion of the funds will be provided up front to cover immediate start-up costs and initial months of program operation, with monthly payments occurring after that. We do not anticipate providing the full amount up front, due to state and federal guidelines on advance payment.
+
+#### Can you tell me where to find the form required in this passage? “Applicants are also required to submit a financial and administrative risk assessment via an Internal Controls Questionnaire (ICQ) for state fiscal year 2021 before July 1, 2020 (NOFO close date) and obtain approval from their cognizant agencies before execution of the grant agreement. Delay in obtaining SFY21 ICQ approval will result in a delay in grant execution.”
+
+The ICQ is available via the State of Illinois GATA Grantee Portal. Any applicant with an account at https://grants.illinois.gov/portal/ should be able to view their account and access the ICQ from there.
+
+#### We are all up to date regarding eligibility but the portal continues to produce an error making it impossible to register for the upcoming grant. Would you happen to know who we could contact?
+
+If you’re having trouble with the Grantee Portal (https://grants.illinois.gov/portal/) I suggest reviewing the FAQ page for that site here: https://www2.illinois.gov/sites/GATA/grantee/pages/granteeportalfaq.aspx. 
+
+#### We saw that cash advances may be available to lead applicants. We are trying to assess our need for this. One process component we are not clear on is the drawdown procedures for collaborative applications. It is our understanding that all subawardee partners need to submit an invoice with documentation to the lead applicant. Must the lead applicant pay the subawardee prior to drawing down grant funds? Or can the lead applicant request draw down (with subawardee documentation) and then pay all partners? The concern is around cash flow and for the lead applicant being able to advance a large sum to partners each month while waiting on the drawdown to be processed. Clarity on what is required when drawdown funds is appreciated.
+
+We are still working on the details of how the advance payments would work, since this is the first time our state grantees are able to request these advances. As such, I can only speak tentatively right now—please be aware that some of the procedures below may change by the time any grant agreements are executed. At the moment, it appears that lead applicants will be able to request a working capital advance payment that would cover an initial period of program performance, including payments to subgrantee partners. Grantees would need to submit an estimate for the advance payment needed, which can include these subawards. We hope that this method will reduce cash flow issues to all grantees by allowing that initial advance payment to cover the first few months of expenses rather than relying on the lead entity’s reserves.
+
+#### In the Program Narrative, for the Program Staffing section, are you looking for just staff information of the lead applicant or all collaborative partners?
+
+This section should outline, to the best of the applicant’s ability, the staffing that would go into carrying out the program described. Because there can be a great deal of variety in collaborative applications regarding partners’ roles in completing the program, it is impossible to specify who should be included. But applicants should make sure to include information about any partner’s staffing if that is relevant to how the program will be carried out.
+
+#### If we reference articles/research in the narrative is there a preferred method for citations?
+
+There is no preferred method for citations. Any generally-accepted method to cite other sources will be accepted for the purposes of this application.
+
+#### Our organization does have a NICRA.  Are we limited to using the full NICRA amount to the first 25K of contractual services since it is Federal pass through dollars?
+
+All of the terms of your organization’s NICRA will be applied to your indirect cost calculations for this grant. If your NICRA specifies that only the first $25k of contractual services is included in the base when calculating indirect costs, then you would be limited to that calculation. However, if your NICRA does not include this restriction, then it would not be applied to you for this grant.
+
+#### For the planning grant may we focus on these areas and the places in which we have relationships?  Or must we plan for the whole funding region?  Can we break out some of the areas rather than apply for the entire region?
+
+It is the applicant’s decision as to the range or extent of the proposed project. It is not a requirement to serve an entire funding region. Therefore, you are able to propose to serve only the R3 zones in which you already have a presence if that fits best with your program design. Please note that you would need to identify the R3 zones to be served in your application, and you would need to describe your decision as to why that is your proposed program area so that reviewers understand the choices you made in your program design.
+
+#### Are organizations required to have indirect costs?  
+
+No, it is up to the applicant whether you wish to include indirect costs in your budget.
+
+#### Since there is no occupancy tab in the budget spreadsheet, we plan to include allocated direct costs in the fringe tab. Our allocated costs include direct costs such as rent and utilities that are allocated across grants based on salaries charged each month. Is this the correct tab to include these direct costs?
+
+Ordinarily, occupancy costs would be included on this budget under the contractual tab. However, it is up to the applicant to decide how best to list the costs in their budgets, and application reviewers will not be penalizing applicants based on how costs are categorized (only on whether those costs are reasonable, justified for the program, etc). If your application is successful, we may ask you to move the costs to another category, but for the purpose of the grant application you may place them where you think they fit best.
+
+#### Please look at the R3 application Narrative template.  Starting after Question 16, there are discussions of Goals, Objectives, and Performance Measures followed by Implementation Schedule.  Are these supposed to be submitted as part of the application or are they just including this information for after you receive the award?  
+
+These tables need to be submitted as part of the application. They can be referenced by application reviewers to evaluate the success of the program design described in the application. If your application is successful, they may also be used to create your grant agreement.
+
+#### If we are applying as a collaborative, should we submit the Certification of Employee Local Residence Form for the lead applicant?
+
+Collaboratives can receive local preference points based on the location of the collaborative members, rather than employee residence. Only single organization applicants should complete the Certification of Employee Local Residence Forms.
+
+#### Is it impossible for me to complete the application without attending a GATA technical assistance session?
+
+Not at all. While the technical assistance helps applicants become eligible for grants and often provides good tips for applying, it is not a requirement for application. Applications can be filled out regardless of attendance at a technical assistance session.
+
+#### My understanding is that the FFATA section of the budget template is not applicable to this grant. Meaning there is nothing to fill out or complete in this section. Am I correct?
+
+You should still fill out the FFATA section of the budget with whatever information you have for that section. Even though the grant is state funded, we are still required to collect the information on the FFATA page.
+
+#### Since this grant has no Matching Funds requirement, is there anything we need to complete with this form?
+
+No. You may leave the Matching Funds section of the application/budget template blank.
+
+#### We are excited about the R3 grant opportunity, but became aware of it too late to pull together a solid proposal. I'm wondering when the next funding cycle will become available so we can be prepared to submit an application.
+
+I’m sorry to hear that you weren’t able to apply during this phase of applications. I can’t be certain when the next funding cycle will begin, but it seems likely that there will be another Notice of Funding Opportunity released next winter. However, please keep an eye on the website at https://r3.illinois.gov; if not all funding is exhausted after this current round of applications, it is possible that another NOFO will be released during this fiscal year. If so, it will be posted to that website.
+
+#### At the bottom of most sections there is space for a narrative: Personnel, Fringe Benefits, etc. Are those narratives the only space to give more detail for that budget category? Or should we do another narrative/summary that has all sections in one document?
+
+You should not do a separate budget narrative with all sections in one document. The narrative sections at the bottom of the tabs on the budget template should be used to describe in more detail the items of cost you list above, and to explain what the use of the items is in the program (and, if applicable, how the cost was estimated).
+
+#### In Question 3(a) of the R3ServiceNARRATIVE document, is the responsible applicant considered a collaborative member?
+
+#### Sample Scenario:
+
+#### Responsible Applicant - located within R3 Zone ID 1
+#### Collaborative Member 1 - not located within any R3 Zone
+#### Collaborative Member 2 - located within R3 Zone ID 2
+#### Collaborative Member 3 - not located within any R3 Zone
+
+#### In the above case, will the group be considered as having 50% collaborative members within an R3 Zone such that they qualify for said classification? Or will the group be considered as non-compliant with the 50% collaborative member classification since the responsible applicant is excluded?
+
+The responsible applicant is considered a collaborative member, and, in the scenario you provided, the application would be eligible for local preference points based on 50% of collaborative members being within an R3 zone.
+
+#### The Excel Uniform Grant Budget Template contains sections C1 through C7.  The Illinois Grants we usually work with have 17 sections.  For example, training costs are usually listed in section 12, telecommunications costs are usually listed in section 11, and transportation costs for clients are usually listed in section 14.  Also, indirect costs are usually listed in section 17.  For the R3 grant, in what section would you like us to list these costs?
+
+It is up to you where you place the expenses that usually go into different tabs of the budget template. You will not be penalized for the category you choose to place the costs into on the budget, as long as the costs are reasonable and necessary for the program.
+
+#### We are a collaborative made up of 4 agencies.  The expenses for the implementing agency will be listed in the various expense categories, C1 though C7.  The expenses for the three program agencies will be listed in section C6.  Can the three program agencies include their indirect costs as a part of the contractual services we will list in section C6?
+
+Yes, subgrantees (partners in a collaborative application) can also claim indirect costs, which would be incorporated into the amount listed on the contractual page of the budget.
+
+#### The Budget/Budget Narrative is NOT included in the 20-page count for the Program Narrative.  Correct?
+
+Correct. The budget template (which contains the budget narrative fields) is a separate document and is not counted towards the 20-page limit for the Program Narrative (which is a Word document).
+
+#### Should I submit a budget narrative separate from the narrative in the budget excel file?
+
+No. Please put the narrative for each section of the budget into the space at the bottom of the corresponding tab within the Excel file. Please do not submit a separate document just for your budget narrative.
+
+#### We are planning to submit a collaborative application, where my organization would be the Grantee and the collaborating organization would be the subrecipient. The collaborating organization has already received a government-approved indirect cost rate. As the would-be Grantee (given our collaborator's existing indirect cost rate) would my organization be restricted in our ability to request either: (a) the de minimis rate; or (b) a rate that differs from our collaborative partner’s established rate?
+
+Your collaborative partner’s indirect cost rate would not impact yours. They should use their negotiated indirect cost rate for their subaward, and you should either use a negotiated indirect cost rate (if you have one) or, if you do not have a NICRA, you are free to take the de minimis 10% rate regardless of the NICRA for your subgrantee.
+
+#### Our organization is applying for a Service Delivery grant through R3 as a collaborative. We understand that organizations may be included in only one application submitted per funding region. One of the collaborative members included in our application will also be mentioned as a partner in the narrative of a different application in the same R3 region. However, they will not be included in that application's budget. Is this allowable?
+
+Yes, this is allowable. The partner would be able to be mentioned in another application’s narrative, but cannot be included in the budget or in the MOUs of another application.
+
+#### If our proposed service area covers multiple R3 Zone IDs, how is the service area determined as “high need”?  Would the service area require over 50% “high needs” R3 Zone IDs?
+
+As long as at least one of the R3 zones you propose to serve is designated as a ‘high need’ zone, you would receive the points for serving a high need zone.
+
+#### Where will we find the Programmatic Risk Assessment for ICIJA?  In addition, when does it need to be completed?
+
+The Programmatic Risk Assessment is not part of the application process. It does not need to be completed unless your application is chosen for funding, at which point ICJIA will provide you with the PRA questionnaire to fill out.
+
+#### What sorts of details do we need to include in our budget when it comes to supplies?
+
+Your budget should detail the supplies that you project will be needed for the program, but you need only list the type of supplies, quantity needed, cost per item, and (in the narrative) how the cost was estimated. You do not need to provide the name of the vendor or other details unless it is relevant to how your costs were estimated.
+
+#### If part of your proposal includes hiring individuals in the Cook South Region does that mean we should consider the proposal as contributing to economic development as well or not?  
+
+No, simply hiring staff does not qualify a program as an ‘economic development’ program in terms of the R3 program priorities. The program would need to have some activities or services geared towards economic development in the community.
+
+#### If you are increasing awareness of a new service are marketing costs allowable...e.g., posters, advertising, flyers, etc. 
+
+Yes, some advertising/marketing/public awareness costs could be allowable for this purpose. Such costs would need to be justified as reasonable and as necessary for the program. Also note that any published materials would need to be approved by ICJIA prior to the expenditure being made.
+
 
 </div>
