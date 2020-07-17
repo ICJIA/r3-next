@@ -30,7 +30,7 @@
       "
     ></Outdated>
 
-    <v-content>
+    <v-main>
       <Corona ref="alert" />
       <!-- <Language></Language> -->
       <!-- <Translate></Translate> -->
@@ -40,7 +40,7 @@
           :key="$route.fullPath"
         ></router-view>
       </transition>
-    </v-content>
+    </v-main>
     <AppFooter :siteMeta="$myApp.siteMeta" v-if="!loading"></AppFooter>
   </v-app>
 </template>
