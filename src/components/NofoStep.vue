@@ -31,7 +31,7 @@
         </v-container>
       </v-col>
     </v-row>
-    <v-row v-else style="background: #B71C1C" class="mb-2 mt-2">
+    <v-row v-else style="background: #B71C1C" class="px-5 mb-2 mt-2">
       <v-col class="text-center">
         <div
           v-html="html"
