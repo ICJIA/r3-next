@@ -6,7 +6,7 @@ showInFooter: true
 showInNav: false
 showInSidebar: true
 menuRank: 1
-menuTitle: "Apply Now"
+menuTitle: "Past Opportunities"
 summary: "Current funding opportunities"
 showAsCard: false
 dividerBefore: true

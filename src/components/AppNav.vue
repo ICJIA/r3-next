@@ -79,7 +79,7 @@
         <span style="font-size: 12px">Home</span>
       </v-btn>
 
-      <v-menu offset-y left transition="slide-y-transition" max-width="500">
+      <!-- <v-menu offset-y left transition="slide-y-transition" max-width="500">
         <template v-slot:activator="{ on }">
           <v-btn
             text
@@ -117,13 +117,21 @@
               <div
                 class="mr-5 mt-1 text-right"
                 style="color: #333; font-size: 12px; font-weight: bold "
+                v-if="!item.attributes.expires < $myApp.now"
               >
                 Deadline: {{ item.attributes.expires | format }}
+              </div>
+              <div
+                v-else
+                class="mr-5 mt-1 text-right"
+                style="color: #333; font-size: 12px; font-weight: bold "
+              >
+                Expired
               </div>
             </v-list-item-content>
           </v-list-item>
         </v-list>
-      </v-menu>
+      </v-menu> -->
 
       <v-btn
         :to="link.path === '/home' ? '/' : `${link.path}`"

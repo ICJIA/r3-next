@@ -25,7 +25,7 @@
             <div class="nofo-tagline">
               {{ summary }}
             </div>
-            <div
+            <!-- <div
               class="mt-4"
               style="font-size: 13px;  font-weight: bold;"
               v-if="!comingSoon"
@@ -38,7 +38,7 @@
               v-if="comingSoon"
             >
               COMING SOON
-            </div>
+            </div> -->
           </div>
         </v-row>
       </v-container>

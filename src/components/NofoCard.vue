@@ -33,7 +33,7 @@
                 <div class="nofo-tagline">
                   {{ item.attributes.summary }}
                 </div>
-                <div
+                <!-- <div
                   class="mt-4"
                   style="font-size: 13px;  font-weight: bold;"
                   v-if="!item.attributes.comingSoon"
@@ -49,7 +49,9 @@
                 >
                 <v-btn class="mt-6" outlined color="white" v-else
                   >Apply Now</v-btn
-                >
+                > -->
+
+                <v-btn class="mt-6" outlined color="white">EXPIRED</v-btn>
               </div>
             </v-row>
           </v-container>

@@ -1,5 +1,14 @@
 import config from "@/config.json";
 import searchIndex from "../../public/searchIndex.json";
+import moment from "moment";
+// eslint-disable-next-line no-unused-vars
+import tz from "moment-timezone";
+
+const now = moment()
+  .tz("America/Chicago")
+  .format("YYYY-MM-DD");
+
+console.log(now);
 
 const computedPublicPath =
   process.env.NODE_ENV === `production` ? config.publicPath : "";
@@ -45,6 +54,7 @@ let colors = {
 //console.log(funding);
 
 let myApp = {
+  now,
   config,
   searchIndex,
   computedPublicPath,
