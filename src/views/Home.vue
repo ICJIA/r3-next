@@ -19,7 +19,7 @@
     <div style="background: #fafafa; border-top: 1px solid #eee;" class="pb-12">
       <v-container fluid>
         <v-row>
-          <v-col cols="12" md="8">
+          <v-col cols="12" md="12">
             <h2
               style="font-size: 24px; font-weight: 900 !important; border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 10px;"
             >
@@ -68,7 +68,7 @@
               </v-row>
             </v-container>
           </v-col>
-          <v-col cols="12" md="4">
+          <!--<v-col cols="12" md="4">
             <h2
               style="font-size: 24px; font-weight: 900 !important; border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 10px;"
             >
@@ -119,7 +119,7 @@
                 </v-col>
               </v-row>
             </v-container>
-          </v-col>
+          </v-col>-->
         </v-row>
       </v-container>
     </div>
