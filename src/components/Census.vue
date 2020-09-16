@@ -1,5 +1,5 @@
 <template>
-  <div v-if="showCensusModal">
+  <div v-if="showCensusModal && censusActive">
     <v-dialog v-model="census" persistent max-width="390">
       <v-card>
         <v-card-title class="headline">Census Reminder</v-card-title>
@@ -42,6 +42,16 @@ export default {
     }
   },
   computed: {
+    censusActive() {
+      const now = new Date();
+      const censusActiveUntil = new Date("2020-10-01");
+
+      if (now < censusActiveUntil) {
+        return true;
+      } else {
+        return false;
+      }
+    },
     showCensusModal() {
       //console.log("local storage: ", localStorage.getItem("showCensusModal"));
       if (localStorage.getItem("showCensusModal")) {

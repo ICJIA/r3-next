@@ -95,7 +95,8 @@ export default {
     siteDescription: "",
     title: "",
     siteMeta: null,
-    fab: false
+    fab: false,
+    censusExpire: true
   }),
   computed: {
     showCensusModal() {
@@ -123,7 +124,12 @@ export default {
   async mounted() {
     //console.log(`computed public path: ${this.$myApp.computedPublicPath}`);
 
-    console.log($().jquery);
+    // console.log($().jquery);
+    const now = new Date();
+    const censusExpire = new Date("2020-09-15");
+    if (now < censusExpire) {
+      this.censusExpire = false;
+    }
   },
   async created() {
     this.loading = true;
