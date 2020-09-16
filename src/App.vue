@@ -32,8 +32,11 @@
 
     <v-main>
       <Corona ref="alert" />
+      <Census :key="$route.path"></Census>
+
       <!-- <Language></Language> -->
       <!-- <Translate></Translate> -->
+
       <transition name="fade" mode="out-in">
         <router-view
           @click="closeElements()"
@@ -41,6 +44,7 @@
         ></router-view>
       </transition>
     </v-main>
+
     <AppFooter :siteMeta="$myApp.siteMeta" v-if="!loading"></AppFooter>
   </v-app>
 </template>
@@ -93,6 +97,16 @@ export default {
     siteMeta: null,
     fab: false
   }),
+  computed: {
+    showCensusModal() {
+      //console.log("local storage: ", localStorage.getItem("showCensusModal"));
+      if (localStorage.getItem("showCensusModal")) {
+        return false;
+      } else {
+        return true;
+      }
+    }
+  },
   methods: {
     closeElements() {
       EventBus.$emit("closeSearch");
