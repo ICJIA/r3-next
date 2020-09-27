@@ -1,6 +1,11 @@
 <template>
   <div>
-    <select class="select-css" ref="select" :class="{ isRtl: false }">
+    <select
+      class="select-css"
+      ref="select"
+      :class="{ isRtl: false }"
+      aria-label="Select language"
+    >
       <option value="" selected disabled hidden
         >How to translate this page</option
       >
@@ -13,6 +18,7 @@
       type="button"
       value="DOWNLOAD"
       @click="getFile()"
+      aria-label="Download"
     />
   </div>
 </template>
@@ -27,11 +33,11 @@ export default {
       //console.log(myVal);
       //location.href = `/downloads/translate/${myVal}`;
       window.open(`/downloads/translate/${myVal}`, "_blank");
-    }
+    },
   },
   data() {
     return {};
-  }
+  },
 };
 </script>
 
