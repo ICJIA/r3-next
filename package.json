@@ -31,6 +31,7 @@
     "jquery": "^3.5.0",
     "lazy-cache": "^2.0.2",
     "list-item": "^1.1.1",
+    "lodash": "^4.17.20",
     "markdown-it": "^10.0.0",
     "markdown-it-attrs": "^3.0.2",
     "markdown-link": "^0.1.1",

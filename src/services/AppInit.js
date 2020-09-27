@@ -1,6 +1,7 @@
 import config from "@/config.json";
 import searchIndex from "../../public/searchIndex.json";
 import moment from "moment";
+import _ from "lodash";
 // eslint-disable-next-line no-unused-vars
 import tz from "moment-timezone";
 
@@ -45,6 +46,24 @@ let funding = fundingItems.filter(item => {
   }
 });
 
+const newsContext = require.context(
+  "../../public/markdown/news/",
+  true,
+  /\.md$/
+);
+const newsItems = newsContext.keys().map(key => ({
+  ...newsContext(key),
+  path: `/news/${key.replace(".md", "").replace("./", "")}`
+}));
+//console.log(funding);
+let news = newsItems.filter(item => {
+  if (item.path.indexOf("placeholder") === -1) {
+    return item;
+  }
+});
+
+news = _.sortBy(news, "attributes.posted").reverse();
+
 let colors = {
   blue: ["#103f7c", "#103f7c"],
 
@@ -60,6 +79,7 @@ let myApp = {
   computedPublicPath,
   siteMeta,
   funding,
+  news,
   colors
 };
 

@@ -7,6 +7,7 @@ export const handleClicks = {
   mounted() {},
   methods: {
     handleClicks($event) {
+      console.log("click");
       // intercepts <a></a> tag clicks and routes within app
       //$event.preventDefault();
       const { target } = $event;
@@ -20,11 +21,12 @@ export const handleClicks = {
         $event.preventDefault();
         const filename = href.split("/").pop();
         console.log("Download event: ", filename);
-        let publicPath =
-          process.env.NODE_ENV === `production`
-            ? this.$myApp.config.publicPath
-            : "";
-        let path = `${publicPath}${this.$route.meta.fileDownloadPath}${filename}`;
+        // let publicPath =
+        //   process.env.NODE_ENV === `production`
+        //     ? this.$myApp.config.publicPath
+        //     : "";
+        let path = `${this.$route.meta.fileDownloadPath}${filename}`;
+        console.log("filedownloadPath", this.$route.meta.fileDownloadPath);
         console.log("download path: ", path);
 
         // this.$ga.event({

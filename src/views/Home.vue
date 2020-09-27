@@ -19,7 +19,7 @@
     <div style="background: #fafafa; border-top: 1px solid #eee;" class="pb-12">
       <v-container fluid>
         <v-row>
-          <v-col cols="12" md="12">
+          <v-col cols="12" sm="12" md="7">
             <h2
               style="font-size: 24px; font-weight: 900 !important; border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 10px;"
             >
@@ -68,58 +68,17 @@
               </v-row>
             </v-container>
           </v-col>
-          <!--<v-col cols="12" md="4">
+
+          <v-col cols="12" sm="12" md="5">
             <h2
               style="font-size: 24px; font-weight: 900 !important; border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 10px;"
             >
-              Review R3 Applications
+              News & Updates
             </h2>
-            <v-container
-              style="margin: 0; padding: 0;"
-              class="mt-5 text-center"
-            >
-              <v-row>
-                <v-col>
-                  <div class="hover">
-                    <center>
-                      <v-img
-                        src="/qr.png"
-                        @click="
-                          gotoSurvey(
-                            'https://icjia.az1.qualtrics.com/jfe/form/SV_78vgpBV1nmXxeDj'
-                          )
-                        "
-                        lazy="/qr-min.png"
-                        width="225"
-                        ><template v-slot:placeholder>
-                          <v-row
-                            class="fill-height ma-0"
-                            align="center"
-                            justify="center"
-                          >
-                            <v-progress-circular
-                              indeterminate
-                              color="grey lighten-5"
-                            ></v-progress-circular>
-                          </v-row> </template
-                      ></v-img>
-                      <p class="mt-8">
-                        Do you want to volunteer to help review applications for
-                        this grant opportunity?
-                        <a
-                          href="https://icjia.az1.qualtrics.com/jfe/form/SV_78vgpBV1nmXxeDj"
-                          target="_blank"
-                          >Click here</a
-                        >
-                        or scan the QR code to complete a quick survey to
-                        register as a reviewer.
-                      </p>
-                    </center>
-                  </div>
-                </v-col>
-              </v-row>
+            <v-container style="margin: 0; padding: 0;" class="mt-6">
+              <HomeNews></HomeNews>
             </v-container>
-          </v-col>-->
+          </v-col>
         </v-row>
       </v-container>
     </div>

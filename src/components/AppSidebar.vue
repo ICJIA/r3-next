@@ -25,6 +25,13 @@
           <v-divider />
         </div>
       </div>
+      <v-list-item link to="/news">
+        <v-list-item-content>
+          <h3 style="font-size: 18px;">
+            News & Updates
+          </h3>
+        </v-list-item-content>
+      </v-list-item>
       <v-list-item link @click="gotoTA">
         <v-list-item-content>
           <h3 style="font-size: 18px;">

@@ -148,7 +148,7 @@
         <span v-else style="font-size: 12px">{{ link.attributes.title }}</span>
       </v-btn>
 
-      <v-btn
+      <!-- <v-btn
         text
         style="font-weight: 900"
         aria-label="Technical Assistance"
@@ -157,6 +157,16 @@
       >
         <span style="font-size: 12px">Technical Assistance</span>
         <v-icon right small>open_in_new</v-icon>
+      </v-btn> -->
+
+      <v-btn
+        to="/news"
+        text
+        class="hidden-sm-and-down"
+        style="font-weight: 900"
+        aria-label="News"
+      >
+        <span style="font-size: 12px">News & Updates</span>
       </v-btn>
 
       <v-btn text to="/search">

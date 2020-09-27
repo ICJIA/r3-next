@@ -23,6 +23,9 @@
             }}</span>
           </v-btn>
         </span>
+        <v-btn text style="font-weight: 900" aria-label="News" to="/news">
+          <span style="font-size: 12px">News</span>
+        </v-btn>
         <v-btn
           text
           style="font-weight: 900"
@@ -57,6 +60,15 @@
               class="footer-link"
               rel="noreferrer"
               >Governor JB Pritzker</a
+            > </strong
+          >&nbsp;|&nbsp;
+          <strong>
+            <a
+              href="https://coronavirus.illinois.gov/s/"
+              target="_blank"
+              class="footer-link"
+              rel="noreferrer"
+              >Statewide Coronavirus Response</a
             > </strong
           >&nbsp;|&nbsp;
           <strong>

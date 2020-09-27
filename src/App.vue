@@ -31,7 +31,7 @@
     ></Outdated>
 
     <v-main>
-      <Corona ref="alert" />
+      <Banner ref="banner" />
       <Census :key="$route.path"></Census>
 
       <!-- <Language></Language> -->
@@ -137,6 +137,7 @@ export default {
     this.siteDescription = `${this.$myApp.config.siteDescription}`;
     this.canonical = `${this.$myApp.config.clientBase}${this.$myApp.computedPublicPath}${this.$route.path}`;
     this.loading = false;
+    //console.log(this.$myApp);
   }
 };
 </script>

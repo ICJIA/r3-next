@@ -17,12 +17,19 @@
                 >
                   {{ title }}
                 </h1>
+                <div
+                  style="font-size: 14px; font-weight: bold; color: #777"
+                  class="mt-3"
+                  v-if="$route.path.includes('/news/')"
+                >
+                  {{ posted | dateFormat }}
+                </div>
               </v-col>
             </v-row>
           </v-container>
         </template>
         <template v-slot:content>
-          <v-container style="margin-top: -10px;">
+          <v-container style="margin-top: -20px;">
             <v-row>
               <v-col
                 cols="12"
@@ -86,6 +93,7 @@ export default {
       attributes: {},
       selectedArticle: null,
       title: "",
+      posted: "",
       markdownContent: null,
       contentFetched: false,
       about: "",
@@ -120,6 +128,7 @@ export default {
             this.tocSelectors = fmd.attributes.tocSelectors;
             this.tocHeaders = fmd.attributes.tocHeaders;
             this.markdown = fmd.body;
+            this.posted = fmd.attributes.posted;
             this.hideTitleOnPage = fmd.attributes.hideTitleOnPage;
             this.html = fmd.html;
             // console.log(this.html);

@@ -19,6 +19,7 @@
     "keys": ["title", "summary", "headings.heading", "type", "name"]
   },
   "debug": true,
+  "frontPageNewsItems": 2,
   "markdownItOptions": {
     "html": true,
     "xhtmlOut": false,

@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid full-width>
+  <v-container fluid full-width style="margin-top: -12px;">
     <v-row no-gutters>
       <v-col
         style="background: #ccc;"
