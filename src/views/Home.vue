@@ -47,7 +47,7 @@
                           class
                           :class="{
                             mobileTitle:
-                              $vuetify.breakpoint.xs || $vuetify.breakpoint.sm,
+                              $vuetify.breakpoint.xs || $vuetify.breakpoint.sm
                           }"
                           >{{ card.attributes.title }}</v-card-title
                         >
@@ -98,16 +98,16 @@ export default {
   mixins: [handleClicks, generateToc],
   metaInfo() {
     return {
-      title: this.$myApp.config.siteTitle,
+      title: this.$myApp.config.siteTitle
     };
   },
   mounted() {
     this.$ga.page({
       page: this.$route.path,
       title: this.title,
-      location: window.location.href,
+      location: window.location.href
     });
-    let cards = this.$myApp.siteMeta.filter((item) => {
+    let cards = this.$myApp.siteMeta.filter(item => {
       if (item.attributes.showAsCard) {
         return item;
       }
@@ -120,8 +120,8 @@ export default {
   components: {
     HomePageContent: {
       extends: fm.vue.component,
-      components: {},
-    },
+      components: {}
+    }
   },
   computed: {
     showToc() {
@@ -130,14 +130,14 @@ export default {
       } else {
         return true;
       }
-    },
+    }
   },
   data() {
     return {
       title: fm.attributes.title,
       loading: true,
       fm,
-      cards: null,
+      cards: null
     };
   },
   methods: {
@@ -166,8 +166,8 @@ export default {
     },
     slugify(str) {
       return slugs(str);
-    },
-  },
+    }
+  }
 };
 </script>
 

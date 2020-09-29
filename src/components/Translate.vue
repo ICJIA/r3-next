@@ -33,11 +33,11 @@ export default {
       //console.log(myVal);
       //location.href = `/downloads/translate/${myVal}`;
       window.open(`/downloads/translate/${myVal}`, "_blank");
-    },
+    }
   },
   data() {
     return {};
-  },
+  }
 };
 </script>
 

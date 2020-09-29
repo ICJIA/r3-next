@@ -2,6 +2,7 @@
   <div>
     <div class="" v-if="!loading">
       <slot name="title"></slot>
+      <slot name="date"></slot>
       <slot name="printer"></slot>
       <slot name="content"></slot>
     </div>
