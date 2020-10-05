@@ -9,6 +9,7 @@
             <v-icon color="red" large>check_box</v-icon> &nbsp;There's still
             time to be counted!
           </div>
+          <br />
           Due to COVID-19 the deadline for Census submission has been
           extended.<br /><br />
           Visit <a href="https://my2020census.gov/">My2020Census.gov!</a>
