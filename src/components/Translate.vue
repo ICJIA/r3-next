@@ -1,6 +1,6 @@
 <template>
   <div>
-    <select
+    <!-- <select
       class="select-css"
       ref="select"
       :class="{ isRtl: false }"
@@ -19,7 +19,8 @@
       value="DOWNLOAD"
       @click="getFile()"
       aria-label="Download"
-    />
+    /> -->
+    <div id="google_translate_element" style="margin-top: 10px;"></div>
   </div>
 </template>
 
