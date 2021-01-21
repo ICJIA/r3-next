@@ -49,11 +49,16 @@
                 >
                   <template v-slot:item.attributes.posted="{ item }">
                     <div style="font-size: 14px !important">
+                      <div v-if="isItNew(item)">
+                        <v-chip dark x-small color="#2296F3"> NEW! </v-chip>
+                      </div>
                       <strong>{{ item.attributes.posted | dateFormat }}</strong>
                     </div>
                   </template>
                   <template v-slot:item.attributes.title="{ item }">
-                    {{ item.attributes.title }}
+                    <div class="py-2">
+                      {{ item.attributes.title }}
+                    </div>
                   </template>
                   <template v-slot:item.attributes.summary="{ item }">
                     <div class="py-2">
@@ -101,15 +106,27 @@
 <script>
 import { handleClicks } from "@/mixins/handleClicks";
 import { EventBus } from "@/event-bus";
+import moment from "moment";
 export default {
   mixins: [handleClicks],
 
   metaInfo() {
     return {
-      title: "R3 News & Updates"
+      title: "R3 News & Updates",
     };
   },
   methods: {
+    isItNew(item) {
+      let now = moment(new Date()); //todays date
+      let end = moment(item.attributes.posted); // another date
+      let duration = moment.duration(now.diff(end));
+      let days = duration.asDays();
+      if (days <= 14) {
+        return true;
+      } else {
+        return false;
+      }
+    },
     getTruncatateValue() {
       if (this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.sm) {
         return 8;
@@ -131,7 +148,7 @@ export default {
           this.expanded.push(value);
         }
       }
-    }
+    },
   },
   data() {
     return {
@@ -143,31 +160,31 @@ export default {
           align: "start",
           sortable: true,
           value: "attributes.posted",
-          width: "200px"
+          width: "200px",
         },
         {
           text: "Title",
           align: "start",
           sortable: true,
           value: "attributes.title",
-          width: "300px"
+          width: "300px",
         },
 
         {
           text: "Summary",
           align: "start",
           sortable: true,
-          value: "attributes.summary"
+          value: "attributes.summary",
         },
         {
           text: "Link",
           align: "start",
           sortable: true,
-          value: "path"
-        }
-      ]
+          value: "path",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

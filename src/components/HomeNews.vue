@@ -11,7 +11,12 @@
           {{ item.attributes.posted | dateFormat }}
         </div>
         <h2
-          style="border-bottom: 1px solid #ccc; padding-bottom: 5px; font-size: 18px; line-height: 26px;"
+          style="
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            font-size: 18px;
+            line-height: 26px;
+          "
           class="mb-3"
         >
           <span v-if="isItNew(item)">
@@ -39,7 +44,7 @@ import moment from "moment";
 export default {
   data() {
     return {
-      frontPageNews: null
+      frontPageNews: null,
     };
   },
   created() {
@@ -64,8 +69,8 @@ export default {
       } else {
         return false;
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
