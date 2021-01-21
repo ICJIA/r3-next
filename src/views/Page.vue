@@ -13,7 +13,11 @@
               <v-col cols="12" sm="12" :md="dynamicFlex()">
                 <h1
                   :id="slugify(title)"
-                  style="font-weight: 900; border-bottom: 1px solid #ccc; padding-bottom: 5px;"
+                  style="
+                    font-weight: 900;
+                    border-bottom: 1px solid #ccc;
+                    padding-bottom: 5px;
+                  "
                 >
                   {{ title }}
                 </h1>
@@ -29,7 +33,7 @@
           </v-container>
         </template>
         <template v-slot:content>
-          <v-container style="margin-top: -20px;">
+          <v-container style="margin-top: -20px">
             <v-row>
               <v-col
                 cols="12"
@@ -79,12 +83,12 @@ const slugs = require("slugs");
 export default {
   mixins: [handleClicks],
   watch: {
-    $route: "fetchContent"
+    $route: "fetchContent",
   },
 
   metaInfo() {
     return {
-      title: this.title
+      title: this.title,
     };
   },
 
@@ -99,7 +103,7 @@ export default {
       about: "",
       html: "",
       showToc: false,
-      hideTitleOnPage: false
+      hideTitleOnPage: false,
     };
   },
   created() {
@@ -122,7 +126,7 @@ export default {
       let path = this.stripTrailingSlash(this.$route.path);
       this.markdownContent = async () =>
         await import(`../../public/markdown${path}.md`)
-          .then(fmd => {
+          .then((fmd) => {
             this.title = fmd.attributes.title;
             this.showToc = fmd.attributes.showToc;
             this.tocSelectors = fmd.attributes.tocSelectors;
@@ -137,11 +141,11 @@ export default {
             this.$ga.page({
               page: this.$route.path,
               title: this.title,
-              location: window.location.href
+              location: window.location.href,
             });
 
             return {
-              extends: fmd.vue.component
+              extends: fmd.vue.component,
             };
           })
           .catch(() => {});
@@ -167,9 +171,9 @@ export default {
       } else {
         return this.showToc ? "9" : "12";
       }
-    }
+    },
   },
-  mounted() {}
+  mounted() {},
 };
 </script>
 

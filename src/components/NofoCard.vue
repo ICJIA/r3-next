@@ -3,7 +3,7 @@
     <v-card
       class="hoverCard"
       @click="
-        $router.push(item.path).catch(err => {
+        $router.push(item.path).catch((err) => {
           $vuetify.goTo(0);
         })
       "
@@ -20,10 +20,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <!-- <v-avatar class="ma-3" size="105" tile>
                   <v-icon>{{ item.attributes.icon }}</v-icon>
                 </v-avatar> -->
@@ -66,23 +66,23 @@ export default {
   props: {
     item: {
       type: Object,
-      default: () => {}
+      default: () => {},
     },
     hidePhoto: {
       type: Boolean,
-      default: false
+      default: false,
     },
     data: () => ({
-      overlay: false
-    })
+      overlay: false,
+    }),
   },
   methods: {
     getBackground() {
       let colorArr = this.$myApp.colors[this.item.attributes.accent];
       // last element in color array is darkest
       return colorArr[colorArr.length - 1];
-    }
-  }
+    },
+  },
 };
 </script>
 

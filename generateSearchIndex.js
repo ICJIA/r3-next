@@ -31,7 +31,7 @@ let searchIndex = routes.map((route) => {
 
 // ... then get a list of site files ...
 // eslint-disable-next-line no-unused-vars
-utils.walkSync("./public/downloads", function(filePath, stat) {
+utils.walkSync("./public/downloads", function (filePath, stat) {
   let obj = {
     type: "file",
     path: filePath.replace("public", ""),

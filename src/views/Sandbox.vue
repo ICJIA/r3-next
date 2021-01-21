@@ -1,7 +1,11 @@
 <template>
   <div class="px-12 py-6">
     <div
-      style="font-family: 'Arial', sans-serif !important; font-size: 48px !important; font-weight: 900 !important"
+      style="
+        font-family: 'Arial', sans-serif !important;
+        font-size: 48px !important;
+        font-weight: 900 !important;
+      "
     >
       R<span style="color: #ccaa41">3</span> RESTORE. REINVEST. RENEW.
     </div>
@@ -19,10 +23,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
@@ -32,7 +36,7 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed.
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div class="mt-4" style="font-size: 13px; font-weight: bold">
                   Deadline: May 01, 2020
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
@@ -55,10 +59,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
@@ -68,7 +72,7 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div class="mt-4" style="font-size: 13px; font-weight: bold">
                   Deadline: May 01, 2020
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
@@ -92,10 +96,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
@@ -105,7 +109,7 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed.
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div class="mt-4" style="font-size: 13px; font-weight: bold">
                   Deadline: May 01, 2020
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
@@ -128,10 +132,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
@@ -141,7 +145,7 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div class="mt-4" style="font-size: 13px; font-weight: bold">
                   Deadline: May 01, 2020
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
@@ -165,10 +169,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
@@ -178,7 +182,7 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed.
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div class="mt-4" style="font-size: 13px; font-weight: bold">
                   Deadline: May 01, 2020
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
@@ -201,10 +205,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
@@ -214,7 +218,7 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div class="mt-4" style="font-size: 13px; font-weight: bold">
                   Deadline: May 01, 2020
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
@@ -238,10 +242,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
@@ -251,7 +255,7 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed.
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div class="mt-4" style="font-size: 13px; font-weight: bold">
                   Deadline: May 01, 2020
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
@@ -274,10 +278,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
@@ -287,7 +291,7 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div class="mt-4" style="font-size: 13px; font-weight: bold">
                   Deadline: May 01, 2020
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
@@ -311,10 +315,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
@@ -324,7 +328,7 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed.
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div class="mt-4" style="font-size: 13px; font-weight: bold">
                   Deadline: May 01, 2020
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
@@ -347,10 +351,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
@@ -360,7 +364,7 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div class="mt-4" style="font-size: 13px; font-weight: bold">
                   Deadline: May 01, 2020
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
@@ -383,10 +387,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
@@ -396,7 +400,7 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div class="mt-4" style="font-size: 13px; font-weight: bold">
                   Deadline: May 01, 2020
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
@@ -420,10 +424,10 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px;">
+              <div class="text-center px-5" style="min-width: 300px">
                 <v-avatar class="ma-3" size="105" tile>
                   <v-icon>far fa-compass</v-icon>
                 </v-avatar>
@@ -433,7 +437,7 @@
                   nos prospectat recepta in corporis discussa superest
                   praemonitus iubet est! Venerat ortae parum sed. concerns
                 </div>
-                <div class="mt-4" style="font-size: 13px;  font-weight: bold;">
+                <div class="mt-4" style="font-size: 13px; font-weight: bold">
                   Deadline: May 01, 2020
                 </div>
                 <v-btn class="mt-6" outlined color="white">Apply Now</v-btn>
@@ -454,8 +458,8 @@ export default {
       let colorArr = this.$myApp.colors[color];
       // last element in color array is darkest
       return colorArr[colorArr.length - 1];
-    }
-  }
+    },
+  },
 };
 </script>
 

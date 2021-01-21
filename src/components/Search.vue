@@ -1,7 +1,7 @@
 <template>
   <div :class="{ navContainer: resultAsNav }">
     <label>
-      <v-text-field label="hidden" style="display:none"></v-text-field>
+      <v-text-field label="hidden" style="display: none"></v-text-field>
     </label>
     <v-text-field
       ref="textfield"
@@ -22,7 +22,7 @@
     <v-card
       v-if="query && query.length"
       :min-width="getWidth()"
-      style="margin-top: -12px; "
+      style="margin-top: -12px"
       class="mt-1"
       :class="{
         navCard: resultAsNav,
@@ -30,12 +30,17 @@
         'elevation-8': resultAsNav,
         'elevation-1': !resultAsNav,
         'grey lighten-3': resultAsNav,
-        'grey lighten-5': !resultAsNav
+        'grey lighten-5': !resultAsNav,
       }"
     >
       <!--- pages --->
       <div
-        style="background: #0D4474; font-size: 18px; font-weight: bold; color: #fff"
+        style="
+          background: #0d4474;
+          font-size: 18px;
+          font-weight: bold;
+          color: #fff;
+        "
         class="px-2 py-2"
       >
         Pages
@@ -57,7 +62,7 @@
             class="resultTitle px-2 py-1"
             :class="{ navFont: resultAsNav }"
             @click="
-              $router.push(item.item.path).catch(err => {
+              $router.push(item.item.path).catch((err) => {
                 $vuetify.goTo(0);
               })
             "
@@ -75,7 +80,7 @@
                 v-if="context.key !== 'title'"
                 :class="{
                   headingIndent: context.key === 'headings.heading',
-                  navFont: resultAsNav
+                  navFont: resultAsNav,
                 }"
                 @click="goToRoute(context)"
               ></div>
@@ -150,22 +155,22 @@ export default {
       searchIndex: [],
       hideCard: true,
       resultPages: [],
-      resultFiles: []
+      resultFiles: [],
     };
   },
   props: {
     focus: {
       type: Boolean,
-      default: false
+      default: false,
     },
     resultAsNav: {
       type: Boolean,
-      default: true
+      default: true,
     },
     resultLimit: {
       type: Number,
-      default: 3
-    }
+      default: 3,
+    },
   },
   methods: {
     displayMatches(item) {
@@ -173,14 +178,14 @@ export default {
       let target,
         path = item.item.path;
       if (this.query.length === 0) return;
-      let matchedText = item.matches.map(i => {
+      let matchedText = item.matches.map((i) => {
         let highlighted = i.value.replace(
           new RegExp(this.query, "gi"),
-          match => `<span class="highlight">${match}</span>`
+          (match) => `<span class="highlight">${match}</span>`
         );
 
         if (i.key === "headings.heading") {
-          item.item.headings.forEach(x => {
+          item.item.headings.forEach((x) => {
             if (x.heading === i.value) {
               target = x.target;
             }
@@ -192,7 +197,7 @@ export default {
           highlighted,
           key: i.key,
           target,
-          path
+          path,
         };
         return obj;
       });
@@ -204,14 +209,14 @@ export default {
         .search(this.query)
         .slice(0, this.resultLimit);
 
-      this.resultPages = queryResults.filter(item => {
+      this.resultPages = queryResults.filter((item) => {
         if (item.item.type === "page") {
           delete item.item.name;
           return item;
         }
       });
 
-      this.resultFiles = queryResults.filter(item => {
+      this.resultFiles = queryResults.filter((item) => {
         if (item.item.type === "file") {
           return item;
         }
@@ -248,8 +253,8 @@ export default {
       } else {
         return;
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

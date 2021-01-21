@@ -12,11 +12,11 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-8" style="min-width: 300px;">
-                <h1 class="nofo-title mt-0 mb-8" style="font-size: 40px;">
+              <div class="text-center px-8" style="min-width: 300px">
+                <h1 class="nofo-title mt-0 mb-8" style="font-size: 40px">
                   Restore, Reinvest, and Renew (R3)
                 </h1>
                 <div class="nofo-tagline">
@@ -26,7 +26,7 @@
                 </div>
                 <div
                   class="mt-12"
-                  style="font-size: 36px;  font-weight: bold; color: #ccc"
+                  style="font-size: 36px; font-weight: bold; color: #ccc"
                 >
                   COMING SOON
                 </div>
@@ -48,8 +48,8 @@ export default {
       let colorArr = this.$myApp.colors[color];
       // last element in color array is darkest
       return colorArr[colorArr.length - 1];
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -13,7 +13,11 @@
               <v-col cols="12" sm="12">
                 <h1
                   id="news-and-updates"
-                  style="font-weight: 900; border-bottom: 1px solid #ccc; padding-bottom: 5px;"
+                  style="
+                    font-weight: 900;
+                    border-bottom: 1px solid #ccc;
+                    padding-bottom: 5px;
+                  "
                 >
                   R3 News and Updates
                 </h1>
@@ -22,7 +26,7 @@
           </v-container>
         </template>
         <template v-slot:content>
-          <v-container style="margin-top: -20px;" fluid>
+          <v-container style="margin-top: -20px" fluid>
             <v-row>
               <v-col
                 cols="12"
@@ -44,7 +48,7 @@
                   @click:row="clicked"
                 >
                   <template v-slot:item.attributes.posted="{ item }">
-                    <div style="font-size: 14px !important;">
+                    <div style="font-size: 14px !important">
                       <strong>{{ item.attributes.posted | dateFormat }}</strong>
                     </div>
                   </template>
@@ -72,7 +76,7 @@
                       >
                         <h2>{{ item.attributes.title }}</h2>
                         <h3
-                          style="font-size:12px; margin-top: -5px; color: #777"
+                          style="font-size: 12px; margin-top: -5px; color: #777"
                         >
                           {{ item.attributes.posted | dateFormat }}
                         </h3>
@@ -102,7 +106,7 @@ export default {
 
   metaInfo() {
     return {
-      title: "R3 News & Updates"
+      title: "R3 News & Updates",
     };
   },
   methods: {
@@ -127,7 +131,7 @@ export default {
           this.expanded.push(value);
         }
       }
-    }
+    },
   },
   data() {
     return {
@@ -139,31 +143,31 @@ export default {
           align: "start",
           sortable: true,
           value: "attributes.posted",
-          width: "200px"
+          width: "200px",
         },
         {
           text: "Title",
           align: "start",
           sortable: true,
           value: "attributes.title",
-          width: "300px"
+          width: "300px",
         },
 
         {
           text: "Summary",
           align: "start",
           sortable: true,
-          value: "attributes.summary"
+          value: "attributes.summary",
         },
         {
           text: "Link",
           align: "start",
           sortable: true,
-          value: "path"
-        }
-      ]
+          value: "path",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

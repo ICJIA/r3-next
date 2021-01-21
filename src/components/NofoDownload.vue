@@ -14,9 +14,9 @@ export default {
   props: {
     url: {
       type: String,
-      default: "https://icjia.illinois.gov/gata"
-    }
-  }
+      default: "https://icjia.illinois.gov/gata",
+    },
+  },
 };
 </script>
 

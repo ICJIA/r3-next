@@ -1,7 +1,7 @@
 export const generateToc = {
   data() {
     return {
-      toc: null
+      toc: null,
     };
   },
   mounted() {},
@@ -35,6 +35,6 @@ export const generateToc = {
 
       this.toc = tableOfContents;
       return this.toc;
-    }
-  }
+    },
+  },
 };

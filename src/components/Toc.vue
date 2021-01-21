@@ -1,27 +1,27 @@
 <template>
   <div
-    class="toc "
+    class="toc"
     :class="{
       'pl-2': $vuetify.breakpoint.xs || $vuetify.breakpoint.xs,
       'pl-10':
         $vuetify.breakpoint.md ||
         $vuetify.breakpoint.lg ||
         $vuetify.breakpoint.xl,
-      shaded: $vuetify.breakpoint.xs || $vuetify.breakpoint.xs
+      shaded: $vuetify.breakpoint.xs || $vuetify.breakpoint.xs,
     }"
     style="margin-top: -25px"
   >
     <div
       v-if="
         $vuetify.breakpoint.md ||
-          $vuetify.breakpoint.lg ||
-          $vuetify.breakpoint.xl
+        $vuetify.breakpoint.lg ||
+        $vuetify.breakpoint.xl
       "
     >
       <div
         v-if="tocHeading.length"
         ref="anchor"
-        style="margin-left: -3px; font-weight: bold; font-size: 14px;"
+        style="margin-left: -3px; font-weight: bold; font-size: 14px"
         class="mb-4 hover anchor visible"
         @click="$vuetify.goTo(0)"
       >
@@ -40,23 +40,23 @@
           class="my-3 px-2 tocItem hover"
           :id="`${item.id}`"
           @click="scrollTo(`${item.target}`)"
-          style="font-size: 14px; font-weight: 700; color: #555;"
+          style="font-size: 14px; font-weight: 700; color: #555"
         >
           {{ `${item.content}` }}
         </div>
         <div
           v-if="
             item.lvl === 3 &&
-              ($vuetify.breakpoint.lg ||
-                $vuetify.breakpoint.md ||
-                $vuetify.breakpoint.xl)
+            ($vuetify.breakpoint.lg ||
+              $vuetify.breakpoint.md ||
+              $vuetify.breakpoint.xl)
           "
           class="ml-3 my-2 tocItem hover animated fadeIn"
-          style="font-size: 13px;"
+          style="font-size: 13px"
           :id="`${item.id}`"
           @click="scrollTo(`${item.target}`)"
           :class="{
-            hidden: item.parent != currentHeading
+            hidden: item.parent != currentHeading,
           }"
         >
           {{ item.content }}
@@ -77,23 +77,23 @@ export default {
   computed: {
     tocMap() {
       return this.toc;
-    }
+    },
   },
   data() {
     return {
       currentHeading: "",
-      appConfig: this.$myApp.config
+      appConfig: this.$myApp.config,
     };
   },
   props: {
     toc: {
       type: Array,
-      default: () => []
+      default: () => [],
     },
     tocHeading: {
       type: String,
-      default: "NAVIGATION"
-    }
+      default: "NAVIGATION",
+    },
   },
   methods: {
     handleScroll() {
@@ -116,7 +116,7 @@ export default {
       //console.log(tocLinks);
 
       if (scrollPosition < 100) {
-        tocLinks.forEach(link => {
+        tocLinks.forEach((link) => {
           link.classList.remove("visible");
         });
         this.$refs["anchor"].classList.add("visible");
@@ -125,7 +125,7 @@ export default {
         this.$refs["anchor"].classList.remove("visible");
       }
 
-      els.forEach(el => {
+      els.forEach((el) => {
         const elTop = el.getBoundingClientRect().top;
         // eslint-disable-next-line no-unused-vars
         const elBottom = el.getBoundingClientRect().bottom;
@@ -139,7 +139,7 @@ export default {
           //console.log(tocEl);
 
           if (tocEl) {
-            tocLinks.forEach(link => {
+            tocLinks.forEach((link) => {
               link.classList.remove("visible");
             });
             tocEl.classList.add("visible");
@@ -147,7 +147,7 @@ export default {
         }
       });
 
-      tocHeadings.forEach(el => {
+      tocHeadings.forEach((el) => {
         const elTop = el.getBoundingClientRect().top;
         // eslint-disable-next-line no-unused-vars
         const elBottom = el.getBoundingClientRect().bottom;
@@ -160,8 +160,8 @@ export default {
     },
     scrollTo(id) {
       this.$vuetify.goTo(`#${id}`, { offset: 12 });
-    }
-  }
+    },
+  },
 };
 </script>
 

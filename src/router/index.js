@@ -9,7 +9,7 @@ const manualRoutes = require("./manualRoutes.js");
 const fallbackRoutes = require("./fallbackRoutes.js");
 
 //Add dynamic 'Page' component to generated routes
-const generatedRoutes = markdownRoutes.map(route => {
+const generatedRoutes = markdownRoutes.map((route) => {
   // if (route.path != "/") {
   //   route.component = () =>
   //     import(/* webpackChunkName: "page" */ "../views/Page.vue");
@@ -45,7 +45,7 @@ const router = new VueRouter({
     //console.log(to);
 
     return { x: 0, y: 0 };
-  }
+  },
 });
 
 router.beforeResolve((to, from, next) => {

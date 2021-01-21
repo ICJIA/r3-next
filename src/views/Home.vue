@@ -16,16 +16,22 @@
         </v-row>
       </v-container>
     </div>
-    <div style="background: #fafafa; border-top: 1px solid #eee;" class="pb-12">
+    <div style="background: #fafafa; border-top: 1px solid #eee" class="pb-12">
       <v-container fluid>
         <v-row>
           <v-col cols="12" sm="12" md="7">
             <h2
-              style="font-size: 24px; font-weight: 900 !important; border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 10px;"
+              style="
+                font-size: 24px;
+                font-weight: 900 !important;
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 8px;
+                margin-bottom: 10px;
+              "
             >
               Applicant Tools
             </h2>
-            <v-container style="margin: 0; padding: 0;" class="mt-5">
+            <v-container style="margin: 0; padding: 0" class="mt-5">
               <v-row>
                 <v-col
                   cols="12"
@@ -47,12 +53,12 @@
                           class
                           :class="{
                             mobileTitle:
-                              $vuetify.breakpoint.xs || $vuetify.breakpoint.sm
+                              $vuetify.breakpoint.xs || $vuetify.breakpoint.sm,
                           }"
                           >{{ card.attributes.title }}</v-card-title
                         >
 
-                        <v-card-subtitle style="font-size: 14px;">
+                        <v-card-subtitle style="font-size: 14px">
                           {{ card.attributes.summary }}
                         </v-card-subtitle>
                       </div>
@@ -71,11 +77,17 @@
 
           <v-col cols="12" sm="12" md="5">
             <h2
-              style="font-size: 24px; font-weight: 900 !important; border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 10px;"
+              style="
+                font-size: 24px;
+                font-weight: 900 !important;
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 8px;
+                margin-bottom: 10px;
+              "
             >
               News & Updates
             </h2>
-            <v-container style="margin: 0; padding: 0;" class="mt-8">
+            <v-container style="margin: 0; padding: 0" class="mt-8">
               <HomeNews></HomeNews>
             </v-container>
           </v-col>
@@ -98,16 +110,16 @@ export default {
   mixins: [handleClicks, generateToc],
   metaInfo() {
     return {
-      title: this.$myApp.config.siteTitle
+      title: this.$myApp.config.siteTitle,
     };
   },
   mounted() {
     this.$ga.page({
       page: this.$route.path,
       title: this.title,
-      location: window.location.href
+      location: window.location.href,
     });
-    let cards = this.$myApp.siteMeta.filter(item => {
+    let cards = this.$myApp.siteMeta.filter((item) => {
       if (item.attributes.showAsCard) {
         return item;
       }
@@ -120,8 +132,8 @@ export default {
   components: {
     HomePageContent: {
       extends: fm.vue.component,
-      components: {}
-    }
+      components: {},
+    },
   },
   computed: {
     showToc() {
@@ -130,14 +142,14 @@ export default {
       } else {
         return true;
       }
-    }
+    },
   },
   data() {
     return {
       title: fm.attributes.title,
       loading: true,
       fm,
-      cards: null
+      cards: null,
     };
   },
   methods: {
@@ -166,8 +178,8 @@ export default {
     },
     slugify(str) {
       return slugs(str);
-    }
-  }
+    },
+  },
 };
 </script>
 

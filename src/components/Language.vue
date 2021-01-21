@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="text-right py-3">
-      <v-btn text style="font-size: 12px;" @click="gotoTranslation('en')"
+      <v-btn text style="font-size: 12px" @click="gotoTranslation('en')"
         >English</v-btn
       >
       |
-      <v-btn small text style="font-size: 12px;" @click="gotoTranslation('sp')"
+      <v-btn small text style="font-size: 12px" @click="gotoTranslation('sp')"
         >Espanol</v-btn
       >
     </div>
@@ -20,8 +20,8 @@ export default {
 
       console.log("switch", lang);
       this.$router.push(this.$route.meta[lang]);
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -31,12 +31,12 @@ const cheerio = require("cheerio");
 export default {
   mixins: [handleClicks],
   watch: {
-    $route: "fetchContent"
+    $route: "fetchContent",
   },
 
   metaInfo() {
     return {
-      title: this.title
+      title: this.title,
     };
   },
 
@@ -50,7 +50,7 @@ export default {
       showToc: false,
       nofoObj: {},
       title: "untitled",
-      summary: ""
+      summary: "",
     };
   },
   async created() {
@@ -65,7 +65,7 @@ export default {
     this.$ga.page({
       page: this.$route.path,
       title: this.title,
-      location: window.location.href
+      location: window.location.href,
     });
     this.loading = false;
   },
@@ -93,7 +93,7 @@ export default {
       let steps = [];
       let counter = -1;
       let colors = this.$myApp.colors[fundingContent.attributes.accent];
-      $("[data-title]").each(function() {
+      $("[data-title]").each(function () {
         let obj = {};
         counter >= colors.length - 1 ? (counter = 0) : counter++;
         obj.title = $(this).attr("data-title");
@@ -122,13 +122,13 @@ export default {
         imageLazyLoad: fundingContent.attributes.imageLazyLoad,
         colors,
         expires: fundingContent.attributes.expires,
-        comingSoon: fundingContent.attributes.comingSoon
+        comingSoon: fundingContent.attributes.comingSoon,
       };
       return nofoObj;
-    }
+    },
   },
   mounted() {
     this.scrollTo();
-  }
+  },
 };
 </script>

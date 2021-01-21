@@ -1,8 +1,8 @@
 <template>
-  <v-container fluid full-width style="margin-top: -12px;">
+  <v-container fluid full-width style="margin-top: -12px">
     <v-row no-gutters>
       <v-col
-        style="background: #ccc;"
+        style="background: #ccc"
         v-for="(item, index) in $myApp.funding"
         :key="index"
         cols="12"
@@ -18,7 +18,7 @@
 export default {
   mounted() {
     this.$emit("home-boxes");
-  }
+  },
 };
 </script>
 

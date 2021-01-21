@@ -5,7 +5,7 @@
         <v-card-title class="headline">Census Reminder</v-card-title>
         <v-card-text>
           <hr />
-          <div style="font-weight: bold; font-size: 24px;" class="mt-5">
+          <div style="font-weight: bold; font-size: 24px" class="mt-5">
             <v-icon color="red" large>check_box</v-icon> &nbsp;There's still
             time to be counted!
           </div>
@@ -35,14 +35,14 @@
 export default {
   data() {
     return {
-      census: true
+      census: true,
     };
   },
   methods: {
     hideForGood() {
       localStorage.setItem("showCensusModal", false);
       this.census = false;
-    }
+    },
   },
   computed: {
     censusActive() {
@@ -62,10 +62,10 @@ export default {
       } else {
         return true;
       }
-    }
+    },
   },
   created() {},
-  mounted() {}
+  mounted() {},
 };
 </script>
 

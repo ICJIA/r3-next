@@ -43,7 +43,7 @@
         style="width: 100%"
       ></v-data-table>
     </v-card>
-    <div class="text-center mt-5" style="font-size: 12px;">
+    <div class="text-center mt-5" style="font-size: 12px">
       Download:
       <a href="/downloads/EligibleAreasCensusTracts.pdf" class="heavy">PDF</a
       >&nbsp;|&nbsp;<a
@@ -69,7 +69,7 @@ export default {
   watch: {
     search(newValue) {
       this.searchArr.push(newValue);
-    }
+    },
   },
 
   mounted() {},
@@ -78,7 +78,7 @@ export default {
       return this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.xs
         ? true
         : false;
-    }
+    },
   },
   data() {
     return {
@@ -94,12 +94,12 @@ export default {
           text: "State",
           align: "left",
           sortable: false,
-          value: "state_name"
+          value: "state_name",
         },
         { text: "County", value: "county_name" },
         { text: "Census Tract Name", value: "census_tract_name" },
-        { text: "Census Tract GeoID", value: "census_tract_geoid" }
-      ]
+        { text: "Census Tract GeoID", value: "census_tract_geoid" },
+      ],
     };
   },
   methods: {
@@ -127,7 +127,7 @@ export default {
 
         console.log("Error: ", e);
       }
-    }
-  }
+    },
+  },
 };
 </script>

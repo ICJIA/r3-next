@@ -1,6 +1,6 @@
 <template>
   <div class="full-width">
-    <v-card class=" my-10">
+    <v-card class="my-10">
       <v-img
         :src="`/${splash}`"
         :lazy-src="`/${imageLazyLoad}`"
@@ -17,11 +17,11 @@
             class="fill-height"
             fluid
             full-width
-            style="margin: 0 !important; padding: 0 !important;"
+            style="margin: 0 !important; padding: 0 !important"
           >
             <v-row justify="center" align="center">
-              <div class="text-center px-8" style="min-width: 300px;">
-                <h1 class="nofo-title mt-0 mb-8" style="font-size: 40~px;">
+              <div class="text-center px-8" style="min-width: 300px">
+                <h1 class="nofo-title mt-0 mb-8" style="font-size: 40~px">
                   {{ title }}
                 </h1>
                 <div class="nofo-tagline">
@@ -29,7 +29,12 @@
                 </div>
                 <div
                   class="mt-12"
-                  style="font-size: 36px;  font-weight: bold; color: #eee; display: block"
+                  style="
+                    font-size: 36px;
+                    font-weight: bold;
+                    color: #eee;
+                    display: block;
+                  "
                 >
                   DETAILS COMING SOON
                 </div>
@@ -51,30 +56,30 @@ export default {
       let colorArr = this.$myApp.colors[color];
       // last element in color array is darkest
       return colorArr[colorArr.length - 1];
-    }
+    },
   },
   props: {
     splash: {
       type: String,
-      default: "splash-12.jpg"
+      default: "splash-12.jpg",
     },
     title: {
       type: String,
-      default: "untitled"
+      default: "untitled",
     },
     summary: {
       type: String,
-      default: "untitled"
+      default: "untitled",
     },
     imageLazyLoad: {
       type: String,
-      default: "splash-12-mini.jpg"
+      default: "splash-12-mini.jpg",
     },
     background: {
       type: String,
-      default: "blue"
-    }
-  }
+      default: "blue",
+    },
+  },
 };
 </script>
 

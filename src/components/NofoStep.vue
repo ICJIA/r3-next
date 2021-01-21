@@ -1,6 +1,6 @@
 <template>
   <v-container fluid full-width>
-    <v-row no-gutters style="min-height: 300px;" v-if="status === 'live'">
+    <v-row no-gutters style="min-height: 300px" v-if="status === 'live'">
       <v-col
         cols="12"
         md="3"
@@ -8,13 +8,13 @@
         :style="`background: ${getBackground()};`"
       >
         <v-container fluid full-width>
-          <v-col cols="12" style="margin-top: 12px; padding: 0;">
+          <v-col cols="12" style="margin-top: 12px; padding: 0">
             <div
               class="px-5 pb-2"
               :style="`background: ${color}`"
-              style="margin-top: -12px; border-right: 1px solid #aaa !important;"
+              style="margin-top: -12px; border-right: 1px solid #aaa !important"
             >
-              <h2 style="color: #fff; font-size: 1.8em; margin-bottom: 15px;">
+              <h2 style="color: #fff; font-size: 1.8em; margin-bottom: 15px">
                 {{ title }}
               </h2>
             </div>
@@ -31,7 +31,7 @@
         </v-container>
       </v-col>
     </v-row>
-    <v-row v-else style="background: #B71C1C" class="px-5 mb-2 mt-2">
+    <v-row v-else style="background: #b71c1c" class="px-5 mb-2 mt-2">
       <v-col class="text-center">
         <div
           v-html="html"
@@ -48,34 +48,34 @@ export default {
   methods: {
     getBackground() {
       return "#fcfcfc";
-    }
+    },
   },
   props: {
     title: {
       type: String,
-      default: "untitled"
+      default: "untitled",
     },
     summary: {
       type: String,
-      default: "undefined"
+      default: "undefined",
     },
     html: {
       type: String,
-      default: "<h1>undefined</h1>"
+      default: "<h1>undefined</h1>",
     },
     color: {
       type: String,
-      default: "#ccc"
+      default: "#ccc",
     },
     background: {
       type: String,
-      default: "#fff"
+      default: "#fff",
     },
     status: {
       type: String,
-      default: "live"
-    }
-  }
+      default: "live",
+    },
+  },
 };
 </script>
 

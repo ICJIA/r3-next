@@ -21,7 +21,7 @@
           transition="scale-transition"
           :width="logoWidth()"
           @click="
-            $router.push('/').catch(err => {
+            $router.push('/').catch((err) => {
               $vuetify.goTo(0);
             })
           "
@@ -34,11 +34,11 @@
             largeTitle:
               this.$vuetify.breakpoint.md ||
               this.$vuetify.breakpoint.lg ||
-              this.$vuetify.breakpoint.xl
+              this.$vuetify.breakpoint.xl,
           }"
           style="font-weight: 900; text-transform: uppercase"
           @click="
-            $router.push('/').catch(err => {
+            $router.push('/').catch((err) => {
               $vuetify.goTo(0);
             })
           "
@@ -140,12 +140,12 @@ export default {
       extended: false,
       flat: false,
       dialog: false,
-      nav: []
+      nav: [],
     };
   },
   created() {
     let nav = [];
-    this.siteMeta.forEach(item => {
+    this.siteMeta.forEach((item) => {
       if (item.attributes.showInNav) nav.push(item);
     });
     let sortedNav = _.orderBy(nav, ["attributes.menuRank"], ["asc"]);
@@ -167,7 +167,7 @@ export default {
       } else {
         return this.$myApp.config.siteTitle;
       }
-    }
+    },
   },
 
   mounted() {
@@ -176,9 +176,9 @@ export default {
     });
     document.addEventListener("DOMContentLoaded", () => {
       let arr = [
-        ...document.getElementsByClassName("v-carousel__controls__item")
+        ...document.getElementsByClassName("v-carousel__controls__item"),
       ];
-      arr.forEach(item => {
+      arr.forEach((item) => {
         item.setAttribute("aria-label", "navigation button");
       });
     });
@@ -186,8 +186,8 @@ export default {
   props: {
     siteMeta: {
       type: Array,
-      default: () => []
-    }
+      default: () => [],
+    },
   },
   methods: {
     toggleSearch() {
@@ -204,8 +204,8 @@ export default {
       } else {
         return 50;
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

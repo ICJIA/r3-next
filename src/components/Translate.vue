@@ -6,9 +6,9 @@
       :class="{ isRtl: false }"
       aria-label="Select language"
     >
-      <option value="" selected disabled hidden
-        >How to translate this page</option
-      >
+      <option value="" selected disabled hidden>
+        How to translate this page
+      </option>
       <option value="TranslateEn.pdf">How to translate from English</option>
       <option value="TranslateSp.pdf">Cómo traducir al español</option>
       <option value="TranslatePo.pdf">Jak tłumaczyć na język polski</option>
@@ -34,11 +34,11 @@ export default {
       //console.log(myVal);
       //location.href = `/downloads/translate/${myVal}`;
       window.open(`/downloads/translate/${myVal}`, "_blank");
-    }
+    },
   },
   data() {
     return {};
-  }
+  },
 };
 </script>
 

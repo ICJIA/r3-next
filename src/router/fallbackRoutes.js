@@ -4,9 +4,9 @@ const fallbackRoutes = [
     redirect: "/404",
     meta: {
       title: "404",
-      showInSitemap: false
-    }
-  }
+      showInSitemap: false,
+    },
+  },
 ];
 
 module.exports = fallbackRoutes;

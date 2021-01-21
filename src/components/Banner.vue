@@ -15,7 +15,7 @@ export default {
       banner: null,
       bannerText: "",
       posted: "",
-      bannerRoute: "/"
+      bannerRoute: "/",
     };
   },
   created() {
@@ -27,6 +27,6 @@ export default {
       this.posted = currentNews.attributes.posted;
       this.bannerRoute = currentNews.path;
     }
-  }
+  },
 };
 </script>

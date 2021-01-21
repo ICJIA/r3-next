@@ -11,10 +11,10 @@
         class="fill-height text-center"
         fluid
         full-width
-        style="margin: 0 !important; padding: 0 !important; margin-left: 12px;"
+        style="margin: 0 !important; padding: 0 !important; margin-left: 12px"
       >
         <v-row align="center">
-          <div class="text-center px-5" style="min-width: 350px;">
+          <div class="text-center px-5" style="min-width: 350px">
             <!-- <v-avatar class="ma-3" size="105" tile>
               <v-icon>{{ icon }} </v-icon>
             </v-avatar> -->
@@ -54,43 +54,43 @@ export default {
   methods: {
     getBackground() {
       return this.colors[this.colors.length - 1];
-    }
+    },
   },
   mounted() {},
   props: {
     title: {
       type: String,
-      default: "NOFO TITLE HERE"
+      default: "NOFO TITLE HERE",
     },
     summary: {
       type: String,
-      default: "Nofo summary here"
+      default: "Nofo summary here",
     },
     icon: {
       type: String,
-      default: ""
+      default: "",
     },
     colors: {
       type: Array,
-      default: () => []
+      default: () => [],
     },
     image: {
       type: String,
-      default: "splash-03.jpg"
+      default: "splash-03.jpg",
     },
     imageLazyLoad: {
       type: String,
-      default: "splash-03-tiny.jpg"
+      default: "splash-03-tiny.jpg",
     },
     expires: {
       type: String,
-      default: ""
+      default: "",
     },
     comingSoon: {
       type: Boolean,
-      default: false
-    }
-  }
+      default: false,
+    },
+  },
 };
 </script>
 

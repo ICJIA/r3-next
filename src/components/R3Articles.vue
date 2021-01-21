@@ -12,7 +12,7 @@
               <h3
                 id="icjia-test"
                 class="px-5 py-3 article-title"
-                style="border-bottom: 0px;"
+                style="border-bottom: 0px"
               >
                 {{ article.title }}
               </h3>
@@ -30,7 +30,7 @@
               <span v-if="index < article.authors.length - 1 && index > 0"
                 >,</span
               >
-              <span style="font-weight: bold; color: #065F60">{{
+              <span style="font-weight: bold; color: #065f60">{{
                 author.title
               }}</span>
             </span>
@@ -47,7 +47,7 @@
       </div>
     </div>
     <div v-else>
-      <div class="text-center mt-5" style="min-height: 300px;">
+      <div class="text-center mt-5" style="min-height: 300px">
         <v-progress-circular
           indeterminate
           color="primary"
@@ -67,7 +67,7 @@ export default {
   data() {
     return {
       loading: true,
-      articles: null
+      articles: null,
     };
   },
   methods: {
@@ -81,8 +81,8 @@ export default {
       const url =
         "https://icjia.illinois.gov/researchhub/articles/" + article.slug;
       window.open(url);
-    }
-  }
+    },
+  },
 };
 </script>
 

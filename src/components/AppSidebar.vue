@@ -27,14 +27,12 @@
       </div>
       <v-list-item link to="/news">
         <v-list-item-content>
-          <h3 style="font-size: 18px;">
-            News & Updates
-          </h3>
+          <h3 style="font-size: 18px">News & Updates</h3>
         </v-list-item-content>
       </v-list-item>
       <v-list-item link @click="gotoTA">
         <v-list-item-content>
-          <h3 style="font-size: 18px;">
+          <h3 style="font-size: 18px">
             Technical Assistance <v-icon right small>open_in_new</v-icon>
           </h3>
         </v-list-item-content>
@@ -49,7 +47,7 @@ import _ from "lodash";
 
 export default {
   async created() {
-    let items = this.siteMeta.filter(item => {
+    let items = this.siteMeta.filter((item) => {
       return item.attributes.showInSidebar === true;
     });
 
@@ -77,20 +75,20 @@ export default {
     gotoTA() {
       // window.open("https://icjia.illinois.gov/ta", "_blank");
       window.open("https://icjia.illinois.gov/ta");
-    }
+    },
   },
   props: {
     siteMeta: {
       type: Array,
-      default: () => []
-    }
+      default: () => [],
+    },
   },
   data: () => ({
     drawer: false,
     nav: [],
     tableOfContents: [],
-    sidebarItems: null
-  })
+    sidebarItems: null,
+  }),
 };
 </script>
 <style>

@@ -7,7 +7,7 @@ const utils = require("./lib/utils");
 const paths = utils.findInDir(base, /\.md$/);
 let generatedRoutes = [];
 
-paths.forEach(path => {
+paths.forEach((path) => {
   let fileObj = matter(fs.readFileSync(path, "utf8"));
   let routeObj = {};
   routeObj.path = path.replace(base, "").replace(".md", "");

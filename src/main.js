@@ -10,12 +10,12 @@ import "@/filters";
 import "material-design-icons-iconfont/dist/material-design-icons.css";
 
 const NProgress = require("nprogress");
-(function() {
+(function () {
   if (typeof NodeList.prototype.forEach === "function") return false;
   NodeList.prototype.forEach = Array.prototype.forEach;
 })();
 
-(function() {
+(function () {
   if (!Element.prototype.matches) {
     Element.prototype.matches = Element.prototype.msMatchesSelector;
   }
@@ -26,11 +26,11 @@ Vue.config.productionTip = false;
 
 // Set up app wide read-only configs and install as plugin
 import { myApp } from "./services/AppInit";
-myApp.install = function() {
+myApp.install = function () {
   Object.defineProperty(Vue.prototype, "$myApp", {
     get() {
       return myApp;
-    }
+    },
   });
 };
 
@@ -40,15 +40,15 @@ Vue.use(browserDetect);
 import VueMeta from "vue-meta";
 Vue.use(VueMeta, {
   // optional pluginOptions
-  refreshOnceOnNavigation: true
+  refreshOnceOnNavigation: true,
 });
 
 import VueAnalytics from "vue-analytics";
 Vue.use(VueAnalytics, {
   id: "UA-150082887-6",
   debug: {
-    sendHitTask: process.env.NODE_ENV === "production"
-  }
+    sendHitTask: process.env.NODE_ENV === "production",
+  },
 });
 
 import AOS from "aos";
@@ -61,5 +61,5 @@ new Vue({
   store,
   vuetify,
 
-  render: h => h(App)
+  render: (h) => h(App),
 }).$mount("#app");

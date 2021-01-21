@@ -1,6 +1,6 @@
 <template>
   <div
-    style="background: #fafafa; border-top: 1px solid #eee; "
+    style="background: #fafafa; border-top: 1px solid #eee"
     @click="closeSearch()"
   >
     <v-container>
@@ -40,9 +40,9 @@ export default {
   created() {},
   data() {
     return {
-      meetings: this.$myApp.meetings
+      meetings: this.$myApp.meetings,
     };
-  }
+  },
 };
 </script>
 

@@ -2,7 +2,12 @@
   <v-container
     fluid
     full-width
-    style="margin: 0 !important; padding: 0 !important; background: #eee; border-bottom: 1px solid #ccc;"
+    style="
+      margin: 0 !important;
+      padding: 0 !important;
+      background: #eee;
+      border-bottom: 1px solid #ccc;
+    "
   >
     <v-row>
       <v-col cols="12" sm="12" md="6">

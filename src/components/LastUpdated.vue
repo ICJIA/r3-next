@@ -12,9 +12,9 @@ export default {
   props: {
     lastUpdated: {
       type: Array,
-      default: () => []
-    }
-  }
+      default: () => [],
+    },
+  },
 };
 </script>
 

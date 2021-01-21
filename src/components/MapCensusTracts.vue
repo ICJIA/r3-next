@@ -16,7 +16,7 @@
     <!-- <div style="font-weight: 900" class="mt-2 text-right">
       * indicates high need R3 zone
     </div> -->
-    <div class="mt-1 text-right" style="font-size: 11px; color: #333;">
+    <div class="mt-1 text-right" style="font-size: 11px; color: #333">
       Last updated: {{ lastUpdated | dateFormat }}
     </div>
     <!-- </div> -->
@@ -28,9 +28,9 @@ export default {
   props: {
     lastUpdated: {
       type: String,
-      default: "2020-03-15"
-    }
-  }
+      default: "2020-03-15",
+    },
+  },
 };
 </script>
 

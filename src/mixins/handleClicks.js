@@ -49,7 +49,7 @@ export const handleClicks = {
           metaKey,
           shiftKey,
           button,
-          defaultPrevented
+          defaultPrevented,
         } = $event;
         // don't handle with control keys
         if (metaKey || altKey || ctrlKey || shiftKey) return;
@@ -81,6 +81,6 @@ export const handleClicks = {
       } else {
         return null;
       }
-    }
-  }
+    },
+  },
 };

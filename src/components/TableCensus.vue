@@ -59,7 +59,7 @@
     <v-container>
       <v-row>
         <v-col sm="12" md="6">
-          <div style="font-size: 11px;">
+          <div style="font-size: 11px">
             Download:
             <!-- <a href="/downloads/EligibleAreasCensusTracts.pdf" class="heavy"
               >PDF</a
@@ -74,7 +74,7 @@
           </div>
         </v-col>
         <v-col sm="12" md="6">
-          <div class="text-right" style="font-size: 11px; color: #222;">
+          <div class="text-right" style="font-size: 11px; color: #222">
             Last updated: {{ lastUpdated | dateFormat }}
           </div>
         </v-col>
@@ -93,7 +93,7 @@ export default {
   watch: {
     search(newValue) {
       this.searchArr.push(newValue);
-    }
+    },
   },
 
   mounted() {},
@@ -102,13 +102,13 @@ export default {
       return this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.xs
         ? true
         : false;
-    }
+    },
   },
   props: {
     lastUpdated: {
       type: String,
-      default: "2020-03-15"
-    }
+      default: "2020-03-15",
+    },
   },
   data() {
     return {
@@ -128,27 +128,27 @@ export default {
         { text: "Census Tract GeoID", value: "census_tract_geoid" },
         {
           text: "Service Deliv. Min Funding",
-          value: "service_delivery_minimum_funding_amount"
+          value: "service_delivery_minimum_funding_amount",
         },
 
         {
           text: "Service Deliv. Max Funding",
-          value: "service_delivery_maximum_funding_amount"
+          value: "service_delivery_maximum_funding_amount",
         },
         {
           text: "Planning Grant Min Funding",
-          value: "planning_grant_minimum_funding_amount"
+          value: "planning_grant_minimum_funding_amount",
         },
 
         {
           text: "Planning Grant Max Funding",
-          value: "planning_grant_maximum_funding_amount"
+          value: "planning_grant_maximum_funding_amount",
         },
         {
           text: "High Need Area",
-          value: "high_need_area"
-        }
-      ]
+          value: "high_need_area",
+        },
+      ],
     };
   },
   methods: {
@@ -181,7 +181,7 @@ export default {
 
         console.log("Error: ", e);
       }
-    }
-  }
+    },
+  },
 };
 </script>

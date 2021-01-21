@@ -5,9 +5,7 @@ import _ from "lodash";
 // eslint-disable-next-line no-unused-vars
 import tz from "moment-timezone";
 
-const now = moment()
-  .tz("America/Chicago")
-  .format("YYYY-MM-DD");
+const now = moment().tz("America/Chicago").format("YYYY-MM-DD");
 
 console.log(now);
 
@@ -24,10 +22,10 @@ function getSection(key) {
   }
 }
 const context = require.context("../../public/markdown", true, /\.md$/);
-const siteMeta = context.keys().map(key => ({
+const siteMeta = context.keys().map((key) => ({
   ...context(key),
   path: `/${key.replace(".md", "").replace("./", "")}`,
-  root: `${getSection(key)}`
+  root: `${getSection(key)}`,
 }));
 
 const fundingContext = require.context(
@@ -35,12 +33,12 @@ const fundingContext = require.context(
   true,
   /\.md$/
 );
-const fundingItems = fundingContext.keys().map(key => ({
+const fundingItems = fundingContext.keys().map((key) => ({
   ...fundingContext(key),
-  path: `/funding/${key.replace(".md", "").replace("./", "")}`
+  path: `/funding/${key.replace(".md", "").replace("./", "")}`,
 }));
 //console.log(funding);
-let funding = fundingItems.filter(item => {
+let funding = fundingItems.filter((item) => {
   if (item.path.indexOf("placeholder") === -1) {
     return item;
   }
@@ -51,12 +49,12 @@ const newsContext = require.context(
   true,
   /\.md$/
 );
-const newsItems = newsContext.keys().map(key => ({
+const newsItems = newsContext.keys().map((key) => ({
   ...newsContext(key),
-  path: `/news/${key.replace(".md", "").replace("./", "")}`
+  path: `/news/${key.replace(".md", "").replace("./", "")}`,
 }));
 //console.log(funding);
-let news = newsItems.filter(item => {
+let news = newsItems.filter((item) => {
   if (item.path.indexOf("placeholder") === -1) {
     return item;
   }
@@ -67,7 +65,7 @@ news = _.sortBy(news, "attributes.posted").reverse();
 let colors = {
   blue: ["#103f7c", "#103f7c"],
 
-  red: ["#630308", "#630308"]
+  red: ["#630308", "#630308"],
 };
 
 //console.log(funding);
@@ -80,7 +78,7 @@ let myApp = {
   siteMeta,
   funding,
   news,
-  colors
+  colors,
 };
 
 export { myApp };

@@ -7,18 +7,18 @@
         style="background: #f4f4f4"
         @click="routeTo(item)"
       >
-        <div style="font-size: 12px; font-weight: bold; color: #888;">
+        <div style="font-size: 12px; font-weight: bold; color: #888">
           {{ item.attributes.posted | dateFormat }}
         </div>
         <h2
-          style="border-bottom: 1px solid #ccc; padding-bottom: 5px;"
+          style="border-bottom: 1px solid #ccc; padding-bottom: 5px"
           class="mb-3"
         >
           {{ item.attributes.title }}
         </h2>
 
-        <p style="font-size: 14px;">{{ item.attributes.summary }}</p>
-        <div class="text-right" style="font-size: 12px; font-weight: 900;">
+        <p style="font-size: 14px">{{ item.attributes.summary }}</p>
+        <div class="text-right" style="font-size: 12px; font-weight: 900">
           Read more &raquo;
         </div>
       </v-card>
@@ -33,7 +33,7 @@
 export default {
   data() {
     return {
-      frontPageNews: null
+      frontPageNews: null,
     };
   },
   created() {
@@ -47,8 +47,8 @@ export default {
   methods: {
     routeTo(item) {
       this.$router.push(item.path);
-    }
-  }
+    },
+  },
 };
 </script>
 

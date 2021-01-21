@@ -11,8 +11,8 @@
           <v-btn
             :to="link.path === '/home' ? '/' : `${link.path}`"
             text
-            class=" mr-1"
-            style="font-weight: 900 !important;"
+            class="mr-1"
+            style="font-weight: 900 !important"
             :aria-label="link.attributes.title"
           >
             <span v-if="link.attributes.menuTitle" style="font-size: 12px">{{
@@ -110,12 +110,12 @@ export default {
   data: () => ({
     icons: ["fab fa-facebook", "fab fa-twitter"],
     loading: true,
-    nav: []
+    nav: [],
   }),
 
   created() {
     let nav = [];
-    this.siteMeta.forEach(item => {
+    this.siteMeta.forEach((item) => {
       if (item.attributes.showInFooter) nav.push(item);
     });
     let sortedNav = _.orderBy(nav, ["attributes.menuRank"], ["asc"]);
@@ -131,14 +131,14 @@ export default {
     gotoTA() {
       // window.open("https://icjia.illinois.gov/ta", "_blank");
       window.open("https://icjia.illinois.gov/ta");
-    }
+    },
   },
   props: {
     siteMeta: {
       type: Array,
-      default: () => []
-    }
-  }
+      default: () => [],
+    },
+  },
 };
 </script>
 
