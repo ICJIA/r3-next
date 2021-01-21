@@ -11,7 +11,7 @@
           {{ item.attributes.posted | dateFormat }}
         </div>
         <h2
-          style="border-bottom: 1px solid #ccc; padding-bottom: 5px"
+          style="border-bottom: 1px solid #ccc; padding-bottom: 5px; font-size: 18px; line-height: 26px;"
           class="mb-3"
         >
           {{ item.attributes.title }}
@@ -33,7 +33,7 @@
 export default {
   data() {
     return {
-      frontPageNews: null,
+      frontPageNews: null
     };
   },
   created() {
@@ -47,8 +47,8 @@ export default {
   methods: {
     routeTo(item) {
       this.$router.push(item.path);
-    },
-  },
+    }
+  }
 };
 </script>
 
