@@ -34,7 +34,7 @@
                 order-md="1"
                 order="2"
                 order-sm="2"
-                class="markdown-body"
+                class=""
               >
                 <v-data-table
                   :headers="headers"
@@ -106,7 +106,7 @@ export default {
 
   metaInfo() {
     return {
-      title: "R3 News & Updates",
+      title: "R3 News & Updates"
     };
   },
   methods: {
@@ -131,7 +131,7 @@ export default {
           this.expanded.push(value);
         }
       }
-    },
+    }
   },
   data() {
     return {
@@ -143,31 +143,31 @@ export default {
           align: "start",
           sortable: true,
           value: "attributes.posted",
-          width: "200px",
+          width: "200px"
         },
         {
           text: "Title",
           align: "start",
           sortable: true,
           value: "attributes.title",
-          width: "300px",
+          width: "300px"
         },
 
         {
           text: "Summary",
           align: "start",
           sortable: true,
-          value: "attributes.summary",
+          value: "attributes.summary"
         },
         {
           text: "Link",
           align: "start",
           sortable: true,
-          value: "path",
-        },
-      ],
+          value: "path"
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 
