@@ -14,6 +14,11 @@
           style="border-bottom: 1px solid #ccc; padding-bottom: 5px; font-size: 18px; line-height: 26px;"
           class="mb-3"
         >
+          <span v-if="isItNew(item)">
+            <v-chip dark class="mr-1" x-small color="#2296F3">
+              NEW!
+            </v-chip></span
+          >
           {{ item.attributes.title }}
         </h2>
 
@@ -30,6 +35,7 @@
 </template>
 
 <script>
+import moment from "moment";
 export default {
   data() {
     return {
@@ -47,6 +53,17 @@ export default {
   methods: {
     routeTo(item) {
       this.$router.push(item.path);
+    },
+    isItNew(item) {
+      let now = moment(new Date()); //todays date
+      let end = moment(item.attributes.posted); // another date
+      let duration = moment.duration(now.diff(end));
+      let days = duration.asDays();
+      if (days <= 14) {
+        return true;
+      } else {
+        return false;
+      }
     }
   }
 };
