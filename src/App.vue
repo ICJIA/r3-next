@@ -24,15 +24,15 @@
     <Outdated
       v-if="
         !loading &&
-        $store.state &&
-        !$store.state.warningSeen &&
-        $browserDetect.isIE
+          $store.state &&
+          !$store.state.warningSeen &&
+          $browserDetect.isIE
       "
     ></Outdated>
 
     <v-main>
       <Banner ref="banner" />
-      <Census :key="$route.path"></Census>
+      <!-- <Census :key="$route.path"></Census> -->
 
       <!-- <Language></Language> -->
       <!-- <Translate></Translate> -->
@@ -60,7 +60,7 @@ export default {
       // all titles will be injected into this template
       titleTemplate: "%s",
       htmlAttrs: {
-        lang: "en",
+        lang: "en"
       },
       link: [{ rel: "canonical", href: this.canonical }],
       meta: [
@@ -68,14 +68,14 @@ export default {
         {
           vmid: "robots",
           name: "robots",
-          content: "index, follow",
+          content: "index, follow"
         },
         {
           vmid: "description",
           name: "description",
-          content: this.siteDescription,
-        },
-      ],
+          content: this.siteDescription
+        }
+      ]
     };
   },
   components: {},
@@ -86,7 +86,7 @@ export default {
       console.log("Canonical: ", this.canonical);
       //console.log("computedPublicPath: ", this.$myApp.computedPublicPath);
       if (this.$refs.alert) this.$refs.alert.reset();
-    },
+    }
   },
   data: () => ({
     loading: true,
@@ -96,7 +96,7 @@ export default {
     title: "",
     siteMeta: null,
     fab: false,
-    censusExpire: true,
+    censusExpire: true
   }),
   computed: {
     showCensusModal() {
@@ -106,7 +106,7 @@ export default {
       } else {
         return true;
       }
-    },
+    }
   },
   methods: {
     closeElements() {
@@ -119,7 +119,7 @@ export default {
     },
     toTop() {
       this.$vuetify.goTo(0);
-    },
+    }
   },
   async mounted() {
     //console.log(`computed public path: ${this.$myApp.computedPublicPath}`);
@@ -138,7 +138,7 @@ export default {
     this.canonical = `${this.$myApp.config.clientBase}${this.$myApp.computedPublicPath}${this.$route.path}`;
     this.loading = false;
     //console.log(this.$myApp);
-  },
+  }
 };
 </script>
 
