@@ -20,7 +20,7 @@
                     font-size: 24px !important;
                   "
                 >
-                  {{ title }}11
+                  {{ title }}
                 </h1>
                 <div
                   style="font-size: 14px; font-weight: bold; color: #777"
