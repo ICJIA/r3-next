@@ -17,9 +17,10 @@
                     font-weight: 900;
                     border-bottom: 1px solid #ccc;
                     padding-bottom: 5px;
+                    font-size: 24px !important;
                   "
                 >
-                  {{ title }}
+                  {{ title }}11
                 </h1>
                 <div
                   style="font-size: 14px; font-weight: bold; color: #777"
