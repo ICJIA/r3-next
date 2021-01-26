@@ -112,7 +112,7 @@ export default {
 
   metaInfo() {
     return {
-      title: "R3 News & Updates",
+      title: "R3 News",
     };
   },
   methods: {

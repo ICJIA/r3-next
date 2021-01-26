@@ -3,7 +3,7 @@ title: "FAQs"
 showToc: true
 showInSitemap: true
 showInFooter: true
-showInNav: true
+showInNav: false
 showInSidebar: true
 menuRank: 20
 menuTitle: "FAQs"

@@ -166,7 +166,7 @@
         style="font-weight: 900"
         aria-label="News"
       >
-        <span style="font-size: 12px">News & Updates</span>
+        <span style="font-size: 12px">R3 News</span>
       </v-btn>
 
       <v-btn text to="/search" aria-label="Search">
