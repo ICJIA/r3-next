@@ -9,8 +9,7 @@ showInSidebar: true
 menuRank: 2
 menuTitle: "Equity FAQs"
 summary: "Find out about the process used to ensure equitable distribution of funds across all communities in need."
-showAsCard: true
-cardIcon: "thumb_up_alt"
+showAsCard: false
 lang: "en"
 ---
 
