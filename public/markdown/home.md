@@ -13,8 +13,7 @@ lang: "en"
 ---
 
 <h1 style="font-weight: 900; font-size: 36px; border-bottom: 1px solid #aaa; margin-bottom: 32px; font-family: 'Roboto', sans-serif !important;">
-          R<span style="color: #ccaa41">3</span>&nbsp;<span
-            >RESTORE. REINVEST. RENEW.</span
+          R3 RESTORE. REINVEST. RENEW.</span
           >
         </h1>
 

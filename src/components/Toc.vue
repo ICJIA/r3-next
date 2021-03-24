@@ -21,7 +21,12 @@
       <div
         v-if="tocHeading.length"
         ref="anchor"
-        style="margin-left: -3px; font-weight: bold; font-size: 14px"
+        style="
+          margin-left: -3px;
+          font-weight: bold;
+          font-size: 14px;
+          color: black;
+        "
         class="mb-4 hover anchor visible"
         @click="$vuetify.goTo(0)"
       >
@@ -177,7 +182,7 @@ export default {
 }
 
 .visible {
-  color: #116bb9 !important;
+  color: #000 !important;
   font-weight: bold;
 }
 .anchor {

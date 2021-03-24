@@ -8,7 +8,7 @@ showInSidebar: true
 menuRank: 50
 summary: "R3 Resources and Analysis."
 showAsCard: true
-cardIcon: "category"
+cardIcon: "mdi-category"
 ---
 
 ## Helpful Links

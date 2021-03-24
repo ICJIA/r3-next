@@ -15,46 +15,21 @@
         class="grey lighten-2 py-12"
         height="550"
       >
-        <v-overlay absolute opacity=".6" :color="getBackground()"
-          ><v-container
-            class="fill-height"
-            fluid
-            full-width
-            style="margin: 0 !important; padding: 0 !important"
+        <v-overlay absolute :color="getBackground()">
+          <div
+            class="text-center px-5"
+            style="background: rgba(125, 125, 125, 0.7); padding: 25px"
+            width="100% !important"
           >
-            <v-row justify="center" align="center">
-              <div class="text-center px-5" style="min-width: 300px">
-                <!-- <v-avatar class="ma-3" size="105" tile>
-                  <v-icon>{{ item.attributes.icon }}</v-icon>
-                </v-avatar> -->
-                <h1 class="nofo-title mt-3">
-                  {{ `${item.attributes.title.toUpperCase()}` }}
-                </h1>
-                <div class="nofo-tagline">
-                  {{ item.attributes.summary }}
-                </div>
-                <!-- <div
-                  class="mt-4"
-                  style="font-size: 13px;  font-weight: bold;"
-                  v-if="!item.attributes.comingSoon"
-                >
-                  Deadline: {{ item.attributes.expires | format }}
-                </div>
-                <v-btn
-                  class="mt-6"
-                  outlined
-                  color="white"
-                  v-if="item.attributes.comingSoon"
-                  >Coming Soon</v-btn
-                >
-                <v-btn class="mt-6" outlined color="white" v-else
-                  >Apply Now</v-btn
-                > -->
+            <h1 class="nofo-title mt-3">
+              {{ `${item.attributes.title.toUpperCase()}` }}
+            </h1>
+            <div class="nofo-tagline">
+              {{ item.attributes.summary }}
+            </div>
 
-                <v-btn class="mt-6" outlined color="white">EXPIRED</v-btn>
-              </div>
-            </v-row>
-          </v-container>
+            <v-btn class="mt-6" outlined color="white">EXPIRED</v-btn>
+          </div>
         </v-overlay>
       </v-img>
     </v-card>

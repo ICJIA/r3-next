@@ -5,12 +5,7 @@
       * indicates high need R3 zone
     </div>
     <iframe
-      width="100%"
-      height="740"
-      frameborder="0"
-      scrolling="no"
-      marginheight="0"
-      marginwidth="0"
+      style="width: 100%; height: 740px; border: none"
       src="https://illinois.maps.arcgis.com/apps/webappviewer/index.html?id=137fa70c604e49ad976a6e3248d80068"
     ></iframe>
     <!-- <div style="font-weight: 900" class="mt-2 text-right">

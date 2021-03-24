@@ -8,9 +8,9 @@
   >
     <v-list dense class="mt-5">
       <div v-for="item in sidebarItems" :key="item.title">
-        <div v-if="item.attributes.dividerBefore" class="my-2">
+        <!-- <div v-if="item.attributes.dividerBefore" class="my-2">
           <v-divider />
-        </div>
+        </div> -->
         <v-list-item link @click="routeToPage(item)">
           <v-list-item-content>
             <h3 v-if="item.attributes.menuTitle">
@@ -21,9 +21,9 @@
             </h3>
           </v-list-item-content>
         </v-list-item>
-        <div v-if="item.attributes.dividerAfter" class="my-2">
+        <!-- <div v-if="item.attributes.dividerAfter" class="my-2">
           <v-divider />
-        </div>
+        </div> -->
       </div>
       <v-list-item link to="/news">
         <v-list-item-content>
@@ -33,7 +33,12 @@
       <v-list-item link @click="gotoTA">
         <v-list-item-content>
           <h3 style="font-size: 18px">
-            Technical Assistance <v-icon right small>open_in_new</v-icon>
+            Technical Assistance
+            <span
+              class="pl-2 mdi mdi-open-in-new"
+              style="font-size: 20px"
+              aria-hidden="true"
+            ></span>
           </h3>
         </v-list-item-content>
       </v-list-item>

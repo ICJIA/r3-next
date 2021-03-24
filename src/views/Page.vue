@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main">
     <transition name="fade" mode="out-in">
       <base-content
         id="baseContentTop"
@@ -117,6 +117,16 @@ export default {
     this.loading = false;
   },
   methods: {
+    fixA11y() {
+      $("i").replaceTagName("span");
+      $("button.v-icon").replaceEmptyElements("This is intentionally blank");
+      $('div[role="button"]').removeRedundantAttributes("aria-owns");
+      $('th[role="columnheader"]').removeRedundantAttributes("role");
+      $("th > span").replaceEmptyElements("This is intentionally blank");
+      $("button.v-icon").addAriaLabel(
+        "Click this to toggle display of the news article"
+      );
+    },
     closeSearch() {
       EventBus.$emit("closeSearch");
     },
@@ -154,16 +164,20 @@ export default {
     slugify(str) {
       return slugs(str);
     },
-    scrollTo() {
-      var hash = location.hash.substr(1);
-      var el = document.getElementById(`${hash}`);
+    async scrollTo() {
+      await this.$nextTick();
+      console.log("markdown mounted");
+      let els = document.getElementsByTagName("i");
+      console.log(els);
+      // var hash = location.hash.substr(1);
+      // var el = document.getElementById(`${hash}`);
 
-      if (hash && el) {
-        //console.log(hash);
-        this.$vuetify.goTo(`#${hash}`, { offset: 12 }).catch(() => {
-          this.$vuetify.goTo(0);
-        });
-      }
+      // if (hash && el) {
+      //   //console.log(hash);
+      //   this.$vuetify.goTo(`#${hash}`, { offset: 12 }).catch(() => {
+      //     this.$vuetify.goTo(0);
+      //   });
+      // }
     },
 
     dynamicFlex() {

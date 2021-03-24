@@ -4,10 +4,10 @@
       <v-card
         class="py-3 px-5 hover news-card mb-5"
         elevation="1"
-        style="background: #f4f4f4"
+        style="background: #fff"
         @click="routeTo(item)"
       >
-        <div style="font-size: 12px; font-weight: bold; color: #888">
+        <div style="font-size: 12px; font-weight: bold; color: #222">
           {{ item.attributes.posted | dateFormat }}
         </div>
         <h2
@@ -16,6 +16,7 @@
             padding-bottom: 5px;
             font-size: 18px;
             line-height: 26px;
+            color: #000;
           "
           class="mb-3"
         >

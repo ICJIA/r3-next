@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main">
     <transition name="fade" mode="out-in">
       <base-content
         id="baseContentTop"
@@ -68,7 +68,9 @@
                     </div>
                   </template>
                   <template v-slot:item.path="{ item }">
-                    <router-link :to="item.path"
+                    <router-link
+                      :to="item.path"
+                      :aria-label="`Open new link: ${item.path} `"
                       ><v-icon>open_in_new</v-icon></router-link
                     >
                   </template>
@@ -76,12 +78,12 @@
                     <td :colspan="headers.length + 2">
                       <v-card
                         class="my-3 py-5 px-5 markdown-body"
-                        color="grey lighten-5"
+                        color="white"
                         elevation="0"
                       >
                         <h2>{{ item.attributes.title }}</h2>
                         <h3
-                          style="font-size: 12px; margin-top: -5px; color: #777"
+                          style="font-size: 12px; margin-top: -5px; color: #333"
                         >
                           {{ item.attributes.posted | dateFormat }}
                         </h3>
@@ -106,6 +108,7 @@
 <script>
 import { handleClicks } from "@/mixins/handleClicks";
 import { EventBus } from "@/event-bus";
+
 import moment from "moment";
 export default {
   mixins: [handleClicks],
@@ -115,7 +118,20 @@ export default {
       title: "R3 News",
     };
   },
+  mounted() {
+    this.fixA11y();
+  },
   methods: {
+    fixA11y() {
+      $("i").replaceTagName("span");
+      $("button.v-icon").replaceEmptyElements("This is intentionally blank");
+      $('div[role="button"]').removeRedundantAttributes("aria-owns");
+      $('th[role="columnheader"]').removeRedundantAttributes("role");
+      $("th > span").replaceEmptyElements("This is intentionally blank");
+      $("button.v-icon").addAriaLabel(
+        "Click this to toggle display of the news article"
+      );
+    },
     isItNew(item) {
       let now = moment(new Date()); //todays date
       let end = moment(item.attributes.posted); // another date
@@ -165,7 +181,7 @@ export default {
         {
           text: "Title",
           align: "start",
-          sortable: true,
+          sortable: false,
           value: "attributes.title",
           width: "300px",
         },
@@ -173,13 +189,13 @@ export default {
         {
           text: "Summary",
           align: "start",
-          sortable: true,
+          sortable: false,
           value: "attributes.summary",
         },
         {
           text: "Link",
           align: "start",
-          sortable: true,
+          sortable: false,
           value: "path",
         },
       ],
@@ -188,4 +204,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss"></style>

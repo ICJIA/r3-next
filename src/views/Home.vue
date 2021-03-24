@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main">
     <!--<home-carousel></home-carousel>-->
 
     <home-boxes></home-boxes>
@@ -10,6 +10,7 @@
           <v-col>
             <HomePageContent
               @click.native="handleClicks"
+              @hook:mounted="fixa11y()"
               class="dynamic-content py-8"
             ></HomePageContent>
           </v-col>
@@ -42,7 +43,7 @@
                 >
                   <v-card
                     dark
-                    color="#03588C"
+                    color="#04456b"
                     class="hover tool-card"
                     @click="$router.push(card.path)"
                     height="220px"
@@ -58,16 +59,16 @@
                           >{{ card.attributes.title }}</v-card-title
                         >
 
-                        <v-card-subtitle style="font-size: 14px">
+                        <v-card-subtitle style="font-size: 14px; color: #eee">
                           {{ card.attributes.summary }}
                         </v-card-subtitle>
                       </div>
 
-                      <v-avatar class="ma-3" size="125" tile>
+                      <!-- <v-avatar class="ma-3" size="125" tile>
                         <v-icon class="outlined" x-large>
                           {{ card.attributes.cardIcon }}
                         </v-icon>
-                      </v-avatar>
+                      </v-avatar> -->
                     </div>
                   </v-card>
                 </v-col>
@@ -102,6 +103,8 @@
 import { handleClicks } from "@/mixins/handleClicks";
 import { generateToc } from "@/mixins/generateToc";
 import { EventBus } from "@/event-bus";
+// eslint-disable-next-line no-unused-vars
+import { fixNuxtContentHeadings, fixEmptyText } from "@/a11y";
 const slugs = require("slugs");
 import _ from "lodash";
 import fm from "../../public/markdown/home.md";
@@ -127,6 +130,7 @@ export default {
 
     let sortedCards = _.orderBy(cards, "attributes.menuRank", "asc");
     this.cards = sortedCards;
+
     this.loading = false;
   },
   components: {
@@ -153,6 +157,9 @@ export default {
     };
   },
   methods: {
+    fixa11y() {
+      console.log("fix a11y here");
+    },
     closeSearch() {
       EventBus.$emit("closeSearch");
     },
@@ -167,14 +174,14 @@ export default {
       }
     },
     scrollTo() {
-      var hash = location.hash.substr(1);
-      var el = document.getElementById(`${hash}`);
-      if (hash && el) {
-        //console.log(hash);
-        this.$vuetify.goTo(`#${hash}`, { offset: 12 }).catch(() => {
-          this.$vuetify.goTo(0);
-        });
-      }
+      // var hash = location.hash.substr(1);
+      // var el = document.getElementById(`${hash}`);
+      // if (hash && el) {
+      //   //console.log(hash);
+      //   this.$vuetify.goTo(`#${hash}`, { offset: 12 }).catch(() => {
+      //     this.$vuetify.goTo(0);
+      //   });
+      // }
     },
     slugify(str) {
       return slugs(str);

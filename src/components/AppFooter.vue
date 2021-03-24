@@ -33,14 +33,16 @@
           @click="gotoTA"
         >
           <span style="font-size: 12px">Technical Assistance</span>
-          <v-icon right small>open_in_new</v-icon>
+          <span
+            class="pl-2 mdi mdi-open-in-new"
+            style="font-size: 20px"
+            aria-hidden="true"
+          ></span>
         </v-btn>
       </v-card-text>
     </v-card>
 
     <v-card flat tile class="text-center" style="width: 100%; background: #ccc">
-      <v-divider />
-
       <v-card-text class="white--text">
         <div class="mt-1 mb-4">
           <Translate></Translate>

@@ -8,10 +8,11 @@
       height="90"
       elevate-on-scroll
     >
-      <v-app-bar-nav-icon
+      <span
+        class="v-icon mdi mdi-menu"
         @click="toggleDrawer"
         aria-label="Click to toggle menu"
-      />
+      ></span>
       <div class="d-flex align-center">
         <div
           style="font-weight: 900 !important"
@@ -30,42 +31,10 @@
             })
           "
         >
-          R<span style="color: #ccaa41">3</span>&nbsp;&nbsp;<span class="ml-1"
+          R<span style="color: #7c641b">3</span>&nbsp;&nbsp;<span class="ml-1"
             >RESTORE. REINVEST. RENEW.</span
           >
         </div>
-        <!-- <v-img
-          alt="Vuetify Logo"
-          class="shrink ml-2 mr-2 hover hidden-xs-and-down"
-          contain
-          :src="require('@/assets/img/state-seal-color.png')"
-          transition="scale-transition"
-          :width="logoWidth()"
-          @click="
-            $router.push('/').catch(err => {
-              $vuetify.goTo(0);
-            })
-          "
-        />
-        <div
-          class="ml-3 hover"
-          :class="{
-            smallTitle:
-              this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.xs,
-            largeTitle:
-              this.$vuetify.breakpoint.md ||
-              this.$vuetify.breakpoint.lg ||
-              this.$vuetify.breakpoint.xl
-          }"
-          style="font-weight: 900; text-transform: uppercase"
-          @click="
-            $router.push('/').catch(err => {
-              $vuetify.goTo(0);
-            })
-          "
-        >
-          {{ appTitle }}
-        </div> -->
       </div>
       <v-spacer></v-spacer>
 
@@ -148,17 +117,6 @@
         <span v-else style="font-size: 12px">{{ link.attributes.title }}</span>
       </v-btn>
 
-      <!-- <v-btn
-        text
-        style="font-weight: 900"
-        aria-label="Technical Assistance"
-        class="hidden-sm-and-down mr-5"
-        @click="gotoTA"
-      >
-        <span style="font-size: 12px">Technical Assistance</span>
-        <v-icon right small>open_in_new</v-icon>
-      </v-btn> -->
-
       <v-btn
         to="/news"
         text
@@ -170,7 +128,7 @@
       </v-btn>
 
       <v-btn text to="/search" aria-label="Search">
-        <v-icon>search</v-icon>
+        <span class="mdi mdi-magnify" style="font-size: 25px"></span>
       </v-btn>
     </v-app-bar>
   </div>

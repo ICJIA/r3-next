@@ -51,8 +51,8 @@ Vue.use(VueAnalytics, {
   },
 });
 
-import AOS from "aos";
-AOS.init();
+// import AOS from "aos";
+// AOS.init();
 
 Vue.use(myApp);
 

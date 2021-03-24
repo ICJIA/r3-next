@@ -1,52 +1,69 @@
 <template>
-  <v-app id="keep">
-    <AppNav :siteMeta="$myApp.siteMeta" v-if="!loading"></AppNav>
+  <div tabindex="-1">
+    <v-app id="keep">
+      <div id="nav" role="navigation" style="z-index: 10000">
+        <router-link
+          to="#main"
+          aria-label="Skip Navigation"
+          class="skiplink"
+          @click.native="scrollFix('#main')"
+          title="Skip Navigation"
+          style="font-size: 12px"
+        >
+          Skip to content
+        </router-link>
+      </div>
 
-    <AppSidebar :siteMeta="$myApp.siteMeta" v-if="!loading"></AppSidebar>
-    <v-fab-transition>
-      <v-btn
-        v-scroll="onScroll"
-        v-show="fab"
-        fab
-        fixed
-        bottom
-        dark
-        right
-        color="blue darken-4"
-        transition="scale-transition"
-        @click="toTop"
-        v-if="!$route.meta.hideScrollToTop"
-        aria-label="Click to scroll to top"
-      >
-        <v-icon>keyboard_arrow_up</v-icon>
-      </v-btn>
-    </v-fab-transition>
-    <Outdated
-      v-if="
-        !loading &&
+      <AppNav :siteMeta="$myApp.siteMeta" v-if="!loading"></AppNav>
+
+      <AppSidebar :siteMeta="$myApp.siteMeta" v-if="!loading"></AppSidebar>
+      <v-fab-transition>
+        <v-btn
+          v-scroll="onScroll"
+          v-show="fab"
+          fab
+          fixed
+          bottom
+          dark
+          right
+          color="blue darken-4"
+          transition="scale-transition"
+          @click="toTop"
+          v-if="!$route.meta.hideScrollToTop"
+          aria-label="Click to scroll to top"
+        >
+          <span class="v-icon mdi mdi-arrow-up"></span>
+        </v-btn>
+      </v-fab-transition>
+      <Outdated
+        v-if="
+          !loading &&
           $store.state &&
           !$store.state.warningSeen &&
           $browserDetect.isIE
-      "
-    ></Outdated>
+        "
+      ></Outdated>
 
-    <v-main>
-      <Banner ref="banner" />
-      <!-- <Census :key="$route.path"></Census> -->
+      <v-main>
+        <!-- <Banner ref="banner" /> -->
+        <!-- <Census :key="$route.path"></Census> -->
 
-      <!-- <Language></Language> -->
-      <!-- <Translate></Translate> -->
+        <!-- <Language></Language> -->
+        <!-- <Translate></Translate> -->
 
-      <transition name="fade" mode="out-in">
-        <router-view
-          @click="closeElements()"
-          :key="$route.fullPath"
-        ></router-view>
-      </transition>
-    </v-main>
+        <!-- <div style="height: 500px"></div> -->
 
-    <AppFooter :siteMeta="$myApp.siteMeta" v-if="!loading"></AppFooter>
-  </v-app>
+        <transition name="fade" mode="out-in">
+          <router-view
+            @click="closeElements()"
+            :key="$route.fullPath"
+          ></router-view>
+        </transition>
+      </v-main>
+
+      <AppFooter :siteMeta="$myApp.siteMeta" v-if="!loading"></AppFooter>
+    </v-app>
+  </div>
 </template>
 
 <script>
@@ -60,7 +77,7 @@ export default {
       // all titles will be injected into this template
       titleTemplate: "%s",
       htmlAttrs: {
-        lang: "en"
+        lang: "en",
       },
       link: [{ rel: "canonical", href: this.canonical }],
       meta: [
@@ -68,25 +85,28 @@ export default {
         {
           vmid: "robots",
           name: "robots",
-          content: "index, follow"
+          content: "index, follow",
         },
         {
           vmid: "description",
           name: "description",
-          content: this.siteDescription
-        }
-      ]
+          content: this.siteDescription,
+        },
+      ],
     };
   },
   components: {},
   watch: {
     // eslint-disable-next-line no-unused-vars
     $route(to, from) {
-      this.canonical = `${this.$myApp.config.clientBase}${this.$myApp.computedPublicPath}${this.$route.path}`;
-      console.log("Canonical: ", this.canonical);
+      // this.canonical = `${this.$myApp.config.clientBase}${this.$myApp.computedPublicPath}${this.$route.path}`;
+      // console.log("Canonical: ", this.canonical);
       //console.log("computedPublicPath: ", this.$myApp.computedPublicPath);
-      if (this.$refs.alert) this.$refs.alert.reset();
-    }
+      // if (this.$refs.alert) this.$refs.alert.reset();
+      this.$nextTick(function () {
+        this.setRouteWrapperFocus();
+      });
+    },
   },
   data: () => ({
     loading: true,
@@ -96,7 +116,7 @@ export default {
     title: "",
     siteMeta: null,
     fab: false,
-    censusExpire: true
+    censusExpire: true,
   }),
   computed: {
     showCensusModal() {
@@ -106,9 +126,24 @@ export default {
       } else {
         return true;
       }
-    }
+    },
   },
   methods: {
+    setRouteWrapperFocus() {
+      this.$el.focus();
+    },
+    // eslint-disable-next-line no-unused-vars
+    scrollFix: function () {
+      var hash = location.hash.substr(1);
+      var el = document.getElementById(`${hash}`);
+
+      if (hash && el) {
+        //console.log(hash);
+        this.$vuetify.goTo(`#${hash}`, { offset: 12 }).catch(() => {
+          this.$vuetify.goTo(0);
+        });
+      }
+    },
     closeElements() {
       EventBus.$emit("closeSearch");
     },
@@ -119,7 +154,7 @@ export default {
     },
     toTop() {
       this.$vuetify.goTo(0);
-    }
+    },
   },
   async mounted() {
     //console.log(`computed public path: ${this.$myApp.computedPublicPath}`);
@@ -130,6 +165,7 @@ export default {
     if (now < censusExpire) {
       this.censusExpire = false;
     }
+    setTimeout(() => this.scrollFix(this.$route.hash), 1);
   },
   async created() {
     this.loading = true;
@@ -138,7 +174,7 @@ export default {
     this.canonical = `${this.$myApp.config.clientBase}${this.$myApp.computedPublicPath}${this.$route.path}`;
     this.loading = false;
     //console.log(this.$myApp);
-  }
+  },
 };
 </script>
 
@@ -158,5 +194,25 @@ export default {
 .container.full-width {
   width: 100%;
   padding: 0px !important;
+}
+
+.skiplink {
+  position: absolute;
+  top: 5px;
+  border: 0 none;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.skiplink:focus {
+  clip: auto;
+  height: auto;
+  position: 0px;
+  z-index: 100000;
+  width: auto;
 }
 </style>

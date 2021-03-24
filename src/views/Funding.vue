@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main">
     <NofoSplash
       :title="nofoObj.title"
       :summary="nofoObj.summary"
@@ -71,15 +71,14 @@ export default {
   },
   methods: {
     scrollTo() {
-      var hash = location.hash.substr(1);
-      var el = document.getElementById(`${hash}`);
-
-      if (hash && el) {
-        //console.log(hash);
-        this.$vuetify.goTo(`#${hash}`, { offset: 12 }).catch(() => {
-          this.$vuetify.goTo(0);
-        });
-      }
+      // var hash = location.hash.substr(1);
+      // var el = document.getElementById(`${hash}`);
+      // if (hash && el) {
+      //   //console.log(hash);
+      //   this.$vuetify.goTo(`#${hash}`, { offset: 12 }).catch(() => {
+      //     this.$vuetify.goTo(0);
+      //   });
+      // }
     },
     async fetchContent() {
       //console.log("fetch content here");

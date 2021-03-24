@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card v-if="displaySimpleTable">
+    <v-card>
       <v-simple-table>
         <template v-slot:default>
           <thead>
@@ -34,7 +34,7 @@
         </template>
       </v-simple-table>
     </v-card>
-    <v-card v-else>
+    <!-- <v-card v-else>
       <v-card-title>
         <v-spacer></v-spacer>
         <v-text-field
@@ -55,15 +55,13 @@
         style="width: 100%"
         sort-by="county"
       ></v-data-table>
-    </v-card>
+    </v-card> -->
     <v-container>
       <v-row>
         <v-col sm="12" md="6">
           <div style="font-size: 11px">
             Download:
-            <!-- <a href="/downloads/EligibleAreasCensusTracts.pdf" class="heavy"
-              >PDF</a
-            >&nbsp;|&nbsp; -->
+
             <a class="heavy" href="/downloads/EligibleAreasCensusTracts.json"
               >JSON</a
             >&nbsp;|&nbsp;<a
@@ -96,7 +94,7 @@ export default {
     },
   },
 
-  mounted() {},
+  async mounted() {},
   computed: {
     displaySimpleTable() {
       return this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.xs
@@ -152,6 +150,7 @@ export default {
     };
   },
   methods: {
+    async fixA11y() {},
     // eslint-disable-next-line no-unused-vars
     watchQuery(e) {
       clearTimeout(this.timeout);

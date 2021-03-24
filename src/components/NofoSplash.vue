@@ -6,42 +6,21 @@
     class="grey lighten-2"
     max-height="400"
   >
-    <v-overlay absolute opacity=".6" :color="getBackground()"
-      ><v-container
-        class="fill-height text-center"
-        fluid
-        full-width
-        style="margin: 0 !important; padding: 0 !important; margin-left: 12px"
+    <v-overlay absolute opacity=".6" :color="getBackground()">
+      <div
+        class="text-center px-5"
+        style="background: rgba(125, 125, 125, 0.7); padding: 25px"
+        width="100% !important"
       >
-        <v-row align="center">
-          <div class="text-center px-5" style="min-width: 350px">
-            <!-- <v-avatar class="ma-3" size="105" tile>
-              <v-icon>{{ icon }} </v-icon>
-            </v-avatar> -->
-
-            <h1 class="nofo-title mt-3">
-              {{ `${title.toUpperCase()}` }}
-            </h1>
-            <div class="nofo-tagline">
-              {{ summary }}
-            </div>
-            <!-- <div
-              class="mt-4"
-              style="font-size: 13px;  font-weight: bold;"
-              v-if="!comingSoon"
-            >
-              Deadline: {{ expires | format }}
-            </div>
-            <div
-              class="mt-6"
-              style="font-size: 24px;  font-weight: bold;"
-              v-if="comingSoon"
-            >
-              COMING SOON
-            </div> -->
+        <div class="text-center px-5" style="min-width: 350px">
+          <h1 class="nofo-title mt-3">
+            {{ `${title.toUpperCase()}` }}
+          </h1>
+          <div class="nofo-tagline">
+            {{ summary }}
           </div>
-        </v-row>
-      </v-container>
+        </div>
+      </div>
     </v-overlay>
   </v-img>
 </template>

@@ -42,6 +42,7 @@
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.32",
     "nprogress": "^0.2.0",
+    "oaf-vue-router": "^3.0.0",
     "object.pick": "^1.3.0",
     "remarkable": "1.7.1",
     "repeat-string": "^1.6.1",
