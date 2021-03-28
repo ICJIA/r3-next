@@ -16,11 +16,12 @@
         height="550"
       >
         <v-overlay absolute :color="getBackground()">
-          <div
+          <!-- <div
             class="text-center px-5"
             style="background: rgba(125, 125, 125, 0.7); padding: 25px"
             width="100% !important"
-          >
+          > -->
+          <div class="text-center">
             <h1 class="nofo-title mt-3">
               {{ `${item.attributes.title.toUpperCase()}` }}
             </h1>

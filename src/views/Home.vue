@@ -1,11 +1,11 @@
 <template>
-  <div id="main">
+  <div>
     <!--<home-carousel></home-carousel>-->
 
     <home-boxes></home-boxes>
     <!-- <video-embed></video-embed> -->
     <div style="background: #fff" id="learn-more">
-      <v-container class="markdown-body">
+      <v-container class="markdown-body" id="main">
         <v-row>
           <v-col>
             <HomePageContent

@@ -12,10 +12,9 @@ lang: "en"
 comingSoon: false
 ---
 
-
 <div data-title="EXPIRED" data-summary="" data-status="expired" >
 
-This funding opportunity has expired. 
+This funding opportunity has expired.
 
 If you would like to be notified when future Notices of Funding Opportunity are released, please subscribe to the [CJ Dispatch](https://visitor.r20.constantcontact.com/manage/optin?v=001MqUcqqvjwLCJXlLMSWbTe3zHHmEQgFeBuHvBcJWTbwgrxFbDSGx4HSUPpI6DJWMUPgbljtLxffqIcGFTgCnr-auak88ybvRxpoJlTMGPtZs%3D){.dark-link}.
 
