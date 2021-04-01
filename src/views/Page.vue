@@ -167,8 +167,10 @@ export default {
     async scrollTo() {
       await this.$nextTick();
       console.log("markdown mounted");
-      let els = document.getElementsByTagName("i");
-      console.log(els);
+      // let els = document.getElementsByTagName("i");
+      // console.log(els.length);
+      var el = document.getElementsByTagName(`i`);
+      console.log(el);
       // var hash = location.hash.substr(1);
       // var el = document.getElementById(`${hash}`);
 

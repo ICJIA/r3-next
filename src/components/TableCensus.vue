@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card>
+    <v-card v-if="displaySimpleTable">
       <v-simple-table>
         <template v-slot:default>
           <thead>
@@ -34,7 +34,7 @@
         </template>
       </v-simple-table>
     </v-card>
-    <!-- <v-card v-else>
+    <v-card v-else>
       <v-card-title>
         <v-spacer></v-spacer>
         <v-text-field
@@ -51,11 +51,12 @@
         :items="items"
         :search="search"
         v-if="!loading"
+        :loading="loading"
         id="test"
         style="width: 100%"
         sort-by="county"
       ></v-data-table>
-    </v-card> -->
+    </v-card>
     <v-container>
       <v-row>
         <v-col sm="12" md="6">
@@ -92,6 +93,14 @@ export default {
     search(newValue) {
       this.searchArr.push(newValue);
     },
+    loading(val) {
+      if (!val) {
+        this.$nextTick();
+        console.log("table loaded");
+        let els = document.getElementsByTagName("i");
+        console.log(els.length);
+      }
+    },
   },
 
   async mounted() {},
@@ -112,7 +121,7 @@ export default {
     return {
       showToc: true,
       loading: true,
-
+      tblLoading: {},
       items: null,
       search: "",
       timeout: null,
