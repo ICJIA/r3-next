@@ -95,10 +95,12 @@ export default {
     },
     loading(val) {
       if (!val) {
-        this.$nextTick();
-        console.log("table loaded");
-        let els = document.getElementsByTagName("i");
-        console.log(els.length);
+        this.$nextTick(() => {
+          console.log("table loaded");
+          window.$("i").replaceTagName("span");
+          window.$('th[role="columnheader"]').removeRedundantAttributes("role");
+          window.$('div[role="button"]').removeRedundantAttributes("aria-owns");
+        });
       }
     },
   },
