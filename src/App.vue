@@ -45,7 +45,7 @@
       ></Outdated>
 
       <v-main>
-        <!-- <Banner ref="banner" /> -->
+        <Banner ref="banner" />
         <!-- <Census :key="$route.path"></Census> -->
 
         <!-- <Language></Language> -->

@@ -1,7 +1,14 @@
 <template>
   <div v-if="banner">
-    <v-alert v-model="banner" dismissible type="info" ref="banner" class="mt-2">
-      <router-link :to="bannerRoute" style="color: #fff">
+    <v-alert
+      v-model="banner"
+      dark
+      dismissible
+      type="info"
+      ref="banner"
+      class="mt-2"
+    >
+      <router-link :to="bannerRoute" style="">
         {{ posted | dateFormat }}: {{ bannerText }}
       </router-link>
     </v-alert>
